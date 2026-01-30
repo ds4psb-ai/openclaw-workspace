@@ -17,6 +17,7 @@
 | T001 | 유튜브 라이브 자료 준비 | @bomi @ag-vivid | 🔴 긴급 | 1/31 14:00 KST |
 | T002 | Vivid 메가앱 UX 최적화 | @ag-vivid @bomi | 🔴 긴급 | - |
 | T003 | Komission 숏폼 큐레이팅 자동화 연구 | @somi @ag-komission | 🟡 중요 | - |
+| T004 | 성수동 아카데미 홍보 | @ag-vivid | 🟢 일반 | - |
 
 ---
 
