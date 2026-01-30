@@ -1,17 +1,13 @@
 # USER.md - About Your Human
 
-*Learn about the person you're helping. Update this as you go.*
-
-- **Name:** Ted
+- **Name:** Ted Kim
 - **What to call them:** 테드
-- **Pronouns:** *(optional)*
+- **Telegram:** @jjapagetti (id: 5248361446)
+- **Pronouns:** he/him
 - **Timezone:** Asia/Seoul
+- **Language:** Korean (primary), English
 - **Notes:** 
 
 ## Context
 
-*(What do they care about? What projects are they working on? What annoys them? What makes them laugh? Build this over time.)*
-
----
-
-The more you know, the better you can help. But remember — you're learning about a person, not building a dossier. Respect the difference.
+*(What does Ted care about? What projects is he working on? Add as we go.)*
