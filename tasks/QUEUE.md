@@ -1,12 +1,19 @@
 # 📋 Task Queue
 
+## 에이전트 태그
+- `@somi` - 소미 🐱 (OpenClaw/Claude, VPS)
+- `@bomi` - 보미 🐰 (OpenClaw/GPT, Mac)
+- `@claude-code` - Claude Code CLI 🔵
+- `@codex` - Codex CLI 🟢
+- `@antigravity` - Antigravity ⚡
+
 ## 🔴 Pending (대기)
 
 | ID | 태스크 | 담당 | 우선순위 | 생성일 |
 |----|--------|------|----------|--------|
-| T001 | 유튜브 라이브 자료 준비 | 보미 🐰 | 🔴 긴급 | 2026-01-30 |
+| T001 | 유튜브 라이브 자료 준비 | @bomi @antigravity | 🔴 긴급 | 2026-01-30 |
 | T002 | 성수동 아카데미 홍보 자료 | ? | 🔴 긴급 | 2026-01-30 |
-| T003 | Komission 포괄적 연구 | 소미 🐱 | 🟡 중요 | 2026-01-30 |
+| T003 | Komission 포괄적 연구 | @somi | 🟡 중요 | 2026-01-30 |
 
 ## 🟡 In Progress (진행 중)
 
