@@ -12,12 +12,12 @@
 
 ## 🔴 In Progress (진행 중)
 
-| ID | 태스크 | 담당 | 우선순위 | 마감 |
-|----|--------|------|----------|------|
-| T001 | 유튜브 라이브 자료 준비 | @bomi @ag-vivid | 🔴 긴급 | 1/31 14:00 KST |
-| T002 | Vivid 메가앱 UX 최적화 | @ag-vivid @bomi | 🔴 긴급 | - |
-| T003 | Komission 숏폼 큐레이팅 자동화 연구 | @somi @ag-komission | 🟡 중요 | - |
-| T004 | 성수동 아카데미 홍보 | @ag-vivid | 🟢 일반 | - |
+| ID | 태스크 | 담당 | 우선순위 | 마감 | 상태 |
+|----|--------|------|----------|------|------|
+| T001 | 유튜브 라이브 자료 | @bomi @somi | 🔴 긴급 | 1/31 14:00 KST | ✅ 최종본 완료 |
+| T002 | Vivid 메가앱 UX | @ag-vivid @bomi @somi | 🔴 긴급 | - | ✅ 티켓 완료 |
+| T003 | Komission 큐레이팅 | @somi @ag-komission | 🟡 중요 | - | ⏳ API 키 대기 |
+| T004 | 성수동 아카데미 홍보 | @ag-vivid | 🟢 일반 | - | 🔄 진행 중 |
 
 ---
 
@@ -26,38 +26,51 @@
 ### T001 - 유튜브 라이브 자료
 - **담당:** @bomi @ag-vivid @somi
 - **마감:** 2026-01-31 14:00 KST
-- **상태:** ✅ 통합 스크립트 완료
+- **상태:** ✅ **최종본 완료** → 테드 검토 대기
 - **파일:** 
-  - `artifacts/deliverables/youtube_live_script.md` (보미 원본)
-  - `artifacts/deliverables/T001_YOUTUBE_LIVE_MATERIALS.md` (AG-Vivid)
-  - `artifacts/deliverables/T001_FINAL_SCRIPT.md` (소미 통합본) ⭐
-- **TODO:**
+  - `artifacts/deliverables/T001_YOUTUBE_LIVE_FINAL.md` ⭐ (소미 최종 통합본)
+  - `artifacts/deliverables/T001_RUN_OF_SHOW.md` (보미)
+  - `artifacts/deliverables/youtube_live_script.md` (보미)
+- **완료 항목:**
   - [x] 스크립트 디테일 보완
   - [x] Q&A 추가 질문 보완
-  - [ ] 화면 자료 구성 (테드 확인 필요)
+  - [x] 미확정 파트 → "카톡 상담에서 안내" 통일
+  - [x] 타임라인 + 방송사고 대응 + OBS 체크리스트
+- **테드 확인 필요:**
+  - [ ] 화면 자료/슬라이드 최종 확인
   - [ ] 데모 서버 테스트
 
 ### T002 - Vivid 메가앱 UX 최적화
 - **담당:** @ag-vivid @bomi @somi
-- **목표:** 메가앱 UX 개선
-- **상태:** 🟡 분석 진행 중
-- **파일:** `artifacts/research/T002_vivid_ux_analysis.md` (소미 분석본)
-- **TODO:**
-  - [x] 현재 UX 분석 (소미 완료)
-  - [x] 개선 포인트 도출 (P0/P1/P2 우선순위)
-  - [ ] AG-Vivid 코드 레벨 검토
-  - [ ] 프로토타입 구현
+- **목표:** Activation 완료율 ↑, 첫 성공까지 시간 ↓
+- **상태:** ✅ **티켓 쪼개기 완료** → AG-Vivid 코드베이스 매핑 대기
+- **파일:** 
+  - `artifacts/reports/T002_VIVID_UX_P0_BACKLOG.md` (보미 P0 백로그)
+  - `artifacts/reports/T002_VIVID_UX_TICKETS.md` ⭐ (소미 티켓 10개)
+- **완료 항목:**
+  - [x] Activation 정의: DNA Lab 업로드→분석완료→결과확인
+  - [x] P0 백로그 작성
+  - [x] 화면 컴포넌트 단위 티켓 (VIV-001~010)
+  - [x] 권장 구현 순서
+- **다음 단계:**
+  - [ ] AG-Vivid 코드베이스 매핑
+  - [ ] PR 단위로 구현 시작
 
 ### T003 - Komission 숏폼 큐레이팅 자동화
 - **담당:** @somi @ag-komission
 - **목표:** shorti.ai API로 고퀄리티 숏폼 자동 큐레이팅
-- **상태:** 🟡 리서치 진행 중
-- **파일:** `artifacts/research/T003_komission_research.md`
-- **TODO:**
+- **상태:** ⏳ **API 키 대기**
+- **파일:** `artifacts/research/T003_KOMISSION_CURATION_RESEARCH.md` ⭐
+- **완료 항목:**
   - [x] shorti.ai API 엔드포인트 연구
-  - [x] VDG 분석 파이프라인 설계
-  - [ ] ⚠️ API 키 필요 (테드 확인)
-  - [ ] 큐레이팅 로직 구현
+  - [x] 큐레이팅 자동화 설계 (방식 A/B/C)
+  - [x] Phase 1~3 구현 계획
+  - [x] 샘플 코드 작성
+- **블로커:**
+  - [ ] ⚠️ `OPENCLAW_API_KEY` 환경변수 미설정 → 테드 확인 필요
+- **키 받으면:**
+  - [ ] API 연결 테스트
+  - [ ] Phase 1 구현 (Outlier Fetcher)
   - [ ] cron job 설정
 
 ---
