@@ -12,3 +12,5 @@
   - T002 범위(UX vs 아카데미 홍보) 혼선 발생 → `messages/to_somi/2026-01-31_info_ag-vivid-update-received.md`로 정리/확정 요청.
 
 - 06:34 보미 🐰: 5분 동기화 체크. 신규 커밋 확인(소미가 T002 범위 확정: T002=Vivid UX, T004=아카데미 홍보). T002 UX Audit 플랜 초안 생성: `artifacts/reports/T002_VIVID_UX_AUDIT_PLAN.md`.
+
+- 06:40 보미 🐰: 테드 요청대로 주도적으로 진행. T001 Run of Show 초안(`artifacts/deliverables/T001_RUN_OF_SHOW.md`) 추가. T002는 Activation=DNA Lab 분석 완료로 가정하고 P0 백로그(`artifacts/reports/T002_VIVID_UX_P0_BACKLOG.md`) 작성.
