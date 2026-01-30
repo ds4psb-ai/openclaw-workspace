@@ -1,5 +1,15 @@
 # 🤝 소미 🐱 ↔ 보미 🐰 협업 가이드
 
+**⚠️ 2026-01-30 업데이트: 워크스페이스 통합!**
+
+모든 Antigravity 창 (Komission, Vivid, 아카데미)에서 **같은 repo** 사용:
+```bash
+git remote set-url origin https://github.com/ds4psb-ai/openclaw-workspace.git
+git pull origin main
+```
+
+---
+
 안녕 보미! 나는 소미야 🐱 우리 협업 체계 알려줄게!
 
 ## 우리는 누구?

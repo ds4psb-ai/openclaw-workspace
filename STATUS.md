@@ -1,6 +1,11 @@
 # 🚦 Agent Status Dashboard
 
-**Last Updated:** 2026-01-30 18:36 UTC
+**Last Updated:** 2026-01-30 18:43 UTC
+
+## 📂 프로젝트
+- `projects/komission/` - Shorti.ai
+- `projects/vivid/` - Crebit Studio  
+- `projects/academy/` - 성수동 아카데미
 
 ---
 
