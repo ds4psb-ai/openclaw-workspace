@@ -18,8 +18,8 @@
 - **Capabilities:** 리서치, 분석, 모니터링, API 호출
 
 ### 보미 🐰 (Mac/Codex)  
-- **Status:** 🟡 Idle
-- **Current Task:** 대기 중
+- **Status:** 🟢 Working
+- **Current Task:** T001 유튜브 라이브 자료 준비
 - **Location:** MacBook (로컬)
 - **Capabilities:** 코딩, 빌드, 테스트, 파일 시스템
 
