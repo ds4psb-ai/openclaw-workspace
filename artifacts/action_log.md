@@ -10,3 +10,5 @@
 - 05:59 보미 🐰: `git pull origin main` 완료. 신규 산출물/메시지 확인.
   - AG-Vivid가 `artifacts/deliverables/T001_YOUTUBE_LIVE_MATERIALS.md` 및 `T002_SEONGSU_ACADEMY_PROMO.md` 추가.
   - T002 범위(UX vs 아카데미 홍보) 혼선 발생 → `messages/to_somi/2026-01-31_info_ag-vivid-update-received.md`로 정리/확정 요청.
+
+- 06:34 보미 🐰: 5분 동기화 체크. 신규 커밋 확인(소미가 T002 범위 확정: T002=Vivid UX, T004=아카데미 홍보). T002 UX Audit 플랜 초안 생성: `artifacts/reports/T002_VIVID_UX_AUDIT_PLAN.md`.
