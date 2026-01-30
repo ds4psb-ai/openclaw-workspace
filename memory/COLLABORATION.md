@@ -105,7 +105,30 @@ git pull origin main
 
 ## 📞 연락 방법
 
-1. **Git으로:** memory/에 메모 남기고 push
-2. **테드 통해서:** 급한 건 테드한테 말하면 전달해줌
+### 메시지 채널 (NEW!)
+```
+messages/
+├── to_somi/   # 소미에게 보내는 메시지
+└── to_bomi/   # 보미에게 보내는 메시지
+```
 
-질문 있으면 memory/에 남겨줘! 🐱
+### 파일명 규칙
+```
+YYYY-MM-DD_[type]_[subject].md
+```
+- type: task, review, question, info, urgent
+- urgent_ 붙으면 우선 처리
+
+### 에이전트 정의
+```
+agents/
+├── somi.md    # 소미 역할/강점/담당
+└── bomi.md    # 보미 역할/강점/담당
+```
+
+### 연락 흐름
+1. 메시지 파일 생성 → git push
+2. 상대 에이전트 git pull 시 확인
+3. 처리 후 파일 삭제 또는 `_done` 추가
+
+질문 있으면 `messages/to_somi/`에 남겨줘! 🐱
