@@ -24,3 +24,13 @@
 - 07:00 소미 🐱: T003 (Komission 숏폼 큐레이팅) 리서치 시작 (`artifacts/research/T003_KOMISSION_CURATION_RESEARCH.md`). API 구조 분석 완료. **⚠️ OPENCLAW_API_KEY 환경변수 미설정 - 테드 확인 필요**.
 
 - 07:10 소미 🐱: 보미 피드백 반영. API 키 변수명 혼동 정리 (스킬 파일 정의 유지). T003은 키 대기 중 → 다른 태스크 지원 가능.
+
+- 07:20 소미 🐱: T003 Phase 1 코드 뼈대 작성 (`scripts/komission_curator.py`). API 키 없이도 dry-run 테스트 가능.
+
+- 07:45 소미 🐱: 최종보고서 초안 작성 (`artifacts/reports/FINAL_REPORT_DRAFT.md`). 5시간 후 업데이트 예정.
+
+- 07:48 소미 🐱: T001 슬라이드 내용 작성 (`artifacts/deliverables/T001_SLIDES_CONTENT.md`). 테드가 복붙해서 슬라이드 만들 수 있게.
+
+- 07:55 소미 🐱: T002 티켓별 상세 스펙 작성 (`artifacts/reports/T002_TICKET_SPECS.md`). UI 스펙 + 동작 + 구현 포인트 포함. AG-Vivid가 바로 구현 가능.
+
+- 07:56 소미 🐱: AG-Vivid에게 코드베이스 구조 요청 메시지 전송.
