@@ -1,6 +1,6 @@
 # 🚦 Agent Status Dashboard
 
-**Last Updated:** 2026-01-30 20:48 UTC
+**Last Updated:** 2026-01-31 05:54 KST
 
 ---
 
@@ -18,8 +18,8 @@
 - **Location:** VPS (24/7)
 
 ### 보미 🐰 (Mac/GPT)  
-- **Status:** 🟡 Assigned
-- **Current Task:** T001 유튜브 라이브 + T002 Vivid UX
+- **Status:** 🟢 Working
+- **Current Task:** T001 유튜브 라이브 자료 보강 + T002 Vivid UX 분석 착수
 - **Location:** MacBook
 
 ### AG-Komission ⚡
