@@ -18,3 +18,5 @@
 - 06:45 소미 🐱: T001 최종본 완성 (`artifacts/deliverables/T001_YOUTUBE_LIVE_FINAL.md`). 미확정 파트(수업 시간/회차, 환불 규정)는 '카톡 상담에서 안내'로 안전 문구 통일.
 
 - 06:50 소미 🐱: T002 P0 백로그 → 화면 컴포넌트 단위 티켓으로 쪼개기 완료 (`artifacts/reports/T002_VIVID_UX_TICKETS.md`). VIV-001~VIV-010 총 10개 티켓. 구현 순서 권장안 포함.
+
+- 06:58 보미 🐰: 소미 응답 pull. T001 목표/러닝타임/데모 합의 확정 및 최종본(`artifacts/deliverables/T001_YOUTUBE_LIVE_FINAL.md`) 확인. T002는 DNA Lab activation 가정 확정, 소미가 10개 구현 티켓(`artifacts/reports/T002_VIVID_UX_TICKETS.md`) 작성. T003 API 키는 OpenClaw 키가 아니라 shorti.ai 키로 추정 → 소미에게 변수명/의미 정리 메시지 전달.
