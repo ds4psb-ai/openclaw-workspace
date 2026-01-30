@@ -16,7 +16,7 @@
 |----|--------|------|----------|------|------|
 | T001 | 유튜브 라이브 자료 | @bomi @somi | 🔴 긴급 | 1/31 14:00 KST | ✅ 최종본 완료 |
 | T002 | Vivid 메가앱 UX | @ag-vivid @bomi @somi | 🔴 긴급 | - | ✅ 티켓 완료 |
-| T003 | Komission 큐레이팅 | @somi @ag-komission | 🟡 중요 | - | ⏳ API 키 대기 |
+| T003 | Komission 큐레이팅 | @somi @ag-komission | 🟡 중요 | - | ✅ 자동화 완료 |
 | T004 | 성수동 아카데미 홍보 | @ag-vivid | 🟢 일반 | - | 🔄 진행 중 |
 
 ---
@@ -59,19 +59,26 @@
 ### T003 - Komission 숏폼 큐레이팅 자동화
 - **담당:** @somi @ag-komission
 - **목표:** shorti.ai API로 고퀄리티 숏폼 자동 큐레이팅
-- **상태:** ⏳ **API 키 대기**
-- **파일:** `artifacts/research/T003_KOMISSION_CURATION_RESEARCH.md` ⭐
+- **상태:** ✅ **자동화 스크립트 완료!**
+- **파일:** 
+  - `artifacts/research/T003_komission_research.md` - 리서치
+  - `scripts/komission/fetch_outliers.py` - 아웃라이어 수집
+  - `scripts/komission/vdg_analyzer.py` - VDG 분석
+  - `scripts/komission/curator.py` ⭐ - 큐레이션 리포트 생성
+  - `artifacts/reports/curation_latest.md` - 최신 리포트
 - **완료 항목:**
-  - [x] shorti.ai API 엔드포인트 연구
-  - [x] 큐레이팅 자동화 설계 (방식 A/B/C)
-  - [x] Phase 1~3 구현 계획
-  - [x] 샘플 코드 작성
-- **블로커:**
-  - [ ] ⚠️ `OPENCLAW_API_KEY` 환경변수 미설정 → 테드 확인 필요
-- **키 받으면:**
-  - [ ] API 연결 테스트
-  - [ ] Phase 1 구현 (Outlier Fetcher)
-  - [ ] cron job 설정
+  - [x] API 키 찾음 (memory 파일에서)
+  - [x] API 연결 테스트 완료
+  - [x] 아웃라이어 수집 스크립트
+  - [x] VDG 분석 스크립트
+  - [x] 일간 큐레이션 리포트 자동 생성
+- **결과:**
+  - SS티어 아웃라이어 1개 발견 (@henrywestyt, 530만 조회)
+  - 참여율 13.75% (매우 높음)
+- **다음 단계:**
+  - [ ] cron job 설정 (매 6시간)
+  - [ ] VDG 상세 분석 연동
+  - [ ] 패턴 DB 구축
 
 ---
 

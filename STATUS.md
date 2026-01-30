@@ -1,90 +1,63 @@
-# 🚦 Agent Status Dashboard
+# 📊 프로젝트 상태
 
-**Last Updated:** 2026-01-31 06:35 KST (21:35 UTC)
-
----
-
-## 🤖 자동화 상태
-- **Cron:** 5분마다 git sync ✅
-- **협업 시스템:** 작동 중 ✅
-- **Telegram 그룹:** 설정 중 (멘션 감지 이슈)
+**최종 업데이트:** 2026-01-30 22:00 UTC  
+**작성:** 소미 🐱
 
 ---
 
-## 👥 Agents
+## 🎯 현재 상태 요약
 
-### 소미 🐱 (VPS/Claude)
-- **Status:** 🟢 Working
-- **Current Task:** T003 Komission 큐레이팅 워크플로우 문서화
-- **Location:** VPS (24/7)
-- **Blocker:** API 키 필요
-
-### local 🐰 (Mac/GPT)  
-- **Status:** 🟢 Active
-- **Current Task:** T001/T002/Komission 플랜 진행 중
-- **Location:** MacBook
-
-### AG-Komission ⚡
-- **Status:** 🟡 Assigned
-- **Current Task:** T003 대기
-- **SSH:** ✅ 등록됨
-
-### AG-Vivid ⚡
-- **Status:** 🟢 Working
-- **Current Task:** T001/T002 초안 완료
-- **SSH:** ✅ 등록됨
+| 태스크 | 상태 | 진행률 | 담당 |
+|--------|------|--------|------|
+| T001 유튜브 라이브 | ✅ 완료 | 100% | 보미+소미 |
+| T002 Vivid UX | ✅ 분석 완료 | 100% | 보미+소미 |
+| T003 Komission | ✅ 자동화 완료 | 100% | 소미 |
+| T004 아카데미 홍보 | 🔄 진행 중 | 50% | AG-Vivid |
 
 ---
 
-## 📊 태스크 현황
+## 📁 주요 산출물
 
-| ID | 태스크 | 담당 | 상태 |
-|----|--------|------|------|
-| T001 | 유튜브 라이브 (1/31 14:00) | local, AG-Vivid | 🟢 초안 완료 |
-| T002 | Vivid UX 최적화 | local, AG-Vivid | 🟢 플랜 완료 |
-| T003 | Komission 큐레이팅 | 소미, AG-Komission | 🟡 워크플로우 문서화 |
-| T004 | 성수동 아카데미 | - | 📋 신규 |
+### T001 - 유튜브 라이브 (내일 14:00 KST)
+- `T001_FINAL_SCRIPT.md` ⭐ 통합 스크립트
+- 40분 타임라인 + Q&A 10개 + 체크리스트
 
----
+### T002 - Vivid UX
+- `T002_vivid_ux_analysis.md` - 분석 리포트
+- `T002_VIVID_UX_USER_STORIES.md` ⭐ - 사용자 스토리 9개
+- P0 우선순위 5개 정리
 
-## 📝 진행 상황 (2026-01-31)
-
-### local 🐰 완료
-- ✅ Vivid UX 가설 기반 감사 플랜
-- ✅ Komission 큐레이팅 워크플로우 뼈대
-- ✅ T001 초안 (런오브쇼, 멘트, Q&A, OBS 체크리스트)
-
-### 소미 🐱 완료
-- ✅ 협업 시스템 구축 (agents/, messages/)
-- ✅ Git 5분 동기화 Cron
-- ✅ Komission 워크플로우 문서 (`projects/komission/CURATION_WORKFLOW.md`)
-
-### 진행 중
-- 🔄 Telegram 그룹 멘션 이슈 해결
-- 🔄 API 키 대기 (Komission)
+### T003 - Komission 자동화
+- `scripts/komission/curator.py` ⭐ - 큐레이터
+- `curation_latest.md` - 일간 리포트 (자동 생성)
+- SS티어 아웃라이어 발견!
 
 ---
 
-## 🔔 Recent Activity
+## 🤖 협업 시스템
 
-| 시간 (KST) | Agent | Action |
-|------------|-------|--------|
-| 06:35 | 소미 🐱 | Komission 워크플로우 문서 작성 |
-| 06:32 | local 🐰 | T001/T002/Komission 플랜 공유 |
-| 06:25 | 소미 🐱 | Telegram 그룹 설정 시도 |
-| 05:48 | 소미 🐱 | 태스크 배정 완료 |
+- Git 기반 동기화 ✅
+- 파일 기반 메시지 ✅
+- Heartbeat 체크 ✅
+- 문서: `docs/COLLABORATION_SYSTEM.md`
 
 ---
 
-## ⚠️ Blockers
+## ⏰ 타임라인
 
-1. **Komission API 키** - 테드에게 요청 필요
-2. **Telegram 그룹 멘션** - 설정 조정 중
+- **21:30 UTC** - 테드 잠
+- **21:45 UTC** - T001/T002/T003 작업 완료
+- **02:45 UTC** - 테드 기상 예정 (5시간 후)
+- **05:00 UTC** - 라이브 (14:00 KST)
 
 ---
 
-## 💡 테드 확인 필요
+## 🔜 다음 단계
 
-1. **T001 주제/타깃/CTA** - local이 최종본 리라이트 대기 중
-2. **Komission 타입** - 뉴스레터? 커미션 마켓? 기회 트래커?
-3. **API 키** - `OPENCLAW_API_KEY` 환경변수 설정
+1. [ ] T003 cron job 설정
+2. [ ] 테드 피드백 반영
+3. [ ] 라이브 준비 최종 점검
+
+---
+
+**소미 🐱** - 계속 작업 중!
