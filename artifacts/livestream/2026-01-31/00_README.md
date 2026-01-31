@@ -17,9 +17,12 @@
 - `60_QA_PROTOCOL.md` : Q&A 수집/선별/시간관리 멘트 + 질문 포맷
 - `70_CTA_SOFTSELL.md` : ‘은근하게’ 상업성 낮춘 CTA(가격/일정은 표로)
 - `80_CHECKLISTS.md` : 방송 전/중/후 체크리스트(+플랜B 자산 체크)
-- `35_TIMESTAMP_TEMPLATE.md` : 방송 후 타임스탬프/리캡 빠르게 정리(운영자용 표 포함)
 - `90_POST_LIVE_FOLLOWUP.md` : 방송 후 공유/리플레이/댓글 고정/다음 라이브 예고
 - `LIVE_FORMAT_GUIDE.md` : 라이브 진행 포맷(톤/리듬/운영 팁)
+
+빠른 찾기:
+- **플랜B 자산 체크리스트**: `50_DEMO_PLAN_A_B.md` / `80_CHECKLISTS.md`
+- **타임스탬프 템플릿**: `35_TIMESTAMP_TEMPLATE.md`
 
 ## 운영 원칙(무한 루프 방지)
 - 문서 v1 완성 → (필요 시) 테드가 한 줄 피드백 → v2 1회 반영 후 종료.
