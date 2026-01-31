@@ -3,7 +3,7 @@
 > 목적: 라이브 데모가 막힐 때 **2분 안에** “말”이 아니라 “화면”으로 전환.
 
 ## 0) 폴더/파일명(추천)
-- 폴더(추천): `/Users/ted/Desktop/livestream-2026-01-31/plan-b/` *(Mac 기준; 본인 환경에 맞게 조정)*
+- 폴더(추천): `Desktop/livestream/plan-b/` *(예시; 본인 환경에 맞게 조정)*
 - 파일명(예시):
   - `A1_performance_before-after.png`
   - `A2_storyboard_example.png`
