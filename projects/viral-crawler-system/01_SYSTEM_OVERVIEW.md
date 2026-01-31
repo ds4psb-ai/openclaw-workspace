@@ -43,12 +43,14 @@
 
 ---
 
-## 🔧 기술 스택 (제안)
+## 🔧 기술 스택 (기존 시스템 기반)
 
-### 크롤링
-- TikTok API / 웹 스크래핑
-- YouTube Shorts API
-- Instagram Reels (제한적)
+> ⚠️ **AG 리뷰 반영 (2026-01-31):** Komission에 이미 크롤러 존재!
+
+### 크롤링 (기존 구현)
+- **TikTok:** SocialKit API (api.socialkit.dev) + Residential Proxy
+- **YouTube:** Data API v3 (youtube.py)
+- **Instagram:** ⚠️ 개인 계정 API 완전 차단됨 (2024.12~)
 
 ### 데이터 저장
 - Neo4j (관계형 분석) - 이미 사용 중

@@ -5,7 +5,8 @@
 ### 1순위: TikTok
 - 가장 활발한 숏폼 플랫폼
 - 트렌드 발생지
-- API 제한 있음 → 스크래핑 병행 필요
+- ✅ **SocialKit API 사용 중** (기존 socialkit_adapter.py)
+- ✅ Residential Proxy (DataImpulse) 통합
 
 ### 2순위: YouTube Shorts
 - API 상대적으로 안정
@@ -13,9 +14,10 @@
 - 긴 영상과의 관계 분석 가능
 
 ### 3순위: Instagram Reels
-- API 제한 심함
-- TikTok 리포스트 많음
-- 선택적 수집
+- ⚠️ **2024.12~ 개인 계정 API 완전 차단**
+- Meta Graph API: Business/Creator 계정만 지원
+- 200 requests/hour/user 제한
+- → 실질적으로 **크롤링 불가** (우선순위 하락)
 
 ---
 
