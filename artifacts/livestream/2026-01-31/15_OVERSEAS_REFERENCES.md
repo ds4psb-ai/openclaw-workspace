@@ -1,4 +1,4 @@
-# 해외 사례/라이브 노하우 레퍼런스 (업그레이드)
+# 해외 사례/라이브 노하우 레퍼런스 (인용용)
 
 > 목표: 오늘 라이브(14–18)에서 “우리가 왜 이 구조로 간다”를 뒷받침할 **해외 사례/운영 패턴**을 *인용 가능한 링크 + 한 줄 요약*으로 정리.
 
@@ -9,28 +9,28 @@
 ### 1) You B Tech — *No Coding Required! AI Builds Complete Full Stack Web App from PRD (Live Demo)*
 - 링크: https://www.youtube.com/watch?v=GryK032UWVE
 - 한 줄: **PRD 한 장 → 앱을 끝까지 완주**를 먼저 보여주며 신뢰를 확보하는 전형적인 패턴.
-- 가져올 운영 포인트
+- 오늘 가져올 운영 포인트
   - 초반 3분에 “오늘 뭘 완주할지” 스코프 선언
   - ‘툴 소개’가 아니라 **입력→검수→산출** 프로세스를 반복 리마인드
-  - 라이브 텐션 유지를 위해 **Plan B(캡처/녹화/대체 멘트)** 필수
+  - 텐션 유지를 위해 **Plan B(캡처/녹화/대체 멘트)** 필수
 
 ### 2) Building a Full-Stack Website with AI - No Coding Experience
 - 링크: https://www.youtube.com/watch?v=MvvrxdePk5Y
 - 한 줄: “코딩 경험 없음”을 전면에 두고 **완주**로 설득.
-- 가져올 포인트
+- 오늘 가져올 포인트
   - ‘코드 0줄’은 반복하되, 마지막에 **재현성(로그/버전)**으로 신뢰 마무리
 
 ### 3) How To Build & Sell Web Apps With AI In Minutes! (No Code)
 - 링크: https://www.youtube.com/watch?v=4SrAzs8wbH8
 - 한 줄: 빌드에서 끝내지 않고 **판매/운영(수익화)**로 이어지는 메시지 구조.
-- 가져올 포인트
-  - 오늘 Part3는 ‘판매’가 아니라 **운영 가능성(결제→제공→로그)**로 프레이밍
+- 오늘 가져올 포인트
+  - Part 3는 ‘판매’가 아니라 **운영 가능성(결제→제공→로그)**으로 프레이밍
 
 ### 4) How to Build A $25,000/Mo Web App in 20 Minutes (Using AI)
 - 링크: https://www.youtube.com/watch?v=BSR1rq1CaKc
 - 한 줄: “결과 먼저 → 디테일”로 전개해 시청자 이탈을 줄임.
-- 가져올 포인트
-  - Part1 시작에 **Before/After를 먼저 보여주고** 이유를 설명(해외 패턴)
+- 오늘 가져올 포인트
+  - Part 1 시작에 **Before/After를 먼저 보여주고** 이유를 설명(해외 패턴)
 
 ---
 
@@ -59,8 +59,8 @@
 - Adapters: https://github.com/polarsource/polar-adapters
 - 한 줄: 샌드박스로 결제 플로우 전체를 검증하고 빠르게 붙일 수 있다.
 - 오늘 라이브에 적용
-  - Part3는 ‘수익화’가 아니라 **운영 가능성(결제→즉시 제공→로그)**
-  - 실패 대비: 샌드박스/대체 화면/PlanB 멘트
+  - Part 3는 ‘수익화’가 아니라 **운영 가능성(결제→즉시 제공→로그)**
+  - 실패 대비: 샌드박스/대체 화면/Plan B 멘트
 
 ---
 
@@ -76,7 +76,7 @@
 
 ---
 
-## E) OpenClaw/Moltbot 사용 사례(맥락)
+## E) OpenClaw 사용 사례(맥락)
 
 ### MiniMax Docs — *Build Your AI Assistant on Telegram with OpenClaw (moltbot)*
 - 링크: https://platform.minimax.io/docs/solutions/moltbot
