@@ -1,6 +1,47 @@
 # 성수동 아카데미 커리큘럼 리서치 (2026년 1월 기준)
 
-**목표:** 무료 AI 툴 중심 + 거장 DNA + 바이럴 워크플로우
+**목표:** 무료 AI 툴 중심 + 거장 DNA + 바이럴 워크플로우  
+**최종 업데이트:** 2026-01-31 (소미 🐱 웹리서치 보강)
+
+---
+
+## 🏆 벤치마크: Curious Refuge (경쟁사 분석)
+
+### 기본 정보 (2026년 1월 기준)
+- **가격:** $749 (약 100만원)
+- **형태:** 4주 온라인 부트캠프
+- **언어:** 11개 언어 지원 (한국어 포함)
+- **학생 수:** 172개국 50,000+ 수강생
+- **특징:** 세계 최초 AI 영화 제작 전문 스쿨
+
+### Curious Refuge 커리큘럼 구조
+1. Ideation + Scriptwriting (아이디어 + 대본)
+2. Art Direction + Curation (아트 디렉션)
+3. Prompt Mastering + Directing (프롬프트 마스터링)
+4. Pitching + Storyboarding (스토리보드)
+5. Editing + Pacing + Character (편집)
+6. Sound Editing + VO (사운드)
+7. Cinematography + VFX (촬영+VFX)
+8. Distribution + PR (배포)
+9. Workflow Optimization (워크플로우)
+
+### 제공 혜택
+- 4주 비디오 모듈
+- 12개월 콘텐츠 업데이트
+- 프라이빗 Discord 채널
+- 프로 아티스트 피드백
+- 아카데미 수상자 네트워크
+- 프롬프트 템플릿/CustomGPT
+- After Effects/Notion 템플릿
+
+### 💡 우리 차별점
+| 항목 | Curious Refuge | 성수동 아카데미 |
+|------|----------------|-----------------|
+| 가격 | $749 (100만원) | **24만원 (75% 저렴)** |
+| 형태 | 온라인 | **오프라인 소수정예** |
+| 특화 | 일반 AI 영상 | **거장 DNA + 한국 바이럴** |
+| 피드백 | 커뮤니티 | **1:1 즉석 피드백** |
+| 에이전트 | ❌ | **✅ 소미+보미 자동화** |
 
 ---
 
@@ -11,8 +52,46 @@
 |-----|------|----------|
 | **Wan 2.1/2.5** | 균형 좋음, 시네마틱 | ✅ 무료 |
 | **HunyuanVideo** | 오픈소스, 고품질 | ✅ 무료 |
-| **Kling** | 무료 크레딧 | 🔶 일부 무료 |
+| **Kling 2.6** | 네이티브 오디오, 립싱크 | 🔶 일부 무료 |
 | **Luma Dream Machine** | 빠름 | 🔶 일부 무료 |
+| **Veo 3.1** | 구글, 캐릭터 일관성 | 🔶 일부 무료 |
+
+### 📌 Veo 3.1 상세 (2026년 1월 업데이트)
+**출처:** Google Blog (2026-01-13)
+
+**핵심 기능:**
+- **Ingredients-to-Video**: 레퍼런스 이미지 기반 영상 생성
+- **캐릭터 일관성**: 여러 씬에서 동일 캐릭터 유지 (혁신!)
+- **배경/오브젝트 일관성**: 씬 간 설정 유지
+- **네이티브 세로 영상**: 9:16 비율 지원 (유튜브 쇼츠 최적화)
+- **4K 업스케일링**: 고품질 프로덕션용
+
+**접근 경로:**
+- Gemini 앱 (무료)
+- YouTube Shorts/Create 앱
+- Google Flow (프로용)
+- Vertex AI / Gemini API
+
+**활용법:**
+1. Gemini 앱에서 무료로 테스트
+2. 레퍼런스 이미지 4장으로 캐릭터 설정
+3. 세로 영상으로 숏폼 제작
+
+### 📌 Kling 2.6 상세 (2025년 12월 업데이트)
+**핵심 기능:**
+- **네이티브 오디오 생성**: 영상+음성 동시 생성 (게임체인저!)
+- **완벽한 립싱크**: 영어/중국어 대화, 나레이션, 노래
+- **손 움직임 개선**: 아티팩트 없는 자연스러운 손
+- **표정 동기화**: 감정과 일치하는 얼굴 표현
+
+**강점:**
+- Text-to-Video + Audio 동시
+- 15초 숏폼 최적화
+- FPV/액션샷 강점
+
+**무료 크레딧:**
+- 신규 가입 시 무료 크레딧 제공
+- 수강생에게 추가 크레딧 지급 예정
 
 ### 구글 무료 툴
 | 툴 | 용도 | 무료 여부 |
@@ -20,6 +99,25 @@
 | **Gemini** | 기획, 리서치 | ✅ 무료 |
 | **NotebookLM** | 자료 정리, 팟캐스트 | ✅ 무료 |
 | **Google AI Studio** | 앱 프로토타입 | ✅ 무료 |
+| **Google Flow** | AI 영상 편집 | ✅ 무료 (일부) |
+
+### 📌 NotebookLM 상세 (2026년 전망)
+**현재 기능:**
+- 문서 업로드 → AI 분석
+- **Audio Overview (팟캐스트)**: 2명 호스트 자동 생성
+- 질문-답변 인터페이스
+- 다국어 지원
+
+**2026년 예정 (루머):**
+- **Lecture 포맷**: 30분 딥다이브 강의 모노로그
+- 단일 호스트 구조화된 교육 콘텐츠
+- 대학 강의 대체 가능성
+
+**교육 활용법:**
+- 거장 감독 자료 → DNA 추출 질문
+- 바이럴 영상 분석 자료 업로드
+- 팟캐스트 형태로 복습 콘텐츠 제작
+- 수강생 개인화 학습 자료 생성
 
 ### 이미지 생성
 | 툴 | 특징 | 무료 여부 |
@@ -110,5 +208,16 @@
 
 ---
 
+---
+
+## 🔗 참고 링크
+
+- [Curious Refuge AI Filmmaking](https://curiousrefuge.com/ai-filmmaking)
+- [Google Veo 3.1 Blog](https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/)
+- [Kling 2.6 Features](https://medium.com/@CherryZhouTech/kling-2-6-elevates-ai-video)
+- [NotebookLM Evolution](https://medium.com/@jimmisound/the-cognitive-engine-a-comprehensive-analysis-of-notebooklms-evolution-2023-2026)
+
+---
+
 **작성:** 소미 🐱 + 보미 🐰  
-**업데이트:** 2026-01-31 05:40 UTC
+**업데이트:** 2026-01-31 06:10 UTC (웹리서치 보강 완료)
