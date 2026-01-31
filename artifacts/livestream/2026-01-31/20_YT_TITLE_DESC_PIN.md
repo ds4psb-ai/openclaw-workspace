@@ -54,3 +54,5 @@ https://support.google.com/youtube/answer/12948449?hl=en
 | 커리큘럼 | https://cafe.naver.com/antacademy1/5150 |
 
 *라이브 중엔 가격/일정을 길게 읽지 않고, ‘필요한 분만’ 확인하도록 안내합니다.*
+
+- 엔딩 멘트 스크립트: `70_CTA_SOFTSELL.md`

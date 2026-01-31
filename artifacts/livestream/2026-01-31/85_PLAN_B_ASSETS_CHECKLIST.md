@@ -11,6 +11,11 @@
   - `B1_demo_recording_performance.mp4`
   - `B2_demo_recording_polar.mp4`
 
+매핑(헷갈림 방지):
+- A1 ↔ Part 1(성능·디자인)
+- A2 ↔ Part 2(스토리보드/일관성)
+- A3 ↔ Part 3(결제/운영)
+
 ## 1) 필수 자산(없으면 리스크 큼)
 - [ ] 사전 녹화 데모(2~5분) 2개
   - [ ] 성능/디자인 개선 결과
