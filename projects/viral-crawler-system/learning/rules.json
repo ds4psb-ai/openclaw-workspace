@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-01-31T07:44:00Z",
+  "auto_promote": {
+    "enabled": false,
+    "min_confidence": 0.9,
+    "rules": []
+  },
+  "auto_reject": {
+    "enabled": false,
+    "rules": [
+      {
+        "id": "ad_content",
+        "condition": "title contains '광고' OR title contains '협찬' OR title contains 'AD'",
+        "confidence": 0.95
+      }
+    ]
+  },
+  "manual_review": {
+    "default": true,
+    "note": "Week 1-4: 모든 항목 테드 수동 검토"
+  }
+}
