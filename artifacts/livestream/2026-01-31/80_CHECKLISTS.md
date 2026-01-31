@@ -24,6 +24,16 @@
 - [ ] **대체 오디오**: 유선 이어폰/보조 마이크(기본 마이크 먹통 대비)
 - [ ] **대체 화면 공유**: 데모용 브라우저 프로필/시크릿 창(로그인 꼬임 대비)
 
+### (권장) 플랜B 자산 정리 방식(찾기 시간 0)
+- [ ] `artifacts/livestream/2026-01-31/` 탭 고정(README/체크리스트/타임스탬프)
+- [ ] 플랜B용 캡처/녹화본은 **한 폴더에** 모아두기(예: `~/Desktop/livestream-2026-01-31/plan-b/`)
+- [ ] 파일명 규칙(예시):
+  - `A1_performance_before-after.png`
+  - `A2_storyboard_example.png`
+  - `A3_polar_checkout_success.png`
+  - `B1_demo_recording_performance.mp4`
+  - `B2_demo_recording_polar.mp4`
+
 ## 진행 중
 - [ ] 각 파트 시작에 ‘오늘 파트 목적’ 1문장
 - [ ] 20~30분마다 짧은 리캡 30초(`35_TIMESTAMP_TEMPLATE.md`의 문구)
