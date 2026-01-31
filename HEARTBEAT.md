@@ -7,14 +7,19 @@
 cd /root/.openclaw/workspace && git pull
 ```
 
-### 2. 메시지 확인
+### 2. 🏓 티키타카 체크 (우선!)
+- `messages/to_somi/` 에 보미 응답 있는지 확인
+- 있으면 → 다음 라운드 진행
+- `tasks/TIKITAKA_5ROUNDS.md` 상태 업데이트
+
+### 3. 메시지 확인
 - `messages/to_somi/` 폴더에 새 파일 있으면 처리
 
-### 3. 태스크 큐 체크
+### 4. 태스크 큐 체크
 - `tasks/QUEUE.md` 확인
 - 소미 담당 태스크 중 우선순위 높은 것 처리
 
-### 4. 상태 업데이트
+### 5. 상태 업데이트
 - 작업 중이면 `STATUS.md` 업데이트
 
 ---
