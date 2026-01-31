@@ -5,6 +5,9 @@
 ## 구성 파일(이 폴더만 보면 됨)
 - `10_KAKAO_ALL_MENTION.md` : 13:55 전체 멘션용 최종 문구(붙여넣기)
 - `15_OVERSEAS_REFERENCES.md` : 해외 레퍼런스 링크 + 인용 문장(오프닝/전환에 1~2개만 사용)
+- `16_OPENCLAW_MOLTBOT_USECASES.md` : Moltbot/OpenClaw ‘메신저=리모컨’ 운영 패턴 + 라이브 멘트 + 안전 가이드
+- `17_STORYBOARD_SCHEMA_TEMPLATE.md` : 스토리보드(timecode/shot_goal/continuity) 데이터 스키마 템플릿
+- `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md` : NotebookLM 오디오 팟캐스트/쿼리로 라이브를 ‘와’ 수준으로 업그레이드(바이럴 방 확산 루프)
 - `20_YT_TITLE_DESC_PIN.md` : 유튜브 제목/설명/고정댓글(광고 티 최소)
 - `30_RUN_OF_SHOW_14-18.md` : 14~18시 4시간 런오브쇼(분 단위)
 - `35_TIMESTAMP_TEMPLATE.md` : 고정댓글/타임스탬프/리캡 템플릿(복붙)
