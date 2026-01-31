@@ -17,6 +17,7 @@
 - `60_QA_PROTOCOL.md` : Q&A 수집/선별/시간관리 멘트 + 질문 포맷
 - `70_CTA_SOFTSELL.md` : ‘은근하게’ 상업성 낮춘 CTA(가격/일정은 표로)
 - `80_CHECKLISTS.md` : 방송 전/중/후 체크리스트(+플랜B 자산 체크)
+- `85_PLAN_B_ASSETS_CHECKLIST.md` : 플랜B 자산 체크리스트(초단축 1페이지)
 - `90_POST_LIVE_FOLLOWUP.md` : 방송 후 공유/리플레이/댓글 고정/다음 라이브 예고
 - `LIVE_FORMAT_GUIDE.md` : 라이브 진행 포맷(톤/리듬/운영 팁)
 
