@@ -95,15 +95,25 @@
 
 ---
 
-## 🎥 해외 사례 레퍼런스
+## 🎥 해외 사례 레퍼런스(링크 포함)
 
-| 채널 | 주제 | 포인트 |
-|------|------|--------|
-| Marco Behler | Stripe 라이브 | 챕터/타임스탬프, 문제→원인→복구 |
-| Mocha AI Guide | AI앱 + Stripe | 아젠다 고정, 중간 리캡 |
-| No Code MBA | Base44 + Stripe | '돈 되는 결과물' 메시지 |
-| Brock Mesarich | Lovable + Stripe | AI로 에러 해결하는 장면 |
-| WeCodeNoCode | 배포 + Stripe | 배포 단계가 신뢰 포인트 |
+- Marco Behler — Live Coding: Stripe payment integration
+  - 인덱스: https://www.marcobehler.com/guides/live-coding
+  - Ep1: https://www.youtube.com/watch?v=BIDNKRluql4
+  - Ep2: https://www.youtube.com/watch?v=gUqMdwgEAIQ
+  - 포인트: **문제→원인→복구**를 숨기지 않고 보여주면 신뢰가 올라감(=PlanB가 곧 컨텐츠)
+
+- Mocha (getmocha) — Stripe 결제 + 웹훅 운영 가이드
+  - 블로그: https://getmocha.com/blog/how-to-accept-payments-stripe
+  - 포인트: 결제는 ‘버튼 붙이기’가 아니라 **웹훅/확정/권한**까지가 한 세트
+
+- Lovable / Brock Mesarich — Stripe payments 빠르게 붙이기
+  - YouTube: https://www.youtube.com/watch?v=jWPxl_XLDK8
+  - 포인트: 결제 붙는 순간이 “돈”보다 **운영 가능성**을 증명하는 장면
+
+- You B Tech — PRD → 앱 완주(라이브 데모)
+  - YouTube: https://www.youtube.com/watch?v=GryK032UWVE
+  - 포인트: 초반에 ‘오늘 완주할 것’을 박고, **완주/재현성**으로 설득
 
 ---
 

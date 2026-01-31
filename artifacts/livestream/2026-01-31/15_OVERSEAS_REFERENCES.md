@@ -4,7 +4,7 @@
 
 ---
 
-## A) ‘노코드/대화형 빌드’ 라이브/롱폼 사례
+## A) ‘노코드/대화형 빌드’ 라이브/롱폼 사례 (YouTube)
 
 ### 1) You B Tech — *No Coding Required! AI Builds Complete Full Stack Web App from PRD (Live Demo)*
 - 링크: https://www.youtube.com/watch?v=GryK032UWVE
@@ -51,7 +51,7 @@
 
 ---
 
-## C) 결제/수익화(Polar) 레퍼런스
+## C) 결제/수익화(Polar) 레퍼런스 + ‘Stripe/결제 운영’ 라이브 패턴
 
 ### Polar 공식 문서/SDK
 - 홈: https://polar.sh/
@@ -61,6 +61,13 @@
 - 오늘 라이브에 적용
   - Part 3는 ‘수익화’가 아니라 **운영 가능성(결제→즉시 제공→로그)**
   - 실패 대비: 샌드박스/대체 화면/Plan B 멘트
+
+### 결제 라이브 운영 패턴(Stripe 예시)
+- Marco Behler Live Coding — Stripe payment integration
+  - 인덱스: https://www.marcobehler.com/guides/live-coding
+  - Ep1: https://www.youtube.com/watch?v=BIDNKRluql4
+  - Ep2: https://www.youtube.com/watch?v=gUqMdwgEAIQ
+- 한 줄: **문제→원인→복구**를 라이브에서 숨기지 않고 보여주면 신뢰가 올라간다(=PlanB가 곧 콘텐츠)
 
 ---
 
