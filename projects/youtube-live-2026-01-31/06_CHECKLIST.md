@@ -26,6 +26,14 @@
 - [ ] Polar 대시보드 로그인
 - [ ] Polar 테스트 모드 켜기
 
+### 💳 Polar 결제 준비 (보미 🐰 체크리스트)
+- [ ] Polar 대시보드: Product/Price 생성
+- [ ] redirect URL 설정 (성공/취소)
+- [ ] Webhook endpoint URL 노출 (ngrok/tunnel/배포 서버)
+- [ ] Webhook secret env 설정
+- [ ] 테스트 결제 1회 성공 확인
+- [ ] 결제 성공/실패 로그가 콘솔에 찍히는지
+
 ### 📺 유튜브 준비
 - [ ] 라이브 스케줄 확인
 - [ ] 썸네일 확인
