@@ -21,8 +21,10 @@
 - `LIVE_FORMAT_GUIDE.md` : 라이브 진행 포맷(톤/리듬/운영 팁)
 
 빠른 찾기:
-- **플랜B 자산 체크리스트**: `50_DEMO_PLAN_A_B.md` / `80_CHECKLISTS.md`
-- **타임스탬프 템플릿**: `35_TIMESTAMP_TEMPLATE.md`
+- **플랜B 전환 시나리오**: `50_DEMO_PLAN_A_B.md`
+- **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
+- **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
+- **타임스탬프 템플릿(복붙)**: `35_TIMESTAMP_TEMPLATE.md`
 
 ## 운영 원칙(무한 루프 방지)
 - 문서 v1 → (필요 시) 테드 한 줄 피드백 → v2 1회 반영 후 종료(과다 수정 금지).
