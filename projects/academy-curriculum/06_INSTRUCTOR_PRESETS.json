@@ -1,0 +1,373 @@
+{
+  "version": "1.0",
+  "created": "2026-01-31",
+  "author": "소미 🐱",
+  "description": "성수동 아카데미 8주차 강사모드 프리셋",
+  
+  "weeks": {
+    "week1": {
+      "name": "전체 워크플로우 체험",
+      "date": "2026-02-03",
+      "duration_minutes": 120,
+      "mega_apps": ["dna-lab", "story-engine", "production"],
+      "intent": "15초 제품 광고 영상 만들기",
+      "reference_style": "Apple 미니멀 광고",
+      "default_provider": "kling_2.6_turbo",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-20min",
+          "app": "onboarding",
+          "action": "intent_input",
+          "guide": "목표를 입력하세요: '15초 제품 광고'",
+          "preset_value": "15초 스마트폰 광고, Apple 스타일"
+        },
+        {
+          "id": 2,
+          "time": "20-50min",
+          "app": "dna-lab",
+          "action": "vpe_analyze",
+          "guide": "레퍼런스 URL을 붙여넣고 분석 버튼을 누르세요",
+          "preset_value": "https://youtube.com/watch?v=apple_ad_example"
+        },
+        {
+          "id": 3,
+          "time": "50-80min",
+          "app": "story-engine",
+          "action": "scenario_generate",
+          "guide": "시나리오 생성 버튼을 누르세요",
+          "preset_value": null
+        },
+        {
+          "id": 4,
+          "time": "80-110min",
+          "app": "production",
+          "action": "render",
+          "guide": "Kling 2.6 Turbo를 선택하고 렌더링 시작",
+          "preset_value": {
+            "provider": "kling_2.6_turbo",
+            "resolution": "1080p",
+            "duration": 15,
+            "audio": true
+          }
+        },
+        {
+          "id": 5,
+          "time": "110-120min",
+          "app": "review",
+          "action": "share",
+          "guide": "결과물을 함께 감상합니다",
+          "preset_value": null
+        }
+      ],
+      "outcomes": ["첫 AI 영상 1개"]
+    },
+    
+    "week2": {
+      "name": "광고처럼 임팩트 있게",
+      "date": "2026-02-06",
+      "duration_minutes": 120,
+      "mega_apps": ["dna-lab"],
+      "focus": "VPE 분석 + 프롬프트 연금술",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-30min",
+          "app": "dna-lab",
+          "action": "vpe_theory",
+          "guide": "Visual/Verbal/Emotional 프레임워크 설명"
+        },
+        {
+          "id": 2,
+          "time": "30-60min",
+          "app": "dna-lab",
+          "action": "vpe_analyze",
+          "guide": "본인이 좋아하는 광고 3개 URL 분석",
+          "preset_value": {
+            "example_urls": [
+              "https://youtube.com/watch?v=nike_ad",
+              "https://youtube.com/watch?v=samsung_ad",
+              "https://youtube.com/watch?v=coca_cola_ad"
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "time": "60-90min",
+          "app": "dna-lab",
+          "action": "prompt_alchemy",
+          "guide": "VPE 결과를 프롬프트로 변환"
+        },
+        {
+          "id": 4,
+          "time": "90-120min",
+          "app": "dna-lab",
+          "action": "ab_test",
+          "guide": "같은 VPE, 다른 프롬프트로 비교"
+        }
+      ],
+      "outcomes": ["VPE 스타일 프로파일", "프롬프트 템플릿 3개"]
+    },
+    
+    "week3": {
+      "name": "이야기가 있는 영상",
+      "date": "2026-02-10",
+      "duration_minutes": 120,
+      "mega_apps": ["story-engine"],
+      "focus": "시나리오 + 스토리보드",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-30min",
+          "app": "story-engine",
+          "action": "structure_theory",
+          "guide": "스토리 구조 이론: 3막/순환/파편"
+        },
+        {
+          "id": 2,
+          "time": "30-60min",
+          "app": "story-engine",
+          "action": "scenario_generate",
+          "guide": "프롬프트로 시나리오 생성",
+          "preset_value": {
+            "genre": "product_story",
+            "duration": 60,
+            "structure": "3act"
+          }
+        },
+        {
+          "id": 3,
+          "time": "60-90min",
+          "app": "story-engine",
+          "action": "storyboard_sketch",
+          "guide": "시나리오 → 10컷 스토리보드"
+        },
+        {
+          "id": 4,
+          "time": "90-120min",
+          "app": "story-engine",
+          "action": "shot_list",
+          "guide": "스토리보드 → 촬영 지시서"
+        }
+      ],
+      "outcomes": ["10컷 스토리보드", "샷 리스트"]
+    },
+    
+    "week4": {
+      "name": "나만의 작품 (Capstone 1차)",
+      "date": "2026-02-13",
+      "duration_minutes": 120,
+      "mega_apps": ["production"],
+      "focus": "Provider 선택 + 렌더링",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-30min",
+          "app": "production",
+          "action": "provider_compare",
+          "guide": "Veo 3.1 vs Kling 2.6 비교",
+          "preset_value": {
+            "comparison_table": {
+              "veo_3.1": {"strength": "4K, 캐릭터 일관성", "cost": "높음"},
+              "kling_2.6": {"strength": "오디오+립싱크, 대량생산", "cost": "중간"}
+            }
+          }
+        },
+        {
+          "id": 2,
+          "time": "30-60min",
+          "app": "production",
+          "action": "render_settings",
+          "guide": "해상도, 비율, 오디오 설정"
+        },
+        {
+          "id": 3,
+          "time": "60-90min",
+          "app": "production",
+          "action": "render_batch",
+          "guide": "숏폼 3개 생성",
+          "preset_value": {
+            "count": 3,
+            "duration": 15,
+            "provider": "kling_2.6"
+          }
+        },
+        {
+          "id": 4,
+          "time": "90-120min",
+          "app": "external",
+          "action": "edit_capcut",
+          "guide": "CapCut에서 후처리 → 업로드"
+        }
+      ],
+      "outcomes": ["15초 숏폼 3개 (오디오 포함)"]
+    },
+    
+    "week5": {
+      "name": "거장 DNA 심화",
+      "date": "2026-02-17",
+      "duration_minutes": 120,
+      "mega_apps": ["dna-lab"],
+      "focus": "거장 5명 DNA 비교 분석",
+      "directors": ["웨스 앤더슨", "데이비드 핀처", "드니 빌뇌브", "봉준호", "크리스토퍼 놀란"],
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-40min",
+          "app": "dna-lab",
+          "action": "director_analysis",
+          "guide": "거장 5명의 시각 언어 분석"
+        },
+        {
+          "id": 2,
+          "time": "40-80min",
+          "app": "dna-lab",
+          "action": "style_compare",
+          "guide": "스타일 매트릭스 작성"
+        },
+        {
+          "id": 3,
+          "time": "80-120min",
+          "app": "dna-lab",
+          "action": "hybrid_style",
+          "guide": "2가지 스타일 조합 실험"
+        }
+      ],
+      "outcomes": ["거장 DNA 라이브러리", "하이브리드 스타일 프로파일"]
+    },
+    
+    "week6": {
+      "name": "시리즈물 만들기",
+      "date": "2026-02-20",
+      "duration_minutes": 120,
+      "mega_apps": ["story-engine"],
+      "focus": "에피소드 구조 + 캐릭터 일관성",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-40min",
+          "app": "story-engine",
+          "action": "series_structure",
+          "guide": "3부작 에피소드 구조 설계"
+        },
+        {
+          "id": 2,
+          "time": "40-80min",
+          "app": "story-engine",
+          "action": "character_design",
+          "guide": "캐릭터 시트 작성 (일관성용)"
+        },
+        {
+          "id": 3,
+          "time": "80-120min",
+          "app": "production",
+          "action": "veo_ingredients",
+          "guide": "Veo Ingredients-to-Video로 일관성 유지",
+          "preset_value": {
+            "provider": "veo_3.1",
+            "reference_images": 4
+          }
+        }
+      ],
+      "outcomes": ["3부작 기획서", "캐릭터 시트"]
+    },
+    
+    "week7": {
+      "name": "대량 생산 자동화",
+      "date": "2026-02-24",
+      "duration_minutes": 120,
+      "mega_apps": ["production"],
+      "focus": "배치 렌더링 + 워크플로우",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-30min",
+          "app": "production",
+          "action": "batch_setup",
+          "guide": "배치 렌더링 설정"
+        },
+        {
+          "id": 2,
+          "time": "30-60min",
+          "app": "production",
+          "action": "cost_optimize",
+          "guide": "비용 최적화 전략 (Kling Turbo 활용)"
+        },
+        {
+          "id": 3,
+          "time": "60-100min",
+          "app": "production",
+          "action": "render_10",
+          "guide": "영상 10개 동시 렌더링",
+          "preset_value": {
+            "count": 10,
+            "provider": "kling_2.6_turbo"
+          }
+        },
+        {
+          "id": 4,
+          "time": "100-120min",
+          "app": "external",
+          "action": "workflow_review",
+          "guide": "나만의 워크플로우 템플릿 저장"
+        }
+      ],
+      "outcomes": ["영상 10개", "워크플로우 템플릿"]
+    },
+    
+    "week8": {
+      "name": "포트폴리오 완성",
+      "date": "2026-02-27",
+      "duration_minutes": 120,
+      "mega_apps": ["dna-lab", "story-engine", "production"],
+      "focus": "최종 편집 + 포트폴리오",
+      "steps": [
+        {
+          "id": 1,
+          "time": "0-30min",
+          "app": "review",
+          "action": "portfolio_select",
+          "guide": "8주간 결과물 중 베스트 5개 선별"
+        },
+        {
+          "id": 2,
+          "time": "30-60min",
+          "app": "external",
+          "action": "final_edit",
+          "guide": "최종 편집 + 패키징"
+        },
+        {
+          "id": 3,
+          "time": "60-90min",
+          "app": "external",
+          "action": "portfolio_page",
+          "guide": "Notion/개인사이트에 포트폴리오 구성"
+        },
+        {
+          "id": 4,
+          "time": "90-120min",
+          "app": "review",
+          "action": "showcase",
+          "guide": "수료식 + 쇼케이스"
+        }
+      ],
+      "outcomes": [
+        "포트폴리오 페이지",
+        "영상 5개+ (숏폼 3 + 시네마틱 2)",
+        "프롬프트 라이브러리 20개+",
+        "워크플로우 템플릿 1개"
+      ]
+    }
+  },
+  
+  "instructor_mode": {
+    "url_pattern": "prompty.co.kr?mode=instructor&preset={week}&step={step}",
+    "features": {
+      "preset_auto_load": true,
+      "step_highlight": true,
+      "progress_tracking": false,
+      "remote_control": false
+    },
+    "mvp_for_feb3": ["preset_auto_load", "step_highlight"]
+  }
+}
