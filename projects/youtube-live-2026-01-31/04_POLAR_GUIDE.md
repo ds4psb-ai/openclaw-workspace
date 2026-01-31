@@ -84,45 +84,29 @@ Polar에서 Checkout Link 복사해서
 </a>
 ```
 
-### SDK 사용 (고급)
-```typescript
-// polar.ts
-import { Polar } from "@polar-sh/sdk";
-
-export const polar = new Polar({
-  accessToken: process.env.POLAR_ACCESS_TOKEN,
-  server: "sandbox" // 테스트 환경
-});
-
-// checkout 생성
-const checkout = await polar.checkouts.create({
-  productId: "prod_xxx",
-  customerEmail: user.email,
-  successUrl: "https://myapp.com/success",
-  cancelUrl: "https://myapp.com/cancel"
-});
-
-// checkout.url로 리다이렉트
-```
+### 고급 방법 (코딩 아는 분용)
+> 코드로 더 세밀하게 조절 가능하지만,
+> 오늘은 쉬운 방법(링크)으로 할게요!
 
 ### 멘트
 ```
-"SDK 쓰면 더 유연하지만,
-오늘은 시간 관계상 링크 방식으로 할게요.
+"코딩 아시는 분들은 더 고급 방법도 있어요.
+근데 오늘은 제일 쉬운 방법으로 갑니다!
 
-원리는 같아요!"
+결과는 똑같아요!"
 ```
 
 ---
 
-## 🔔 Step 3: Webhook 연동 (15분)
+## 🔔 Step 3: 결제 완료 알림 연동 (15분)
 
-### Webhook이 뭔지
+### 이게 뭔지
 ```
-"결제가 완료되면 Polar가 우리 서버에 알려줘요.
+"결제가 완료되면 Polar가 우리한테 알려줘요.
 '이 사람 결제했어!' 하고요.
 
-그게 Webhook이에요."
+그러면 우리 앱이 '아, 이 분 Pro 회원이구나!' 
+하고 자동으로 기능을 열어주는 거예요."
 ```
 
 ### Polar 대시보드 설정
