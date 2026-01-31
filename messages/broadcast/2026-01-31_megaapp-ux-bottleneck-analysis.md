@@ -125,20 +125,43 @@
 
 ---
 
-## ✅ 이미 구현됐지만 활용 안 되는 기능
+## ✅ Phase 9-12 기능 활성화 상태 (심층 분석)
 
-Git 히스토리 분석 결과, UX 혁신 Phase 1-12가 **코드는 있지만 제대로 노출 안 됨**:
+코드 분석 결과:
 
-| Phase | 기능 | 구현 상태 | 활성화 상태 |
-|:-----:|------|:--------:|:----------:|
-| 9 | SmartProviderSelector | ✅ 코드 있음 | ❓ 미확인 |
-| 9 | CostEstimator | ✅ 코드 있음 | ❓ 미확인 |
-| 11 | IntentSearchBar | ✅ 코드 있음 | ❓ 미확인 |
-| 12 | ProductionOverview | ✅ 코드 있음 | ✅ 작동 |
+| Phase | 기능 | 구현 상태 | 활성화 상태 | 위치 |
+|:-----:|------|:--------:|:----------:|------|
+| 9 | SmartProviderSelector | ✅ 547줄 | ✅ **활성화** | `ProductionOverview.tsx:216` |
+| 9 | CostEstimator | ✅ 코드 있음 | ✅ **활성화** | `ProductionOverview.tsx:226` |
+| 11 | IntentSearchBar | ✅ 805줄 | 🔴 **미사용** | app 폴더에서 import 없음! |
+| 12 | ProductionOverview | ✅ 461줄 | ✅ **활성화** | `production/page.tsx:91` |
 
-**확인 필요:**
-- IntentSearchBar가 실제로 동작하는지
-- SmartProviderSelector가 기본으로 켜져 있는지
+### 🔴 핵심 발견: IntentSearchBar 805줄이 죽은 코드!
+
+`IntentSearchBar.tsx` 분석:
+- **기능:** "무엇을 만들고 싶으세요?" 자연어 검색
+- **인텐트 분류:** `analyze`, `story`, `generate`, `style-transfer` 등
+- **프리셋 지원:** 거장 스타일(봉준호, 웡카와이), 장르, 플랫폼별
+- **자동 앱/단계 추천:** 입력에 따라 DNA Lab/Story Engine/Production으로 라우팅
+
+**왜 죽은 코드인가?**
+```bash
+grep -r "IntentSearchBar" frontend/src/app/  # 결과 없음!
+```
+
+→ **아무 페이지에서도 IntentSearchBar를 import하지 않음**
+
+### ✅ ProductionOverview는 잘 작동 중
+
+`/production` 접속 시:
+1. `ProductionOverview` 컴포넌트 렌더링
+2. `SmartProviderSelector`로 Veo/Kling/Suno 선택
+3. `CostEstimator`로 비용 표시
+4. "빠른 시작" 버튼 제공
+
+**하지만 문제:**
+- SmartProviderSelector 선택 후 → 여전히 VeoVideoPanel의 8개 옵션 입력해야 함
+- "빠른 시작" = 실제로는 빠르지 않음
 
 ---
 
