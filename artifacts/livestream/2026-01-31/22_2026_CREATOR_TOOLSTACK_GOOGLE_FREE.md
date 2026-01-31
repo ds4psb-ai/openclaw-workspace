@@ -9,14 +9,14 @@
 - **Google Veo 3.1** (모바일/세로/레퍼런스 기반 일관성)
 
 ## 2) Google ‘무료/저비용’로 와 닿는 축
-- **NotebookLM**
+- **NotebookLM(무료 입구)**
   - 소스 기반 답변(출처/인용)
   - Audio Overview(Deep Dive/Brief/Critique/Debate)
-- **Veo 3.1** (Gemini 앱/YouTube/Flow 등에서 노출)
-  - 레퍼런스 이미지 기반 + 캐릭터/배경/오브젝트 일관성 강화
-  - **세로(9:16) 지원** (Shorts 친화)
-- **Google Antigravity**
-  - ‘말로 만드는’ 에이전트 개발 플랫폼(테드 포지션: 코드 설명 최소, 자연어로 시연)
+- **Google Antigravity(무료 입구)**
+  - ‘말로 만드는’ 에이전트 개발 플랫폼(코드 설명 최소, 자연어로 시연)
+- **Veo 3.1(유료/크레딧 핵심 엔진)**
+  - 4K/60fps, 네이티브 9:16, Ingredients(레퍼런스 이미지 최대 4장), 오디오까지(플랜/크레딧 기반)
+  - 포지션: ‘완전 무료’가 아니라 **플러그인형 상위 엔진**
 
 ## 3) ‘뾰족한 수’(라이브에서 와… 나오는 설계)
 1) **브랜드 브레인(NotebookLM) → 스토리보드 데이터(shot_goal/timecode) 자동 생성**
