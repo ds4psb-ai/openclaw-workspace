@@ -7,7 +7,8 @@
 
 ## 🔗 빠른 링크(운영 중 바로 열기)
 - 타임스탬프/리캡 템플릿: `35_TIMESTAMP_TEMPLATE.md`
-- 플랜B(장애 대비) 자산 체크리스트: `80_CHECKLISTS.md`
+- 플랜B 자산 체크리스트(1페이지/즉시 전환용): `85_PLAN_B_ASSETS_CHECKLIST.md`
+- 플랜B 상세 체크리스트(운영 버전): `80_CHECKLISTS.md`
 - 데모 플랜A/B 요약: `50_DEMO_PLAN_A_B.md`
 
 ---

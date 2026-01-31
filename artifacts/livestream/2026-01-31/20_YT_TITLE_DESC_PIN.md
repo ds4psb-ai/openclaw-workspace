@@ -39,7 +39,7 @@ https://support.google.com/youtube/answer/12948449?hl=en
 
 ## (은근 CTA) 설명란 하단 카피
 - 오늘 방식으로 본인 상황에 맞춰 세팅을 같이 해보고 싶은 분들은, **필요하신 경우에만** 아래 링크로 질문 남겨주세요.
-- 문의(카톡 채널): http://pf.kakao.com/_YxhVvj/chat
+- 문의(카톡 채널): https://pf.kakao.com/_YxhVvj/chat
 - 커리큘럼 참고: https://cafe.naver.com/antacademy1/5150
 
 ### (표) 안내 정보 — 라이브 중 낭독 X
@@ -51,7 +51,7 @@ https://support.google.com/youtube/answer/12948449?hl=en
 | 구성/가격 | 8회(총 16시간) / 1기 혜택가 24만원 (툴 비용 별도) |
 | 일정 | 매주 화/목 19:00~21:00 (<개강일> 개강, KST) |
 | 장소 | 성수역 도보 4분, 페이지 아카데미 |
-| 문의 | http://pf.kakao.com/_YxhVvj/chat |
+| 문의 | https://pf.kakao.com/_YxhVvj/chat |
 | 커리큘럼 | https://cafe.naver.com/antacademy1/5150 |
 
 *라이브 중엔 가격/일정을 길게 읽지 않고, ‘필요한 분만’ 확인하도록 안내합니다.*
