@@ -23,6 +23,6 @@
   - https://www.dreamega.ai/models/kling-2-6-pro
 
 ## 5) shorti.ai/커리큘럼에 ‘뾰족한 수’로 적용
-- “무료 입구”에서 만든 **스토리보드 표(timecode/shot_goal/continuity)**를 공통 포맷으로 고정
+- “무료 입구”에서 만든 **스토리보드 표(timecode/shot_goal/continuity_checks)**를 공통 포맷으로 고정
 - Render 단계만 Veo/Kling으로 바꿔 끼우기(플러그인)
 - 결과물/성과(조회/전환)를 다시 NotebookLM로 흡수 → 다음 주차 커리큘럼/템플릿 자동 개선
