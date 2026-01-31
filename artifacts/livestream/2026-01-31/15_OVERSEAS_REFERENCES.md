@@ -34,7 +34,52 @@
 → 오늘 라이브 메시지에 연결: 
 - “AI 에이전트는 데모가 아니라, **운영(스케줄/로그/버전)**을 붙이면 서비스가 된다.”
 
-## 4) 다음 액션(리서치 보강)
-- [ ] 위 You B Tech 외에, *Claude Code/Antigravity* 관련 해외 크리에이터 2~3개 추가
-- [ ] ‘Sora/Veo storyboard workflow’ 키워드로 1~2개 확보
-- [ ] 각 영상에서 한 줄씩: (초반 훅 문장 / 구성 / CTA 방식) 캡처
+## 4) 프롬프트 일관성/스토리보드(Sora/Veo) 레퍼런스
+
+### OpenAI Cookbook — *Sora 2 Prompting Guide*
+- 링크: https://cookbook.openai.com/examples/sora/sora2_prompting_guide
+- 가져올 포인트
+  - “샷(shot)이 달성해야 할 목표를 구체적으로 쓰면 **일관성과 제어력**이 올라간다”
+  - 오늘 라이브 메시지로 변환: **스토리보드는 ‘컷 목표의 연쇄’**이고, 데이터(룰/스키마)가 그 목표를 고정한다
+
+### Skywork — *Multi-prompt / multi-shot consistency (Veo 3.1 best practices)*
+- 링크: https://skywork.ai/blog/multi-prompt-multi-shot-consistency-veo-3-1-best-practices/
+- 가져올 포인트
+  - “시간코드 기반(0–5s, 5–12s…) 스토리보드로 분할 생성” → 오늘의 ‘스토리보드 대응’ 섹션 근거
+
+## 5) 결제/수익화(Polar) 레퍼런스
+
+### Polar 공식 문서/SDK
+- 홈: https://polar.sh/
+- Sandbox: https://polar.sh/docs/integrate/sandbox
+- 어댑터(프레임워크 연동): https://github.com/polarsource/polar-adapters
+- 가져올 포인트
+  - “PG 심사 없이 카드결제 경험을 빠르게 붙인다”는 메시지를 ‘운영 가능성’으로 프레이밍
+  - 오늘 라이브에서 “결제 성공→즉시 제공→로그” 체크리스트 근거
+
+## 6) Claude Code / ‘vibe coding’ 레퍼런스(라이브 운영 루프)
+
+### InfoWorld — *Vibe coding with Claude Code*
+- 링크: https://www.infoworld.com/article/3853805/vibe-coding-with-claude-code.html
+- 가져올 포인트
+  - 프로젝트 디렉토리에서 CLI로 반복 수정하는 루프가 핵심(Plan→Build→Iterate)
+
+### (사례) Medium — *How I “Vibe Coded” a Live App for $0 Using Claude + GitHub*
+- 링크: https://medium.com/@xx.u/how-i-vibe-coded-a-live-app-for-0-using-claude-github-79dbc04d1da2
+- 가져올 포인트
+  - GitHub에 올리고 배포까지 ‘대화로’ 밀어붙이는 플로우 → 오늘 라이브의 “버전/로그/재현성” 메시지 강화
+
+## 7) OpenClaw/Moltbot 사용 사례/레퍼런스(맥락)
+
+### MiniMax Docs — *Build Your AI Assistant on Telegram with OpenClaw (moltbot)*
+- 링크: https://platform.minimax.io/docs/solutions/moltbot
+- 포인트
+  - OpenClaw를 텔레그램에 붙여 ‘상시 접근 가능한 개인 비서’ 패턴 소개
+
+### OpenClaw 공식 문서(텔레그램)
+- 링크: https://docs.openclaw.ai/channels/telegram
+
+## 8) 다음 액션(리서치 보강)
+- [ ] (유튜브) ‘Claude Code로 앱 만들기’ 라이브/롱폼 해외 영상 2~3개 더 확보(오늘 13:00 전)
+- [ ] (유튜브) ‘build and sell web apps with AI’ 류 케이스 1~2개 확보(수익화 파트 근거)
+- [ ] 각 레퍼런스에서 **오프닝 훅 1문장 + 구성 3막 + PlanB 문장**만 뽑아 `40_HOST_SCRIPT_KEY_LINES.md`에 반영
