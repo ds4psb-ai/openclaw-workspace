@@ -4,9 +4,17 @@
 
 ## 10배 가치의 정의(측정 가능)
 - 수강 종료(8회) 시점에 최소 3개가 ‘실물’로 남아야 함
-  1) **브랜드 브레인(NotebookLM 노트북 1개)**: 스타일/금칙/샷언어/제목패턴/CTA 패턴
+  1) **브랜드 브레인(NotebookLM 노트북 1개)**: 스타일/금칙/샷 언어/제목 패턴/CTA 패턴
   2) **shot_goal 기반 스토리보드 템플릿 1개** + 샷 30개 라이브러리
   3) **Scene=Veo / Shot=Kling 파이프라인 템플릿 1세트**(데모 샷 생성까지)
+
+## 기능 근거(말로 설득할 때 쓰는 3줄)
+- **NotebookLM Chat은 업로드한 “소스만”으로 답하고, 인용/출처(클릭 가능한 citation)로 검증 가능** → 수강생별 ‘브랜드 브레인’을 안전하게 축적/재사용하기 좋음.
+  - https://support.google.com/notebooklm/answer/16179559?hl=en (Takeaway: 답변이 소스 기반이며 인용으로 확인 가능)
+- **Veo 3.1 ‘Ingredients to Video’는 레퍼런스 이미지 기반 생성에서 캐릭터/배경/오브젝트 일관성(Identity/Background/Object consistency)을 강화** → “같은 주인공으로 여러 씬” 데모가 가능.
+  - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (Takeaway: 레퍼런스 기반 일관성 + 9:16 + 1080p/4K 업스케일)
+- **Veo 3.1은 모바일 숏폼용 네이티브 세로(9:16) 출력과 1080p/4K 업스케일 옵션을 공식 안내** → 결과물을 ‘편집 가능한 퀄리티’로 보여주기 쉬움.
+  - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (Takeaway: 세로 출력/업스케일을 명시)
 
 ## 수강생 경험을 ‘압도’로 만드는 6가지 장치
 1) **첫날 20분 안에 ‘결과물’**
