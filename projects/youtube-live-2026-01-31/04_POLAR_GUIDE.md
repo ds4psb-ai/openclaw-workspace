@@ -1,135 +1,271 @@
-# 04. Polar 결제 연동 가이드 (16:30-17:30)
+# 04. Polar 결제 연동 가이드 (16:30-17:30) - 공식 문서 기반 v3
 
-## 🎯 이 파트의 목표
-- PG심사 없이 카드결제 붙이기
-- 실제 결제 테스트까지!
-- "코드 없이" 연동하는 모습 보여주기
+**출처:** polar.sh/docs, Medium 튜토리얼 (paudelronish)
 
 ---
 
-## Polar 소개 (16:30-16:40)
-
-### Polar란?
-- 크리에이터/개발자를 위한 결제 플랫폼
-- PG심사 없이 바로 시작
-- 무통장입금 필요 없음
-- 해외 결제도 OK
+## 💳 Polar 소개 (5분)
 
 ### 왜 Polar인가?
-> "보통 결제 붙이려면 PG심사, 사업자등록, 복잡한 API 연동...
-> Polar는 그냥 링크 하나로 끝입니다."
+```
+"결제 연동하면 보통 뭐가 필요하죠?
+
+❌ PG사 심사 (최소 며칠~몇 주)
+❌ 사업자등록증
+❌ 세금 처리 직접
+❌ 복잡한 Stripe 설정
+
+Polar는 이게 다 필요 없어요."
+```
+
+### Polar = Merchant of Record
+```
+"Polar가 뭐냐면요,
+
+Stripe 위에서 돌아가는데,
+'Merchant of Record' 역할을 해요.
+
+쉽게 말하면:
+- 세금? Polar가 처리
+- 환불? Polar가 처리  
+- 법적 문제? Polar가 책임
+
+여러분은 링크만 붙이면 됩니다."
+```
+
+### 수수료 비교
+| 서비스 | 수수료 | 셋업 시간 |
+|--------|--------|----------|
+| Stripe 직접 | ~3% | 며칠~주 |
+| Paddle | ~5% | 며칠 |
+| **Polar** | **~2.4%** | **몇 분** |
+
+---
+
+## 🛠️ Step 1: Polar 계정 + 상품 생성 (10분)
+
+### 대시보드 접속
+```
+1. polar.sh 접속
+2. GitHub 로그인 (가장 빠름)
+3. Organization 생성 or 선택
+```
+
+### 상품(Product) 생성
+```
+Products → Create Product
+
+이름: "Vivid Pro"
+설명: "AI 스토리보드 Pro 기능"
+가격: $9.99/월 (또는 일회성)
+
+→ Create!
+```
 
 ### 화면에 보여줄 것
-- Polar 홈페이지 (https://polar.sh)
-- 대시보드 미리보기
-- 가격 정책 (무료 시작 가능)
+- Product ID 복사
+- Price ID 복사
+- "이 두 개가 핵심이에요"
 
 ---
 
-## 연동 과정 (16:40-17:10) - 보미 🐰 기술 시나리오
+## 🔗 Step 2: Checkout 버튼 추가 (15분)
 
-### 데모 목표 (최소 성공 조건)
-1. 사용자가 플랜 선택 → 결제창 이동
-2. 결제 완료 → webhook 수신
-3. 서버에서 user를 `paid=true`로 업데이트
-4. UI에서 즉시 권한 변화 확인
-
-### Step A: 가격/플랜 설정 (16:40-16:45)
-1. Polar 대시보드 → Products → New Product
-2. **Pro 월간** 1개만 (단순하게!)
-3. 가격: $9.99/월
-4. redirect URL 설정
-
-**멘트:**
-> "플랜은 하나만 만들어요. 단순하게 시작하는 게 좋아요."
-
-### Step B: Checkout 생성 (16:45-16:55)
-1. 앱에 "Pro 업그레이드" 버튼 추가
-2. 클릭 → Polar Checkout URL로 리다이렉트
-3. Checkout 생성 API 또는 직접 링크 사용
-
-**프롬프트 예시:**
+### 가장 간단한 방법 (링크)
 ```
-이 앱에 Polar 결제 버튼 추가해줘:
-1. 상단에 "Pro 업그레이드" 버튼
-2. 클릭하면 이 URL로 이동: [Polar checkout 링크]
-3. 버튼 스타일은 보라색 그라데이션
+"가장 쉬운 방법:
+Polar에서 Checkout Link 복사해서
+버튼에 붙이면 끝!"
 ```
 
-### Step C: Webhook 연동 (16:55-17:05)
-1. Polar 대시보드에서 Webhook URL 설정
-2. 서버에서 webhook endpoint 생성
-3. 서명 검증 (보안)
-4. 이벤트 처리 (`checkout.completed`)
-
-**멘트:**
-> "결제 완료되면 Polar가 우리 서버로 알려줘요.
-> 그걸 받아서 DB 업데이트하면 끝!"
-
-### Step D: DB 업데이트 (17:05-17:10)
-1. webhook 받으면 user 찾기
-2. `plan=pro` 또는 `paid=true` 업데이트
-3. 프론트에서 새로고침 → 권한 변경 확인
-
-### Step E: 실패/취소 핸들링
-- 결제 취소 → redirect URL로 안내
-- 에러 → 로그 남기고 알림
-
-**멘트:**
-> "실패해도 괜찮아요. 사용자한테 친절하게 안내하면 됩니다."
-
----
-
-## 테스트 결제 (17:10-17:20)
-
-### 테스트 모드
-1. Polar 대시보드에서 테스트 모드 켜기
-2. 테스트 카드로 결제 시도
-3. 성공 화면 확인
-
-**멘트:**
-> "테스트 모드로 실제 결제 안 되니까 걱정 마세요.
-> 자, 결제 버튼 눌러볼게요..."
-
-### 결제 완료 후
-> "보세요! 진짜 결제가 됐어요.
-> 이게 코드 한 줄 없이 가능합니다."
-
----
-
-## 정리 (17:20-17:30)
-
-### 핵심 정리
-```
-Polar 결제 연동 3단계:
-1. Polar 가입 (1분)
-2. 상품 만들기 (2분)
-3. 앱에 링크 추가 (1분)
-
-총 소요시간: 5분 미만!
+```html
+<a href="https://polar.sh/checkout/...">
+  Pro 업그레이드
+</a>
 ```
 
-### Q&A 시간
-> "결제 관련해서 질문 있으신 분?"
+### SDK 사용 (고급)
+```typescript
+// polar.ts
+import { Polar } from "@polar-sh/sdk";
 
-### 자연스러운 홍보 연결
-> "이런 걸 더 깊이 배우고 싶으시면...
-> (마무리 파트로 연결)"
+export const polar = new Polar({
+  accessToken: process.env.POLAR_ACCESS_TOKEN,
+  server: "sandbox" // 테스트 환경
+});
+
+// checkout 생성
+const checkout = await polar.checkouts.create({
+  productId: "prod_xxx",
+  customerEmail: user.email,
+  successUrl: "https://myapp.com/success",
+  cancelUrl: "https://myapp.com/cancel"
+});
+
+// checkout.url로 리다이렉트
+```
+
+### 멘트
+```
+"SDK 쓰면 더 유연하지만,
+오늘은 시간 관계상 링크 방식으로 할게요.
+
+원리는 같아요!"
+```
 
 ---
 
-## ⚠️ 주의사항
+## 🔔 Step 3: Webhook 연동 (15분)
 
-### Polar 관련
-- 실제 서비스 시 Stripe 계정 연결 필요
-- 한국 원화 결제는 별도 설정
-- 수수료: 5% + Stripe 수수료
+### Webhook이 뭔지
+```
+"결제가 완료되면 Polar가 우리 서버에 알려줘요.
+'이 사람 결제했어!' 하고요.
 
-### 라이브 중
-- 테스트 모드 꼭 확인
-- 실제 결제 하지 않도록 주의
-- 민감 정보 노출 주의
+그게 Webhook이에요."
+```
+
+### Polar 대시보드 설정
+```
+Settings → Webhooks → Add Endpoint
+
+URL: https://myapp.com/api/webhook/polar
+Events: 
+  ✅ checkout.updated
+  ✅ subscription.created
+  ✅ subscription.canceled
+
+→ Save
+```
+
+### Webhook 핸들러 (Next.js)
+```typescript
+// app/api/webhook/polar/route.ts
+import { Webhooks } from "@polar-sh/nextjs";
+
+export const POST = Webhooks({
+  webhookSecret: process.env.POLAR_WEBHOOK_SECRET,
+  onPayload: async (payload) => {
+    
+    if (payload.type === "checkout.updated") {
+      // 결제 완료!
+      const checkout = payload.data;
+      if (checkout.status === "confirmed") {
+        // DB에 Pro 권한 부여
+        await db.user.update({
+          where: { email: checkout.customerEmail },
+          data: { plan: "pro" }
+        });
+      }
+    }
+    
+    if (payload.type === "subscription.created") {
+      // 구독 시작!
+      console.log("New subscriber:", payload.data);
+    }
+  }
+});
+```
 
 ---
 
-**담당:** 보미 🐰 (기술 검증) + 소미 🐱 (스크립트)
+## ✅ Step 4: 테스트 결제 (10분)
+
+### Sandbox 모드 확인
+```
+"중요! 테스트할 때는 Sandbox 모드로!
+진짜 카드 긁으면 안 돼요 😅"
+```
+
+### 테스트 순서
+```
+1. 앱에서 "Pro 업그레이드" 버튼 클릭
+2. Polar 결제창 열림
+3. 테스트 카드로 결제
+   - 카드번호: 4242 4242 4242 4242
+   - 만료: 아무 미래 날짜
+   - CVC: 아무 숫자
+4. 결제 완료!
+5. Webhook 수신 확인
+6. DB에서 Pro 권한 확인
+```
+
+### 성공 멘트 (하이라이트!)
+```
+"봤죠?! 진짜 됩니다!
+
+5분 전에는 버튼만 있었는데,
+지금은 진짜 결제가 돼요.
+
+이게 Polar의 힘이에요.
+PG심사? 필요 없어요."
+```
+
+---
+
+## 🚨 트러블슈팅
+
+### 결제창 안 열림
+```
+원인: Checkout URL 오류
+해결: Polar 대시보드에서 새 링크 복사
+```
+
+### Webhook 안 옴
+```
+원인: URL 오타 or 서버 다운
+해결: 
+1. URL 확인
+2. 서버 로그 확인
+3. Polar 대시보드 → Webhooks → Logs
+```
+
+### API 에러 코드
+| 코드 | 의미 | 해결 |
+|------|------|------|
+| 400 | 잘못된 요청 | 파라미터 확인 |
+| 401 | 인증 실패 | API 키 확인 |
+| 404 | 상품 없음 | Product ID 확인 |
+| 500 | 서버 에러 | 잠시 후 재시도 |
+
+---
+
+## 📋 필수 환경변수
+
+```env
+# .env.local
+POLAR_ACCESS_TOKEN=polar_at_xxx
+POLAR_WEBHOOK_SECRET=polar_wh_xxx
+POLAR_PRODUCT_ID=prod_xxx
+POLAR_ORG_ID=org_xxx
+```
+
+---
+
+## 🎯 라이브 데모 시간 배분
+
+| 시간 | 내용 | 목표 |
+|------|------|------|
+| 16:30 | Polar 소개 | 왜 좋은지 이해 |
+| 16:35 | 상품 생성 | Product ID 획득 |
+| 16:45 | Checkout 버튼 | 버튼 클릭 → 결제창 |
+| 17:00 | Webhook 연동 | 결제 완료 → DB 반영 |
+| 17:15 | 테스트 결제 | **성공 순간 = 하이라이트!** |
+| 17:25 | Q&A | 결제 관련 질문 |
+
+---
+
+## 💡 핵심 메시지
+
+```
+"결제 기능은 어렵지 않아요.
+Polar 덕분에 5분이면 됩니다.
+
+어려운 건 '결제 붙일 가치가 있는 앱을 만드는 것'이에요.
+그건 오늘 우리가 3시간 동안 한 거죠!"
+```
+
+---
+
+**담당:** 보미 🐰 (기술) + 소미 🐱 (멘트)  
+**버전:** v3 (공식 문서 기반)
