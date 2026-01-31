@@ -7,7 +7,7 @@
 - [ ] 고정댓글/설명란 링크 확인
 - [ ] (보안) 화면 공유 전: 토큰/키/.env/대시보드 주소 노출될 탭 닫기
 
-## 10분 전(13:50)
+## 10분 전(라이브 시작 10분 전)
 - [ ] Starting Soon 씬 + BGM
 - [ ] 로컬 녹화 ON
 - [ ] 플랜B 자산(캡처/녹화본/미러링크) 탭 열어두기 (`50_DEMO_PLAN_A_B.md` / `35_TIMESTAMP_TEMPLATE.md` / 자료 링크)
@@ -27,8 +27,8 @@
 - [ ] **대체 화면 공유**: 데모용 브라우저 프로필/시크릿 창(로그인 꼬임 대비)
 
 ### (권장) 플랜B 자산 정리 방식(찾기 시간 0)
-- [ ] `artifacts/livestream/2026-01-31/` 탭 고정(README/체크리스트/타임스탬프)
-- [ ] 플랜B용 캡처/녹화본은 **한 폴더에** 모아두기(예: `~/Desktop/livestream-2026-01-31/plan-b/`)
+- [ ] `artifacts/livestream/<라이브-폴더>/` 탭 고정(README/체크리스트/타임스탬프)
+- [ ] 플랜B용 캡처/녹화본은 **한 폴더에** 모아두기(예: `~/Desktop/livestream/plan-b/`)
 - [ ] 파일명 규칙(예시):
   - `A1_performance_before-after.png`
   - `A2_storyboard_example.png`
