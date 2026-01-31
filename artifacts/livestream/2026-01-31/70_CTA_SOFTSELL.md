@@ -22,5 +22,5 @@
 | 구성/가격 | 8회(총 16시간) / 1기 런칭가 24만원 (툴 구독/사용료는 개인 선택·별도) |
 | 일정 | 매주 화/목 19:00~21:00 (<개강일> 시작, KST) |
 | 장소 | 성수역 도보 4분, 페이지 아카데미 |
-| 문의 | http://pf.kakao.com/_YxhVvj/chat |
+| 문의 | https://pf.kakao.com/_YxhVvj/chat |
 | 커리큘럼 | https://cafe.naver.com/antacademy1/5150 |
