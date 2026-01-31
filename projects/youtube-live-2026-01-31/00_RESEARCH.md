@@ -128,15 +128,66 @@
 
 ---
 
+---
+
+## 🎬 보미 🐰 추가 리서치: 해외 결제 연동 라이브 사례
+
+### 1. Marco Behler – Stripe payment integration
+**URL:** https://www.youtube.com/watch?v=BIDNKRluql4
+- 챕터/타임스탬프 촘촘하게
+- "문제 발생 → 원인 설명 → 복구"가 콘텐츠
+- 키 보호/웹훅 테스트/로그 반복 강조
+
+### 2. Mocha AI Guide – 앱 15분 + Stripe 수익화
+**URL:** https://www.youtube.com/watch?v=2uS-VOqZ_tM
+- 아젠다 먼저 고정 (오늘 할 것 3~5개)
+- checkout → webhook → 권한변경 한 번에 보여줌
+
+### 3. No Code MBA – Base44: Stripe
+**URL:** https://www.youtube.com/watch?v=TtZKeqz43x8
+- '돈 되는 결과물' 메시지 강하게 전면 배치
+- 짧은 영상 → 라이브로 확장 가능
+
+### 4. Brock Mesarich – Lovable AI: Add Stripe
+**URL:** https://www.youtube.com/watch?v=jWPxl_XLDK8
+- AI앱빌더+Stripe = 비개발자 후킹 강함
+- 에러를 AI 프롬프트로 해결하는 장면 = 하이라이트
+
+### 5. WeCodeNoCode – Landing + Stripe + 배포
+**URL:** https://www.youtube.com/watch?v=9VpZpj84K38
+- 배포 단계를 확실히 보여주면 신뢰 상승
+
+---
+
+## 🏆 해외 4시간 라이브 공통 룰 (보미 정리)
+
+### 1. 첫 3분에 성공조건 1문장
+> "오늘은 Polar 결제 붙여서 유료 플랜 활성화까지 간다."
+
+### 2. 중간마다 리캡 (10~15분 단위)
+> "지금까지 한 것 / 다음 2개"
+
+### 3. 플랜A/B 미리 선언
+- A: 실제 데모
+- B: 슬라이드/사전 녹화 (실패 시)
+
+### 4. 로그 보여주기 = 콘텐츠
+- 성공/실패 숨기지 말고 "왜 이렇게 되는지" 설명
+
+### 5. 채팅 투표형 질문
+> "제일 궁금한 거? 1)결제 2)웹훅 3)권한 중 뭐?"
+
+---
+
 ## 📋 액션 아이템
 
 - [x] Bolt.new 공식 튜토리얼 분석
 - [x] Bolt v2 새 기능 확인
 - [x] 해외 유튜버 포맷 분석
 - [x] 라이브 인터랙션 도구 조사
-- [ ] 보미 추가 리서치 반영
-- [ ] 기존 문서들 업그레이드
+- [x] 보미 추가 리서치 반영 ✅
+- [x] 기존 문서들 업그레이드 (진행 중)
 
 ---
 
-**다음 단계:** 이 리서치 기반으로 01~10 문서 전체 업그레이드!
+**다음 단계:** 보미 리서치 기반으로 플랜A/B, 리캡 템플릿 문서화!
