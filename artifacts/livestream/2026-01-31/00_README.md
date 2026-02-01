@@ -85,6 +85,7 @@
   - `LINK_HERE` / `https://LINK_HERE`
   - `KST HH:MM`
   - `YYYY-MM-DD`
+  - `__:__` *(타임스탬프 자리 placeholder가 남았는지)*
 
 ## 구성 파일(이 폴더만 보면 됨)
 - `10_KAKAO_ALL_MENTION.md` : 13:55 전체 멘션용 최종 문구(붙여넣기)
