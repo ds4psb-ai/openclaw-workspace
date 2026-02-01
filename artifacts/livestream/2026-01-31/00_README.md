@@ -32,7 +32,7 @@
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
 - 장애 대비: `50_DEMO_PLAN_A_B.md`
 - 종료 직후 작업: `35_TIMESTAMP_TEMPLATE.md`
-- 엔딩 멘트: `70_CTA_SOFTSELL.md`
+- 링크/고정댓글/CTA 표: `20_YT_TITLE_DESC_PIN.md` *(엔딩 멘트는 `70_CTA_SOFTSELL.md` 참고)*
 
 ## 운영 원칙(무한 루프 방지)
 - 문서 v1 → (필요 시) 테드 한 줄 피드백 → v2 1회 반영 후 종료(과다 수정 금지).
