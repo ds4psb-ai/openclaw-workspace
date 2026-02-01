@@ -108,7 +108,7 @@
   - 인덱스: https://www.marcobehler.com/guides/live-coding
   - Ep1: https://www.youtube.com/watch?v=BIDNKRluql4
   - Ep2: https://www.youtube.com/watch?v=gUqMdwgEAIQ
-  - 포인트: **문제→원인→복구**를 숨기지 않고 보여주면 신뢰가 올라감(=PlanB가 곧 컨텐츠)
+  - 포인트: **문제→원인→복구**를 숨기지 않고 보여주면 신뢰가 올라감(=PlanB가 곧 콘텐츠)
 
 - Mocha (getmocha) — Stripe 결제 + 웹훅 운영 가이드
   - 블로그: https://getmocha.com/blog/how-to-accept-payments-stripe
