@@ -5,7 +5,9 @@
 ## 빠른 링크(급할 때)
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14–18시 런오브쇼): `30_RUN_OF_SHOW_14-18.md`
+- 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리 템플릿(복붙): `35_TIMESTAMP_TEMPLATE.md`
+- 전/중/후 체크리스트: `80_CHECKLISTS.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - Q&A 시간관리: `60_QA_PROTOCOL.md`
 - 라이브 포맷(톤/리듬/운영 팁): `LIVE_FORMAT_GUIDE.md`
