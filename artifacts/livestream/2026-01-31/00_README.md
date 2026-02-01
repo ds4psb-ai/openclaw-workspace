@@ -1,6 +1,6 @@
 # Live Ops Kit — Livestream Runbook (Ted)
 
-폴더 위치: `artifacts/livestream/2026-01-31/`
+폴더: `artifacts/livestream/2026-01-31/`
 
 ## 빠른 링크(급할 때)
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
@@ -8,6 +8,7 @@
 - 종료 직후 타임스탬프 정리 템플릿(복붙): `35_TIMESTAMP_TEMPLATE.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - Q&A 시간관리: `60_QA_PROTOCOL.md`
+- 라이브 포맷(톤/리듬/운영 팁): `LIVE_FORMAT_GUIDE.md`
 
 목표: **13:55 카톡방 전체 멘션 → 14:00–18:00(KST) 라이브 진행 → 은근한 CTA → 종료/후속 안내**까지, 코드 없이 자연어로 ‘프로덕트 고도화 + 운영 가능 상태(결제/제공 포함)’를 보여주는 라이브를 **운영 관점에서 완주**. *(운영 스케줄 시각은 KST, 타임스탬프/챕터는 영상 재생 시간 `00:00` 기준 — 문서의 `__:__` 표기는 모두 영상 재생 시간 메모용)*
 
@@ -128,6 +129,7 @@
 - **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
 - **타임스탬프 템플릿(복붙)**: `35_TIMESTAMP_TEMPLATE.md` *(플랜B 전환 시각도 여기 한 줄로 남기기)*
+- **Q&A 시간관리**: `60_QA_PROTOCOL.md`
 - **방송 후 30분 후속 작업**: `90_POST_LIVE_FOLLOWUP.md`
 
 ## 운영 전 2분 셋업(탭 4개 + Finder 1개)
