@@ -31,7 +31,7 @@
 
 ## 플레이스홀더 최종 체크(사고 방지)
 - YouTube 입력란에서 한 번만 검색:
-  - (팁) `cmd+f`/`ctrl+f`로 아래 키워드만 1회씩 검색하고 끝내기(과다 수정 방지)
+  - (팁) `CMD/CTRL+F`로 아래 키워드만 1회씩 검색하고 끝내기(과다 수정 방지)
   - `LINK_HERE` / `https://LINK_HERE`
   - `YYYY-MM-DD`
   - `KST HH:MM`
