@@ -35,3 +35,4 @@
   - `LINK_HERE` / `https://LINK_HERE`
   - `YYYY-MM-DD`
   - `KST HH:MM`
+  - `__:__` *(실제 타임스탬프로 채워야 할 곳이 남아있는지)*
