@@ -33,6 +33,7 @@
 - 장애 대비: `50_DEMO_PLAN_A_B.md`
 - 종료 직후 작업: `35_TIMESTAMP_TEMPLATE.md` *(라이브 시작 시각 `00:00`부터 바로 메모 시작)*
 - 링크/고정댓글/CTA 표: `20_YT_TITLE_DESC_PIN.md` *(엔딩 멘트는 `70_CTA_SOFTSELL.md` 참고)*
+- (추천) 플랜B 자산 폴더(Finder)도 미리 열어두기: `85_PLAN_B_ASSETS_CHECKLIST.md`
 
 ## 운영 원칙(무한 루프 방지)
 - 문서 v1 → (필요 시) 테드 한 줄 피드백 → v2 1회 반영 후 종료(과다 수정 금지).
