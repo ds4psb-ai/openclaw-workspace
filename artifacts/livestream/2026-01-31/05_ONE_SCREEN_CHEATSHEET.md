@@ -1,4 +1,4 @@
-# One-screen ops cheatsheet (라이브 중 한 장만 켜두기)
+# One-screen ops cheat sheet (라이브 중 이 한 장만 켜두기)
 
 ## 시간 표기 규칙(헷갈림 방지)
 - **챕터/타임스탬프 = `__:__` (영상 재생 시간, 00:00 기준)**
