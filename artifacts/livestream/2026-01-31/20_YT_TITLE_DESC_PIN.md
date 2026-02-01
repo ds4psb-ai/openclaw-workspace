@@ -51,8 +51,9 @@ https://support.google.com/youtube/answer/12948449?hl=en
 자료 링크(최소 1개)
 https://LINK_HERE
 
-업데이트: KST HH:MM (운영 로그, 선택) — 링크/타임스탬프 반영 완료
+업데이트: KST HH:MM (선택)
 ※ 아래 타임스탬프는 **영상 재생 시간(00:00 시작)** 기준
+※ 챕터 줄은 **불릿(-/•) 없이** 각 줄 단독으로
 
 00:00 오프닝
 __:__ WOW 데모
