@@ -41,7 +41,7 @@ https://support.google.com/youtube/answer/12948449?hl=en
 자료/체크리스트(링크 1개)
 https://LINK_HERE
 
-업데이트: KST HH:MM (링크/타임스탬프 반영 완료)
+업데이트: KST HH:MM — 링크/타임스탬프 반영 완료
 ※ 아래 타임스탬프는 **영상 재생 시간(00:00 시작)** 기준
 
 00:00 오프닝
