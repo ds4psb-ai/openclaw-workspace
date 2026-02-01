@@ -33,6 +33,7 @@
 - **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
 - **타임스탬프 템플릿(복붙)**: `35_TIMESTAMP_TEMPLATE.md` *(플랜B 전환 시각도 여기 한 줄로 남기기)*
+- **방송 후 30분 후속 작업**: `90_POST_LIVE_FOLLOWUP.md`
 
 ## 운영 전 2분 셋업(탭 4개 + Finder 1개)
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
