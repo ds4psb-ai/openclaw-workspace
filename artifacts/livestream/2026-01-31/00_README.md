@@ -31,7 +31,7 @@
 ## 운영 전 2분 셋업(탭 4개만 열기)
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
 - 장애 대비: `50_DEMO_PLAN_A_B.md`
-- 종료 직후 작업: `35_TIMESTAMP_TEMPLATE.md`
+- 종료 직후 작업: `35_TIMESTAMP_TEMPLATE.md` *(라이브 시작 시각 `00:00`부터 바로 메모 시작)*
 - 링크/고정댓글/CTA 표: `20_YT_TITLE_DESC_PIN.md` *(엔딩 멘트는 `70_CTA_SOFTSELL.md` 참고)*
 
 ## 운영 원칙(무한 루프 방지)
