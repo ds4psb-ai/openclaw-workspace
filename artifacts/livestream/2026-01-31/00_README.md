@@ -22,7 +22,7 @@
 - `LIVE_FORMAT_GUIDE.md` : 라이브 진행 포맷(톤/리듬/운영 팁)
 
 빠른 찾기:
-- **와… 데모 시퀀스(오프닝 10~15분)**: `19_WOW_DEMO_SEQUENCE_10MIN.md` *(시작 시각 `__:__` 메모 → `35_TIMESTAMP_TEMPLATE.md`에 반영)*
+- **와… 데모 시퀀스(오프닝 10~15분)**: `19_WOW_DEMO_SEQUENCE_10MIN.md` *(WOW 데모 시작 시각 `__:__` 메모 → `35_TIMESTAMP_TEMPLATE.md`에 반영)*
 - **플랜B 전환 시나리오**: `50_DEMO_PLAN_A_B.md`
 - **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
