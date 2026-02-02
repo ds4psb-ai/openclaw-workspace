@@ -11,6 +11,11 @@
 - 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리: `35_TIMESTAMP_TEMPLATE.md`
 
+## 빠른 검색 키워드(⌘F)
+- `오프닝` / `WOW` / `Part 1` / `Q&A` / `Part 2` / `Part 3` / `엔딩`
+- (장애/지연) `플랜B`
+
+
 ## 시작 직전(사전 운영 메모)
 - (급하면) **한 화면 요약만**: `05_ONE_SCREEN_CHEATSHEET.md`
 - **13:55 카톡방 전체 멘션**: `10_KAKAO_ALL_MENTION.md` 복붙
