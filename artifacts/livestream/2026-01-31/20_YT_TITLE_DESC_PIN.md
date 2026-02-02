@@ -53,8 +53,9 @@ https://support.google.com/youtube/answer/12948449?hl=en
 
 ### 1) 고정댓글 본문(복붙) — 아래 블록만 복사해서 붙여넣기
 - 링크가 1개면 `https://LINK_HERE_2` 줄을 **삭제**
+- (선택) 첫 줄 `자료 링크`는 남겨도 되고 지워도 OK — 중요한 건 **URL은 단독 줄**로 유지
 -----8<----- COPY FROM HERE -----8<-----
-자료 링크(최소 1개; 여러 개면 아래에 URL만 추가)
+자료 링크
 https://LINK_HERE
 https://LINK_HERE_2
 
