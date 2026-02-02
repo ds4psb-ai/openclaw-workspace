@@ -110,12 +110,12 @@
 ## 리플레이용 최소 수정 포인트(1분)
 - `20_YT_TITLE_DESC_PIN.md`의 `14:00–18:00(KST)` 같은 **실시간 스케줄 표기**는 리플레이 공개 전에 삭제/수정.
 - “오늘/지금/방금” 같은 표현은 “이 영상/이 세션/이번 라이브”로 바꾸면 장기적으로 어색하지 않음.
-- (추가 체크) 플레이스홀더가 남아있지 않은지 최종 확인: `YYYY-MM-DD`, `LINK_HERE`(또는 `https://LINK_HERE`), `https://example.com`, `KST HH:MM`, `__:__`
+- (추가 체크) 플레이스홀더가 남아있지 않은지 최종 확인: `YYYY-MM-DD`, `https://LINK_HERE`, `https://example.com`, `KST HH:MM`, `__:__`
 
 ## 마지막 30초: 플레이스홀더 체크(사고 방지)
 - 라이브/업로드 직전, 아래 문자열이 남아있지 않은지 **유튜브 입력란(제목/설명/고정댓글)에서 한 번만** 확인:
   - (팁) **Mac: `⌘F` / Windows: `Ctrl+F`**로 아래 키워드만 1회씩 검색하고 끝내기(과다 수정 방지)
-  - `LINK_HERE` / `https://LINK_HERE`
+  - `https://LINK_HERE`
   - `KST HH:MM`
   - `YYYY-MM-DD`
   - `__:__` *(타임스탬프 자리 placeholder가 남았는지)*
