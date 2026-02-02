@@ -13,8 +13,8 @@
 
 ## 빠른 검색 키워드(⌘F)
 - `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
-- `스트림헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
-- `슬로우` / `Slow mode` / `기본 검열` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
+- `스트림 헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
+- `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
 - `챕터` / `Q:`
 
 ## (추천) 라이브 중 열어둘 탭 5개(순서대로)
@@ -24,7 +24,7 @@
 4) `50_DEMO_PLAN_A_B.md` (장애/지연 대응)
 5) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글 복붙)
 
-(추천) 운영 창 1개 더: **YouTube Studio 채팅/스트림헬스 팝아웃 창**(항상 보이게 고정)
+(추천) 운영 창 1개 더: **YouTube Studio 채팅/스트림 헬스 팝아웃 창**(항상 보이게 고정)
 
 ## 시간 표기 규칙(헷갈림 방지)
 - **챕터/타임스탬프 = `__:__` (영상 재생 시간, 00:00 기준)**
@@ -58,7 +58,7 @@
 > 아래는 메모앱에 쌓기 좋은 예시.
 > - 문서 가독성 때문에 `백틱`을 쓰는 구간이 있어도, **실제 복붙은 백틱 없이 평문으로** 붙여넣기.
 
-유튜브 챕터용으로는 아래 2줄(연속 라인)만 복붙하면 됨:
+유튜브 챕터용으로는 아래 2줄(연속 라인)만 복붙:
 
 00:00 오프닝
 12:34 WOW 데모
