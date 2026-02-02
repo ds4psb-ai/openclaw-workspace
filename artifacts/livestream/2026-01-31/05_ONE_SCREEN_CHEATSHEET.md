@@ -9,7 +9,7 @@
 - 고정댓글을 수정/업데이트했다면 **핀(고정) 상태가 유지되는지 10초 확인**(수정하다가 고정이 풀리는 사고 방지)
 
 ## 빠른 검색 키워드(⌘F)
-- `KST` / `00:00` / `플랜B` / `고정댓글` / `핀` / `Pinned` / `Pin comment` / `챕터` / `Q:` / `슬로우` / `Slow mode` / `스트림헬스` / `Dropped Frames` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
+- `KST` / `00:00` / `플랜B` / `고정댓글` / `핀` / `Pinned` / `Pin comment` / `Pinned by` / `챕터` / `Q:` / `슬로우` / `Slow mode` / `스트림헬스` / `Dropped Frames` / `기본 검열` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
 
 ## (추천) 라이브 중 열어둘 탭 5개(순서대로)
 1) `05_ONE_SCREEN_CHEATSHEET.md` (이 문서)
