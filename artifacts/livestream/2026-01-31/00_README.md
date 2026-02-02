@@ -17,8 +17,8 @@
 - 라이브 포맷(톤/리듬/운영 팁): `LIVE_FORMAT_GUIDE.md`
 
 ## 최소 동선(언제 뭘 열지)
-- **라이브 시작 전(10분)**: `00_README.md` + `80_CHECKLISTS.md`
-- **라이브 중(상시)**: `05_ONE_SCREEN_CHEATSHEET.md` + `30_RUN_OF_SHOW_14-18.md`
+- **라이브 시작 전(10분)**: `00_README.md` + `80_CHECKLISTS.md` + (권장) **YouTube Studio 컨트롤룸/스트림헬스**
+- **라이브 중(상시)**: `05_ONE_SCREEN_CHEATSHEET.md` + `30_RUN_OF_SHOW_14-18.md` + (권장) **YouTube Studio 채팅/스트림헬스 팝아웃**
 - **종료 직후(10–15분)**: `35_TIMESTAMP_TEMPLATE.md` → `20_YT_TITLE_DESC_PIN.md` → `90_POST_LIVE_FOLLOWUP.md`
 
 목표: **13:55 카톡방 전체 멘션 → 14:00–18:00(KST) 라이브 진행 → 은근한 CTA → 종료/후속 안내**까지, 코드 없이 자연어로 ‘프로덕트 고도화 + 운영 가능 상태(결제/제공 포함)’를 보여주는 라이브를 **운영 관점에서 완주**. *(운영 스케줄 시각은 KST, 타임스탬프/챕터는 영상 재생 시간 `00:00` 기준 — 문서의 `__:__` 표기는 모두 영상 재생 시간 메모용)*
