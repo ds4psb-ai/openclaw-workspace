@@ -35,8 +35,8 @@
 - (리플레이 공개 전 1분 정리) 스케줄 표기/플레이스홀더 제거: `20_YT_TITLE_DESC_PIN.md`의 “리플레이용 최소 수정 포인트(1분)” 섹션
 
 ## 최소 동선(언제 뭘 열지)
-- **라이브 시작 전(10분)**: `00_README.md` + `80_CHECKLISTS.md` + (권장) **YouTube Studio 컨트롤룸/스트림헬스**
-- **라이브 중(상시)**: `05_ONE_SCREEN_CHEATSHEET.md` + `30_RUN_OF_SHOW_14-18.md` + (권장) **YouTube Studio 채팅/스트림헬스 팝아웃**
+- **라이브 시작 전(10분)**: `00_README.md` + `80_CHECKLISTS.md` + (권장) **YouTube Studio 컨트롤룸/스트림 헬스**
+- **라이브 중(상시)**: `05_ONE_SCREEN_CHEATSHEET.md` + `30_RUN_OF_SHOW_14-18.md` + (권장) **YouTube Studio 채팅/스트림 헬스 팝아웃**
 - **종료 직후(10–15분)**: `35_TIMESTAMP_TEMPLATE.md` → `20_YT_TITLE_DESC_PIN.md` → `90_POST_LIVE_FOLLOWUP.md`
 
 ## 솔로 운영 안전장치(추가 원칙)
@@ -124,7 +124,7 @@
 4) `50_DEMO_PLAN_A_B.md` (장애 대응)
 5) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글)
 
-(추천) 운영 창 1개 더: **YouTube Studio 채팅/스트림헬스 팝아웃 창**(항상 보이게 고정)
+(추천) 운영 창 1개 더: **YouTube Studio 채팅/스트림 헬스 팝아웃 창**(항상 보이게 고정)
 
 (옵션) 종료 직후 6번째 탭: `90_POST_LIVE_FOLLOWUP.md`
 
