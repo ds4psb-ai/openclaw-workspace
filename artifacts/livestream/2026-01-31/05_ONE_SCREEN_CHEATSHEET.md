@@ -15,7 +15,7 @@
 - `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
   - (YouTube 표기 변형) `Pinned by owner` / `Pinned by creator`
 - `스트림 헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
-- `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `Subscribers-only mode` / `멤버 전용` / `Members only`
+- `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `Subscribers-only mode` / `멤버 전용` / `Members only` / `Live chat` / `Chat settings` / `Moderation`
 - `챕터` / `Q:`
 
 ## (추천) 라이브 중 열어둘 탭 5개(순서대로)
