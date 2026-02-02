@@ -1,15 +1,16 @@
 # One-screen ops cheat sheet (라이브 중 이 한 장만 켜두기)
 
-## TL;DR (진짜 급할 때 3줄)
+## TL;DR (진짜 급할 때)
 - **챕터/타임스탬프는 `__:__`만** (영상 재생 시간, 00:00 기준)
 - **운영 이벤트/업데이트 로그는 `KST HH:MM`만** (시계, 접두어 `KST` 꼭)
 - **막히면 2분 컷(원인 확인) → 플랜B 전환**: `50_DEMO_PLAN_A_B.md`
+- (리플레이용) **최종 챕터는 설명란에도 1회** 붙이기(인식/검색/공유 안정) — 고정댓글은 “복붙/공유용”
 
 ## 자주 터지는 사고 1줄(핀 확인)
 - 고정댓글을 수정/업데이트했다면 **댓글 목록 상단에서 `고정됨/Pinned by` 배지가 남아있는지 10초 확인**(수정하다가 고정이 풀리는 사고 방지)
 
 ## 빠른 검색 키워드(⌘F)
-- `KST` / `00:00` / `플랜B` / `고정댓글` / `핀` / `Pinned` / `Pin comment` / `Pinned by` / `챕터` / `Q:` / `슬로우` / `Slow mode` / `스트림헬스` / `Dropped Frames` / `기본 검열` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
+- `KST` / `00:00` / `플랜B` / `고정댓글` / `핀` / `Pinned` / `Pin comment` / `Pinned by` / `챕터` / `Q:` / `슬로우` / `Slow mode` / `스트림헬스` / `Dropped Frames` / `Latency` / `기본 검열` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
 
 ## (추천) 라이브 중 열어둘 탭 5개(순서대로)
 1) `05_ONE_SCREEN_CHEATSHEET.md` (이 문서)
