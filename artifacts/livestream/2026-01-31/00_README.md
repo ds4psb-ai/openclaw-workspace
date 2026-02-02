@@ -9,6 +9,7 @@
 - 종료 직후 타임스탬프 정리 템플릿(복붙): `35_TIMESTAMP_TEMPLATE.md`
 - 전/중/후 체크리스트: `80_CHECKLISTS.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
+- 플랜B 자산 체크리스트(초단축 1페이지): `85_PLAN_B_ASSETS_CHECKLIST.md`
 - Q&A 시간관리: `60_QA_PROTOCOL.md`
 - 라이브 포맷(톤/리듬/운영 팁): `LIVE_FORMAT_GUIDE.md`
 
