@@ -117,5 +117,5 @@ KST 17:05 고정댓글 링크 1개 게시
   - `https://LINK_HERE` / `https://LINK_HERE_2`
   - `YYYY-MM-DD`
   - `KST HH:MM`
-  - `__:__` *(타임스탬프를 실제 값으로 채우고도 placeholder가 남았는지)*
+  - `__:__` *(타임스탬프를 실제 값으로 채우고도 플레이스홀더가 남았는지)*
   - `https://example.com` *(샘플 링크가 남았는지)*

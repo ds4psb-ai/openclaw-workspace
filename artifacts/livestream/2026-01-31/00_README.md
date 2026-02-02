@@ -136,7 +136,7 @@
   - `https://LINK_HERE`
   - `KST HH:MM`
   - `YYYY-MM-DD`
-  - `__:__` *(타임스탬프 자리 placeholder가 남았는지)*
+  - `__:__` *(타임스탬프 자리 플레이스홀더가 남았는지)*
   - `https://example.com` *(샘플 링크가 남았는지)*
 
 ## 구성 파일(이 폴더만 보면 됨)
