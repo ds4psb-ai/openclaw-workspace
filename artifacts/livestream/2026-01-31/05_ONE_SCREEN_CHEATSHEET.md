@@ -11,7 +11,7 @@
   - (팁) “내가 지금 보는 게 고정댓글 맞나?”는 **댓글 목록 최상단에 붙어있는지**로 1초 확인
 
 ## 빠른 검색 키워드(⌘F)
-- `KST` / `00:00` / `플랜B` / `고정댓글` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
+- `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
 - `스트림헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
 - `슬로우` / `Slow mode` / `기본 검열` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `멤버 전용` / `Members only`
 - `챕터` / `Q:`
