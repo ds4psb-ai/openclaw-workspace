@@ -2,6 +2,8 @@
 
 폴더: `artifacts/livestream/2026-01-31/`
 
+> 라이브 중에 문서 여러 개 열기 힘들면: **`05_ONE_SCREEN_CHEATSHEET.md` 한 장만** 켜두고 진행해도 OK.
+
 ## 빠른 링크(급할 때)
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14:00–18:00 런오브쇼, KST): `30_RUN_OF_SHOW_14-18.md`
