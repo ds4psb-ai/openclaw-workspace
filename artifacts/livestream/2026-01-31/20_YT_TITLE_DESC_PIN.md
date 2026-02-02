@@ -29,7 +29,7 @@
   - (필수) `00:00 ...` 챕터 라인들은 **연속 라인**으로 유지(중간에 빈 줄/설명 문장/`KST ...` 섞지 않기)
   - (권장) 저장 후 1~2분 뒤 **챕터 1개 클릭 테스트**(반영 지연/인식/클릭 동작 10초)
 - [ ] (중요) 고정댓글/설명란에 링크/타임스탬프가 **코드블록(백틱)**으로 감싸져 있지 않은지 10초 확인(모바일 클릭/챕터 인식 사고 방지)
-- [ ] (중요) 플레이스홀더가 남아있지 않은지 확인 *(예: `YYYY-MM-DD`, `LINK_HERE`, `KST HH:MM`, `__:__`)*
+- [ ] (중요) 플레이스홀더가 남아있지 않은지 확인 *(예: `YYYY-MM-DD`, `https://LINK_HERE`, `https://LINK_HERE_2`, `KST HH:MM`, `__:__`)*
 
 출처: YouTube Help – Tips for video descriptions
 https://support.google.com/youtube/answer/12948449?hl=en

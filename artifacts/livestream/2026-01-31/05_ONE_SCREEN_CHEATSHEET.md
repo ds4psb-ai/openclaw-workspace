@@ -111,7 +111,7 @@ KST 17:05 고정댓글 링크 1개 게시
 ## 플레이스홀더 최종 체크(사고 방지)
 - YouTube 입력란에서 한 번만 검색:
   - (팁) **Mac: `⌘F` / Windows: `Ctrl+F`**로 아래 키워드만 1회씩 검색하고 끝내기(과다 수정 방지)
-  - `LINK_HERE` / `https://LINK_HERE`
+  - `https://LINK_HERE` / `https://LINK_HERE_2`
   - `YYYY-MM-DD`
   - `KST HH:MM`
   - `__:__` *(타임스탬프를 실제 값으로 채우고도 placeholder가 남았는지)*
