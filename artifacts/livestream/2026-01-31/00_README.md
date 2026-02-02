@@ -4,6 +4,10 @@
 
 > 라이브 중에 문서 여러 개 열기 힘들면: **`05_ONE_SCREEN_CHEATSHEET.md` 한 장만** 켜두고 진행해도 OK.
 
+## 패닉 모드(30초)
+- **이 3개만 열기:** `05_ONE_SCREEN_CHEATSHEET.md` → `30_RUN_OF_SHOW_14-18.md` → `50_DEMO_PLAN_A_B.md`
+- **규칙 1개만:** 챕터/타임스탬프는 **영상 재생 시간 `__:__`만** (KST 섞지 않기)
+
 ## 빠른 링크(급할 때)
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14:00–18:00 런오브쇼, KST): `30_RUN_OF_SHOW_14-18.md`
