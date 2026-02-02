@@ -16,8 +16,11 @@
 - `output_prompt` : 모델에 던질 최종 프롬프트(자동 생성 대상)
 
 ## 2) 예시 2줄
-- 00-05s | shot_goal: 주인공 소개 + 브랜드 톤 확립 | characters: A | setting: 성수동 카페 | camera: 35mm, slow push-in | action: 노트북을 열고 미소 | style_locks: warm, pastel | negatives: 왜곡된 얼굴
-- 05-12s | shot_goal: 문제 제시(반복 작업의 피로) | characters: A | setting: 같은 장소 | camera: over-shoulder | action: 알림 폭주 | continuity_checks: 의상/조명 유지
+
+| timecode | shot_goal | characters | setting | camera | action | style_locks | negatives | continuity_checks |
+|---|---|---|---|---|---|---|---|---|
+| 00-05s | 주인공 소개 + 브랜드 톤 확립 | A | 성수동 카페 | 35mm, slow push-in | 노트북을 열고 미소 | warm, pastel | 왜곡된 얼굴 | — |
+| 05-12s | 문제 제시(반복 작업의 피로) | A | 같은 장소 | over-shoulder | 알림 폭주 | — | — | 의상/조명 유지 |
 
 ## 3) 라이브에서 말할 한 문장
 - “우리는 프롬프트를 ‘문장’으로 관리하지 않고, **스토리보드 데이터(샷 목표/제약/체크)**로 관리합니다.”
