@@ -6,6 +6,7 @@
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14–18시 런오브쇼): `30_RUN_OF_SHOW_14-18.md`
 - 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
+- 13:55 카톡방 전체 멘션(복붙): `10_KAKAO_ALL_MENTION.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리 템플릿(복붙): `35_TIMESTAMP_TEMPLATE.md`
 - 전/중/후 체크리스트: `80_CHECKLISTS.md`
