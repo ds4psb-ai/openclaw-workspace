@@ -79,3 +79,4 @@
   - `YYYY-MM-DD`
   - `KST HH:MM`
   - `__:__` *(타임스탬프를 실제 값으로 채우고도 placeholder가 남았는지)*
+  - `https://example.com` *(샘플 링크가 남았는지)*
