@@ -93,11 +93,11 @@
   - **고정댓글 업데이트 같은 운영 이벤트**는 `KST HH:MM`
 
 ## 운영 탭 추천(순서대로 5개)
-1) `30_RUN_OF_SHOW_14-18.md` (진행)
-2) `35_TIMESTAMP_TEMPLATE.md` (메모/정리)
-3) `50_DEMO_PLAN_A_B.md` (장애 대응)
-4) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글)
-5) `80_CHECKLISTS.md` (전/중/후 체크)
+1) `05_ONE_SCREEN_CHEATSHEET.md` (한 화면 요약)
+2) `30_RUN_OF_SHOW_14-18.md` (진행)
+3) `35_TIMESTAMP_TEMPLATE.md` (메모/정리)
+4) `50_DEMO_PLAN_A_B.md` (장애 대응)
+5) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글)
 
 (추천) 운영 창 1개 더: **YouTube Studio 채팅/스트림헬스 팝아웃 창**(항상 보이게 고정)
 
