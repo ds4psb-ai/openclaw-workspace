@@ -97,6 +97,8 @@
 4) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글)
 5) `80_CHECKLISTS.md` (전/중/후 체크)
 
+(추천) 운영 창 1개 더: **YouTube Studio 채팅/스트림헬스 팝아웃 창**(항상 보이게 고정)
+
 (옵션) 종료 직후 6번째 탭: `90_POST_LIVE_FOLLOWUP.md`
 
 ## 운영 원칙(흐름 우선)
