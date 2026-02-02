@@ -37,3 +37,5 @@
   - “거장 DNA”는 1회차에서 **NotebookLM로 레퍼런스 분석→DNA 추출 표**로 고정(이게 이후 모든 일관성의 기준)
 
 참고: `projects/academy-curriculum/10X_VALUE_PLAN.md`에 8회 분해/경험 장치를 상세 정리. *(워크스페이스 기준 상대경로, 라이브 화면 공유 시 제외)*
+
+관련 문서: `30_RUN_OF_SHOW_14-18.md`(타임라인), `17_STORYBOARD_SCHEMA_TEMPLATE.md`(스토리보드 포맷)
