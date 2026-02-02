@@ -61,7 +61,7 @@ https://support.google.com/youtube/answer/12948449?hl=en
 https://LINK_HERE
 https://LINK_HERE_2
 
-업데이트(운영 로그, 선택): KST HH:MM — 필요 없으면 이 줄 삭제
+업데이트(운영 로그, 선택): KST HH:MM (placeholder — 필요 없으면 이 줄 삭제)
 
 질문 포맷(채팅): Q: 직무 / 상황 / 원하는 결과 (1줄)
 답변 룰: 90초 컷(결론→이유→다음 액션)
