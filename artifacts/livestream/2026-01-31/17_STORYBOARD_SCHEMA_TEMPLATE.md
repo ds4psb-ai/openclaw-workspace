@@ -29,3 +29,6 @@
 - 이 스토리보드 표는 **무료 도구(NotebookLM/Antigravity)**로 설계
 - 실제 영상 합성(Render)만 Veo 3.1 / Kling 2.6 같은 상위 엔진을 **플러그인처럼** 교체
 - 상세 전략: `23_FREE_ENTRY_PAID_CORE_STRATEGY.md`
+
+---
+관련 문서: `30_RUN_OF_SHOW_14-18.md`(타임라인), `50_DEMO_PLAN_A_B.md`(데모 플랜)
