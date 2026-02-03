@@ -4,6 +4,8 @@
 - 최근 자동 업데이트 요약(마지막 루프 결과): `ZZ_LAST_AUTOLOG.md`
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14:00–18:00 런오브쇼, KST): `30_RUN_OF_SHOW_14-18.md`
+- 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
+- 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리 템플릿(복붙): `35_TIMESTAMP_TEMPLATE.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
