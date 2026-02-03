@@ -2,12 +2,12 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-03 19:01 KST
+마지막 collab-loop 실행: 2026-02-03 19:07 KST
 
 ## 이번 자동 tikitaka 결과
 
 - 문서 상태: 전체적으로 양호
-- 검토 완료: ZZ_LAST_AUTOLOG, 70_CTA_SOFTSELL, 21_POSTER_OCR_SUMMARY, 16_OPENCLAW_MOLTBOT_USECASES, 40_HOST_SCRIPT_KEY_LINES
+- 검토 완료: ZZ_LAST_AUTOLOG, 70_CTA_SOFTSELL, 16_OPENCLAW_MOLTBOT_USECASES, 21_POSTER_OCR_SUMMARY, 17_STORYBOARD_SCHEMA_TEMPLATE, 50_DEMO_PLAN_A_B, 40_HOST_SCRIPT_KEY_LINES
 - 변경: 타임스탬프 업데이트
 - 비고: 문서 품질 유지됨, 추가 수정 불필요
 
