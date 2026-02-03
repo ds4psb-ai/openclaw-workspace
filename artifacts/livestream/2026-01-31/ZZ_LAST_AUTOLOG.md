@@ -2,12 +2,12 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-03 16:42 KST
+마지막 collab-loop 실행: 2026-02-03 16:47 KST
 
 ## 이번 자동 tikitaka 결과
 
 - 문서 상태: 전체적으로 양호 — 추가 수정 불필요
-- 검토 완료: ZZ_LAST_AUTOLOG, 70_CTA_SOFTSELL, 40_HOST_SCRIPT_KEY_LINES, 50_DEMO_PLAN_A_B, 21_POSTER_OCR_SUMMARY
+- 검토 완료: ZZ_LAST_AUTOLOG, LIVE_FORMAT_GUIDE, 50_DEMO_PLAN_A_B, 40_HOST_SCRIPT_KEY_LINES, 70_CTA_SOFTSELL, 21_POSTER_OCR_SUMMARY, 16_OPENCLAW_MOLTBOT_USECASES, 17_STORYBOARD_SCHEMA_TEMPLATE
 - 비고: 문서 품질 유지됨; 변경 없음
 
 ## 이전 5라운드 결과(참고)
