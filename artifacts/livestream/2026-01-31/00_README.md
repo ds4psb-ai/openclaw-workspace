@@ -22,6 +22,7 @@
 - **정리/수정은 멈추고 메모만:** 방송 중엔 `__:__`만 쌓고, 종료 직후에 템플릿으로 **1회 업데이트**
 
 ## 빠른 링크(급할 때)
+- 최근 자동 업데이트 요약(마지막 루프 결과): `ZZ_LAST_AUTOLOG.md`
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14:00–18:00 런오브쇼, KST): `30_RUN_OF_SHOW_14-18.md`
 - 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
@@ -161,6 +162,7 @@
   - `https://example.com` *(샘플 링크가 남았는지)*
 
 ## 구성 파일(이 폴더만 보면 됨)
+- `ZZ_LAST_AUTOLOG.md` : 마지막 자동 루프 결과/상태 요약(최근 변경 확인)
 - `10_KAKAO_ALL_MENTION.md` : 13:55 전체 멘션용 최종 문구(붙여넣기)
 - `15_OVERSEAS_REFERENCES.md` : 해외 레퍼런스 링크 + 인용 문장(오프닝/전환에 1~2개만 사용)
 - `16_OPENCLAW_MOLTBOT_USECASES.md` : Moltbot/OpenClaw ‘메신저=리모컨’ 운영 패턴 + 라이브 멘트 + 안전 가이드

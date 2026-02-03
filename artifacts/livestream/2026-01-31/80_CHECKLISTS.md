@@ -1,6 +1,7 @@
 # 방송 체크리스트
 
 ## 빠른 링크(문서 이동)
+- 최근 자동 업데이트 요약(마지막 루프 결과): `ZZ_LAST_AUTOLOG.md`
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행(14:00–18:00 런오브쇼, KST): `30_RUN_OF_SHOW_14-18.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
