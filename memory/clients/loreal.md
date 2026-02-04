@@ -132,4 +132,25 @@ Awareness (TopView) → Consideration (In-Feed) → Conversion (TikTok Shop)
 
 ---
 
+---
+
+## 📊 시장 데이터 (2025)
+
+### 스킨케어 시장
+- **글로벌 시장 규모:** ~$200B (2026 예상)
+- **18-34세 소비자:**
+  - 61% Instagram에서 뷰티 조언 탐색
+  - 64% TikTok에서 스킨케어 가이드 탐색
+
+### 피부과의사 인플루언서 효과 (JAAD 연구)
+- **"Expert Influencer"로서 피부과의사:** 제품 시도/구매 결정에 가장 큰 영향
+- TikTok 스킨케어 영상 중 **13%만** 보드 인증 피부과의사 제작
+- → **CeraVe/La Roche-Posay: 이 13%에서 두각 나타내야 함**
+
+### 로레알 Active Division 시사점
+> "피부과의사 추천" 포지셔닝이 TikTok에서 차별화 무기.
+> 실제 피부과의사 KOL 파트너십 강화로 신뢰도 경쟁에서 우위 확보 가능.
+
+---
+
 *다음 업데이트: 로레알 최신 TikTok Shop 캠페인 사례 추가 예정*
