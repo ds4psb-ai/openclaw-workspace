@@ -1,39 +1,36 @@
 {
   "lastChecks": {
-    "git_sync": 1738688000,
+    "git_sync": 1738689000,
     "komission_curator": 1738685940,
     "client_research": 1738687200,
     "competitive_research": 1738686600,
-    "market_research": 1738688000,
+    "market_research": 1738689000,
     "perfumetok_research": 1738688000,
-    "documentation_review": 1738688000,
+    "skincare_ingredients": 1738688400,
+    "haircare_trends": 1738688700,
+    "industry_megatrends": 1738689000,
     "email": null,
     "calendar": null,
-    "weather": null,
-    "memory_review": 1738685940
+    "weather": null
   },
-  "lastUpdate": "2026-02-05T02:15:00+09:00",
-  "sessionNotes": "야간 작업 모드 - 시장 리서치 대량 완료",
-  "newDocuments": [
-    "docs/kbeauty_2026_trends.md",
-    "docs/tiktok_shop_market_2025_2026.md"
+  "lastUpdate": "2026-02-05T02:45:00+09:00",
+  "sessionNotes": "야간 작업 모드 - 대규모 시장 리서치 완료",
+  "documentsCreated": [
+    "docs/kbeauty_2026_trends.md (대폭 확장)",
+    "docs/tiktok_shop_market_2025_2026.md (대폭 확장)"
   ],
-  "updatedProfiles": [
-    "memory/clients/amorepacific.md",
-    "memory/clients/loreal.md"
+  "taxonomyVersion": "1.5",
+  "newTags": [
+    "K-Beauty: glass-skin, glass-hair, k-pharmacy, clinical-ingredients",
+    "Devices: skincare-device, at-home-medspa",
+    "Season: cooling-skincare, summer-routine, redness-relief",
+    "Packaging: mini-beauty, cute-packaging, collab-product",
+    "Sensory: after-feel, sensory-texture",
+    "PerfumeTok: perfumetok, scent-wardrobing, perfume-dupe, smellmaxxing, signature-scent",
+    "Ingredients: lip-peptide, retinol-body, neurocosmetics, active-ingredients",
+    "Haircare: scalp-care, hair-skinification, hair-botox, hair-fragrance",
+    "Megatrends: personalized-beauty, dermacosmetics, clean-beauty, inclusive-beauty, biotech-beauty"
   ],
-  "updatedDocs": [
-    "docs/competitive_analysis_beauty.md",
-    "docs/beauty_pattern_taxonomy.md (v1.2)",
-    "docs/SUMMARY.md"
-  ],
-  "researchTopics": [
-    "K-Beauty 2026 trends (Trendier AI, BoF)",
-    "TikTok Shop market ($15.82B → $20B)",
-    "Men's Beauty ($7.1B US, Gen Z adoption)",
-    "#PerfumeTok trends (10 viral patterns)",
-    "Competitive analysis (Virlo, Shortimize, FastMoss)"
-  ],
-  "totalCommits": 41,
+  "totalCommits": 56,
   "sessionStart": "2026-02-05T00:17:00+09:00"
 }
