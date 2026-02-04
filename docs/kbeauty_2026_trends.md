@@ -225,6 +225,39 @@
 
 ---
 
+## 🤖 CES 2026 뷰티 테크 혁신 (BeautyMatter)
+
+### 핵심 테마
+- **"Clinical-grade → Home"**: 병원급 기술의 가정용 전환
+- **AI 통합**: 정밀 진단, 개인화, 효능 향상
+- **B2B POS**: 뷰티 어드바이저 → "슈퍼 전문가"로
+
+### L'Oréal 주요 혁신 (7개)
+
+| 제품 | 기술 | 출시 |
+|------|------|------|
+| **Light Straight + Multi-styler** | 근적외선 320°F (기존 400°F+) - 열 손상 감소 | 2027 글로벌 |
+| **LED Face Mask** | 1mm 플렉서블 실리콘, 레드/근적외선 | 2027 글로벌 |
+| **LED Eye Mask** | 눈가 전용 LED | 프로토타입 |
+| **AirLight Pro Dryer** | 적외선 드라이어 (L'Oréal Professionnel) | 출시 완료 |
+
+### 아모레퍼시픽 Skinsight™ (LA Times)
+- **센서 패치** + AI 실시간 분석
+- 라이프스타일/환경 영향 노화 신호 추적
+- **개인화 스킨케어 추천** 제공
+
+### Perfect Corp. AI (AI Journal)
+- AI 기반 뷰티 개인화
+- Skin Analysis API 통합
+- "복잡한 얼굴 데이터 → 명확한 액션"
+
+### Shorti.ai 패턴 제안
+- `#beauty-tech`, `#ai-skincare`
+- `#led-therapy`, `#smart-device`
+- `#personalized-skincare`
+
+---
+
 ## 💇 2026 헤어케어 트렌드 (Beauty Independent)
 
 ### 핵심 트렌드
