@@ -38,7 +38,8 @@
   - $15.82B (2025) → $20B+ (2026) → $30B+ (2028)
   - K-Beauty US $2B (+37% YoY)
   - Men's Beauty: $7.1B US, Gen Z 68% 스킨케어 사용
-- [x] **beauty_pattern_taxonomy.md** v1.1 - 2026 트렌드 태그 15개 추가
+- [x] **beauty_pattern_taxonomy.md** v1.4 - 2026 트렌드 태그 30개+ 추가
+  - K-Beauty, 디바이스, 시즌, 패키징, 감각, PerfumeTok, 성분, 헤어케어
 - [x] 클로드코드 개발자 메시지 전달 → 작업 완료 확인
 - [x] 스크립트 버그 수정 (deprecation warning)
 
