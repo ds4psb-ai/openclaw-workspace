@@ -9,7 +9,7 @@ import json
 import requests
 from datetime import datetime
 
-API_KEY = os.getenv("OPENCLAW_API_KEY", "ock_live_9REMohW7Bp4Ryqih36Hloj5zvQnHuJjckpHwze9XDks")
+API_KEY = os.getenv("OPENCLAW_API_KEY", "9101273f44ba1aceff8d593b2d183ab08ca272721b48bd58921def75f999b39e")
 BASE_URL = "https://api.shorti.ai"
 
 def fetch_outliers(limit=10):
