@@ -1,7 +1,7 @@
 # 🐱 소미 작업 요약 (SUMMARY)
 
-**마지막 업데이트:** 2026-02-05 00:30 KST  
-**상태:** Phase 1 개발 중 (개발자 담당), 메모리/문서 작업 완료
+**마지막 업데이트:** 2026-02-05 00:45 KST  
+**상태:** Phase 1 개발 중 (개발자 담당), 야간 작업 모드 🌙
 
 ---
 
@@ -19,6 +19,15 @@
 
 ### 리서치 (artifacts/research/)
 - [x] **KOMISSION_AUDIT_2026-02-04.md** - Shorti.ai 전수조사 결과
+
+### 2026-02-05 야간 작업 🌙
+- [x] Komission 스크립트 경로 수정 (curator.py, fetch_outliers.py)
+- [x] MEMORY.md 생성 (장기 기억 파일)
+- [x] HEARTBEAT.md 경로 수정
+- [x] 클라이언트 프로파일 웹 리서치 업데이트:
+  - 아모레퍼시픽: COSRX "gooey elasticity" 21억 뷰 (BBC 2026-01)
+  - 로레알: Super Brand Day $1M 매출, 466% 증가 (2024-09)
+- [x] heartbeat-state.json 생성 (체크 주기 관리)
 
 ---
 

@@ -1,12 +1,21 @@
 {
   "lastChecks": {
-    "git_sync": 1738685940,
+    "git_sync": 1738686000,
     "komission_curator": 1738685940,
+    "client_research": 1738686000,
+    "documentation_review": 1738686000,
     "email": null,
     "calendar": null,
     "weather": null,
-    "memory_review": null
+    "memory_review": 1738685940
   },
-  "lastUpdate": "2026-02-05T00:19:00+09:00",
-  "notes": "야간 작업 모드 - 테드 지시로 5-10분 간격 체크"
+  "lastUpdate": "2026-02-05T00:40:00+09:00",
+  "sessionNotes": "야간 작업 모드 - 5-10분 간격 루프 진행 중",
+  "commits": [
+    "a84cc86 - fix script paths, add MEMORY.md",
+    "17969f7 - update amorepacific profile",
+    "febc019 - update daily log with API status",
+    "8cca635 - update loreal profile",
+    "ff5b02e - fix HEARTBEAT.md path"
+  ]
 }
