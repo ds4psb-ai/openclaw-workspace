@@ -166,4 +166,36 @@ Oscar Orozco (Emarketer Senior Forecasting Director):
 
 ---
 
+## 🌿 2026 뷰티 산업 Top 10 트렌드 (Market-Xcel)
+
+### 시장 규모 예측
+| 트렌드 | 시장 규모 | 연도 |
+|--------|----------|------|
+| 글로벌 뷰티 산업 | $450B | 현재 |
+| 개인화 뷰티 | $48.65B | 2030 |
+| 더마코스메틱 | $146.4B | 2032 |
+| 자연/유기농 | $59B | 2031 |
+| 남성 뷰티 | $169B | 2034 |
+
+### Top 10 트렌드 요약
+
+1. **Personalized Cosmetics** - AI/데이터 기반 맞춤형 제품 (Prose 선두)
+2. **Dermocosmetics** - 피부과학 기반 제품 (CeraVe, Deconstruct)
+3. **Natural/Organic** - 65% 소비자 친환경 브랜드 선호
+4. **Diversity & Inclusion** - 72% 다양성 반영 브랜드 선호 (Fenty $600M)
+5. **Men's Beauty** - #mensskincare TikTok 급성장
+6. **Metaverse/Virtual** - AR 가상 체험, AI 쇼핑
+7. **Clean Beauty** - 지속가능 패키징, 리필 용기 (+25% 성장 예상)
+8. **Hybrid Routines** - 스킨케어+메이크업 융합
+9. **Blue Light Protection** - 디지털 기기 대응 스킨케어
+10. **Biotech Beauty** - 랩그로운 성분, 발효 뷰티
+
+### Shorti.ai 패턴 제안
+- `#personalized-beauty`, `#dermacosmetics`
+- `#clean-beauty`, `#sustainable-packaging`
+- `#diversity-beauty`, `#inclusive-beauty`
+- `#biotech-beauty`, `#blue-light-skincare`
+
+---
+
 *이 문서는 시장 데이터 업데이트 시 갱신됩니다.*
