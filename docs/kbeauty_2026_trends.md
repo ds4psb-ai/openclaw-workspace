@@ -191,6 +191,32 @@
 
 ---
 
+## 💊 2026 스킨케어 성분 트렌드 (Women's Health/Allure/Vogue)
+
+### Top 5 트렌드 (피부과 전문의 추천)
+
+| 트렌드 | 설명 | 타겟 |
+|--------|------|------|
+| **Lip Peptide Treatments** | 마트리킨 펩타이드로 콜라겐/엘라스틴 자극, 자극 없이 립 볼륨업 | 안티에이징 |
+| **Milky Toners** | 부드러운 수분 공급 토너 | 건조/민감 피부 |
+| **GLP-1 Skincare** | "Ozempic face" 대응 (급격한 체중감량 후 피부 처짐) | 다이어트 후 |
+| **Retinol Body Care** | 얼굴 넘어 바디까지 레티놀 확장 | 전신 안티에이징 |
+| **Neurocosmetics** | 피부-뇌 축 (skin-brain axis) 제품, 스트레스 대응 | 웰니스 |
+
+### 핫 성분 (Vogue/Allure)
+- **CoQ10** - 미토콘드리아 지원
+- **NAD+ Boosters** - 나이아신아마이드, NMN
+- **펩타이드 & 성장인자** - 더 스마트하고 타겟화된 포뮬라
+- **비타민 C & 레스베라트롤** - 항산화
+- **알파리포산** - 세포 에너지
+
+### Shorti.ai 패턴 제안
+- `#lip-peptide`, `#retinol-body`, `#neurocosmetics`
+- `#ozempic-face`, `#milky-toner`
+- `#peptide-skincare`, `#active-ingredients`
+
+---
+
 ## 📚 추가 참고 자료
 
 - [BoF - Top Trends Defining Beauty in 2026](https://www.businessoffashion.com/articles/beauty/the-top-trends-defining-beauty-in-2026/)
