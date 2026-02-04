@@ -237,4 +237,32 @@ Oscar Orozco (Emarketer Senior Forecasting Director):
 
 ---
 
+## 💎 럭셔리/프레스티지 뷰티 트렌드 (Formes de Luxe 2026)
+
+### 프레스티지 뷰티 성장률 (Circana 2023)
+| 카테고리 | 성장률 |
+|---------|--------|
+| Fragrance | +12% |
+| Makeup | +5% |
+| Skincare | +2% |
+| **전체** | +7% |
+
+### 2026 럭셔리 뷰티 7대 트렌드
+
+1. **Dupe Fragrance** - 저가 럭셔리 향수 복제품, 젊은 소비자 사이 급성장
+2. **Luxury Hand Creams** - "손은 새로운 얼굴" (Guerlain, Prada, Lancôme)
+3. **Haute Parfumerie** - 고농도, 귀중 원료, 예외적 패키징
+4. **Clean Beauty** - 68% 소비자가 클린 스킨케어 브랜드 추구 (NPD 2024)
+5. **Travel Sprays** - 휴대용, 리필 가능, 패션 악세서리화 (Chanel, Balmain)
+6. **Waterless Beauty** - 고체 샴푸바, 파우더 헤어케어, 태블릿 세럼
+7. **Preventative Health** - 대사 건강, 예방적 뷰티 (Mintel 2026 예측)
+
+### Shorti.ai 패턴 제안
+- `#luxury-beauty`, `#prestige-skincare`
+- `#fragrance-dupe`, `#haute-parfumerie`
+- `#waterless-beauty`, `#travel-spray`
+- `#clean-beauty` (기존)
+
+---
+
 *이 문서는 시장 데이터 업데이트 시 갱신됩니다.*
