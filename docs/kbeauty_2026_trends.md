@@ -225,4 +225,33 @@
 
 ---
 
+## 💇 2026 헤어케어 트렌드 (Beauty Independent)
+
+### 핵심 트렌드
+
+| 트렌드 | 설명 |
+|--------|------|
+| **Skinification of Hair** | 스킨케어 성분/루틴의 헤어케어 이동 |
+| **Scalp Care** | 두피 케어 서브카테고리 두 자릿수 성장 |
+| **Glass Hair** | 프리즈 프리, 거울 같은 마감 - 더 높은 성능 기대 |
+| **Fragrance Hair** | 향기가 소셜미디어 트렌드로 헤어케어에 적용 |
+| **Proof Over Promises** | Gen Z, 연구/제3자 테스트 기반 주장 요구 |
+
+### 바이럴 브랜드
+- **Karseell:** TikTok 77.2B 조회수, YoY 211.6M 성장
+- **Hair Botox:** 살롱 서비스 바이럴 (포름알데히드 프리 딥컨디셔닝)
+
+### 소비자 변화
+- 결과 중심 뷰티 (outcome-driven)
+- 빠른 마이크로 트렌드 피로감
+- 진정성, 교육, 의미있는 연결 추구
+- AI 기반 쇼핑 경험 (문제-솔루션 경로)
+
+### Shorti.ai 패턴 제안
+- `#glass-hair` (기존)
+- `#scalp-care`, `#hair-skinification`
+- `#hair-botox`, `#hair-fragrance`
+
+---
+
 *이 문서는 추가 리서치로 계속 업데이트됩니다.*
