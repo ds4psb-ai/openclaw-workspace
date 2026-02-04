@@ -4,7 +4,7 @@
 
 ### 1. Git 동기화
 ```bash
-cd /root/.openclaw/workspace && git pull
+cd /Users/ted/.openclaw/workspace && git pull
 ```
 
 ### 2. 메시지 확인
