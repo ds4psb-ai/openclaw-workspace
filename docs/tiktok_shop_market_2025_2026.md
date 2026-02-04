@@ -1,0 +1,124 @@
+# TikTok Shop 시장 분석 (2025-2026)
+
+**소스:** Emarketer, BeautyMatter, BoF, Cosmetics & Toiletries  
+**업데이트:** 2026-02-05  
+**담당:** 소미 🐱
+
+---
+
+## 📈 시장 규모
+
+### TikTok Shop 미국 매출
+| 연도 | 매출 | 성장률 |
+|------|------|--------|
+| 2024 | - | +407% |
+| 2025 | $15.82B | +108% |
+| 2026 | $20B+ (예측) | - |
+| 2028 | $30B+ (예측) | - |
+
+### 소셜 커머스 점유율
+| 연도 | TikTok Shop 점유율 |
+|------|-------------------|
+| 2025 | 18.2% |
+| 2027 | 24.1% (예측) |
+
+**참고:** 나머지 75%는 주로 Facebook Marketplace + Instagram
+
+---
+
+## 👥 유저 성장
+
+| 연도 | TikTok 구매자 수 | 성장률 |
+|------|-----------------|--------|
+| 2025 | 53.2M | +13.6% |
+| 2026 | 57.7M (예측) | +8.6% |
+
+**유저 특성:**
+- 젊은 연령층 중심
+- Discovery-driven (발견 기반 쇼핑)
+
+---
+
+## 🏆 Top 카테고리
+
+Emarketer 연구 기준:
+
+1. **Health & Wellness** (건강/웰니스)
+2. **Beauty** (뷰티) ⭐
+3. **Accessories** (액세서리)
+4. **Household Items** (생활용품)
+5. **Fashion** (패션)
+6. **Cosmetics** (화장품) ⭐
+
+### 뷰티 세부
+- **향수:** 2025년 가장 빠르게 성장하는 카테고리
+  - 언박싱 영상, "시그니처 향" 스토리 콘텐츠 인기
+
+---
+
+## 🔥 K-Beauty 성과
+
+### 미국 시장 (NIQ 2025년 10월 리포트)
+- **매출:** $2B (20억 달러)
+- **성장률:** +37% YoY
+- **핵심 채널:** TikTok Shop이 강력한 런치패드 역할
+
+---
+
+## 💡 바이럴 판매 성공 요인
+
+Oscar Orozco (Emarketer Senior Forecasting Director):
+
+> "TikTok Shop의 베스트셀러 아이템들은 **낮은 가격대**, **충동구매 어필**, **트렌디함**, 그리고 **강력한 크리에이터 증폭**을 결합한다."
+
+### 핵심 4요소
+1. **Low Price Point** - 저렴한 가격
+2. **Spur-of-the-moment Appeal** - 충동구매 유발
+3. **Trendiness** - 트렌디함
+4. **Creator Amplification** - 크리에이터 확산
+
+---
+
+## 📊 플랫폼 특성
+
+### 왜 TikTok Shop이 뜨는가?
+
+1. **Shoppertainment** - 쇼핑 + 엔터테인먼트 융합
+2. **Authenticity** - 진정성 있는 UGC
+3. **Relatability** - 공감대 형성
+4. **Discovery** - 알고리즘 기반 발견
+
+**BoF 데이터:** TikTok Shop 매출 2025년 YoY **+120%**
+
+---
+
+## 🎯 Shorti.ai/Komission 적용
+
+### 아웃라이어 분석 시 주목 포인트
+
+1. **가격대 체크** - 저가 제품이 바이럴 확률 높음
+2. **충동구매 요소** - 즉시 구매 CTA 있는지
+3. **크리에이터 파워** - 팔로워 수 + 참여율 조합
+4. **트렌드 연결** - 현재 유행 패턴과 연결 여부
+
+### 클라이언트 인사이트 예시
+
+> "이 영상은 TikTok Shop 성공 공식에 부합합니다:
+> - 가격대: $XX (충동구매 유발 범위)
+> - 크리에이터 증폭: @username (XXK 팔로워, X% 참여율)
+> - 트렌드: #[해시태그] 현재 상승 중
+> 
+> **권장:** TikTok Shop 연동 + 유사 크리에이터 콜라보"
+
+---
+
+## 📚 참고 자료
+
+- [BeautyMatter - TikTok Shop 20% Social Commerce](https://beautymatter.com/articles/tiktok-shop-comprises-nearly-20-of-social-commerce-in-2025)
+- [Emarketer - TikTok Shop Forecast](https://www.emarketer.com/press-releases/tiktok-shop-makes-up-nearly-20-of-social-commerce-in-2025/)
+- [Cosmetics & Toiletries - K-Beauty Conquered 2025](https://www.cosmeticsandtoiletries.com/research/consumers-market/news/22957413/how-kbeauty-conquered-2025-through-tiktok-shop-and-product-innovation)
+- [BoF - Beauty Discovery Commerce](https://www.businessoffashion.com/articles/beauty/new-beauty-rules-of-discovery-commerce-business-of-beauty-tiktok-shop-roundtable-event/)
+
+---
+
+*이 문서는 시장 데이터 업데이트 시 갱신됩니다.*
