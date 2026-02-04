@@ -92,6 +92,13 @@
 - 인플루언서 콜라보 + 라이브 = 핵심 전략
 - → **라이브 친화적 콘텐츠 패턴 체크**
 
+**📰 2024-09 Super Brand Day 성과 (Cosmetics Business)**
+- TikTok Shop UK 첫 Super Brand Day에서 **$1M+ 매출**
+- 1주일 만에 **466% 구매 증가**
+- **1,900명 크리에이터** 참여, **700만+ 조회수**
+- Kendall Jenner 등 브랜드 앰배서더 활용
+- → **"Super Brand Day" 포맷이 로레알 핵심 전략**
+
 **3. CeraVe 바이럴 지속**
 - 더마코스메틱 카테고리 #1
 - 피부과의사 추천 콘텐츠가 핵심
