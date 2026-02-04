@@ -32,11 +32,15 @@
   - Virlo: 46.8K 유저, #1 TikTok Trend Tool
   - Shortimize: TikTok Shop 어필리에이트 추적 전문
   - FastMoss: 2.6M+ 유저, TikTok Shop 분석 최대
-- [x] **kbeauty_2026_trends.md** 생성 - Trendier AI 7대 트렌드
+- [x] **kbeauty_2026_trends.md** 생성 - Trendier AI 7대 트렌드 + BoF 인사이트
+  - Glass Hair, At-home Medspa, Prestige beauty 성장률
 - [x] **tiktok_shop_market_2025_2026.md** 생성 - TikTok Shop 시장 분석
   - $15.82B (2025) → $20B+ (2026) → $30B+ (2028)
   - K-Beauty US $2B (+37% YoY)
+  - Men's Beauty: $7.1B US, Gen Z 68% 스킨케어 사용
+- [x] **beauty_pattern_taxonomy.md** v1.1 - 2026 트렌드 태그 15개 추가
 - [x] 클로드코드 개발자 메시지 전달 → 작업 완료 확인
+- [x] 스크립트 버그 수정 (deprecation warning)
 
 ---
 
