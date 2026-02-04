@@ -53,6 +53,21 @@ Emarketer 연구 기준:
 ### 뷰티 세부
 - **향수:** 2025년 가장 빠르게 성장하는 카테고리
   - 언박싱 영상, "시그니처 향" 스토리 콘텐츠 인기
+  - #PerfumeTok: 수백만 조회수 콘텐츠 급증
+
+### 🧴 2025 #PerfumeTok Top 10 트렌드
+| 트렌드 | 설명 |
+|--------|------|
+| **Gourmand Evolution** | 바닐라 넘어 피스타치오, 팝콘, 버터 같은 savory 노트 |
+| **Dupe Culture** | Dossier, Zara 등 럭셔리 향수 저가 클론 인기 |
+| **Scent Wardrobing** | 여러 향수 레이어링으로 개인화된 향 프로필 |
+| **AI Perfumes** | 기분/피부 화학에 반응하는 스마트 향수 |
+| **Solid Perfumes** | 휴대용 고체 향수, 헤어 미스트 |
+| **Fruit-Forward** | 체리, 망고, 자두 과즙 노트 |
+| **Maximalist Scents** | "Beast mode" 강한 지속력 향수 |
+| **Aesthetic Bottles** | 컬렉터블 데코 병 |
+| **Smellmaxxing** | Gen Z 남성 다중 향수 사용 |
+| **City-Inspired** | 도시/장소 영감 향수 |
 
 ---
 
