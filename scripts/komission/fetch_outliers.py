@@ -64,7 +64,8 @@ def main():
     report = generate_report(outliers)
     
     # 저장
-    report_path = "/root/.openclaw/workspace/artifacts/reports/outliers_latest.md"
+    workspace = os.environ.get("OPENCLAW_WORKSPACE", "/Users/ted/.openclaw/workspace")
+    report_path = f"{workspace}/artifacts/reports/outliers_latest.md"
     os.makedirs(os.path.dirname(report_path), exist_ok=True)
     with open(report_path, "w") as f:
         f.write(report)

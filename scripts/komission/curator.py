@@ -15,7 +15,7 @@ from pathlib import Path
 
 API_KEY = os.getenv("OPENCLAW_API_KEY", "9101273f44ba1aceff8d593b2d183ab08ca272721b48bd58921def75f999b39e")
 BASE_URL = "https://api.shorti.ai"
-WORKSPACE = Path("/root/.openclaw/workspace")
+WORKSPACE = Path(os.environ.get("OPENCLAW_WORKSPACE", "/Users/ted/.openclaw/workspace"))
 
 class KomissionCurator:
     def __init__(self):
