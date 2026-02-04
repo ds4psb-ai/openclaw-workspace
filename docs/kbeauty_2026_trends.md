@@ -145,4 +145,58 @@
 
 ---
 
+## 🌏 K-Beauty 글로벌 확장 (BoF 2026)
+
+### 카테고리 확장 순서
+1. **스킨케어** → 이미 글로벌 검증 완료
+2. **메이크업** → 현재 급성장 (Tirtir, Missha 등 Ulta 입점)
+3. **헤어케어** → 곧 도래 (Dr. Groot +1,148% YoY, Cosrx 헤어 라인 런칭)
+4. **네일** → 실험적 디자인, 젤리 피니시 인기
+5. **프래그런스** → L'Oréal의 Borntostandout 투자, Tamburins 글로벌 버즈
+
+### 새 트렌드: Glass Hair
+- "Glass Skin"의 헤어 버전
+- Spate: 검색/소셜에서 빠르게 성장 중
+- **Shorti.ai 패턴 제안:** `#glass-hair`, `#korean-hair`
+
+### At-Home Medspa 트렌드
+- Medicube, Lyma 같은 홈케어 디바이스 급성장
+- 인오피스 시술 효과를 집에서 재현
+- MZ Skin Microtox Eye Serum (보톡스 대체)
+- Medik8 (L'Oréal 인수)
+
+---
+
+## 📈 2025 Prestige Beauty 성장률 (Circana YTD Nov)
+
+| 카테고리 | 성장률 |
+|---------|--------|
+| Hair | +8% 🏆 |
+| Fragrance | +5% |
+| Makeup | +4% |
+| Skincare | +2% |
+
+**인사이트:** 헤어케어가 프레스티지 뷰티 선두. K-헤어케어 진입 타이밍 적절.
+
+---
+
+## 💡 마케팅 전략 변화 (BCG)
+
+> "소셜 미디어는 여전히 발견에 중요하지만, 지속 성장은 더 이상 인플루언서 바이럴만으로 이뤄지지 않는다. 가장 강한 브랜드들은 소셜 플랫폼을 **교육하고 검증하는** 데 사용하지, 단순히 트렌드를 쫓지 않는다."
+
+**핵심 변화:**
+- 바이럴 → 지속 가능한 고객 충성도
+- 트렌드 추격 → 교육 & 검증
+- 인플루언서 → 입소문(Word of Mouth) 중요성 증가
+
+---
+
+## 📚 추가 참고 자료
+
+- [BoF - Top Trends Defining Beauty in 2026](https://www.businessoffashion.com/articles/beauty/the-top-trends-defining-beauty-in-2026/)
+- Circana YTD November 2025 데이터
+- BCG Beauty Practice 인사이트
+
+---
+
 *이 문서는 추가 리서치로 계속 업데이트됩니다.*
