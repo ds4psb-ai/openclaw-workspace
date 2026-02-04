@@ -198,4 +198,43 @@ Oscar Orozco (Emarketer Senior Forecasting Director):
 
 ---
 
+## 👧 Gen Alpha / "Sephora Kids" 현상 (aytm + Glossy 2025)
+
+### 시장 규모
+- **$4.7B** (2023년) - 모든 세대 중 가장 많이 지출!
+- Gen Alpha = 2010-2024년생 (현재 6-17세)
+- "Sephora Kids"가 일시적 트렌드가 아닌 **의미있는 시장 점유율**로 성장
+
+### 소비자 특성
+| 지표 | 수치 |
+|------|------|
+| 메이크업 관심 | 62% |
+| 스킨케어 관심 | 66% (틴에이저 75%) |
+| 주요 플랫폼 | YouTube, TikTok |
+
+### 인기 제품
+**메이크업:**
+- Tweens: 립글로스, 아이섀도, 립스틱 (펀 제품)
+- Teens: 파운데이션, 컨실러, 브론저 (베이스 추가)
+
+**스킨케어:**
+- 페이스 클렌저/워시, 페이스 로션 (1위)
+- 세럼, 클레이 마스크, 페이셜 오일 (약 25% 사용)
+- 피플 패치, 필오프 마스크 (틴에이저 더 높음)
+
+### 주요 브랜드 동향
+- **Evereden:** $100M+ 매출, 베이비케어→트윈 스킨케어 확장, Sephora 입점
+- **Sincerely Yours:** Salish Matter(크리에이터) 브랜드, Sephora 2025-10 론칭
+
+### 주의사항
+- 어른용 성분 (레티놀, 비타민 C) → 어린 피부에 해로울 수 있음
+- 성인 뷰티 기준 노출에 대한 우려 존재
+
+### Shorti.ai 패턴 제안
+- `#sephora-kids`, `#gen-alpha-beauty`
+- `#tween-skincare`, `#teen-beauty`
+- `#age-appropriate-skincare`
+
+---
+
 *이 문서는 시장 데이터 업데이트 시 갱신됩니다.*
