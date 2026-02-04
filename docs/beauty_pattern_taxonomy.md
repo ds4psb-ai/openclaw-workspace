@@ -219,6 +219,15 @@ VDG 분석 후 자동 계산
 | `#after-feel` | 사용 후 촉감 강조 | Trendier AI "After Feel" 키워드 |
 | `#sensory-texture` | 감각적 텍스처 연출 | Sensory Textures 트렌드 |
 
+### #PerfumeTok 트렌드
+| 태그 | 정의 | 근거 |
+|------|------|------|
+| `#perfumetok` | 향수 TikTok 콘텐츠 | 향수 가장 빠르게 성장하는 카테고리 |
+| `#scent-wardrobing` | 향수 레이어링/조합 | 개인화 향 프로필 트렌드 |
+| `#perfume-dupe` | 럭셔리 향수 저가 클론 | Dupe Culture 급성장 |
+| `#smellmaxxing` | Gen Z 남성 다중 향수 | 남성 그루밍 트렌드 |
+| `#signature-scent` | 시그니처 향 콘텐츠 | 스토리텔링 중심 |
+
 ---
 
 ## 버전 히스토리
@@ -227,6 +236,7 @@ VDG 분석 후 자동 계산
 |------|------|----------|
 | 1.0 | 2026-02-05 | 초기 버전 작성 |
 | 1.1 | 2026-02-05 | 2026 트렌드 태그 섹션 추가 (G섹션) |
+| 1.2 | 2026-02-05 | #PerfumeTok 태그 섹션 추가 |
 
 ---
 
