@@ -7,7 +7,7 @@ T003 - Komission 아웃라이어 수집 스크립트
 import os
 import json
 import requests
-from datetime import datetime
+from datetime import datetime, timezone
 
 API_KEY = os.getenv("OPENCLAW_API_KEY", "9101273f44ba1aceff8d593b2d183ab08ca272721b48bd58921def75f999b39e")
 BASE_URL = "https://api.shorti.ai"
@@ -36,7 +36,7 @@ def fetch_for_you(limit=10):
 def generate_report(outliers):
     """리포트 생성"""
     report = f"""# 🔥 Komission 아웃라이어 리포트
-**생성:** {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}
+**생성:** {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}
 
 ## 📊 요약
 - 총 아웃라이어: {outliers.get('total', 0)}개
