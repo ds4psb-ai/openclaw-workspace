@@ -1,18 +1,19 @@
 {
   "lastChecks": {
-    "git_sync": 1738687200,
+    "git_sync": 1738688000,
     "komission_curator": 1738685940,
     "client_research": 1738687200,
     "competitive_research": 1738686600,
-    "market_research": 1738687200,
-    "documentation_review": 1738687200,
+    "market_research": 1738688000,
+    "perfumetok_research": 1738688000,
+    "documentation_review": 1738688000,
     "email": null,
     "calendar": null,
     "weather": null,
     "memory_review": 1738685940
   },
-  "lastUpdate": "2026-02-05T01:50:00+09:00",
-  "sessionNotes": "야간 작업 모드 - 시장 리서치 및 문서 작성 완료",
+  "lastUpdate": "2026-02-05T02:15:00+09:00",
+  "sessionNotes": "야간 작업 모드 - 시장 리서치 대량 완료",
   "newDocuments": [
     "docs/kbeauty_2026_trends.md",
     "docs/tiktok_shop_market_2025_2026.md"
@@ -23,8 +24,16 @@
   ],
   "updatedDocs": [
     "docs/competitive_analysis_beauty.md",
+    "docs/beauty_pattern_taxonomy.md (v1.2)",
     "docs/SUMMARY.md"
   ],
-  "totalCommits": 26,
+  "researchTopics": [
+    "K-Beauty 2026 trends (Trendier AI, BoF)",
+    "TikTok Shop market ($15.82B → $20B)",
+    "Men's Beauty ($7.1B US, Gen Z adoption)",
+    "#PerfumeTok trends (10 viral patterns)",
+    "Competitive analysis (Virlo, Shortimize, FastMoss)"
+  ],
+  "totalCommits": 41,
   "sessionStart": "2026-02-05T00:17:00+09:00"
 }
