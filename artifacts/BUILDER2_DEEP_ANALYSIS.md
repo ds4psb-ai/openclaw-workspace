@@ -407,5 +407,123 @@ Constraints: [Negative]
 
 ---
 
+## 🎬 Part 8: 실전 팁 (웹 리서치 기반)
+
+### Kling AI 프롬프트 팁
+
+**공식 프롬프트 구조:**
+```
+Subject + Subject Description + Subject Movement + Scene + Scene Description
++ [Camera Language] + [Lighting] + [Atmosphere]
+```
+
+**핵심 팁:**
+1. **단순함 유지**: 5-10초에 적합한 시각적 콘텐츠
+2. **숫자 피하기**: "5 trees"보다 "several trees" (AI가 숫자 일관성 어려움)
+3. **복잡한 물리 주의**: 공 튀기기, 던지기 궤적 → 실패 가능성 높음
+4. **다중 주체 주의**: 여러 캐릭터가 다른 행동 → AI가 같은 행동으로 통일시킴
+
+**카메라 움직임 (Kling):**
+| 타입 | 옵션 |
+|------|------|
+| Horizontal | Move left, Move right |
+| Vertical | Move up, Move down |
+| Zoom | In, Out |
+| Pan | Up, Down (주의: 전통적 의미와 다름!) |
+| Tilt | Left, Right |
+| Roll | Left, Right |
+| 특수 | 360 rotation (10초 필요) |
+
+**Image-to-Video 프롬프트:**
+- 구조: `Subject + Movement, Background + Movement`
+- 씬 설명 불필요 (이미지가 제공)
+- 주체와 움직임만 명시
+
+### 캐릭터 일관성 Best Practices
+
+**Anchor System 원리:**
+1. 고해상도 레퍼런스 이미지 → AI가 "identity anchor" 구축
+2. 모든 후속 생성에서 동일 아이덴티티 유지
+3. 장소/의상 변경해도 얼굴 특징 유지
+
+**Builder 2의 Anchor 워크플로우:**
+```
+1. ANCHOR_GIRL 먼저 생성 (MJ V7)
+2. ANCHOR_BOY 먼저 생성 (MJ V7)
+3. 이후 모든 씬에서 [ANCHOR_IMG URL] 포함
+4. Elements Feature로 일관성 강화
+```
+
+**일관성 실패 시 해결:**
+- 샷 길이 줄이기
+- Anchor 프레임 추가
+- 동일 identity embedding 재사용
+- Adapter weight 약간 증가
+
+### Veo 멀티샷 일관성
+
+**성공적인 멀티샷 시퀀스 3가지 특징:**
+1. 작고 규율 있는 레퍼런스 세트 + 프롬프트 간 반복 어휘
+2. 의도적 브릿지 샷 (전환점에서 모델의 자유도 감소)
+3. 단순 메트릭으로 측정된 반복 (샷 잠금 시점 결정)
+
+**권장 워크플로우:**
+- 레퍼런스로 아이덴티티와 팔레트 고정
+- 카메라 문법과 프레임 컨디셔닝으로 브릿지 안정화
+- 퍼포먼스와 미세 디테일은 내러티브 허용 범위 내에서 변형
+
+---
+
+## 🔄 Part 9: Builder 1 → Builder 2 연결 검증
+
+### 구분자 체크
+```bash
+# Builder 1 출력에서 확인할 것
+grep "<<<ANALYSIS_START>>>" builder1_output.md
+grep "<<<IMAGE_PROMPTS_START>>>" builder1_output.md
+```
+
+### 누락 시 수동 추가 템플릿
+```markdown
+<<<ANALYSIS_START>>>
+## 📊 영상 분석 요약
+[씬 테이블, 캐릭터 프로필, Visual Rhyme, 구도 분석]
+<<<ANALYSIS_END>>>
+
+<<<IMAGE_PROMPTS_START>>>
+## 🖼️ IMAGE PROMPTS
+[모든 씬 프롬프트]
+<<<IMAGE_PROMPTS_END>>>
+```
+
+### 씬 개수 확인
+```bash
+# 씬 개수 세기
+grep -c "### Scene" builder1_output.md
+grep -c "### 🎬 Scene" builder2_output.md
+```
+
+---
+
+## ✅ 최종 체크리스트 (수업 전)
+
+### 필수 (5분)
+- [ ] Builder 1 테스트 → 구분자 출력 확인
+- [ ] 구분자 없으면 수동 추가 방법 준비
+- [ ] Builder 2 STEP 1 → 재현성 테이블 확인
+
+### 권장 (추가 10분)
+- [ ] Builder 2 STEP 2 → MOTION 형식 확인
+- [ ] Veo 프롬프트 300자 이내 확인
+- [ ] "위와 유사한" 패턴 없음 확인
+
+### 수업 중 팁
+- A(8%) 옵션부터 시작
+- 복합 움직임 피하기 (회전+줌 동시 X)
+- 캐릭터 2명 이상이면 같은 행동 권장
+
+---
+
 *분석 완료: 2026-02-05 02:45 UTC*
+*최종 업데이트: 2026-02-05 03:00 UTC*
 *분석자: 소미 🐱*
