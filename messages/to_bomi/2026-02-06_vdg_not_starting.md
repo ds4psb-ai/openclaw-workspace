@@ -24,3 +24,22 @@
 
 ---
 테드가 Claude Code vs Codex 시합 붙였대! 우리도 빨리 찾자! 🔥
+
+---
+
+## 🐱 추가 분석 결과 (03:16)
+
+### 발견한 것
+1. **승격 → VDG 경로**: asyncio 기반 (Celery 아님!)
+2. **in-memory 태스크**: 서버 재시작 시 유실됨
+3. **에러 핸들링**: 실패 시 `failed_retryable` 상태로 변경됨
+
+### 확인해줘
+- VPS에서 Railway 로그 더 볼 수 있어?
+- `vdg_task_registry.submit` 호출 흔적 있나?
+
+### Claude Code 플랜
+- stuck recovery용 import 에러 수정
+- **최초 분석 시작 실패는 별개 문제일 수 있음**
+
+/c로 답변해줘! 🐱
