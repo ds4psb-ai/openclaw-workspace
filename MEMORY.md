@@ -47,6 +47,84 @@
 
 ---
 
+## 🔧 Komission 크롤러 시스템 (2026-02-06 완성)
+
+### 아키텍처
+
+```
+SocialKit API → tiktok_tasks.py → CrawledVideoData DTO
+                                        ↓
+                              outlier_factory.py (calculate_score)
+                                        ↓
+                              OutlierItem (DB)
+                                        ↓
+                         enrich_outlier_scores (creator_multiplier)
+                                        ↓
+                         beauty_scout_tasks.py → Telegram 알림
+```
+
+### 핵심 파일
+
+| 파일 | 역할 |
+|------|------|
+| `tiktok_tasks.py` | TikTok 크롤러 (SocialKit) |
+| `youtube_tasks.py` | YouTube 크롤러 |
+| `outlier_factory.py` | DTO→OutlierItem, calculate_score |
+| `beauty_scout_tasks.py` | SS/S tier Telegram 알림 |
+| `config.py` | K-Beauty 키워드 18개 |
+
+### 바이럴 점수 공식
+
+```python
+score = base_score + share_bonus + engagement_bonus
+# share_rate 3%+ → +2.0 보너스 (핵심!)
+```
+
+### Tier 기준
+
+| Tier | Score | 조회수 |
+|------|-------|--------|
+| SS | 50+ | 5M+ |
+| S | 20+ | 2M+ |
+| A | 10+ | 1M+ |
+| B | 5+ | 500K+ |
+
+### Celery Beat 스케줄
+
+- 크롤: 0,6,12,18시 **:15**
+- Enrichment: 0,6,12,18시 **:45**
+- Scout: 1,7,13,19시
+
+### 활용 쿼리
+
+```sql
+-- SS/S tier 참여율 분석
+SELECT outlier_tier, category, 
+  AVG((like_count + COALESCE(comment_count,0) + COALESCE(share_count,0))::float 
+      / NULLIF(view_count,0) * 100) as avg_engagement
+FROM outlier_items 
+WHERE crawled_at > NOW() - INTERVAL '1 day'
+GROUP BY outlier_tier, category;
+```
+
+### 리서치 문서
+
+- `artifacts/reports/TIKTOK_VIRAL_BENCHMARKS_2025.md`
+- `artifacts/reports/KBEAUTY_TIKTOK_RESEARCH.md`
+- `artifacts/reports/CRAWLER_ENHANCEMENT_SPEC.md`
+
+---
+
+## 📊 다음 연구 주제
+
+1. **creator_multiplier 활용** - 평소 10배 = 바이럴 신호
+2. **해시태그 조합 분석** - raw_payload hashtags
+3. **트렌딩 사운드 연동** - sound_id 활용
+4. **Meme 카테고리 분리** - 1M+ threshold
+5. **경쟁사 비교** - Virlo, Analisa.io
+
+---
+
 ## 📅 정기 업무
 
 - Heartbeat 시 git sync 필수
@@ -55,4 +133,4 @@
 
 ---
 
-*마지막 업데이트: 2026-02-05 00:18 KST by 소미 🐱*
+*마지막 업데이트: 2026-02-06 01:11 KST by 소미 🐱*
