@@ -765,11 +765,106 @@ motion.md = ohmage_motion_prompts.md (또는 variation_motion_prompts.md)
 
 1. **실제 테스트** - 빌더2 실행해서 다운로드 파일 확인
 2. **형식 일치** - 다운로드 파일이 IMAGE_PROMPTS.md, MOTION_PROMPTS.md 형식과 동일한지
-3. **MOTION 형식** - Beat System (빌더2) vs 단순 Positive/Negative (프로젝트 산출물)
+3. ~~**MOTION 형식** - Beat System (빌더2) vs 단순 Positive/Negative (프로젝트 산출물)~~
+   → ✅ **확인됨**: 빌더2 V4.0 Beat System이 최신/권장
+
+### ⚠️ ZIP 버전 불일치 발견!
+
+```
+builder2-temp/components/ResultView.tsx
+  - 수정: Feb 4 16:53 (12757 bytes) ← 최신
+
+builder2-hardened.zip
+  - 생성: Feb 4 05:06 (11356 bytes) ← 11시간 오래됨!
+```
+
+**→ 배포용 ZIP 업데이트 필요할 수 있음**
+
+### 빌더1 ZIP 버전 불일치도 발견!
+
+```
+builder1-temp/constants.ts
+  - 버전: V7.4 (FFmpeg 타임스탬프 기반)
+  - 수정: Feb 4 08:01 ← 최신
+
+builder1-v7.2-frame-verify.zip
+  - 버전: V7.2 (프레임 검증)
+  - 생성: Feb 4 06:28 ← 구버전
+
+builder1-hardened.zip
+  - 더 구버전
+```
+
+**→ 빌더1도 V7.4로 ZIP 재생성 필요**
+
+### V7.2 → V7.4 핵심 변경점
+
+| 항목 | V7.2 | V7.4 |
+|------|------|------|
+| 타임스탬프 | AI가 추측 | FFmpeg 제공값 그대로 사용 |
+| 씬 감지 | "컷 전환" 규칙 기반 | FFmpeg 자동 감지 신뢰 |
+| STEP 1.5 | 프레임 검증 단계 있음 | 제거 (FFmpeg가 대체) |
+| 안정성 | AI 추측 오류 가능 | FFmpeg 정밀도 보장 |
+
+**결론**: V7.4가 더 안정적 (FFmpeg 의존 → 추측 제거)
 
 ---
 
-*연구 완료: 2026-02-05 02:10 KST*
-*총 연구 시간: ~50분*
-*탐색 파일 수: 35+ 개*
-*핵심 결론: 빌더2 설계 양호, 다운로드 기능 존재*
+---
+
+## 🔧 시스템 프롬프트 완성도 분석
+
+### 빌더2 V4.0 시스템 프롬프트 구조 (411줄)
+
+```
+1. YOUR ROLE - 역할 정의
+2. 4-STEP WORKFLOW - 단계별 가이드
+   - STEP 1: 검증 + 바이럴 로직
+   - STEP 2: 캐릭터 + MOTION
+   - STEP 3: 변주 옵션
+   - STEP 4: 최종 출력
+3. RULES - 5가지 핵심 규칙
+4. QUALITY GUARD - 게으른 출력 방지
+5. ANTI-LAZY GUARD - 생략 절대 금지
+6. PROMPT PATTERNS - Kling 3.0, Veo 3.1
+```
+
+### 완성도 평가: ⭐⭐⭐⭐⭐ (5/5)
+
+✅ **잘 된 부분:**
+- 역할 정의 명확
+- 단계별 가이드 상세
+- 구분자(<<<>>>)로 파싱 용이
+- ANTI-LAZY GUARD 강력
+- Audio 가이드 포함 (Dialogue, SFX, Ambient)
+- 프롬프트 패턴 (Beat System, Full Slot) 정의
+
+✅ **특별히 좋은 부분:**
+- "Builder 1 IMAGE ≠ 오마쥬 IMAGE" 명시
+- 자가 검증 체크리스트
+- 올바른 출력 예시 제공
+- 200줄 이상 필수 출력 요구
+
+⚠️ **개선 가능:**
+- 변주 비율 (8%, 15%, 18%)의 구체적 기준 추가 가능
+- 캐릭터 일관성 유지 팁 추가 가능 (ANCHOR 참조 강화)
+
+---
+
+## 📊 최종 연구 요약
+
+| 항목 | 상태 | 비고 |
+|------|------|------|
+| 빌더2 설계 | ✅ 양호 | V4.0, 4-STEP |
+| 다운로드 기능 | ✅ 있음 | 4개 파일 분리 |
+| 시스템 프롬프트 | ✅ 완성도 높음 | 411줄, 상세 |
+| 빌더1 최신 | ✅ V7.4 | FFmpeg 기반 |
+| 빌더1 → 빌더2 인터페이스 | ✅ 명확 | <<<>>> 파싱 |
+| ZIP 버전 | ⚠️ 불일치 | 업데이트 필요 |
+
+---
+
+*연구 완료: 2026-02-05 02:20 KST*
+*총 연구 시간: ~1시간*
+*탐색 파일 수: 40+ 개*
+*핵심 결론: 빌더2 설계 양호, ZIP 업데이트만 필요*
