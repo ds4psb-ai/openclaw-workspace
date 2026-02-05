@@ -3,6 +3,7 @@
 ## TL;DR (진짜 급할 때)
 - **챕터/타임스탬프는 `__:__`만** (영상 재생 시간, 00:00 기준)
 - **운영 이벤트/업데이트 로그는 `KST HH:MM`만** (시계, 접두어 `KST` 꼭)
+- (기준 꼬임 방지) **새로고침/리플레이 모드 전환 등으로 기준이 리셋되면** `KST HH:MM 기준 리셋(새로고침/모드전환)` 1줄만 찍고 계속
 - **유튜브에 챕터 붙일 때는 `00:00 ...` 라인만 연속으로**
   - 앞 공백/탭 금지, **불릿(-/•) 금지**
   - 빈 줄/구분선/설명 문장/`KST ...` 로그 없이, **`00:00` 포함 최소 3줄 권장**
@@ -16,7 +17,7 @@
   - (추가 팁) 고정댓글이 안 보이면 **댓글 정렬이 ‘인기순/Top comments’인지** 1초만 확인(고정댓글은 보통 목록 최상단)
 
 ## 빠른 검색 키워드(⌘F)
-- `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
+- `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by` 
   - (YouTube 표기 변형) `Pinned by owner` / `Pinned by creator`
 - `스트림 헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
 - `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `Subscribers-only mode` / `멤버 전용` / `Members only` / `Live chat` / `Chat settings` / `Moderation`
