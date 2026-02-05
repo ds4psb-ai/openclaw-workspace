@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Studio Builder Helper</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #fff;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+        
+        .subtitle {
+            text-align: center;
+            color: #888;
+            margin-bottom: 30px;
+        }
+        
+        .input-section {
+            background: #0f0f23;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .input-section h2 {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+        
+        textarea {
+            width: 100%;
+            height: 200px;
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 8px;
+            color: #fff;
+            padding: 15px;
+            font-family: monospace;
+            font-size: 14px;
+            resize: vertical;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border: none;
+            padding: 12px 30px;
+            border-radius: 8px;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+            transition: transform 0.2s;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+        
+        .workflow-guide {
+            background: #0f3460;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .workflow-guide h2 {
+            color: #ffd700;
+            margin-bottom: 15px;
+        }
+        
+        .workflow-step {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #1a4a80;
+        }
+        
+        .workflow-step:last-child {
+            border-bottom: none;
+        }
+        
+        .step-number {
+            background: #667eea;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 15px;
+            flex-shrink: 0;
+        }
+        
+        .scenes-container {
+            display: grid;
+            gap: 20px;
+        }
+        
+        .scene-card {
+            background: #0f0f23;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        
+        .scene-header {
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .scene-title {
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+        
+        .anchor-badge {
+            background: #ffd700;
+            color: #000;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .scene-content {
+            padding: 20px;
+        }
+        
+        .prompt-section {
+            margin-bottom: 20px;
+        }
+        
+        .prompt-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .prompt-label {
+            color: #888;
+            font-size: 12px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+        
+        .prompt-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .prompt-tab {
+            padding: 8px 16px;
+            background: #1a1a2e;
+            border: 1px solid #333;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+        }
+        
+        .prompt-tab:hover, .prompt-tab.active {
+            background: #667eea;
+            border-color: #667eea;
+        }
+        
+        .prompt-box {
+            position: relative;
+            background: #1a1a2e;
+            border-radius: 8px;
+            padding: 15px;
+            font-family: monospace;
+            font-size: 13px;
+            line-height: 1.5;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+        
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            color: #fff;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        
+        .copy-btn:hover {
+            background: #764ba2;
+        }
+        
+        .copy-btn.copied {
+            background: #27ae60;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .mode-toggle {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .mode-btn {
+            padding: 10px 25px;
+            background: #1a1a2e;
+            border: 2px solid #333;
+            border-radius: 8px;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .mode-btn.active {
+            background: #667eea;
+            border-color: #667eea;
+        }
+        
+        .image-section { border-left: 3px solid #e74c3c; }
+        .motion-section { border-left: 3px solid #3498db; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎬 AI Studio Builder Helper</h1>
+        <p class="subtitle">빌더 2 결과물을 붙여넣으면 작업 순서대로 정리해드립니다</p>
+        
+        <div class="input-section">
+            <h2>📋 Step 1: MD 파일 붙여넣기</h2>
+            <textarea id="mdInput" placeholder="빌더 2 결과물 (IMAGE.md 또는 MOTION.md)을 여기에 붙여넣으세요..."></textarea>
+            <button class="btn" onclick="parseMarkdown()">🔍 분석하기</button>
+        </div>
+        
+        <div id="results" class="hidden">
+            <div class="workflow-guide">
+                <h2>📍 작업 순서 가이드</h2>
+                <div class="workflow-step">
+                    <div class="step-number">0</div>
+                    <div>
+                        <strong>앵커 이미지 먼저 생성!</strong><br>
+                        <span style="color:#888">Scene 02 (남자)와 Scene 05 (여자)에서 ⭐ANCHOR 표시된 씬의 이미지를 먼저 생성하세요. 이 이미지를 --cref로 다른 씬에서 참조합니다.</span>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">1</div>
+                    <div>
+                        <strong>씬 순서대로 이미지 생성</strong><br>
+                        <span style="color:#888">Scene 01 → 08까지 순서대로 IMAGE 프롬프트로 이미지를 생성하세요.</span>
+                    </div>
+                </div>
+                <div class="workflow-step">
+                    <div class="step-number">2</div>
+                    <div>
+                        <strong>모션 영상 생성</strong><br>
+                        <span style="color:#888">생성된 이미지를 참조하여 MOTION 프롬프트로 영상을 생성하세요.</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mode-toggle">
+                <button class="mode-btn active" onclick="setMode('ohmage')">🎭 오마쥬 (원본)</button>
+                <button class="mode-btn" onclick="setMode('variation')">🎨 변주 (K-Drama)</button>
+            </div>
+            
+            <div id="scenesContainer" class="scenes-container">
+                <!-- 씬 카드들이 여기에 동적으로 생성됩니다 -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 샘플 데이터 (실제로는 MD 파싱으로 채워짐)
+        const sampleScenes = [
+            {
+                id: 1,
+                title: "Scene 01: 남자의 등장",
+                timecode: "00:00.00~00:01.67",
+                anchor: null,
+                image: {
+                    nanoBanana: "90년대 빈티지 필름 스타일, 화창한 오후의 교외 주택가...",
+                    midjourney: "1990s vintage film aesthetic, sunny afternoon in suburban neighborhood, wide shot..."
+                },
+                motion: {
+                    kling: "Beat 0-2s: Wide shot, static camera looking out from a porch...",
+                    veo: "Subject: Young blond man in denim jacket holding red roses..."
+                }
+            },
+            {
+                id: 2,
+                title: "Scene 02: 기다림",
+                timecode: "00:01.67~00:04.56",
+                anchor: "MALE",
+                image: {
+                    nanoBanana: "90년대 로맨스 영화 스틸컷, 현관 포치에 서 있는 남자의 미디엄 샷...",
+                    midjourney: "1990s romance movie still, medium shot of a man standing on a front porch..."
+                },
+                motion: {
+                    kling: "Beat 0-3s: Medium shot, slight handheld movement...",
+                    veo: "Subject: Man in denim jacket holding roses, standing on porch..."
+                }
+            }
+            // ... 더 많은 씬
+        ];
+        
+        let currentMode = 'ohmage';
+        let parsedData = null;
+        
+        function parseMarkdown() {
+            const input = document.getElementById('mdInput').value;
+            
+            // 간단한 파싱 로직 (실제로는 더 정교하게)
+            const scenes = [];
+            const sceneRegex = /### 🎬 Scene (\d+): (.+?) \((\d+:\d+\.\d+~\d+:\d+\.\d+)\)/g;
+            const promptRegex = /\[📋 COPY\] (NanoBanana Pro|Midjourney V7|Kling 3\.0|Veo 3\.1):\s*```(?:text)?\s*([\s\S]*?)```/g;
+            
+            let match;
+            let currentScene = null;
+            
+            // 씬 헤더 찾기
+            const lines = input.split('\n');
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                const sceneMatch = line.match(/### 🎬 Scene (\d+): (.+?) \((\d+:\d+\.\d+~\d+:\d+\.\d+)\)/);
+                
+                if (sceneMatch) {
+                    if (currentScene) {
+                        scenes.push(currentScene);
+                    }
+                    currentScene = {
+                        id: parseInt(sceneMatch[1]),
+                        title: `Scene ${sceneMatch[1]}: ${sceneMatch[2]}`,
+                        timecode: sceneMatch[3],
+                        anchor: line.includes('⭐ ANCHOR') ? (line.includes('Man') ? 'MALE' : 'FEMALE') : null,
+                        image: {},
+                        motion: {}
+                    };
+                }
+                
+                // 프롬프트 찾기
+                if (currentScene && line.includes('[📋 COPY]')) {
+                    const toolMatch = line.match(/\[📋 COPY\] (NanoBanana Pro|Midjourney V7|Kling 3\.0|Veo 3\.1)/);
+                    if (toolMatch) {
+                        // 다음 ``` 블록 찾기
+                        let j = i + 1;
+                        while (j < lines.length && !lines[j].includes('```')) j++;
+                        j++; // ``` 다음 줄
+                        let promptLines = [];
+                        while (j < lines.length && !lines[j].includes('```')) {
+                            promptLines.push(lines[j]);
+                            j++;
+                        }
+                        const prompt = promptLines.join('\n').trim();
+                        
+                        const tool = toolMatch[1];
+                        if (tool === 'NanoBanana Pro') currentScene.image.nanoBanana = prompt;
+                        else if (tool === 'Midjourney V7') currentScene.image.midjourney = prompt;
+                        else if (tool === 'Kling 3.0') currentScene.motion.kling = prompt;
+                        else if (tool === 'Veo 3.1') currentScene.motion.veo = prompt;
+                    }
+                }
+            }
+            if (currentScene) scenes.push(currentScene);
+            
+            if (scenes.length > 0) {
+                parsedData = scenes;
+                renderScenes(scenes);
+                document.getElementById('results').classList.remove('hidden');
+            } else {
+                alert('파싱할 수 있는 씬을 찾지 못했습니다. MD 형식을 확인해주세요.');
+            }
+        }
+        
+        function renderScenes(scenes) {
+            const container = document.getElementById('scenesContainer');
+            container.innerHTML = '';
+            
+            scenes.forEach(scene => {
+                const card = document.createElement('div');
+                card.className = 'scene-card';
+                card.innerHTML = `
+                    <div class="scene-header">
+                        <span class="scene-title">🎬 ${scene.title}</span>
+                        ${scene.anchor ? `<span class="anchor-badge">⭐ ${scene.anchor} ANCHOR</span>` : ''}
+                    </div>
+                    <div class="scene-content">
+                        ${scene.image.nanoBanana || scene.image.midjourney ? `
+                        <div class="prompt-section image-section">
+                            <div class="prompt-label">🖼️ IMAGE 프롬프트</div>
+                            <div class="prompt-tabs">
+                                ${scene.image.nanoBanana ? `<div class="prompt-tab active" onclick="showPrompt(this, 'img-${scene.id}', 'nanoBanana')">NanoBanana</div>` : ''}
+                                ${scene.image.midjourney ? `<div class="prompt-tab" onclick="showPrompt(this, 'img-${scene.id}', 'midjourney')">Midjourney</div>` : ''}
+                            </div>
+                            <div class="prompt-box" id="img-${scene.id}">
+                                <button class="copy-btn" onclick="copyPrompt(this)">📋 복사</button>
+                                <span class="prompt-text">${scene.image.nanoBanana || scene.image.midjourney || ''}</span>
+                            </div>
+                            <div class="prompt-data hidden" data-nanoBanana="${escapeHtml(scene.image.nanoBanana || '')}" data-midjourney="${escapeHtml(scene.image.midjourney || '')}"></div>
+                        </div>
+                        ` : ''}
+                        
+                        ${scene.motion.kling || scene.motion.veo ? `
+                        <div class="prompt-section motion-section">
+                            <div class="prompt-label">🎥 MOTION 프롬프트</div>
+                            <div class="prompt-tabs">
+                                ${scene.motion.kling ? `<div class="prompt-tab active" onclick="showPrompt(this, 'mot-${scene.id}', 'kling')">Kling</div>` : ''}
+                                ${scene.motion.veo ? `<div class="prompt-tab" onclick="showPrompt(this, 'mot-${scene.id}', 'veo')">Veo</div>` : ''}
+                            </div>
+                            <div class="prompt-box" id="mot-${scene.id}">
+                                <button class="copy-btn" onclick="copyPrompt(this)">📋 복사</button>
+                                <span class="prompt-text">${scene.motion.kling || scene.motion.veo || ''}</span>
+                            </div>
+                            <div class="prompt-data hidden" data-kling="${escapeHtml(scene.motion.kling || '')}" data-veo="${escapeHtml(scene.motion.veo || '')}"></div>
+                        </div>
+                        ` : ''}
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+        
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+        
+        function showPrompt(tab, boxId, type) {
+            // 탭 활성화
+            const tabs = tab.parentElement.querySelectorAll('.prompt-tab');
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            
+            // 프롬프트 내용 변경
+            const box = document.getElementById(boxId);
+            const dataEl = box.nextElementSibling;
+            const prompt = dataEl.getAttribute('data-' + type);
+            box.querySelector('.prompt-text').textContent = prompt;
+        }
+        
+        function copyPrompt(btn) {
+            const text = btn.parentElement.querySelector('.prompt-text').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                btn.textContent = '✅ 복사됨!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = '📋 복사';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+        
+        function setMode(mode) {
+            currentMode = mode;
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.includes(mode === 'ohmage' ? '오마쥬' : '변주'));
+            });
+            // 실제로는 여기서 다른 데이터셋 로드
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1199 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Studio Builder Helper - Prompty Academy</title>
+    <style>
+        :root {
+            --bg-primary: #0f0f1a;
+            --bg-secondary: #1a1a2e;
+            --bg-card: #16213e;
+            --text-primary: #ffffff;
+            --text-secondary: #a0a0a0;
+            --accent-purple: #667eea;
+            --accent-pink: #764ba2;
+            --accent-green: #27ae60;
+            --accent-red: #e74c3c;
+            --accent-blue: #3498db;
+            --accent-yellow: #f1c40f;
+            --border-color: #2a2a4a;
+        }
+        
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Header */
+        .header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, var(--bg-secondary) 0%, var(--bg-card) 100%);
+            border-radius: 16px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            color: var(--text-secondary);
+            font-size: 1.1em;
+        }
+        
+        /* Input Section */
+        .input-section {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .input-section h2 {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .file-tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .file-tab {
+            padding: 12px 24px;
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 14px;
+        }
+        
+        .file-tab:hover {
+            border-color: var(--accent-purple);
+        }
+        
+        .file-tab.active {
+            background: var(--accent-purple);
+            border-color: var(--accent-purple);
+        }
+        
+        .file-tab.loaded {
+            border-color: var(--accent-green);
+        }
+        
+        .file-tab.loaded::after {
+            content: ' ✓';
+            color: var(--accent-green);
+        }
+        
+        textarea {
+            width: 100%;
+            height: 200px;
+            background: var(--bg-card);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            padding: 20px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            resize: vertical;
+            transition: border-color 0.3s;
+        }
+        
+        textarea:focus {
+            outline: none;
+            border-color: var(--accent-purple);
+        }
+        
+        textarea::placeholder {
+            color: var(--text-secondary);
+        }
+        
+        .btn-row {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .btn {
+            padding: 14px 32px;
+            border-radius: 10px;
+            border: none;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 2px solid var(--border-color);
+        }
+        
+        .btn-secondary:hover {
+            border-color: var(--accent-purple);
+        }
+        
+        /* Workflow Guide */
+        .workflow-guide {
+            background: linear-gradient(135deg, #1e3a5f 0%, #16213e 100%);
+            border-radius: 16px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid #2a4a6a;
+        }
+        
+        .workflow-guide h2 {
+            color: var(--accent-yellow);
+            margin-bottom: 25px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .workflow-steps {
+            display: grid;
+            gap: 15px;
+        }
+        
+        .workflow-step {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+            border-radius: 12px;
+            transition: transform 0.2s;
+        }
+        
+        .workflow-step:hover {
+            transform: translateX(5px);
+        }
+        
+        .step-number {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2em;
+            flex-shrink: 0;
+        }
+        
+        .step-number.anchor {
+            background: linear-gradient(135deg, var(--accent-yellow), #e67e22);
+            color: #000;
+        }
+        
+        .step-content h3 {
+            margin-bottom: 5px;
+        }
+        
+        .step-content p {
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        /* Mode Toggle */
+        .mode-section {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .mode-btn {
+            padding: 16px 40px;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            color: var(--text-primary);
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .mode-btn:hover {
+            border-color: var(--accent-purple);
+        }
+        
+        .mode-btn.active {
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+            border-color: transparent;
+        }
+        
+        /* Scene Navigation */
+        .scene-nav {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .scene-nav-btn {
+            width: 48px;
+            height: 48px;
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 10px;
+            color: var(--text-primary);
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.2s;
+            position: relative;
+        }
+        
+        .scene-nav-btn:hover {
+            border-color: var(--accent-purple);
+            transform: translateY(-2px);
+        }
+        
+        .scene-nav-btn.active {
+            background: var(--accent-purple);
+            border-color: var(--accent-purple);
+        }
+        
+        .scene-nav-btn.anchor::before {
+            content: '⭐';
+            position: absolute;
+            top: -8px;
+            right: -8px;
+            font-size: 14px;
+        }
+        
+        .scene-nav-btn.completed {
+            background: var(--accent-green);
+            border-color: var(--accent-green);
+        }
+        
+        /* Scene Card */
+        .scene-card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .scene-header {
+            background: linear-gradient(135deg, #2d2d44 0%, #1a1a2e 100%);
+            padding: 20px 25px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .scene-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .scene-meta {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+        
+        .timecode {
+            background: var(--bg-card);
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-family: monospace;
+            font-size: 13px;
+        }
+        
+        .anchor-badge {
+            background: linear-gradient(135deg, var(--accent-yellow), #e67e22);
+            color: #000;
+            padding: 6px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .scene-content {
+            padding: 25px;
+        }
+        
+        /* Prompt Section */
+        .prompt-section {
+            margin-bottom: 25px;
+            padding-left: 15px;
+        }
+        
+        .prompt-section:last-child {
+            margin-bottom: 0;
+        }
+        
+        .prompt-section.image {
+            border-left: 4px solid var(--accent-red);
+        }
+        
+        .prompt-section.motion {
+            border-left: 4px solid var(--accent-blue);
+        }
+        
+        .prompt-label {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .prompt-label h3 {
+            font-size: 1.1em;
+        }
+        
+        .prompt-label span {
+            font-size: 12px;
+            color: var(--text-secondary);
+            background: var(--bg-card);
+            padding: 4px 10px;
+            border-radius: 4px;
+        }
+        
+        .prompt-tabs {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .prompt-tab {
+            padding: 10px 20px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 13px;
+            transition: all 0.2s;
+            color: var(--text-primary);
+        }
+        
+        .prompt-tab:hover {
+            border-color: var(--accent-purple);
+        }
+        
+        .prompt-tab.active {
+            background: var(--accent-purple);
+            border-color: var(--accent-purple);
+        }
+        
+        .prompt-box {
+            position: relative;
+            background: var(--bg-card);
+            border-radius: 12px;
+            padding: 20px;
+            padding-right: 100px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 13px;
+            line-height: 1.7;
+            white-space: pre-wrap;
+            word-break: break-word;
+            border: 1px solid var(--border-color);
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .copy-btn {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: var(--accent-purple);
+            border: none;
+            padding: 10px 18px;
+            border-radius: 8px;
+            color: white;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .copy-btn:hover {
+            background: var(--accent-pink);
+            transform: translateY(-2px);
+        }
+        
+        .copy-btn.copied {
+            background: var(--accent-green);
+        }
+        
+        /* Checklist */
+        .checklist {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            padding: 30px;
+            margin-top: 30px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .checklist h2 {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .checklist-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 12px;
+        }
+        
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 12px 16px;
+            background: var(--bg-card);
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        
+        .checklist-item:hover {
+            background: #1e2a4a;
+        }
+        
+        .checklist-item.completed {
+            background: rgba(39, 174, 96, 0.2);
+        }
+        
+        .checklist-item input[type="checkbox"] {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+        
+        .checklist-item label {
+            cursor: pointer;
+            flex: 1;
+        }
+        
+        .checklist-item.anchor label::before {
+            content: '⭐ ';
+        }
+        
+        /* Progress Bar */
+        .progress-section {
+            margin-bottom: 30px;
+        }
+        
+        .progress-bar {
+            height: 12px;
+            background: var(--bg-card);
+            border-radius: 6px;
+            overflow: hidden;
+            margin-top: 10px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, var(--accent-purple), var(--accent-pink));
+            border-radius: 6px;
+            transition: width 0.5s ease;
+        }
+        
+        .progress-text {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 8px;
+            font-size: 14px;
+            color: var(--text-secondary);
+        }
+        
+        /* Hidden */
+        .hidden {
+            display: none !important;
+        }
+        
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-secondary);
+        }
+        
+        .empty-state .icon {
+            font-size: 4em;
+            margin-bottom: 20px;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: var(--text-secondary);
+            font-size: 14px;
+        }
+        
+        .footer a {
+            color: var(--accent-purple);
+            text-decoration: none;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .scene-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .prompt-box {
+                padding-right: 20px;
+                padding-bottom: 60px;
+            }
+            
+            .copy-btn {
+                top: auto;
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎬 AI Studio Builder Helper</h1>
+            <p>빌더 결과물을 붙여넣으면 작업 순서대로 정리해드립니다</p>
+        </div>
+        
+        <div class="input-section">
+            <h2>📋 MD 파일 붙여넣기</h2>
+            
+            <div class="file-tabs">
+                <button class="file-tab active" data-file="ohmage-image">오마쥬 IMAGE</button>
+                <button class="file-tab" data-file="ohmage-motion">오마쥬 MOTION</button>
+                <button class="file-tab" data-file="variation-image">변주 IMAGE</button>
+                <button class="file-tab" data-file="variation-motion">변주 MOTION</button>
+            </div>
+            
+            <textarea id="mdInput" placeholder="빌더 결과물 MD 파일 내용을 여기에 붙여넣으세요...
+
+예시:
+### 🎬 Scene 01: 남자의 등장 (00:00.00~00:01.67)
+[📋 COPY] NanoBanana Pro:
+```
+90년대 빈티지 필름 스타일...
+```"></textarea>
+            
+            <div class="btn-row">
+                <button class="btn btn-primary" onclick="parseAndLoad()">
+                    <span>🔍</span> 분석하기
+                </button>
+                <button class="btn btn-secondary" onclick="loadSampleData()">
+                    <span>📄</span> 샘플 데이터 로드
+                </button>
+                <button class="btn btn-secondary" onclick="clearAll()">
+                    <span>🗑️</span> 초기화
+                </button>
+            </div>
+        </div>
+        
+        <div id="resultsSection" class="hidden">
+            <div class="workflow-guide">
+                <h2>📍 작업 순서 가이드</h2>
+                <div class="workflow-steps">
+                    <div class="workflow-step">
+                        <div class="step-number anchor">0</div>
+                        <div class="step-content">
+                            <h3>앵커 이미지 먼저 생성!</h3>
+                            <p>Scene 02 (남자)와 Scene 05 (여자)의 이미지를 먼저 생성하세요. 이 이미지 URL을 다른 씬의 --cref 파라미터에 넣습니다.</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>씬 순서대로 이미지 생성</h3>
+                            <p>Scene 01 → 08까지 IMAGE 프롬프트로 이미지를 생성하세요. 앵커 씬은 이미 완료!</p>
+                        </div>
+                    </div>
+                    <div class="workflow-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>모션 영상 생성</h3>
+                            <p>생성된 이미지를 Kling/Veo에 업로드하고 MOTION 프롬프트를 입력하세요.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="progress-section">
+                <h3>📊 진행 상황</h3>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+                </div>
+                <div class="progress-text">
+                    <span id="progressCount">0 / 0 완료</span>
+                    <span id="progressPercent">0%</span>
+                </div>
+            </div>
+            
+            <div class="mode-section">
+                <button class="mode-btn active" onclick="setMode('ohmage')">🎭 오마쥬 (원본)</button>
+                <button class="mode-btn" onclick="setMode('variation')">🎨 변주</button>
+            </div>
+            
+            <div class="scene-nav" id="sceneNav">
+                <!-- 동적 생성 -->
+            </div>
+            
+            <div id="scenesContainer">
+                <!-- 씬 카드 동적 생성 -->
+            </div>
+            
+            <div class="checklist">
+                <h2>✅ 작업 체크리스트</h2>
+                <div class="checklist-grid" id="checklistGrid">
+                    <!-- 동적 생성 -->
+                </div>
+            </div>
+        </div>
+        
+        <div id="emptyState" class="empty-state">
+            <div class="icon">📋</div>
+            <h3>MD 파일을 붙여넣어주세요</h3>
+            <p>빌더 결과물을 위 텍스트 영역에 붙여넣고 "분석하기"를 클릭하세요.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Prompty Academy | <a href="https://www.prompty.co.kr/academy">www.prompty.co.kr/academy</a></p>
+        </div>
+    </div>
+
+    <script>
+        // 상태 관리
+        let state = {
+            mode: 'ohmage',
+            currentScene: 1,
+            files: {
+                'ohmage-image': null,
+                'ohmage-motion': null,
+                'variation-image': null,
+                'variation-motion': null
+            },
+            scenes: {
+                ohmage: [],
+                variation: []
+            },
+            checklist: {},
+            activeFileTab: 'ohmage-image'
+        };
+        
+        // localStorage에서 상태 복원
+        function loadState() {
+            const saved = localStorage.getItem('builderHelperState');
+            if (saved) {
+                try {
+                    const parsed = JSON.parse(saved);
+                    state.checklist = parsed.checklist || {};
+                    updateProgress();
+                } catch (e) {}
+            }
+        }
+        
+        // localStorage에 상태 저장
+        function saveState() {
+            localStorage.setItem('builderHelperState', JSON.stringify({
+                checklist: state.checklist
+            }));
+        }
+        
+        // 파일 탭 클릭
+        document.querySelectorAll('.file-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.file-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                state.activeFileTab = tab.dataset.file;
+                
+                // 저장된 내용 복원
+                const textarea = document.getElementById('mdInput');
+                textarea.value = state.files[state.activeFileTab] || '';
+            });
+        });
+        
+        // MD 파싱
+        function parseMarkdown(input, type) {
+            const scenes = [];
+            const lines = input.split('\n');
+            let currentScene = null;
+            let currentTool = null;
+            let collectingPrompt = false;
+            let promptLines = [];
+            
+            for (let i = 0; i < lines.length; i++) {
+                const line = lines[i];
+                
+                // 씬 헤더 찾기
+                const sceneMatch = line.match(/###\s*🎬\s*Scene\s*(\d+):\s*(.+?)\s*\((\d+:\d+\.\d+~\d+:\d+\.\d+)\)/);
+                if (sceneMatch) {
+                    if (currentScene && currentTool && promptLines.length > 0) {
+                        savePrompt(currentScene, currentTool, promptLines.join('\n').trim(), type);
+                    }
+                    
+                    const sceneId = parseInt(sceneMatch[1]);
+                    currentScene = scenes.find(s => s.id === sceneId);
+                    
+                    if (!currentScene) {
+                        currentScene = {
+                            id: sceneId,
+                            title: sceneMatch[2],
+                            timecode: sceneMatch[3],
+                            anchor: line.includes('⭐') ? (line.toLowerCase().includes('male') || line.includes('Man') ? 'MALE' : 'FEMALE') : null,
+                            image: {},
+                            motion: {}
+                        };
+                        scenes.push(currentScene);
+                    }
+                    
+                    collectingPrompt = false;
+                    promptLines = [];
+                    continue;
+                }
+                
+                // 도구 헤더 찾기
+                const toolMatch = line.match(/\[📋\s*COPY\]\s*(NanoBanana Pro|Midjourney V7|Kling 3\.0|Veo 3\.1)/i);
+                if (toolMatch && currentScene) {
+                    if (currentTool && promptLines.length > 0) {
+                        savePrompt(currentScene, currentTool, promptLines.join('\n').trim(), type);
+                    }
+                    currentTool = toolMatch[1];
+                    collectingPrompt = false;
+                    promptLines = [];
+                    continue;
+                }
+                
+                // 코드 블록 시작/끝
+                if (line.trim().startsWith('```')) {
+                    if (collectingPrompt) {
+                        // 코드 블록 끝
+                        if (currentScene && currentTool) {
+                            savePrompt(currentScene, currentTool, promptLines.join('\n').trim(), type);
+                        }
+                        collectingPrompt = false;
+                        promptLines = [];
+                    } else {
+                        // 코드 블록 시작
+                        collectingPrompt = true;
+                        promptLines = [];
+                    }
+                    continue;
+                }
+                
+                // 프롬프트 수집
+                if (collectingPrompt) {
+                    promptLines.push(line);
+                }
+            }
+            
+            // 마지막 프롬프트 저장
+            if (currentScene && currentTool && promptLines.length > 0) {
+                savePrompt(currentScene, currentTool, promptLines.join('\n').trim(), type);
+            }
+            
+            return scenes;
+        }
+        
+        function savePrompt(scene, tool, prompt, type) {
+            const toolKey = tool.toLowerCase().replace(/\s+/g, '').replace(/\./g, '');
+            if (type === 'image') {
+                if (toolKey.includes('nanobanana')) scene.image.nanoBanana = prompt;
+                else if (toolKey.includes('midjourney')) scene.image.midjourney = prompt;
+            } else {
+                if (toolKey.includes('kling')) scene.motion.kling = prompt;
+                else if (toolKey.includes('veo')) scene.motion.veo = prompt;
+            }
+        }
+        
+        // 분석 및 로드
+        function parseAndLoad() {
+            const input = document.getElementById('mdInput').value;
+            if (!input.trim()) {
+                alert('MD 파일 내용을 붙여넣어주세요.');
+                return;
+            }
+            
+            // 현재 탭에 저장
+            state.files[state.activeFileTab] = input;
+            
+            // 파싱
+            const isImage = state.activeFileTab.includes('image');
+            const isOhmage = state.activeFileTab.includes('ohmage');
+            const type = isImage ? 'image' : 'motion';
+            const mode = isOhmage ? 'ohmage' : 'variation';
+            
+            const parsed = parseMarkdown(input, type);
+            
+            if (parsed.length === 0) {
+                alert('씬을 찾을 수 없습니다. MD 형식을 확인해주세요.');
+                return;
+            }
+            
+            // 기존 씬에 병합
+            parsed.forEach(newScene => {
+                const existing = state.scenes[mode].find(s => s.id === newScene.id);
+                if (existing) {
+                    // 병합
+                    Object.assign(existing.image, newScene.image);
+                    Object.assign(existing.motion, newScene.motion);
+                    if (newScene.anchor) existing.anchor = newScene.anchor;
+                } else {
+                    state.scenes[mode].push(newScene);
+                }
+            });
+            
+            // 정렬
+            state.scenes[mode].sort((a, b) => a.id - b.id);
+            
+            // 탭 표시 업데이트
+            document.querySelector(`[data-file="${state.activeFileTab}"]`).classList.add('loaded');
+            
+            // UI 업데이트
+            state.mode = mode;
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.includes(mode === 'ohmage' ? '오마쥬' : '변주'));
+            });
+            
+            renderAll();
+            
+            document.getElementById('resultsSection').classList.remove('hidden');
+            document.getElementById('emptyState').classList.add('hidden');
+        }
+        
+        // 전체 렌더링
+        function renderAll() {
+            renderSceneNav();
+            renderScenes();
+            renderChecklist();
+            updateProgress();
+        }
+        
+        // 씬 네비게이션 렌더링
+        function renderSceneNav() {
+            const nav = document.getElementById('sceneNav');
+            const scenes = state.scenes[state.mode];
+            
+            nav.innerHTML = scenes.map(scene => `
+                <button class="scene-nav-btn ${scene.id === state.currentScene ? 'active' : ''} ${scene.anchor ? 'anchor' : ''} ${isSceneCompleted(scene.id) ? 'completed' : ''}"
+                        onclick="goToScene(${scene.id})">
+                    ${scene.id}
+                </button>
+            `).join('');
+        }
+        
+        // 씬 카드 렌더링
+        function renderScenes() {
+            const container = document.getElementById('scenesContainer');
+            const scenes = state.scenes[state.mode];
+            
+            if (scenes.length === 0) {
+                container.innerHTML = '<div class="empty-state"><p>파싱된 씬이 없습니다.</p></div>';
+                return;
+            }
+            
+            container.innerHTML = scenes.map(scene => `
+                <div class="scene-card" id="scene-${scene.id}">
+                    <div class="scene-header">
+                        <div class="scene-title">
+                            <span>🎬</span>
+                            Scene ${scene.id}: ${scene.title}
+                        </div>
+                        <div class="scene-meta">
+                            <span class="timecode">${scene.timecode}</span>
+                            ${scene.anchor ? `<span class="anchor-badge">⭐ ${scene.anchor} ANCHOR</span>` : ''}
+                        </div>
+                    </div>
+                    <div class="scene-content">
+                        ${renderPromptSection(scene, 'image')}
+                        ${renderPromptSection(scene, 'motion')}
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        // 프롬프트 섹션 렌더링
+        function renderPromptSection(scene, type) {
+            const prompts = type === 'image' ? scene.image : scene.motion;
+            const tools = type === 'image' 
+                ? [['nanoBanana', 'NanoBanana'], ['midjourney', 'Midjourney']]
+                : [['kling', 'Kling'], ['veo', 'Veo']];
+            
+            const availableTools = tools.filter(([key]) => prompts[key]);
+            if (availableTools.length === 0) return '';
+            
+            const firstTool = availableTools[0][0];
+            const sectionId = `prompt-${scene.id}-${type}`;
+            
+            return `
+                <div class="prompt-section ${type}">
+                    <div class="prompt-label">
+                        <h3>${type === 'image' ? '🖼️ IMAGE' : '🎥 MOTION'} 프롬프트</h3>
+                        <span>${type === 'image' ? '이미지 생성용' : '영상 생성용'}</span>
+                    </div>
+                    <div class="prompt-tabs">
+                        ${availableTools.map(([key, name], idx) => `
+                            <button class="prompt-tab ${idx === 0 ? 'active' : ''}" 
+                                    onclick="switchPromptTab(this, '${sectionId}', '${key}')">
+                                ${name}
+                            </button>
+                        `).join('')}
+                    </div>
+                    <div class="prompt-box" id="${sectionId}">
+                        <button class="copy-btn" onclick="copyPrompt(this, '${sectionId}')">
+                            📋 복사
+                        </button>
+                        <span class="prompt-text">${escapeHtml(prompts[firstTool] || '')}</span>
+                    </div>
+                    <div class="prompt-data hidden" 
+                         ${availableTools.map(([key]) => `data-${key}="${escapeHtml(prompts[key] || '')}"`).join(' ')}>
+                    </div>
+                </div>
+            `;
+        }
+        
+        // 체크리스트 렌더링
+        function renderChecklist() {
+            const grid = document.getElementById('checklistGrid');
+            const scenes = state.scenes[state.mode];
+            
+            const items = [];
+            scenes.forEach(scene => {
+                const hasImage = scene.image.nanoBanana || scene.image.midjourney;
+                const hasMotion = scene.motion.kling || scene.motion.veo;
+                
+                if (hasImage) {
+                    items.push({
+                        id: `${state.mode}-${scene.id}-image`,
+                        label: `Scene ${scene.id} 이미지`,
+                        anchor: scene.anchor
+                    });
+                }
+                if (hasMotion) {
+                    items.push({
+                        id: `${state.mode}-${scene.id}-motion`,
+                        label: `Scene ${scene.id} 모션`,
+                        anchor: false
+                    });
+                }
+            });
+            
+            grid.innerHTML = items.map(item => `
+                <div class="checklist-item ${item.anchor ? 'anchor' : ''} ${state.checklist[item.id] ? 'completed' : ''}"
+                     onclick="toggleChecklist('${item.id}')">
+                    <input type="checkbox" ${state.checklist[item.id] ? 'checked' : ''}>
+                    <label>${item.label}</label>
+                </div>
+            `).join('');
+        }
+        
+        // 체크리스트 토글
+        function toggleChecklist(id) {
+            state.checklist[id] = !state.checklist[id];
+            saveState();
+            renderChecklist();
+            renderSceneNav();
+            updateProgress();
+        }
+        
+        // 씬 완료 여부 확인
+        function isSceneCompleted(sceneId) {
+            const imageId = `${state.mode}-${sceneId}-image`;
+            const motionId = `${state.mode}-${sceneId}-motion`;
+            return state.checklist[imageId] && state.checklist[motionId];
+        }
+        
+        // 진행률 업데이트
+        function updateProgress() {
+            const total = Object.keys(state.checklist).filter(k => k.startsWith(state.mode)).length || 
+                          state.scenes[state.mode].length * 2;
+            const completed = Object.entries(state.checklist)
+                .filter(([k, v]) => k.startsWith(state.mode) && v).length;
+            
+            const percent = total > 0 ? Math.round((completed / total) * 100) : 0;
+            
+            document.getElementById('progressFill').style.width = `${percent}%`;
+            document.getElementById('progressCount').textContent = `${completed} / ${total} 완료`;
+            document.getElementById('progressPercent').textContent = `${percent}%`;
+        }
+        
+        // 모드 전환
+        function setMode(mode) {
+            state.mode = mode;
+            document.querySelectorAll('.mode-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.textContent.includes(mode === 'ohmage' ? '오마쥬' : '변주'));
+            });
+            renderAll();
+        }
+        
+        // 씬으로 이동
+        function goToScene(id) {
+            state.currentScene = id;
+            renderSceneNav();
+            document.getElementById(`scene-${id}`).scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+        
+        // 프롬프트 탭 전환
+        function switchPromptTab(tab, sectionId, toolKey) {
+            const tabs = tab.parentElement.querySelectorAll('.prompt-tab');
+            tabs.forEach(t => t.classList.remove('active'));
+            tab.classList.add('active');
+            
+            const box = document.getElementById(sectionId);
+            const dataEl = box.nextElementSibling;
+            const prompt = dataEl.getAttribute(`data-${toolKey}`) || '';
+            box.querySelector('.prompt-text').textContent = prompt;
+        }
+        
+        // 복사
+        function copyPrompt(btn, sectionId) {
+            const box = document.getElementById(sectionId);
+            const text = box.querySelector('.prompt-text').textContent;
+            
+            navigator.clipboard.writeText(text).then(() => {
+                btn.innerHTML = '✅ 복사됨!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.innerHTML = '📋 복사';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+        
+        // HTML 이스케이프
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text || '';
+            return div.innerHTML;
+        }
+        
+        // 초기화
+        function clearAll() {
+            if (confirm('모든 데이터를 초기화하시겠습니까?')) {
+                state = {
+                    mode: 'ohmage',
+                    currentScene: 1,
+                    files: {},
+                    scenes: { ohmage: [], variation: [] },
+                    checklist: {},
+                    activeFileTab: 'ohmage-image'
+                };
+                localStorage.removeItem('builderHelperState');
+                document.querySelectorAll('.file-tab').forEach(t => t.classList.remove('loaded'));
+                document.getElementById('mdInput').value = '';
+                document.getElementById('resultsSection').classList.add('hidden');
+                document.getElementById('emptyState').classList.remove('hidden');
+            }
+        }
+        
+        // 샘플 데이터 로드
+        function loadSampleData() {
+            const sampleMd = `### 🎬 Scene 01: 남자의 등장 (00:00.00~00:01.67)
+
+[📋 COPY] NanoBanana Pro:
+\`\`\`
+90년대 빈티지 필름 스타일, 화창한 오후의 교외 주택가, 전경 샷(Wide Shot). 흰색 울타리가 있는 2층 집 앞, 붉은 벽돌이 깔린 진입로를 따라 걸어 들어오는 20대 금발 남자. 청재킷과 청바지 착용, 손에는 붉은 장미 꽃다발을 들고 있음.
+\`\`\`
+
+[📋 COPY] Midjourney V7:
+\`\`\`
+1990s vintage film aesthetic, sunny afternoon in suburban neighborhood, wide shot. A young blond man in his 20s walking down a red brick path. --ar 9:16 --v 7 --style raw --cw 50 --stylize 250
+\`\`\`
+
+### 🎬 Scene 02: 기다림 ⭐ ANCHOR (Man) (00:01.67~00:04.56)
+
+[📋 COPY] NanoBanana Pro:
+\`\`\`
+90년대 로맨스 영화 스틸컷, 현관 포치에 서 있는 남자의 미디엄 샷. 20대 백인 남성, 짧고 단정한 금발 머리.
+\`\`\`
+
+[📋 COPY] Midjourney V7:
+\`\`\`
+1990s romance movie still, medium shot of a man standing on a front porch. --ar 9:16 --v 7 --style raw --cw 100 --stylize 250
+\`\`\`
+
+### 🎬 Scene 05: 행복한 미소 ⭐ ANCHOR (Woman) (00:09.40~00:11.36)
+
+[📋 COPY] NanoBanana Pro:
+\`\`\`
+90년대 로맨틱 코미디 클로즈업 샷. 20대 금발 여성의 얼굴 정면.
+\`\`\`
+
+[📋 COPY] Midjourney V7:
+\`\`\`
+1990s rom-com close-up shot. Front view of a 20s blond woman's face. --ar 9:16 --v 7 --style raw --cw 100 --stylize 250
+\`\`\``;
+            
+            document.getElementById('mdInput').value = sampleMd;
+        }
+        
+        // 페이지 로드 시 상태 복원
+        loadState();
+    </script>
+</body>
+</html>
