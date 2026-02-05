@@ -868,3 +868,48 @@ builder1-hardened.zip
 *총 연구 시간: ~1시간*
 *탐색 파일 수: 40+ 개*
 *핵심 결론: 빌더2 설계 양호, ZIP 업데이트만 필요*
+
+---
+
+## 🌐 아카데미 페이지 분석
+
+**위치**: `/Users/ted/vivid/frontend/src/app/academy/page.tsx`
+**크기**: 956줄, 49KB
+
+### 구조
+
+```tsx
+// 외부 도구 링크
+const TOOL_LINKS = {
+  builder1: "aistudio.google.com/...", // Google Drive 공유
+  vibe: "aistudio.google.com/...",
+  builder2: "aistudio.google.com/...",
+  antigravity: "antigravity.google",
+};
+
+// 탭 구조
+Dashboard: home, setup, credit, anchor
+Tools: builder1, vibe, builder2
+Creation: image, video, homework
+```
+
+### 빌더 실행 방식
+
+```
+1. 사용자가 아카데미 페이지 접속
+2. "빌더1 열기" 클릭 → AI Studio로 이동
+3. AI Studio에서 ZIP 기반 Canvas App 실행
+4. Canvas App에서 영상 분석/프롬프트 생성
+5. 결과물 다운로드 (<<<>>> 구분자 파싱)
+```
+
+### 핵심 발견
+
+- 빌더들은 **Google AI Studio Canvas App**으로 실행
+- **ZIP 파일**이 AI Studio에 업로드되어 공유됨
+- 아카데미 페이지는 **가이드 + 링크 제공**만 담당
+- 실제 프롬프트 생성은 **AI Studio 내부**에서 발생
+
+---
+
+*연구 업데이트: 2026-02-05 02:30 KST*
