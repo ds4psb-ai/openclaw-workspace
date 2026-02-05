@@ -1,0 +1,97 @@
+{
+  "_meta": {
+    "description": "K-Beauty 브랜드 키워드 리스트 (자동 매칭용)",
+    "updated": "2026-02-05",
+    "author": "소미 🐱"
+  },
+  "skincare": {
+    "premium": [
+      "sulwhasoo", "설화수",
+      "amorepacific", "아모레퍼시픽",
+      "hera", "헤라",
+      "ohui", "오휘",
+      "whoo", "후", "더후"
+    ],
+    "mid_range": [
+      "laneige", "라네즈",
+      "innisfree", "이니스프리",
+      "etude", "에뛰드",
+      "mamonde", "마몽드",
+      "missha", "미샤",
+      "nature republic", "네이처리퍼블릭"
+    ],
+    "clinical": [
+      "skin1004", "스킨1004",
+      "anua", "아누아",
+      "cosrx", "코스알엑스",
+      "beauty of joseon", "조선미녀",
+      "isntree", "이즈앤트리",
+      "torriden", "토리든",
+      "round lab", "라운드랩",
+      "medicube", "메디큐브",
+      "dr.jart", "닥터자르트",
+      "aestura", "에스트라",
+      "celimax", "셀리맥스",
+      "numbuzin", "넘버즈인",
+      "mixsoon", "믹순"
+    ],
+    "pharmacy": [
+      "vt cosmetics", "브이티",
+      "cnp", "씨앤피",
+      "dr.g", "닥터지"
+    ]
+  },
+  "makeup": {
+    "premium": [
+      "hera", "헤라",
+      "nars korea", "나스"
+    ],
+    "trendy": [
+      "rom&nd", "롬앤",
+      "peripera", "페리페라",
+      "clio", "클리오",
+      "3ce", "쓰리씨이",
+      "tirtir", "티르티르",
+      "amuse", "어뮤즈",
+      "dasique", "데이지크",
+      "espoir", "에스쁘아",
+      "wakemake", "웨이크메이크"
+    ],
+    "budget": [
+      "holika holika", "홀리카홀리카",
+      "apieu", "어퓨"
+    ]
+  },
+  "haircare": [
+    "mise en scene", "미장센",
+    "ryo", "려",
+    "daeng gi meo ri", "댕기머리",
+    "moremo", "모레모",
+    "jennyhouse", "제니하우스"
+  ],
+  "devices": [
+    "medicube", "메디큐브",
+    "foreo",
+    "cellreturn", "셀리턴",
+    "led mask"
+  ],
+  "retailers": [
+    "olive young", "올리브영",
+    "chicor", "시코르",
+    "lalavla", "랄라블라",
+    "sephora korea", "세포라"
+  ],
+  "keywords_for_matching": [
+    "kbeauty", "k-beauty", "k beauty",
+    "korean skincare", "korean beauty",
+    "korean makeup",
+    "glass skin", "glassskin",
+    "10 step routine",
+    "double cleanse",
+    "essence", "ampoule", "serum",
+    "sheet mask", "sleeping mask",
+    "cushion", "lip tint",
+    "pdrn", "exosome", "peptide",
+    "centella", "mugwort", "rice"
+  ]
+}
