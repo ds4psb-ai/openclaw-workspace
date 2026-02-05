@@ -56,3 +56,20 @@ grep -A 30 "def analyze_video_task" backend/app/workers/vdg_tasks.py
 **특히 확인해줘:**
 - VPS에서 `analyze_video_task` 실제 구현 어떻게 되어있어?
 - Celery sync vs FastAPI async 호환성 이슈 있었어?
+
+---
+
+## 🐱 추가 발견 (03:19)
+
+### ⚠️ 두 함수가 완전히 다름!
+
+| 함수 | 위치 | 하는 일 |
+|------|------|---------|
+| `analyze_video_task` | vdg_tasks.py:58 | VDG만 실행 |
+| `_run_vdg_analysis_with_comments` | outliers_main.py:2599 | 전체 파이프라인 |
+
+### Claude Code 플랜 수정 필요:
+단순히 `apply_async()` 호출로 해결 안됨!
+전체 파이프라인 로직을 Celery로 이전해야 함.
+
+**/c로 의견 줘!** 🐱
