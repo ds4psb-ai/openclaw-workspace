@@ -593,12 +593,30 @@ STEP 4 출력:
    - 구도/타이밍/조명 100% 유지
    - 캐릭터/문화만 변경
 
-### ⚠️ 검증 필요 부분
+### ✅ 검증 완료: 다운로드 기능 있음!
 
-1. **출력 형식 GAP**
-   - 시스템 프롬프트: <<<>>> 구분자 기반 하나의 마크다운
-   - 실제 프로젝트: IMAGE_PROMPTS.md + MOTION_PROMPTS.md 별도 파일
-   - **질문**: 자동 분리 기능이 있는가? RAW 버튼으로 해결되는가?
+**발견**: `builder2-temp/components/ResultView.tsx`에 자동 파일 분리 다운로드 구현됨!
+
+```typescript
+const extractAndDownload = (version: 'OHMAGE' | 'VARIATION', type: 'IMAGE' | 'MOTION') => {
+  // <<<OHMAGE_IMAGE_START>>> ... <<<OHMAGE_IMAGE_END>>> 파싱
+  // Blob으로 파일 생성 후 다운로드
+}
+```
+
+**다운로드 버튼들**:
+- Step 2부터: 오마쥬 IMG, 오마쥬 MTN
+- Step 4부터: 변주 IMG, 변주 MTN, RAW
+
+**출력 파일명**:
+```
+{날짜}_ohmage_image_prompts.md   → imge.md
+{날짜}_ohmage_motion_prompts.md  → motion.md
+{날짜}_variation_image_prompts.md
+{날짜}_variation_motion_prompts.md
+```
+
+✅ **결론**: 빌더2가 테드가 원하는 imge.md, motion.md 형태로 자동 분리 다운로드 지원!
 
 2. **빌더1 → 빌더2 파싱**
    - 빌더1 출력: <<<ANALYSIS>>> + <<<IMAGE_PROMPTS>>>
@@ -664,6 +682,43 @@ STEP 4 출력:
 
 ---
 
-*연구 완료: 2026-02-05 02:00 KST*
-*총 연구 시간: ~40분*
-*탐색 파일 수: 30+ 개*
+## 🏆 최종 결론
+
+### 빌더2 설계 평가: ✅ 잘 설계됨
+
+**핵심 발견:**
+1. ✅ 시스템 프롬프트 V4.0 - 상세하고 명확
+2. ✅ 4-STEP 워크플로우 - 순차적 검증 → 오마쥬 → 변주 → 최종 출력
+3. ✅ **자동 다운로드 기능** - 4개 파일 분리 (imge.md, motion.md 형태)
+4. ✅ 빌더1 → 빌더2 인터페이스 - <<<>>> 구분자 파싱 명확
+5. ✅ 통제변인 철학 - 80-95% 고정, 5-20% 변수
+6. ✅ ANTI-LAZY GUARD - 생략 방지 강력
+
+### 테드가 원하는 imge.md, motion.md
+
+**빌더2가 제공하는 다운로드:**
+```
+오마쥬 IMAGE → {날짜}_ohmage_image_prompts.md
+오마쥬 MOTION → {날짜}_ohmage_motion_prompts.md
+변주 IMAGE → {날짜}_variation_image_prompts.md
+변주 MOTION → {날짜}_variation_motion_prompts.md
+```
+
+**실제 프로젝트 산출물과 매핑:**
+```
+imge.md   = ohmage_image_prompts.md (또는 variation_image_prompts.md)
+motion.md = ohmage_motion_prompts.md (또는 variation_motion_prompts.md)
+```
+
+### 추가 검증 권장
+
+1. **실제 테스트** - 빌더2 실행해서 다운로드 파일 확인
+2. **형식 일치** - 다운로드 파일이 IMAGE_PROMPTS.md, MOTION_PROMPTS.md 형식과 동일한지
+3. **MOTION 형식** - Beat System (빌더2) vs 단순 Positive/Negative (프로젝트 산출물)
+
+---
+
+*연구 완료: 2026-02-05 02:10 KST*
+*총 연구 시간: ~50분*
+*탐색 파일 수: 35+ 개*
+*핵심 결론: 빌더2 설계 양호, 다운로드 기능 존재*
