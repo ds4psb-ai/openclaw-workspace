@@ -226,4 +226,93 @@ analyzing (30분+ stuck)
 
 ---
 
-*작성: 소미 🐱 | 2026-02-06 02:55 KST*
+---
+
+## 7. 프론트엔드 가이드 연동
+
+### URL 구조
+```
+/guide/[patternId]?nodeId=xxx
+```
+- `patternId`: 필수 (PatternLibrary 아이템 ID)
+- `nodeId`: 옵션 (Hook Power 분석용)
+
+### 컴포넌트 구조
+
+**파일**: `frontend/src/components/SimpleCreatorGuide.tsx`
+
+```
+SimpleCreatorGuide
+├── CompositionOverlay (구도 가이드)
+├── ShotlistTimeline (샷 타임라인)
+├── DnaRuleGrid (DNA 규칙)
+└── HookPowerScore (훅 파워, nodeId 필요)
+```
+
+### API 호출
+```typescript
+const data = await api.getPatternLibraryItem(patternId);
+```
+
+### 탭 구조
+| 탭 | 내용 |
+|-----|------|
+| Composition | Rule of Thirds / Center 오버레이 |
+| Timeline | 샷별 타이밍 가이드 |
+| Rules | DNA 규칙 카드 |
+| Hook Power | 훅 파워 점수 (nodeId 필요) |
+
+### DNA Rules 추출
+```typescript
+const invariantRules = pattern.invariant_rules || {};
+const dnaRules = inferDnaRulesFromInvariant(invariantRules);
+```
+
+---
+
+## 8. 전체 데이터 플로우 (End-to-End)
+
+```
+[1. 크롤링]
+TikTok/YouTube
+    ↓ crawl_tiktok_socialkit()
+    
+[2. 저장]
+OutlierItem (PostgreSQL)
+    ↓ SS/S tier 필터
+
+[3. 승격]
+    ↓ auto_promote_outliers()
+RemixNode 생성
+
+[4. VDG 분석]
+    ↓ vdg_task_registry.submit()
+8개 Pass 실행:
+- Audio, Audio Semantic
+- Motion, Face Emotion
+- CV, Visual
+- Composition, Vanishing Point
+
+[5. DB 저장]
+    ↓ vdg_db_saver.save_vdg_to_db()
+- viral_kicks
+- keyframe_evidences
+- comment_evidences
+
+[6. Neo4j 동기화]
+    ↓ neo4j_sync.sync_remix_node()
+- RemixNode, 관계 생성
+
+[7. 패턴 마이닝]
+    ↓ graphrag_pattern_mining
+유사 패턴 검색, 클러스터링
+
+[8. 프론트엔드 가이드]
+/guide/[patternId]
+- SimpleCreatorGuide
+- 구도/타임라인/규칙/훅파워
+```
+
+---
+
+*작성: 소미 🐱 | 2026-02-06 03:00 KST*
