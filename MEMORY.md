@@ -117,11 +117,12 @@ GROUP BY outlier_tier, category;
 
 ## 📊 다음 연구 주제
 
-1. **creator_multiplier 활용** - 평소 10배 = 바이럴 신호
-2. **해시태그 조합 분석** - raw_payload hashtags
-3. **트렌딩 사운드 연동** - sound_id 활용
-4. **Meme 카테고리 분리** - 1M+ threshold
-5. **경쟁사 비교** - Virlo, Analisa.io
+1. ✅ **경쟁사 비교** - `COMPETITOR_ANALYSIS_VIRLO.md` 완료
+2. ✅ **트렌딩 사운드 연동** - `TRENDING_SOUND_VDG_RESEARCH.md` 완료
+   - SocialKit `/tiktok/stats` API에서 Music 지원 확인됨
+3. ⏳ **자동 승격** - Claude Code 구현 중 (force_promote 로직)
+4. 🔜 **해시태그 조합 분석** - raw_payload hashtags 활용
+5. 🔜 **Meme 카테고리 분리** - 1M+ threshold
 
 ---
 
