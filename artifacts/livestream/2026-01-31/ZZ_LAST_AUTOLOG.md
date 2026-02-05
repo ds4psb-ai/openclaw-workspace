@@ -4,7 +4,7 @@
 생성일: 2026-01-31
 마지막 collab-loop 실행: 2026-02-06 04:22 KST
 
-## 이번 자동 tiki-taka 결과
+## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
 - 검토 완료: ZZ_LAST_AUTOLOG, 70_CTA_SOFTSELL, 21_POSTER_OCR_SUMMARY
