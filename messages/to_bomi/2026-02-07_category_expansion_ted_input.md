@@ -14,6 +14,8 @@
 > 그리고 AI 멋진 작품이나 시네마틱한 밈들이랑 일반 유명 해외 밈 중 
 > 한국인들이 좋아할만한 밈들까지..."
 
+**⚠️ 정정:** 한국어 버전 X → **글로벌 트렌딩 중 한국에서 먹힐 콘텐츠**
+
 ---
 
 ## 🎯 확장된 타겟 카테고리
@@ -35,17 +37,29 @@ REVIEW_CATEGORIES = {
 AI_CINEMATIC_KEYWORDS = [
     "AI art", "midjourney", "stable diffusion", "runway",
     "cinematic", "aesthetic", "viral edit", "transition",
-    "AI영상", "AI아트", "시네마틱", "감성편집", ...
+    "sora", "kling", "minimax", "hailuo", ...
 ]
 ```
 
-### 3️⃣ 해외 밈 → 한국 로컬라이징
+### 3️⃣ 해외 밈 → 한국 시장성 판단
 ```python
-TRENDING_MEME_SOURCES = [
-    "global_trending",  # 글로벌 바이럴
-    "kpop_fandom",      # K-POP 팬덤 밈
-    "korean_localized", # 한국어 자막/더빙 버전
-]
+# 한국어 버전이 아님!
+# 글로벌 트렌딩 중 "한국에서 먹힐" 콘텐츠 선별
+
+KOREA_FRIENDLY_CRITERIA = {
+    "visual_first": True,        # 언어 의존도 낮은 비주얼 콘텐츠
+    "universal_humor": True,     # 문화권 상관없이 웃긴 것
+    "aesthetic_appeal": True,    # 감성/미적 어필
+    "trend_adaptable": True,     # 한국 크리에이터가 따라할 수 있는 포맷
+    "meme_template": True,       # 밈 템플릿으로 활용 가능
+}
+
+# 예시:
+# - 귀여운 동물 밈 ✅
+# - 만족스러운 ASMR/정리 영상 ✅
+# - 댄스 챌린지 ✅
+# - 시각적 트릭/일루전 ✅
+# - 영어 말장난 밈 ❌ (번역 안 됨)
 ```
 
 ---
@@ -66,9 +80,10 @@ K-Beauty 키워드 18개 → TikTok/YouTube
 ├── AI/시네마틱 밈
 │   ├── AI art 키워드
 │   └── 고퀄리티 편집 영상
-└── 해외 밈 로컬라이징
-    ├── 글로벌 트렌딩
-    └── 한국어 버전 우선
+└── 글로벌 밈 (한국 시장성)
+    ├── 비주얼 중심 콘텐츠
+    ├── 유니버설 유머
+    └── 따라하기 쉬운 포맷
 ```
 
 ---
@@ -77,7 +92,7 @@ K-Beauty 키워드 18개 → TikTok/YouTube
 
 1. **아웃라이어 최고 점수** - SS/S 티어만 가져올까?
 2. **AI 작품 판별** - 캡션 키워드로만? 아니면 VDG visual 분석?
-3. **해외 밈 한국화** - 조회수 기준? 댓글 한국어 비율?
+3. **한국 시장성 판단** - VDG에서 "언어 의존도" 분석 가능?
 
 ---
 
