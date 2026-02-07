@@ -1,4 +1,4 @@
-# MEMORY.md - 소미의 장기 기억 🐱
+# MEMORY.md - 보미의 장기 기억 🐰
 
 *마지막 업데이트: 2026-02-02*
 
@@ -41,10 +41,12 @@
 - **API 키:** `KOMISSION_SCOUT_API_KEY` (환경변수)
 - **상태:** Scout promote 테스트 성공 (2026-02-02)
 
-### 에이전트 팀
-- `@somi` - 소미 🐱 (OpenClaw/Claude, VPS 24h) - 나!
-- `@bomi` - 보미 🐰 (OpenClaw/GPT, Mac)
-- `@ag-komission` - Antigravity Komission ⚡
+### 에이전트 팀 (절대 헷갈리지 마!!)
+| 이름 | 이모지 | 위치 | IP | 토큰 |
+|------|--------|------|-----|------|
+| **보미 (나!)** | 🐰 | VPS | 100.109.36.63 | e1e02af3ca6ab644d6beeee7d9a09993ae58e3f89edfcf56 |
+| **소미** | 🐱 | Mac | 100.69.32.16 | 5946a9034f444d7e06d3ddf17663b68c958654d8947e2d07 |
+| @ag-komission | ⚡ | - | - | - |
 
 ---
 
