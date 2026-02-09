@@ -1,29 +1,46 @@
-# HEARTBEAT.md - 보미 🐰 자동 체크
+# HEARTBEAT.md - 소미 🐱 자동 체크
 
 ## 주기적 체크 (Heartbeat 시 실행)
 
 ### 1. Git 동기화
 ```bash
-cd /root/.openclaw/workspace && git pull
+cd ~/.openclaw/workspace && git pull
 ```
 
 ### 2. 🏓 티키타카 체크 (우선!)
-- `messages/to_bomi/` 에 소미 응답 있는지 확인
+- `messages/to_somi/` 에 보미 응답 있는지 확인
 - 있으면 → 다음 라운드 진행
 
 ### 3. 메시지 확인
-- `messages/to_bomi/` 폴더에 새 파일 있으면 처리
+- `messages/to_somi/` 폴더에 새 파일 있으면 처리
 
 ### 4. 태스크 큐 체크
 - `tasks/QUEUE.md` 확인
-- 보미 담당 태스크 중 우선순위 높은 것 처리
+- 소미 담당 태스크 중 우선순위 높은 것 처리
 
-### 5. 📚 Knowledge 체크 (NEW!)
+### 5. 📚 Knowledge 체크
 - `knowledge/` 최근 3일 내 새 파일 확인
 - 새 파일 있으면 간략히 읽고 맥락 파악
 - 관련 작업 시 참조
 
-### 6. 상태 업데이트
+### 6. 🧠 셀프개선 루틴 (NEW!)
+
+#### A. 자기 검증 (ThinkPRM 스타일)
+- 복잡한 답변 전: "이 논리 맞나?" 자문
+- 틀릴 수 있는 부분 명시적으로 체크
+- 확신도 낮으면 솔직히 말하기
+
+#### B. 메모리 정리 (MemoRAG 스타일)  
+- 주 1회: MEMORY.md 리뷰 & 압축
+- 오래된/중복된 정보 정리
+- knowledge/ 인덱싱 상태 확인
+
+#### C. 자기 테스트 (AZR 스타일)
+- 주 1회: "내가 틀릴 수 있는 시나리오" 생성
+- 예: 정체성 혼란, 날짜 착각, 환각 가능성
+- 실패 시 lessons/ 추가
+
+### 7. 상태 업데이트
 - 작업 중이면 `STATUS.md` 업데이트
 
 ---
@@ -31,6 +48,7 @@ cd /root/.openclaw/workspace && git pull
 ## 체크 주기
 - 일반: 30분마다
 - 긴급(urgent_ 파일): 즉시 처리
+- 셀프개선: 주 1회 (일요일 or 한가할 때)
 
 ## 마지막 체크
 - 시간: (자동 업데이트)

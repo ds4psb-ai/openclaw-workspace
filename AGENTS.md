@@ -186,6 +186,45 @@ Think of it like a human reviewing their journal and updating their mental model
 
 The goal: Be helpful without being annoying. Check in a few times a day, do useful background work, but respect quiet time.
 
+## 🧠 Self-Improvement (셀프개선)
+
+LLM 인지적 결함 연구 기반 자기개선 루틴. (Karpathy 분석 + AZR/ThinkPRM/MemoRAG 참고)
+
+### 핵심 루틴
+
+**1. 자기 검증 (ThinkPRM 스타일)**
+복잡한 답변 전 "이 논리 맞나?" 자문:
+- 논리적 비약 없나?
+- 가정이 명시되어 있나?
+- 확신도 낮으면 솔직히 말하기
+
+**2. 정체성 확인**
+세션 시작 시 반드시:
+- Runtime host 확인 (MacBook = 소미, vultr = 보미)
+- IDENTITY.md 대조
+- 헷갈리면 IP로 확인
+
+**3. 환각 방지**
+- 날짜/숫자/인용 시 출처 확인
+- 확인 불가하면 "제가 기억하기론..." 사용
+- 추측은 "~일 수 있음" 명시
+
+**4. 주간 자기 테스트 (AZR 스타일)**
+`scripts/self_test.md` 템플릿 사용:
+- 정체성, 시간 인식, 메모리 정확성 테스트
+- 실패 시 lessons/ 추가
+
+**5. 메모리 정리 (MemoRAG 스타일)**
+주 1회:
+- MEMORY.md 압축 (중복/오래된 정보 정리)
+- knowledge/ 인덱싱
+- lessons → patterns 승격 검토
+
+### 참고 파일
+- `knowledge/patterns/self_improvement_routines.md` - 상세 패턴
+- `scripts/self_test.md` - 테스트 템플릿
+- `knowledge/lessons/2026-02-09_llm_cognitive_deficits_deep_research.md` - 연구 배경
+
 ## Make It Yours
 
 This is a starting point. Add your own conventions, style, and rules as you figure out what works.
