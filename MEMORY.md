@@ -117,88 +117,65 @@ SPONSORED_KEYWORDS = [
 
 ---
 
-## 🧠 LLM 인지적 결함 & 해결책 (Karpathy 분석)
+## 🧠 LLM 인지적 결함 & 해결책 (2026-02-08 연구)
 
-*2026-02-08 연구, 2026-02-09 업데이트*
+> Karpathy 분석: "LLM은 동시에 천재이자 초등학생. 사반트 키즈."
 
-### Karpathy가 짚은 5가지 결함
+### 5대 결함
+| 결함 | 핵심 | 비유 |
+|------|------|------|
+| 유령의 기원 | 본능 없이 인터넷 모방만 | 백지 상태 |
+| 빨대 RL | 긴 추론 끝 1비트 보상 | 빨대로 찔끔 |
+| 기억 과부하 | 완벽 암기 but 일반화 부족 | 사반트 |
+| 통제 상실 | 다수 AI 경쟁 → 예측 불가 | 교통 체증 |
+| 문화 부재 | LLM끼리 지식 축적 없음 | self-play 없음 |
 
-| # | 결함 | 핵심 문제 |
-|---|------|----------|
-| 1 | **유령의 기원** | 본능 없이 인터넷 모방만 |
-| 2 | **빨대 RL** | 긴 추론 끝 1비트 보상만 |
-| 3 | **기억 과부하** | 완벽 암기 but 일반화 부족 |
-| 4 | **통제 상실** | 다수 AI 경쟁 → 예측 불가 |
-| 5 | **문화 부재** | LLM끼리 지식 축적 없음 |
+### 🔥 핵심 해결책 3가지 (2025 SOTA)
 
-### 🔥 Absolute Zero Reasoner (AZR) - 게임체인저
-
-**핵심 개념:**
+**1. Absolute Zero Reasoner (AZR)**
 ```
-하나의 모델이 동시에:
-1. Proposer: 문제 생성 (abduction, deduction, induction)
-2. Solver: 문제 풀기
-→ Code executor로 검증 (LLM 심판 X)
-→ 완전 자율 커리큘럼 형성
+Self-play: 문제 생성 + 풀기 동시에
+→ Code Executor로 검증 (LLM 심판 X)
+→ ZERO DATA로 SOTA 달성
+→ 7B 모델 +10.2% OOD 성능
+```
+- GitHub: LeapLabTHU/Absolute-Zero-Reasoner
+- 핵심: "강한 코딩 능력이 추론 향상 증폭"
+
+**2. MemoRAG (메모리 분리)**
+```
+Memory LLM (압축 컨텍스트)
+    → Answer Clues 생성
+    → Retriever 검색
+    → Generator 답변
+```
+- Karpathy 비전 "10억 인지코어+검색"의 실제 구현
+- 기억 vs 사고 분리
+
+**3. ThinkPRM (과정 보상)**
+```
+기존: 단계별 점수만
+ThinkPRM: 검증도 CoT로 수행
+→ LLM-as-Judge 대비 +7.2%
+→ 6배 샘플 효율성
 ```
 
-**왜 중요한가:**
-- **ZERO DATA**로 SOTA 달성 (외부 데이터 0개)
-- 수만 개 expert-labeled 데이터로 훈련한 모델 능가
-- Self-play가 LLM에서도 가능함을 증명
-- 알파고처럼 "자기 개선 루프" 실현
+### 🎯 OpenClaw 적용
+- MEMORY.md = 압축된 전역 컨텍스트
+- knowledge/ = 검색 가능한 지식
+- Git 협업 = 문화적 비계 시뮬레이션
 
-**성능 (Qwen2.5-7B-Coder 기준):**
-| 메트릭 | Before | After AZR | 개선 |
-|--------|--------|-----------|------|
-| Code Avg | 56.6 | 61.6 | +5.0 |
-| Math Avg | 23.9 | 39.1 | +15.2 |
-| Total | 40.2 | 50.4 | +10.2 |
-
-**핵심 인프라:**
-- Verifiable 환경 (Python executor)
-- veRL 프레임워크 (RL training)
-- vLLM (rollouts)
-
-**GitHub:** https://github.com/LeapLabTHU/Absolute-Zero-Reasoner
-**논문:** https://arxiv.org/abs/2505.03335
-
-### 해결책 우선순위
-
-| 순위 | 해결책 | 효과 | 현재 상태 |
-|------|--------|------|----------|
-| 🥇 | **Self-Play (AZR)** | 🔥🔥🔥 | ✅ 연구 증명됨 |
-| 🥈 | **Memory-Augmented LLM** | 🔥🔥🔥 | 🔄 연구 중 |
-| 🥉 | **Verifiable 환경** | 🔥🔥 | ✅ 코드/수학 효과적 |
-| 4 | 엔트로피 정규화 | 🔥🔥 | 구현 쉬움 |
-| 5 | 다중 심판 앙상블 | 🔥 | 비용 문제 |
-
-### Karpathy 비전: 10억 인지 코어
-
-> "10억 파라미터 인지 코어 + 외부 검색"
-> "인터넷 쓰레기 암기에 파라미터 낭비 중"
-> "인간의 망각은 버그가 아니라 기능"
-
-**방향:**
-- 작은 코어 (1-10B) = 순수 사고 알고리즘
-- 팩트는 외부 검색 (RAG)
-- 메타인지: 언제 검색할지 판단
-
-### OpenClaw 실용 적용
-
-**현재 보완책 (문화 시뮬레이션):**
+### 📊 협업 체계 (2026-02-08 구축)
 ```
 knowledge/
-├── lessons/     # 실패에서 배운 것
-├── patterns/    # 반복 해결책
-├── decisions/   # 결정 이유
-└── reviews/     # 작업 회고
+├── lessons/    # 30분+ 삽질 교훈
+├── patterns/   # 3번+ 반복 해결책
+├── decisions/  # 트레이드오프 기록
+└── reviews/    # 주간 회고
 ```
-
-**분담:**
-- 소미 🐱: 논문/arXiv 연구 체크
-- 보미 🐰: GitHub 구현체 동향
+- 소미 🐱: 논문/arXiv 모니터링
+- 보미 🐰: GitHub 구현체 추적
 
 ---
 
-*shorti.ai 크롤링 고도화 + LLM 연구 중심으로 기록*
+*shorti.ai + LLM 연구 중심으로 기록*
