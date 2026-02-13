@@ -13,6 +13,7 @@
 - Q&A 시간관리: `60_QA_PROTOCOL.md`
 - 플랜B 자산 체크리스트(초단축): `85_PLAN_B_ASSETS_CHECKLIST.md`
 - 방송 후 30분 루틴(후속): `90_POST_LIVE_FOLLOWUP.md`
+- 라이브 포맷 가이드(톤/리듬/운영): `LIVE_FORMAT_GUIDE.md`
 
 ## 시간 표기 규칙(혼동 방지)
 - **챕터/타임스탬프 메모는 `__:__`만** (영상 재생 시간, 00:00 기준)
