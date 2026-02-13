@@ -4,7 +4,7 @@
 
 근거(리서치)
 - OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
-- OpenClaw(당시 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw(당시 명칭: Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
