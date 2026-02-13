@@ -30,7 +30,7 @@
   - (형식) 챕터 라인은 **불릿(-/•)·들여쓰기 없이** 줄 맨 앞부터 `00:00` 형태로 유지
   - (형식) `업데이트: KST ...` 라인은 타임스탬프 블록 **위에 배치하고, 사이에 빈 줄 1개** 유지
   - (주의) 타임스탬프 블록(00:00… 라인들)에는 `KST ...` 줄을 섞지 않기(챕터 인식 안정)
-- [ ] (복붙 직전) 템플릿의 `https://LINK_HERE` / `https://LINK_HERE_2` / `KST HH:MM` / `YYYY-MM-DD` / `— ... —` 같은 플레이스홀더/예시가 **남아있지 않은지** 1초 확인
+- [ ] (복붙 직전) 템플릿의 `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `KST HH:MM` / `YYYY-MM-DD` / `— ... —` 같은 플레이스홀더/예시가 **남아있지 않은지** 1초 확인
 - [ ] (복붙 직전) 챕터 라인 시작에 **앞 공백/불릿(-/•)** 이 끼지 않았는지 1초 확인(인식 실패 예방)
 - [ ] (복붙 직전) 챕터 라인이 **`00:00` 포함 최소 3줄(권장 6줄 이상)**인지 최종 1회 확인(자동 인식 안정)
 - [ ] (복붙 직후) 붙여넣기/수정 후 **저장 버튼 비활성화(저장 완료 상태)**인지 1초 확인(저장 누락 방지)
@@ -80,7 +80,7 @@ https://LINK_HERE
 - [ ] 관리자/대시보드/결제/개인정보 노출 구간이 없는지 1회 확인
 - [ ] 문제가 있으면: 바로 비공개/편집(YouTube Studio) 플로우로 전환
 - [ ] (추가 안전) 자료 링크(노션/구글독스/드라이브)가 **로그아웃/시크릿 창에서도 열리는지** 10초만 테스트(시청자 이탈 방지)
-- [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더를 **빠르게 1회 스캔**: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__`
+- [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더를 **빠르게 1회 스캔**: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__` / `— ... —`
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="05_ONE_SCREEN_CHEATSHEET.md" --exclude="90_POST_LIVE_FOLLOWUP.md" --exclude="00_README.md" -- artifacts/livestream/2026-01-31` *(결과가 0이 아니면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
