@@ -2,13 +2,13 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 20:36 KST
+마지막 collab-loop 실행: 2026-02-13 20:41 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
-- 검토 완료: 복붙/운영 표현의 가독성 + 표기 일관성 재점검
-- 변경: `00_README.md` 빠른 링크 용어를 `런오브쇼` → `Run of Show`로 통일 + `80_CHECKLISTS.md` 진행 체크 항목의 `런오브쇼` → `Run of Show`로 통일 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 검토 완료: 브랜드 표기/가독성 미세 정리(데모 섹션 일관성)
+- 변경: `30_RUN_OF_SHOW_14-18.md` WOW 데모 섹션 표기를 `OpenClaw(구 Moltbot) × NotebookLM × 안티그래비티`로 통일 + `19_WOW_DEMO_SEQUENCE_10MIN.md` 제목 표기 일관화 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 이전 라운드 결과(참고)
