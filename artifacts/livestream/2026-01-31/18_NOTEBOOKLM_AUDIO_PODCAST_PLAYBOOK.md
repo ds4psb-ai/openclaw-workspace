@@ -9,7 +9,7 @@
   - https://support.google.com/notebooklm/answer/16212820?hl=en (Takeaway: 소스 기반 요약 + 객관적 반영을 명시)
 - **Audio Overview는 Deep Dive/Brief/Critique/Debate 포맷 + 언어 선택 + 길이/커스텀 프롬프트로 조정 가능** → 라이브 후 “2분 요약(Brief)” 같은 공유용 출력이 바로 나옴
   - https://support.google.com/notebooklm/answer/16212820?hl=en (Takeaway: 포맷/언어/길이/프롬프트 커스터마이즈)
-- **Audio Overviews는 50+ 언어로 확장(베타)되었고, Interactive mode는 영어만(베타)** → 한국어로도 ‘확산용’ 출력이 가능하다는 말의 근거가 됨
+- **Audio Overviews는 50+ 언어로 확장(베타)됐고, Interactive mode는 영어만(베타)** → 한국어로도 ‘확산용’ 출력이 가능하다는 말의 근거가 됨
   - https://workspaceupdates.googleblog.com/2025/04/language-expansion-audio-overviews-notebooklm.html (Takeaway: 50+ languages, interactive English-only)
 
 ---
