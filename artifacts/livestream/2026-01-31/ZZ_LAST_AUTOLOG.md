@@ -2,13 +2,13 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 20:31 KST
+마지막 collab-loop 실행: 2026-02-13 20:36 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
 - 검토 완료: 복붙/운영 표현의 가독성 + 표기 일관성 재점검
-- 변경: `05_ONE_SCREEN_CHEATSHEET.md` 챕터 최소 조건 문구를 `6줄+` → `6줄 이상`으로 명확화 + `80_CHECKLISTS.md` 빠른 링크 용어를 `런 오브 쇼` → `Run of Show`로 통일 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 변경: `00_README.md` 빠른 링크 용어를 `런오브쇼` → `Run of Show`로 통일 + `80_CHECKLISTS.md` 진행 체크 항목의 `런오브쇼` → `Run of Show`로 통일 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 이전 라운드 결과(참고)
