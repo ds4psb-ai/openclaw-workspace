@@ -24,7 +24,7 @@
 - `챕터` / `Q:`
 
 ## (추천) 라이브 중 열어둘 탭 6개(순서대로)
-(참고) 최근 자동 업데이트 요약: `ZZ_LAST_AUTOLOG.md`
+(참고) 마지막 자동 루프 요약: `ZZ_LAST_AUTOLOG.md`
 1) `05_ONE_SCREEN_CHEATSHEET.md` (이 문서)
 2) `30_RUN_OF_SHOW_14-18.md` (진행)
 3) `35_TIMESTAMP_TEMPLATE.md` (종료 직후 타임스탬프 정리)
