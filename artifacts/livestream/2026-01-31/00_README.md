@@ -46,7 +46,7 @@
 ## 최소 동선(언제 뭘 열지)
 - **라이브 시작 10분 전**: `00_README.md` + `80_CHECKLISTS.md` + (권장) **YouTube Studio 컨트롤룸/스트림 헬스(채널/스트림 대상/스트림 키 포함) 확인**
 - **라이브 중(상시)**: `05_ONE_SCREEN_CHEATSHEET.md` + `30_RUN_OF_SHOW_14-18.md` + (권장) **YouTube Studio 채팅/스트림 헬스 팝아웃**
-- **종료 직후(권장 10–15분)**: `35_TIMESTAMP_TEMPLATE.md` → `20_YT_TITLE_DESC_PIN.md` → `90_POST_LIVE_FOLLOWUP.md` *(방송 중 메모를 종료 후 한 번에 반영, 같은 챕터 블록을 고정댓글 → 설명란 순서로 1회 동기화)*
+- **종료 직후(권장 10~15분)**: `35_TIMESTAMP_TEMPLATE.md` → `20_YT_TITLE_DESC_PIN.md` → `90_POST_LIVE_FOLLOWUP.md` *(방송 중 메모를 종료 후 한 번에 반영, 같은 챕터 블록을 고정댓글 → 설명란 순서로 1회 동기화)*
 
 ## 솔로 운영 안전장치(추가 원칙)
 - 방송 중에는 문서는 가능하면 **읽기 전용**으로 두기
