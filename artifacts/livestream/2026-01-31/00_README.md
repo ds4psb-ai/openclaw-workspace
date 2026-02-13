@@ -32,7 +32,7 @@
 - 진행 (Run of Show, KST 14:00–18:00): `30_RUN_OF_SHOW_14-18.md`
 - 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
 - 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
-- 카톡방 전체 멘션(복붙): `10_KAKAO_ALL_MENTION.md`
+- 카톡방 전체 멘션(KST 13:55, 복붙): `10_KAKAO_ALL_MENTION.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리 템플릿(복붙용·종료 후 1회 반영): `35_TIMESTAMP_TEMPLATE.md`
 - 전/중/후 체크리스트: `80_CHECKLISTS.md`
