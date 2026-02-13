@@ -55,7 +55,7 @@
 - 스토리: 라이브가 끝나면 NotebookLM Audio Overview로 “오늘 방송 2분 요약(Brief)”을 뽑아서 바이럴 방에 공유.
 - 임팩트 한 줄: “라이브가 끝나도 **AI가 후반 작업을 다 해줘서** 바이럴이 계속 돈다.”
 - 시연 포인트
-  - Audio Overview 포맷(Brief/Deep Dive 등) 선택 화면만 스치듯 보여주기
+  - Audio Overview 포맷(Brief/Deep Dive 등) 선택 화면을 스치듯 보여주기
   - 마무리 멘트 고정: “방송 끝나고 2분 요약 오디오를 방에 바로 공유할게요.”
 
 ---
