@@ -173,7 +173,7 @@
 - `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md` : NotebookLM 오디오 팟캐스트/쿼리로 라이브를 ‘와’ 수준으로 업그레이드(바이럴 확산 루프)
 - `19_WOW_DEMO_SEQUENCE_10MIN.md` : 오프닝 10~15분 ‘와…’ 데모 시퀀스(그대로 따라하기)
 - `20_YT_TITLE_DESC_PIN.md` : 유튜브 제목/설명/고정댓글(광고 티 최소)
-- `30_RUN_OF_SHOW_14-18.md` : 14~18시 4시간 런오브쇼(분 단위)
+- `30_RUN_OF_SHOW_14-18.md` : 14:00–18:00 (KST) 4시간 런오브쇼(분 단위)
 - `35_TIMESTAMP_TEMPLATE.md` : 고정댓글/타임스탬프/리캡 템플릿(복붙)
 - `40_HOST_SCRIPT_KEY_LINES.md` : 오프닝 3분/전환 멘트/엔딩 2분(그대로 읽기)
 - `50_DEMO_PLAN_A_B.md` : 데모 플랜A/플랜B(장애/지연 대응)
