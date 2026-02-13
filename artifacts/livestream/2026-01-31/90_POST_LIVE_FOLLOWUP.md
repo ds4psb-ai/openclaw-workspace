@@ -81,7 +81,7 @@ https://LINK_HERE
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="05_ONE_SCREEN_CHEATSHEET.md" --exclude="90_POST_LIVE_FOLLOWUP.md" --exclude="00_README.md" -- artifacts/livestream/2026-01-31` *(결과가 0이 아니면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
-- [ ] 예시(값 교체 필수): “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
+- [ ] 예시(값 교체 필수): “다음 라이브: YYYY-MM-DD (KST HH:MM–KST HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
   - (복붙 예시) “다음 라이브: YYYY-MM-DD (KST 14:00–15:30) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
   - (형식 팁) `KST 09:05`처럼 24시간제 + 앞 0을 유지하면 공지/검색 정렬이 깔끔합니다.
   - (게시 직전) `YYYY-MM-DD` / `KST HH:MM` 플레이스홀더가 남아있지 않은지 1회 확인
