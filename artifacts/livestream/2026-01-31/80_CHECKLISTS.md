@@ -111,7 +111,7 @@
 
 ### (권장) 플랜B 자산 정리 방식(찾기 시간 0)
 - [ ] `artifacts/livestream/<라이브-폴더>/` 탭 고정(README/체크리스트/타임스탬프)
-- [ ] 플랜B용 캡처/녹화본은 **한 폴더에** 모아두기(예: `Desktop(바탕화면)/livestream/plan-b/` 등, 라이브 중 2번 클릭으로 열 수 있는 위치)
+- [ ] 플랜B용 캡처/녹화본은 **한 폴더에** 모아두기(예: `Desktop/바탕화면/livestream/plan-b/` 등, 라이브 중 2번 클릭으로 열 수 있는 위치)
 - [ ] 파일명 규칙(예시):
   - `A1_performance_before-after.png`
   - `A2_storyboard_example.png`
