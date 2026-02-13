@@ -77,9 +77,9 @@ https://LINK_HERE
 
 -----8<----- COPY FROM HERE -----8<-----
 https://LINK_HERE
-https://LINK_HERE_2
+https://LINK_HERE_2  (링크 1개만 쓰면 이 줄 삭제)
 
-업데이트(운영 로그, 선택): KST HH:MM (챕터 라인과 분리)
+업데이트(운영 로그, 선택): KST HH:MM (예: KST 18:12, 챕터 라인과 분리)
 
 질문 포맷(채팅): Q: 직무 / 상황 / 원하는 결과 (1줄)
 답변 룰: 60~90초 컷(결론→이유→다음 액션)
