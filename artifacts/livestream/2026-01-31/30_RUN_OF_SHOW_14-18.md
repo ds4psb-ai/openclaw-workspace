@@ -10,7 +10,7 @@
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - Q&A 시간관리: `60_QA_PROTOCOL.md`
 - 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
-- 종료 직후 타임스탬프 정리: `35_TIMESTAMP_TEMPLATE.md`
+- 종료 직후 타임스탬프 정리: `35_TIMESTAMP_TEMPLATE.md` (라이브 중엔 메모앱 기록, 종료 후 1회 반영)
 - 체크리스트(시작 전 30초): `80_CHECKLISTS.md`
 
 ## 빠른 검색 키워드(⌘F)
