@@ -2,14 +2,15 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-14 00:16 KST
+마지막 collab-loop 실행: 2026-02-14 00:36 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
-- 검토 완료: Follow-up 중심으로 플레이스홀더 스캔 오탐/잡음 동선 재점검
-- 변경: `90_POST_LIVE_FOLLOWUP.md`의 플레이스홀더 스캔 예시 커맨드에 가이드 문서 제외(`--exclude="05_ONE_SCREEN_CHEATSHEET.md"`) 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 검토 완료: 플레이스홀더 스캔 오탐/잡음 최소화를 위한 체크 포인트 미세 정리
+- 변경: `00_README.md`의 최종 플레이스홀더 체크 목록에 `https://LINK_HERE_2` 추가 1건 + `90_POST_LIVE_FOLLOWUP.md`의 플레이스홀더 스캔 예시 커맨드에 가이드 문서 제외(`--exclude="00_README.md"`) 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
+
 
 ## 이전 라운드 결과(참고)
 - `(prev)` 문서 상태 유지 — Follow-up 플레이스홀더 스캔 예시에서 가이드 문서 제외 1건 + 자동로그 갱신 1건 (00:16 KST)
