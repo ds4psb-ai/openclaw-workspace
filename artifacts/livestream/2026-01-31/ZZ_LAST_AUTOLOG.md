@@ -2,13 +2,13 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 20:06 KST
+마지막 collab-loop 실행: 2026-02-13 20:11 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
 - 검토 완료: 라이브 중 복붙 동선 가독성 + 용어 표기 일관성 점검
-- 변경: `80_CHECKLISTS.md` 상단 링크 문구의 중복 표현(“마지막/최근”)을 정리 + `80_CHECKLISTS.md` remux 표기를 `리먹스(remux)`로 일관화(2곳) + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 변경: `80_CHECKLISTS.md` 상단 링크 문구의 중복 표현(“최근/최근”) 정리 + `90_POST_LIVE_FOLLOWUP.md` remux 표기를 `리먹스(remux)`로 일관화(1곳) + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 이전 라운드 결과(참고)
