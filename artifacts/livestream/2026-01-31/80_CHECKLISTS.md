@@ -84,7 +84,7 @@
 - [ ] (권장) 장면 전환/음소거 **단축키 2개만** 미리 확인(예: Mute, Starting Soon↔Live)
 - [ ] (권장) **OBS Stats(드롭 프레임) 확인 동선**: Stats 창(또는 하단 상태바)에서 Dropped Frames/CPU/KB/s를 10초만 확인(초반에 문제 잡기)
 - [ ] **KST 13:55 카톡방 전체 멘션** 준비: `10_KAKAO_ALL_MENTION.md` 열어두고, 시계/타이머 알림 맞추기(13:54 리마인더 1개 권장)
-- [ ] (권장) **13:55 멘션 전송 직후 `KST HH:MM 멘션 완료` 1줄 로그** 남기기(누락/중복 전송 방지)
+- [ ] (권장) **13:55 멘션 전송 직후 `KST HH:MM 멘션 완료` 1줄 로그** 남기기(누락/중복 전송 방지, 1회 전송 확인)
 - [ ] 진행용 Run of Show 문서 열어두기: `30_RUN_OF_SHOW_14-18.md`
 - [ ] 라이브 중 상시 볼 문서 열어두기: `05_ONE_SCREEN_CHEATSHEET.md`
 - [ ] 플랜B 자산(캡처/녹화본/미러링크) 탭 열어두기: `50_DEMO_PLAN_A_B.md` / `85_PLAN_B_ASSETS_CHECKLIST.md` / `35_TIMESTAMP_TEMPLATE.md` / (자료 링크 1개)
