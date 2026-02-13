@@ -1,9 +1,9 @@
-# 10분 ‘와…’ 데모 시퀀스 (OpenClaw(구 Moltbot) × NotebookLM × 안티그래비티)
+# 10분 ‘와…’ 데모 시퀀스 (OpenClaw (구 Moltbot) × NotebookLM × 안티그래비티)
 
 목표: 중년 남성(사장님/1인사업/부업 관심층)이 **“이건 장난이 아니네…”** 하게 만드는 장면만 보여준다.
 
 근거(리서치)
-- OpenClaw(구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
+- OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
 - Moltbot 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
@@ -30,13 +30,13 @@
   - Chat에 질문 1개:
     - “오늘 라이브 요약을 ‘중년 남성 사장님’ 타겟으로 6문장으로 써줘. 마지막은 상업성 티 안 나게.”
 
-### 4:00–7:00 (장면 2) OpenClaw(구 Moltbot): 텔레그램 한 줄 → ‘게시/배포’ 작업 큐 생성
+### 4:00–7:00 (장면 2) OpenClaw (구 Moltbot): 텔레그램 한 줄 → ‘게시/배포’ 작업 큐 생성
 - 스토리: “배포해줘” 한 줄이 업무 지시서로 변환되고, 깃/노션/블로그/홈페이지 업데이트 작업이 큐로 쌓이는 장면.
 - 임팩트 한 줄: “글 쓰는 것보다 **‘올려’라고 말하는 시간이 더 짧다**.”
 - 시연 포인트(화면)
   - 텔레그램에서 봇에게 명령(예시):
     - “NotebookLM 최신 요약을 가져와서: 1) 홈페이지 공지 섹션 업데이트 문구 작성 2) 고정댓글/설명란 문구 업데이트 3) 깃에 커밋 메시지까지 만들어줘.”
-  - 결과물: git diff/commit 준비 화면 또는 노션/문서에 결과 생성된 것 보여주기
+  - 결과물: Git diff/commit 준비 화면 또는 노션/문서에 결과 생성된 것 보여주기
 
 ### 7:00–8:00 (장면 3) Mixboard: 무드보드 60초 생성(‘거장 DNA’ 시각화)
 - 스토리: 키워드만으로 **이미지/색/구도**가 한 번에 정리되면 ‘미학’이 갑자기 쉬워짐.
