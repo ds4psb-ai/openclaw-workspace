@@ -79,7 +79,7 @@ https://LINK_HERE
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --exclude="35_TIMESTAMP_TEMPLATE.md" -- artifacts/livestream/2026-01-31`
 
 ## 5) 다음 라이브 예고 문구(짧게)
-- [ ] 예시: “다음 라이브: (KST) YYYY-MM-DD HH:MM–HH:MM — 성능/디자인 → 데이터 기반 추론 → 수익화.”
+- [ ] 예시: “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
 
 ## 6) 다음 회차를 위한 로그
 - [ ] 병목 3개(어디서 시간/오류 났는지)
