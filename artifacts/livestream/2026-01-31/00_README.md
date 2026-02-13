@@ -201,7 +201,7 @@
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
 - 장애 대비: `50_DEMO_PLAN_A_B.md`
 - 종료 직후 작업: `35_TIMESTAMP_TEMPLATE.md` *(라이브 중엔 메모앱에 `__:__`만 기록하고, 종료 직후 1회 반영)*
-- 링크/고정댓글/CTA 표: `20_YT_TITLE_DESC_PIN.md`
+- 링크/고정댓글/CTA 템플릿: `20_YT_TITLE_DESC_PIN.md`
   - 고정댓글의 **업데이트 시각**은 `KST HH:MM`(예: `KST 17:05`)로,
   - **타임스탬프/챕터** `__:__`는 **영상 재생 시간**으로 분리해서 적기
   - 엔딩 멘트는 `70_CTA_SOFTSELL.md` 참고
