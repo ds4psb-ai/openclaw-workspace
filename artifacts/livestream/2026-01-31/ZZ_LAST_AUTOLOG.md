@@ -2,13 +2,13 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 22:21 KST
+마지막 collab-loop 실행: 2026-02-13 22:31 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
-- 검토 완료: 방송 후 정리 동선(고정댓글 → 설명란)과 챕터 블록 규칙(KST 로그 분리) 재확인
-- 변경: `05_ONE_SCREEN_CHEATSHEET.md` 용어 표기(“모드 전환”) 일관화 1건 + `90_POST_LIVE_FOLLOWUP.md` OBS 후처리 표현(리먹싱) 미세 정리 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 검토 완료: 후속 운영 문구의 용어 일관성과 Run of Show 섹션 가독성 재확인
+- 변경: `90_POST_LIVE_FOLLOWUP.md` remux 표기 미세 정리 1건 + `30_RUN_OF_SHOW_14-18.md` WOW 섹션 헤더 표현 미세 정리 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 이전 라운드 결과(참고)
