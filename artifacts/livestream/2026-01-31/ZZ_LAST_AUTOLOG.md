@@ -2,14 +2,22 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-14 05:27 KST
+마지막 collab-loop 실행: 2026-02-14 05:31 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
 - 검토 완료: 운영 동선 명확성 미세 보강
-- 변경: `80_CHECKLISTS.md`/`90_POST_LIVE_FOLLOWUP.md` 운영 문구 미세 명확화 2건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 변경: `00_README.md`/`30_RUN_OF_SHOW_14-18.md` KST 표기 순서 통일 2건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
+
+## 2026-02-14 KST 05:31 자동 루프
+- 적용 범위: `artifacts/livestream/2026-01-31` 내부 문서만 점검
+- 변경 3건(소규모):
+  1) `00_README.md`의 Run of Show 링크 라벨을 `진행(Run of Show, KST 14:00–18:00)`으로 정리해 시각 표기 순서를 통일
+  2) `30_RUN_OF_SHOW_14-18.md` 제목을 `Run of Show (KST 14:00–18:00)`으로 정리해 KST 표기 일관성 보강
+  3) 본 자동 로그 항목 추가(마지막 실행 시각/요약 갱신)
+- 제외: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 2026-02-14 KST 05:27 자동 루프
 - 적용 범위: `artifacts/livestream/2026-01-31` 내부 문서만 점검
