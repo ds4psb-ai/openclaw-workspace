@@ -123,7 +123,7 @@
 ## (시간 없을 때) 최소 세트만 열기
 - 1페이지 요약: `05_ONE_SCREEN_CHEATSHEET.md`
 - 진행: `30_RUN_OF_SHOW_14-18.md`
-- 메모(라이브 중)/정리(종료 직후): `35_TIMESTAMP_TEMPLATE.md`
+- 메모앱(라이브 중)/템플릿 정리(종료 직후): `35_TIMESTAMP_TEMPLATE.md`
 - 장애 대응: `50_DEMO_PLAN_A_B.md`
 - 전/중/후 체크: `80_CHECKLISTS.md`
 
