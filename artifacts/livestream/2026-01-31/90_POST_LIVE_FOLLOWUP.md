@@ -77,7 +77,7 @@ https://LINK_HERE
 - [ ] 관리자/대시보드/결제/개인정보 노출 구간이 없는지 1회 확인
 - [ ] 문제가 있으면: 바로 비공개/편집(YouTube Studio) 플로우로 전환
 - [ ] (추가 안전) 자료 링크(노션/구글독스/드라이브)가 **권한 문제 없이 열리는지** 10초만 테스트(시청자 이탈 방지)
-- [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더 1회 검색: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__`
+- [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더를 **빠르게 1회 스캔**: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__`
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="90_POST_LIVE_FOLLOWUP.md" -- artifacts/livestream/2026-01-31` *(결과가 0이 아니면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
