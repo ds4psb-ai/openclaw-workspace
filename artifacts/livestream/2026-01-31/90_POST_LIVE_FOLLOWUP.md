@@ -75,7 +75,7 @@ https://LINK_HERE
 - [ ] 문제가 있으면: 바로 비공개/편집(YouTube Studio) 플로우로 전환
 - [ ] (추가 안전) 자료 링크(노션/구글독스/드라이브)가 **권한 문제 없이 열리는지** 10초만 테스트(시청자 이탈 방지)
 - [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더 1회 검색: `https://LINK_HERE` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__`
-- [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" -- artifacts/livestream/2026-01-31`
+- [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" -- artifacts/livestream/2026-01-31`
 
 ## 5) 다음 라이브 예고 문구(짧게)
 - [ ] 예시(값 교체 필수): “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
