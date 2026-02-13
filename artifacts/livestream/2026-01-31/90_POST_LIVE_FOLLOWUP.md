@@ -5,6 +5,7 @@
 - [ ] (권장) YouTube Studio에서 **스트림 종료(Ended) 및 저장 상태가 정상인지** 10초 확인(종료 버튼/상태 꼬임 방지)
 - [ ] (권장) 리플레이 **공개 상태(비공개/일부공개/공개 중 의도한 값)**인지 10초 확인(공유/노출 사고 방지)
 - [ ] 녹화 파일이 실제로 저장됐는지 **파일 크기/재생**으로 10초만 확인
+- [ ] (권장) OBS 사용 시 녹화 종료 직후 3–5초 대기 후 파일 확인(컨테이너 마무리(write flush) 누락 오판 방지)
 - [ ] (권장) 파일명에 날짜/회차 식별자(예: `2026-01-31_live`)가 있는지 1회 확인(아카이브 혼동 방지)
 - [ ] (선택) 원본 파일을 다른 드라이브/클라우드로 복사 시작(업로드 중 사고 대비)
 - [ ] (선택, OBS) 로컬 녹화를 `mkv`로 했다면: 필요할 때만 `mkv → mp4` 리먹스(remux, 보통 재인코딩 없이 컨테이너만 변환) (OBS `File → Remux Recordings…`)
@@ -83,7 +84,7 @@ https://LINK_HERE
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="05_ONE_SCREEN_CHEATSHEET.md" --exclude="90_POST_LIVE_FOLLOWUP.md" --exclude="00_README.md" -- artifacts/livestream/2026-01-31` *(결과가 0이 아니면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
-- [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST 14:00–15:30) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
+- [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화.”
   - (형식 팁) `KST 09:05`처럼 24시간제 + 앞 0을 유지하면 공지/검색 정렬이 깔끔합니다.
   - (게시 직전) `YYYY-MM-DD` / `KST HH:MM` 플레이스홀더가 남아있지 않은지 1회 확인
 
