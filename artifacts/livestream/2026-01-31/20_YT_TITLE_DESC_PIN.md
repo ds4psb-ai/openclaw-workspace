@@ -79,7 +79,7 @@ https://LINK_HERE
 https://LINK_HERE
 https://LINK_HERE_2
 
-업데이트(운영 로그, 선택): KST HH:MM
+업데이트(운영 로그, 선택): KST HH:MM (챕터 블록과 분리)
 
 질문 포맷(채팅): Q: 직무 / 상황 / 원하는 결과 (1줄)
 답변 룰: 60~90초 컷(결론→이유→다음 액션)
