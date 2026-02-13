@@ -2,13 +2,13 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 22:11 KST
+마지막 collab-loop 실행: 2026-02-13 22:21 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
 - 검토 완료: 방송 후 정리 동선(고정댓글 → 설명란)과 챕터 블록 규칙(KST 로그 분리) 재확인
-- 변경: `90_POST_LIVE_FOLLOWUP.md` 챕터 복붙 실수 방지 문구 1건 보강 + `05_ONE_SCREEN_CHEATSHEET.md` TL;DR에 ‘라이브 중 35번 템플릿 미수정’ 원칙 1건 추가 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 변경: `05_ONE_SCREEN_CHEATSHEET.md` 용어 표기(“모드 전환”) 일관화 1건 + `90_POST_LIVE_FOLLOWUP.md` OBS 후처리 표현(리먹싱) 미세 정리 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 이전 라운드 결과(참고)
