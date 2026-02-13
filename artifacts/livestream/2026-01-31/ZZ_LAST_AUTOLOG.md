@@ -2,13 +2,13 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 17:12 KST
+마지막 collab-loop 실행: 2026-02-13 17:32 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
 - 검토 완료: 라이브 운영 가이드의 “복붙 직전 안정성”과 “플랜B 전환 즉시성” 중심 점검
-- 변경: `90_POST_LIVE_FOLLOWUP.md` 중복 체크 문구 1건 정리 + `85_PLAN_B_ASSETS_CHECKLIST.md`에 영상 버벅임 시 정적 캡처 우선 전환 팁 1건 추가 + `ZZ_LAST_AUTOLOG.md` 실행 시각 갱신
+- 변경: `90_POST_LIVE_FOLLOWUP.md` 플레이스홀더 스캔 커맨드에 `--include="*.md"`/`--binary-files=without-match` 옵션 추가(오탐/바이너리 노이즈 감소) + `85_PLAN_B_ASSETS_CHECKLIST.md` Polar 항목에 “샌드박스, 실결제 금지” 문구 명시 + `ZZ_LAST_AUTOLOG.md` 실행 시각 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서 의도적으로 미수정(안정성 우선)
 
 
