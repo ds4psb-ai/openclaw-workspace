@@ -1,10 +1,10 @@
 # 10분 ‘와…’ 데모 시퀀스 (OpenClaw(구 Moltbot) × NotebookLM × 안티그래비티)
 
-목표: 중년 남성(사장님/1인사업/부업 관심층)이 **“이건 장난이 아니네…”** 하게 만드는 장면만 보여준다.
+목표: 중년 남성(사장님·1인사업·부업 관심층)이 **“이건 장난이 아니네…”** 하게 만드는 장면만 보여준다.
 
 근거(리서치)
 - OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
-- OpenClaw(당시 명칭: Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw (당시 명칭: Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
