@@ -8,7 +8,7 @@
 - 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
 - KST 13:55 카톡방 전체 멘션(복붙): `10_KAKAO_ALL_MENTION.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
-- 종료 직후 타임스탬프 정리 템플릿(복붙): `35_TIMESTAMP_TEMPLATE.md`
+- 종료 직후 타임스탬프 정리 템플릿(복붙·종료 후 1회 반영): `35_TIMESTAMP_TEMPLATE.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - Q&A 시간관리: `60_QA_PROTOCOL.md`
 - 플랜B 자산 체크리스트(초단축 1페이지): `85_PLAN_B_ASSETS_CHECKLIST.md`

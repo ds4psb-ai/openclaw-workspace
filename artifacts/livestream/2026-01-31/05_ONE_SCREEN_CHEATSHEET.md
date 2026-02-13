@@ -34,7 +34,7 @@
 (참고) 마지막 자동 루프 요약: `ZZ_LAST_AUTOLOG.md`
 1) `05_ONE_SCREEN_CHEATSHEET.md` (이 문서)
 2) `30_RUN_OF_SHOW_14-18.md` (진행)
-3) `35_TIMESTAMP_TEMPLATE.md` (종료 직후 타임스탬프 정리 — 라이브 중엔 메모앱에만 기록)
+3) `35_TIMESTAMP_TEMPLATE.md` (종료 직후 타임스탬프 정리 — 라이브 중엔 메모앱에만 기록, 직접 수정 금지)
 4) `50_DEMO_PLAN_A_B.md` (장애/지연 대응)
 5) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글 복붙)
 6) `10_KAKAO_ALL_MENTION.md` (13:55 전체 멘션 복붙 — 라이브 시작 직전/초반 동선)
