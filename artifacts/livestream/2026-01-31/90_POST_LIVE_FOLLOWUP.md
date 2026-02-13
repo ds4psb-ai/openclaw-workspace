@@ -31,7 +31,7 @@
 - [ ] (복붙 직전) 템플릿의 `https://LINK_HERE` / `https://LINK_HERE_2` / `KST HH:MM` / `YYYY-MM-DD` / `— ... —` 같은 플레이스홀더/예시가 **남아있지 않은지** 1초 확인
 - [ ] (복붙 직전) 챕터 라인 시작에 **앞 공백/불릿(-/•)** 이 끼지 않았는지 1초 확인(인식 실패 예방)
 - [ ] (복붙 직전) 챕터 라인이 **`00:00` 포함 최소 3줄(권장 6줄+)**인지 최종 1회 확인(자동 인식 안정)
-- [ ] (복붙 직전) 붙여넣기/수정 후 **저장 버튼 비활성화(저장 완료 상태)**인지 1초 확인(저장 누락 방지)
+- [ ] (복붙 직후) 붙여넣기/수정 후 **저장 버튼 비활성화(저장 완료 상태)**인지 1초 확인(저장 누락 방지)
 - [ ] (권장) 고정댓글에 올린 타임스탬프는 이후 **설명란에도 동일하게 복사**(순서: **고정댓글 → 설명란**, 검색/공유/유입에 유리)
 - [ ] (리플레이 팁) 고정댓글에 “오늘…” 같은 문구가 남아있으면 “이 영상…”으로 바꾸기
 - [ ] (실수 방지) 수정/저장 후 **고정댓글이 ‘진짜로’ 핀(고정) 상태인지** 10초 확인(수정하다가 고정이 풀리는 사고 방지)
@@ -78,7 +78,7 @@ https://LINK_HERE
 - [ ] 문제가 있으면: 바로 비공개/편집(YouTube Studio) 플로우로 전환
 - [ ] (추가 안전) 자료 링크(노션/구글독스/드라이브)가 **권한 문제 없이 열리는지** 10초만 테스트(시청자 이탈 방지)
 - [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더 1회 검색: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__`
-- [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" -- artifacts/livestream/2026-01-31` *(결과가 0이 아니면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
+- [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://example.com|YYYY-MM-DD|KST HH:MM|__:__" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="90_POST_LIVE_FOLLOWUP.md" -- artifacts/livestream/2026-01-31` *(결과가 0이 아니면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
 - [ ] 예시(값 교체 필수): “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화.”

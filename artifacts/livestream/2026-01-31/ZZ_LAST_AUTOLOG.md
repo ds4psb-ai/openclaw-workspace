@@ -2,16 +2,18 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-13 23:22 KST
+마지막 collab-loop 실행: 2026-02-13 23:27 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
-- 검토 완료: One-screen/Follow-up 중심으로 복붙·저장 누락 방지 동선 재확인
-- 변경: `80_CHECKLISTS.md` 스트림 헬스 체크 문구(계정/스트림/키 선택 사고 방지) 명확화 1건 + `90_POST_LIVE_FOLLOWUP.md` 플레이스홀더 검색 항목에 `https://LINK_HERE_2` 추가 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 검토 완료: Follow-up 중심으로 복붙 직전/직후 체크 문구 및 스캔 커맨드 오탐 동선 점검
+- 변경: `90_POST_LIVE_FOLLOWUP.md`의 저장 확인 체크 타이밍 문구를 `복붙 직전`→`복붙 직후`로 정정 1건 + 동일 문서의 플레이스홀더 스캔 예시 커맨드에 자기 자신 제외(`--exclude="90_POST_LIVE_FOLLOWUP.md"`) 1건 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 이전 라운드 결과(참고)
+
+- `(prev)` 문서 상태 유지 — Follow-up 체크 문구 정정 1건 + 플레이스홀더 스캔 오탐 방지(exclude self) 1건 + 자동로그 갱신 1건 (23:22 KST)
 
 1) `(prev)` 문서 상태 유지 — 챕터 복붙 전 체크리스트 보강 1건 + 저장 누락 방지 체크 1건 + 자동로그 갱신 1건 (23:11 KST)
 
