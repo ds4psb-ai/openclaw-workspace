@@ -1,3 +1,8 @@
+## 2026-02-15 05:31 KST — writer/reviewer loop (minor polish)
+- 60_QA_PROTOCOL.md: 포맷 미준수 재질문 멘트를 `다시 한 번만` → `다시 1회만`으로 통일
+- 80_CHECKLISTS.md: 챕터 입력 금지 항목에 `탭`을 추가해 형식 가이드를 명확화
+- 80_CHECKLISTS.md: 고정댓글 초안 문구를 `https://` 시작 URL 기준으로 명시해 복붙 안정성 강화
+
 ## 2026-02-15 05:23 KST — writer/reviewer loop (minor polish)
 - 05_ONE_SCREEN_CHEATSHEET.md: Q&A 운영 문구를 `Q:` 포맷/답변 규칙으로 분리해 한 번에 읽히도록 정리
 - 60_QA_PROTOCOL.md: `q:` 입력 처리 문구에 “소문자”를 명시해 수집 기준 해석 혼선을 줄임
