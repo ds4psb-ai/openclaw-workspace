@@ -182,7 +182,7 @@
 - `35_TIMESTAMP_TEMPLATE.md` : 고정댓글/타임스탬프/리캡 템플릿(복붙)
 - `40_HOST_SCRIPT_KEY_LINES.md` : 오프닝 3분/전환 멘트/엔딩 2분(그대로 읽기)
 - `50_DEMO_PLAN_A_B.md` : 데모 플랜A/플랜B(장애/지연 대응)
-- `60_QA_PROTOCOL.md` : Q&A 수집/선별/시간관리 멘트 + 질문 포맷
+- `60_QA_PROTOCOL.md` : Q&A 수집/선별/시간 관리 멘트 + 질문 포맷
 - `70_CTA_SOFTSELL.md` : ‘은근하게’ 상업성 낮춘 CTA(가격/일정은 표로)
 - `80_CHECKLISTS.md` : 방송 전/중/후 운영 체크리스트(+플랜B 자산 체크)
 - `85_PLAN_B_ASSETS_CHECKLIST.md` : 플랜B 자산 체크리스트(초단축 1페이지)
@@ -196,7 +196,7 @@
 - **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
 - **타임스탬프 템플릿(복붙)**: `35_TIMESTAMP_TEMPLATE.md` *(플랜B 전환 시각도 여기 한 줄로 남기기)*
-- **Q&A 시간관리**: `60_QA_PROTOCOL.md`
+- **Q&A 시간 관리**: `60_QA_PROTOCOL.md`
 - **방송 후 30분 후속 작업**: `90_POST_LIVE_FOLLOWUP.md`
 
 ## 운영 전 2분 셋업(탭 4개 + Finder 1개)
