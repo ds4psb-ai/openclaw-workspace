@@ -4,7 +4,7 @@
 - "OpenClaw (구 Moltbot)는 텔레그램 같은 메신저를 **AI 에이전트의 리모컨**으로 바꿔주는 게이트웨이입니다. 해외에서도 ‘폰에서 명령 → 서버에서 실행’ 패턴으로 개인 비서를 운영하는 사례가 늘고 있고, 오늘 우리가 시연하는 방식도 같은 철학입니다. **자동화는 데모를 넘어 운영(로그/스케줄/버전)까지 붙여야** 힘이 생깁니다."
 
 ## 근거 링크
-- MiniMax 튜토리얼(텔레그램에 OpenClaw 붙이기, 구 Moltbot 문서): https://platform.minimax.io/docs/solutions/moltbot
+- MiniMax 튜토리얼(텔레그램에 OpenClaw 붙이기, 구 Moltbot 문서지만 개념 동일): https://platform.minimax.io/docs/solutions/moltbot
 - OpenClaw 텔레그램 문서(Privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
 
 ## 안전 가이드(짧게)
