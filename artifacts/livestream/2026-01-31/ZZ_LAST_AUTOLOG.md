@@ -1,3 +1,9 @@
+## 2026-02-15 08:17 KST — writer/reviewer loop (minor polish)
+- 60_QA_PROTOCOL.md: 시간 박스 문구를 `한 번 더` → `1회 더`로 맞춰 횟수 표기 일관성 강화
+- 20_YT_TITLE_DESC_PIN.md: 설명 작성 가이드 출처 라벨을 `출처(공식)`으로 정리해 신뢰 출처 인지성 개선
+- 60_QA_PROTOCOL.md: 라이브 채팅 운영 근거 출처 라벨도 `출처(공식)`으로 통일해 문서 간 표기 톤 일치
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 07:51 KST — writer/reviewer loop (minor polish)
 - 70_CTA_SOFTSELL.md: 일정 시간대 표기를 `19:00~21:00` → `19:00–21:00`으로 통일해 범위 표기 일관성 강화
 - 20_YT_TITLE_DESC_PIN.md: 일정 표기 2곳을 `19:00~21:00` → `19:00–21:00`으로 맞춰 템플릿/본문 간 표기 일관성 개선
