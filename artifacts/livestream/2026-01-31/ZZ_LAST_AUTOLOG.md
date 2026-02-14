@@ -1,11 +1,11 @@
 # LAST AUTOLOG
 
 - Run: Writer/Reviewer collaboration loop (5m cron)
-- Timestamp: 2026-02-14 15:11 KST
+- Timestamp: 2026-02-14 15:41 KST
 - Scope: `artifacts/livestream/2026-01-31`
 - Changes (minor copy/ops polish, 2 docs):
-  1. `60_QA_PROTOCOL.md` — TL;DR의 “Q 3개 제한” 문구를 하위 불릿으로 정리해 폭주→정상화 흐름을 한눈에 보이게 정돈.
-  2. `80_CHECKLISTS.md` — 빠른 링크의 “최소 체크 7개” 참조 문구를 섹션명 기준으로 자연스럽게 정리.
+  1. `80_CHECKLISTS.md` — 빠른 링크 문구의 섹션 표기 따옴표를 제거해 가독성을 정리.
+  2. `60_QA_PROTOCOL.md` — TL;DR 리마인드 횟수 문구를 “총 3회 이내(고정댓글 1회 + 채팅 최대 2회)”로 압축해 즉시 이해되게 정리.
 - Guardrails respected:
   - `35_TIMESTAMP_TEMPLATE.md` 미수정
   - `rg` 미사용
