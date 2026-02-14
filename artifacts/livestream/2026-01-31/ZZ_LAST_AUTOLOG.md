@@ -2,14 +2,22 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-14 09:06 KST
+마지막 collab-loop 실행: 2026-02-14 09:47 KST
 
 ## 이번 자동 티키타카 결과
 
 - 문서 상태: 전체적으로 양호 (성숙 단계)
-- 검토 완료: 런북 중복 공지/중복 게시 방지 문구 미세 보강
-- 변경: `00_README.md` 고정댓글 중복 재게시 금지 문구 추가 + `30_RUN_OF_SHOW_14-18.md` Q&A 공지 상한 문구 명확화 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
+- 검토 완료: 브랜드 표기/운영 문체 일관성 미세 보강
+- 변경: `16_OPENCLAW_MOLTBOT_USECASES.md`의 `OpenClaw (구 Moltbot)` 표기 통일 + `90_POST_LIVE_FOLLOWUP.md` 문구 톤 정리 + `ZZ_LAST_AUTOLOG.md` 실행 시각/요약 갱신
 - 비고: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
+
+## 2026-02-14 09:47 KST 자동 루프
+- 적용 범위: `artifacts/livestream/2026-01-31` 내부 문서만 점검
+- 변경 3건(소규모):
+  1) `16_OPENCLAW_MOLTBOT_USECASES.md` 제목의 `MoltBot` 표기를 `Moltbot`으로 정리해 브랜드 표기 일관성 보강
+  2) `16_OPENCLAW_MOLTBOT_USECASES.md` 요약 문장의 `OpenClaw (구 Moltbot)` 띄어쓰기 통일
+  3) `90_POST_LIVE_FOLLOWUP.md`의 고정댓글 확인 문구를 `실제로` 표현으로 다듬어 운영 문체 일관성 보강
+- 제외: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 2026-02-14 09:06 KST 자동 루프
 - 적용 범위: `artifacts/livestream/2026-01-31` 내부 문서만 점검
