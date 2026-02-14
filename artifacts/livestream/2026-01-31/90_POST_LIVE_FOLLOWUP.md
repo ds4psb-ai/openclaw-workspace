@@ -84,7 +84,7 @@ https://LINK_HERE
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드/자동로그 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://LINK_HERE_2|https://example.com|YYYY-MM-DD|KST HH:MM|__:__|— \.\.\. —" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="05_ONE_SCREEN_CHEATSHEET.md" --exclude="90_POST_LIVE_FOLLOWUP.md" --exclude="00_README.md" --exclude="ZZ_LAST_AUTOLOG.md" -- artifacts/livestream/2026-01-31` *(출력이 없으면 정상. 결과가 나오면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
-- [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM~HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화”
+- [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화”
   - (형식 팁) `KST 09:05`처럼 24시간제 + 앞 0을 유지하면 공지/검색 정렬이 깔끔합니다.
   - (게시 직전) `YYYY-MM-DD` / `KST HH:MM` 플레이스홀더가 남아있지 않은지 1회 확인
 - [ ] (중복 방지) 이미 같은 채널에 다음 라이브 예고를 올렸다면 **재게시하지 말고 기존 글만 수정**
