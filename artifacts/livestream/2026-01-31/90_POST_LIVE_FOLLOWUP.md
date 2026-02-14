@@ -18,7 +18,7 @@
 - [ ] (실수 방지) 메모앱에 `KST ...` 로그가 섞여 있어도, 유튜브 챕터로 붙일 때는 `00:00 ...` 라인만 따로 선택해 복붙
 
 ## 2) 고정댓글 업데이트(정리본 붙여넣기)
-- [ ] (운영 원칙) 방송 중에는 고정댓글을 자주 수정하지 말고: **링크 1개만 게시 → 종료 직후 타임스탬프/리캡 1회만 업데이트** 흐름으로 마무리(과다 수정 방지)
+- [ ] (운영 원칙) 방송 중에는 고정댓글을 자주 수정하지 말고, **링크 1개만 게시 → 종료 직후 타임스탬프/리캡 1회 업데이트**로 마무리(과다 수정 방지)
 - [ ] 자료 링크 1줄(단독 줄) + (선택) `업데이트: KST HH:MM` 1줄 추가(예: `업데이트: KST 18:12`) — **KST 시계 기준** *(플레이스홀더가 아닌 실제 시각으로 교체, 이전 회차 시각 복붙 금지)*
   - (형식) 업데이트 시각은 `KST 09:05`처럼 **24시간제 + 앞 0 유지**로 통일(검색/로그 정렬 안정)
   - (중요) 링크는 **불릿 없이 URL 단독 한 줄**(예: `https://...`)로 두기(모바일 클릭/복사 안정)
@@ -84,7 +84,7 @@ https://LINK_HERE
 - [ ] 관리자/대시보드/결제/개인정보 노출 구간이 없는지 1회 확인
 - [ ] 문제가 있으면: 바로 비공개/편집(YouTube Studio) 플로우로 전환
 - [ ] (추가 안전) 자료 링크(노션/구글독스/드라이브)가 **로그아웃/시크릿 창에서도 열리는지** 10초만 테스트(시청자 이탈 방지)
-- [ ] (추가 안전) 유튜브 입력란에서 플레이스홀더를 **빠르게 1회 스캔**: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__` / `— ... —`
+- [ ] (추가 안전) 유튜브 입력란(제목/설명/고정댓글)에서 플레이스홀더를 **빠르게 1회 스캔**: `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__` / `— ... —`
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드/자동로그 제외): `cd /Users/ted/.openclaw/workspace && grep -R -nE "https://LINK_HERE|https://LINK_HERE_2|https://example.com|YYYY-MM-DD|KST HH:MM|__:__|— \.\.\. —" --include="*.md" --binary-files=without-match --exclude="35_TIMESTAMP_TEMPLATE.md" --exclude="20_YT_TITLE_DESC_PIN.md" --exclude="05_ONE_SCREEN_CHEATSHEET.md" --exclude="90_POST_LIVE_FOLLOWUP.md" --exclude="00_README.md" --exclude="ZZ_LAST_AUTOLOG.md" -- artifacts/livestream/2026-01-31` *(출력이 없으면 정상(플레이스홀더 없음). 결과가 나오면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
