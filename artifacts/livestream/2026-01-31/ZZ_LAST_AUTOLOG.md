@@ -1,5 +1,15 @@
 ## Auto-update log (Writer/Reviewer loop)
 
+- Run time: 2026-02-15 04:11 KST
+- Scope: copy/ops polish only (`artifacts/livestream/2026-01-31`)
+- Changes:
+  1. `00_README.md` — 핵심 규칙의 줄 시작 조건을 `공백`에서 `공백/탭`으로 명시해 챕터 인식 실패 예방 문구를 더 명확히 정리.
+  2. `05_ONE_SCREEN_CHEATSHEET.md` — 종료 직후 저장 지연 대응 표현을 `재편집` → `재수정`으로 통일해 운영 문맥 일관성 개선.
+
+---
+
+## Auto-update log (Writer/Reviewer loop)
+
 - Run time: 2026-02-15 04:06 KST
 - Scope: copy/ops polish only (`artifacts/livestream/2026-01-31`)
 - Changes:
