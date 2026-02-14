@@ -2,7 +2,7 @@
 
 브랜치: `livestream/2026-01-31`
 생성일: 2026-01-31
-마지막 collab-loop 실행: 2026-02-14 11:01 KST
+마지막 collab-loop 실행: 2026-02-14 13:02 KST
 
 ## 이번 자동 티키타카 결과
 
@@ -13,6 +13,14 @@
 
 
 
+
+## 2026-02-14 13:02 KST 자동 루프
+- 적용 범위: `artifacts/livestream/2026-01-31` 내부 문서만 점검
+- 변경 3건(소규모):
+  1) `16_OPENCLAW_MOLTBOT_USECASES.md` 제목의 `MoltBot` 표기를 `Moltbot`으로 통일해 브랜드 표기 일관성 보강
+  2) `16_OPENCLAW_MOLTBOT_USECASES.md` 30초 요약 문장의 `MoltBot` 표기를 `Moltbot`으로 통일해 본문 표기 정합성 보강
+  3) 본 자동 로그 항목 추가(마지막 실행 시각/요약 갱신)
+- 제외: `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 의도적으로 미수정(안정성 우선)
 
 ## 2026-02-14 11:51 KST 자동 루프
 - 적용 범위: `artifacts/livestream/2026-01-31` 내부 문서만 점검
