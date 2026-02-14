@@ -1,11 +1,12 @@
 # LAST AUTOLOG
 
 - Run: Writer/Reviewer collaboration loop (5m cron)
-- Timestamp: 2026-02-14 15:41 KST
+- Timestamp: 2026-02-14 15:46 KST
 - Scope: `artifacts/livestream/2026-01-31`
-- Changes (minor copy/ops polish, 2 docs):
-  1. `80_CHECKLISTS.md` — 빠른 링크 문구의 섹션 표기 따옴표를 제거해 가독성을 정리.
-  2. `60_QA_PROTOCOL.md` — TL;DR 리마인드 횟수 문구를 “총 3회 이내(고정댓글 1회 + 채팅 최대 2회)”로 압축해 즉시 이해되게 정리.
+- Changes (minor copy/ops polish, 3 docs):
+  1. `60_QA_PROTOCOL.md` — 리마인드 횟수 설명 문구에서 “채팅 공지” 기준을 명시해 해석 혼선을 줄임.
+  2. `05_ONE_SCREEN_CHEATSHEET.md` — 챕터 반영 확인 문구를 간결화(“챕터 1개만 클릭 테스트”).
+  3. `80_CHECKLISTS.md` — 종료 직후 링크 검증 문장을 간결하게 다듬어 실행성이 높아지도록 정리.
 - Guardrails respected:
   - `35_TIMESTAMP_TEMPLATE.md` 미수정
   - `rg` 미사용
