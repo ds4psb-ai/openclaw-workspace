@@ -1,3 +1,8 @@
+## 2026-02-15 05:02 KST — writer/reviewer loop (minor polish)
+- 80_CHECKLISTS.md: OBS 상태 점검 주기를 `10~15분에 한 번만` → `10~15분마다 1회`로 통일
+- 60_QA_PROTOCOL.md: 재질문 유도 문구를 `다시 한 번만` → `다시 1회만`으로 통일
+- 05_ONE_SCREEN_CHEATSHEET.md: Q&A 재질문 문구를 `다시 한 번만` → `다시 1회만`으로 맞춤
+
 ## 2026-02-15 04:56 KST — writer/reviewer loop (minor polish)
 - 00_README.md: 종료 직후 타임스탬프 템플릿 링크에 “열어두기만” 안내 추가
 - 80_CHECKLISTS.md: `90_POST_LIVE_FOLLOWUP.md` 실행 방식을 “체크리스트 그대로 실행”으로 명확화
