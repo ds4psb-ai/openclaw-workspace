@@ -1,3 +1,8 @@
+## 2026-02-15 07:01 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 사용 개수 범위 표기를 `1~2개` → `1–2개`로 통일해 운영 표기 일관성 개선
+- 70_CTA_SOFTSELL.md: 시간 범위 표기를 `10~15분` → `10–15분`으로 통일해 문서 전반 표기 일관성 강화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 06:16 KST — writer/reviewer loop (minor polish)
 - 00_README.md: 시간 범위 표기를 `10~15분` → `10–15분`으로 통일해 운영 문구 가독성/일관성 개선
 - 80_CHECKLISTS.md: 범위 표기(`3~5`, `2~5분`, `1~2장`, `20~30분`, `10~15분`)를 en dash(`–`)로 통일해 체크리스트 스캔 속도 개선
