@@ -3,8 +3,8 @@
 목표: 중년 남성(사장님·자영업·부업 관심층)이 **“이건 장난이 아니네…”**라고 느끼게 만드는 장면만 보여준다. *(핵심은 기능 설명보다 체감 장면)*
 
 근거 자료(리서치)
-- OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
-- OpenClaw (구 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw(구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
+- OpenClaw(구 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
@@ -31,7 +31,7 @@
   - Chat에 질문 1개:
     - “오늘 라이브 요약을 ‘중년 남성 사장님’ 타깃으로 6문장으로 써줘. 마지막은 상업성 티 안 나게.”
 
-### 04:00–07:00 (장면 2) OpenClaw (구 Moltbot): 텔레그램 한 줄 → ‘게시/배포 초안’ 생성(승인 후 반영)
+### 04:00–07:00 (장면 2) OpenClaw(구 Moltbot): 텔레그램 한 줄 → ‘게시/배포 초안’ 생성(승인 후 반영)
 - 스토리: “배포해줘” 한 줄이 업무 지시서로 변환되어 Git/노션/블로그/홈페이지 업데이트 작업 큐가 자동으로 쌓이는 장면.
 - 임팩트 한 줄: “글 쓰는 것보다 **‘올려줘’라고 말하는 시간이 더 짧다**.”
 - 시연 포인트(화면)
@@ -40,6 +40,7 @@
     - (안전장치) 실반영 전에 “지금 바로 반영할까요?” 확인 질문 1회 후 실행(라이브 중 오반영/오적용 방지, 중복 실행 금지)
   - 결과물: Git diff/commit 준비 화면 또는 노션/문서에 생성된 결과 보여주기
   - 원샷 가드레일(운영): **같은 명령 재실행 금지**, 승인 문구 확인 후 1회만 반영, 실패 시 즉시 Plan B로 전환
+  - 실행 로그(권장): 반영 직후 `KST HH:MM 반영 완료` 또는 `KST HH:MM Plan B 전환` 1줄 기록
 
 ### 07:00–08:00 (장면 3) 무드보드: 60초 스타일 합의 (‘거장 DNA’ 시각화)
 - 스토리: 키워드만으로 **이미지/색/구도**가 한 번에 정리되면 ‘미학’이 갑자기 쉬워짐.
