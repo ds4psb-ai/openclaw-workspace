@@ -1,3 +1,7 @@
+## 2026-02-15 05:06 KST — writer/reviewer loop (minor polish)
+- 80_CHECKLISTS.md: Run of Show 링크 설명에 ‘리플레이 편집 시 실시간 표기 제거 안내 포함’ 문구를 추가해 라이브 당일/리플레이 모드 구분을 빠르게 읽히게 정리
+- 60_QA_PROTOCOL.md: Q&A 공지 횟수 제한 문구에 ‘라이브 전체 합산’ 기준을 명시해 세션 단위 해석 혼선을 줄임
+
 ## 2026-02-15 05:02 KST — writer/reviewer loop (minor polish)
 - 80_CHECKLISTS.md: OBS 상태 점검 주기를 `10~15분에 한 번만` → `10~15분마다 1회`로 통일
 - 60_QA_PROTOCOL.md: 재질문 유도 문구를 `다시 한 번만` → `다시 1회만`으로 통일
