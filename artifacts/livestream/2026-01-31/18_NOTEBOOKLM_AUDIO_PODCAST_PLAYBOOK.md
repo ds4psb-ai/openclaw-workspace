@@ -18,7 +18,7 @@
 1) NotebookLM 노트북 1개 생성: `LIVE_YYYYMMDD`
 2) 소스 업로드(최소 5개)
    - 오늘 공지 텍스트(카톡 멘션/유튜브 설명)
-   - 라이브 운영 문서(이 폴더 15개 중 핵심 3~5개)
+   - 라이브 운영 핵심 문서 3~5개
    - 레퍼런스 링크 모음(15_OVERSEAS_REFERENCES.md)
    - Polar 문서 링크/요약(결제 파트 대비)
    - 스토리보드 스키마 템플릿(17_STORYBOARD_SCHEMA_TEMPLATE.md)
