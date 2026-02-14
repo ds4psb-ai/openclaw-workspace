@@ -3,7 +3,7 @@
 ## 빠른 링크(문서 이동)
 - 최근 자동 업데이트 요약(마지막 루프 결과, 없으면 이번 루프 변경 없음): `ZZ_LAST_AUTOLOG.md`
 - 한 화면 요약(라이브 중 상시): `05_ONE_SCREEN_CHEATSHEET.md`
-- 진행(Run of Show, KST 14:00–18:00): `30_RUN_OF_SHOW_14-18.md`
+- 진행 (Run of Show, KST 14:00–18:00): `30_RUN_OF_SHOW_14-18.md`
 - 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
 - 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
 - KST 13:55 카톡방 전체 멘션(라이브 당일 + 미전송일 때만 복붙 1회, 이미 전송했거나 당일이 아니면 스킵): `10_KAKAO_ALL_MENTION.md`
