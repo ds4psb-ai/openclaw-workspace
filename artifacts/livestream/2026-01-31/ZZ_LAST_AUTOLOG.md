@@ -1,5 +1,16 @@
 ## Auto-update log (Writer/Reviewer loop)
 
+- Run time: 2026-02-15 04:06 KST
+- Scope: copy/ops polish only (`artifacts/livestream/2026-01-31`)
+- Changes:
+  1. `00_README.md` — replay-mode bullet now says `13:55` 멘션 단계 “스킵”으로 간결화해 실행 기준을 더 빠르게 읽히게 정리.
+  2. `80_CHECKLISTS.md` — 종료 직후 고정댓글 검증 문구 `진짜로` → `실제로`로 정리해 운영 톤 일관성 개선.
+  3. `80_CHECKLISTS.md` — 새로고침 후 저장/고정 확인 문구 `*진짜로*` → `*실제로*`로 정리해 표현 일관성 개선.
+
+---
+
+## Auto-update log (Writer/Reviewer loop)
+
 - Run time: 2026-02-15 04:02 KST
 - Scope: copy/ops polish only (`artifacts/livestream/2026-01-31`)
 - Changes:
