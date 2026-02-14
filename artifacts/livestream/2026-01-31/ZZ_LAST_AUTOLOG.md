@@ -1,3 +1,8 @@
+## 2026-02-15 07:51 KST — writer/reviewer loop (minor polish)
+- 70_CTA_SOFTSELL.md: 일정 시간대 표기를 `19:00~21:00` → `19:00–21:00`으로 통일해 범위 표기 일관성 강화
+- 20_YT_TITLE_DESC_PIN.md: 일정 표기 2곳을 `19:00~21:00` → `19:00–21:00`으로 맞춰 템플릿/본문 간 표기 일관성 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 07:31 KST — writer/reviewer loop (minor polish)
 - 18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md: 수량 범위 표기를 `3~5개` → `3–5개`로 통일해 표기 일관성 개선
 - 22_2026_CREATOR_TOOLSTACK_GOOGLE_FREE.md: 후보 수량 표기를 `2~3안` → `2–3안`으로 정리해 문서 스캔 가독성 개선
