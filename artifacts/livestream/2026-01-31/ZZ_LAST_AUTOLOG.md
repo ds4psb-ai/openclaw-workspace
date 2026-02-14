@@ -1,3 +1,8 @@
+## 2026-02-15 08:46 KST — writer/reviewer loop (minor polish)
+- 60_QA_PROTOCOL.md: 질문 수 제한 문구에 접속어를 보강해(“다시 요청하고”) 실행 흐름을 더 자연스럽게 정리
+- 80_CHECKLISTS.md: 컨트롤룸 재확인 항목의 위험 문구를 “잘못된 채널/스트림 선택”으로 압축해 빠른 스캔성을 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 08:37 KST — writer/reviewer loop (minor polish)
 - 00_README.md: 자동 로그 안내 문구를 `파일이 없거나 비어 있으면` 순서로 통일해 빠른 스캔 일관성 개선
 - 60_QA_PROTOCOL.md: `라이브 전체 총 3회 이내`를 `라이브 전체 3회 이내`로 다듬어 문장 군더더기 제거
