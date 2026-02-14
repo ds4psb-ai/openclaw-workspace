@@ -1,3 +1,8 @@
+## 2026-02-15 06:06 KST — writer/reviewer loop (minor polish)
+- 80_CHECKLISTS.md: 화면 공유 안전 체크 문구의 `한 번`을 `1회`로 통일해 체크리스트 표기 일관성 강화
+- 90_POST_LIVE_FOLLOWUP.md: 설명란 반영 전 재복사 안내를 `다시 1회`로 정리해 실행 단위를 명확화
+- 60_QA_PROTOCOL.md: 질문 폭주 시 큐 정리 문구를 `1회` 기준으로 통일해 운영 지시 해석 혼선을 축소
+
 ## 2026-02-15 06:01 KST — writer/reviewer loop (minor polish)
 - 20_YT_TITLE_DESC_PIN.md: 챕터 체크 항목에 `줄 맨 앞 공백/탭 없음` 조건을 추가해 붙여넣기 직후 검증 포인트를 명확화
 - 60_QA_PROTOCOL.md: 소문자 `q:` 처리 문구에 “채팅 원문은 유지”를 명시해 운영자 기록 규칙 오해를 방지
