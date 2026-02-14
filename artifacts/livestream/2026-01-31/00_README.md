@@ -12,7 +12,7 @@
 - **형식 통일:** `KST 9:5`처럼 쓰지 말고, `KST 09:05`처럼 `HH:MM` 두 자리 형식으로 기록(앞 0 유지)
 
 ## 패닉 모드(30초)
-- **우선 이 3개만 열기:** `05_ONE_SCREEN_CHEATSHEET.md` → `30_RUN_OF_SHOW_14-18.md` → `50_DEMO_PLAN_A_B.md` *(플랜B 자산 확인이 필요할 때만 `85_PLAN_B_ASSETS_CHECKLIST.md` 추가, 나머지 문서는 종료 후에 확인)*
+- **우선 이 3개만 열기:** `05_ONE_SCREEN_CHEATSHEET.md` → `30_RUN_OF_SHOW_14-18.md` → `50_DEMO_PLAN_A_B.md` *(플랜B 자산 확인이 필요할 때만 `85_PLAN_B_ASSETS_CHECKLIST.md` 추가, 나머지 문서는 라이브 종료 후에만 확인)*
   - (집중 유지) 진행 중에는 새 문서를 계속 열지 말고, 위 3개 안에서만 해결한 뒤 종료 후 정리
 - **리플레이 정리 모드(라이브 당일 아님)라면** `KST 13:55` 멘션 단계는 전부 스킵하고, 종료 직후 동선(`35_TIMESTAMP_TEMPLATE.md → 20_YT_TITLE_DESC_PIN.md → 90_POST_LIVE_FOLLOWUP.md`)만 실행 (카톡 멘션 문구는 열지 않아도 됨)
   - (권장) 시작 직전 30초 점검이 필요하면 `80_CHECKLISTS.md`의 “(시간 없을 때) 최소 체크 7개”만 확인
