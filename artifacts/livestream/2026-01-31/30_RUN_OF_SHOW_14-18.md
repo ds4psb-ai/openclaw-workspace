@@ -10,6 +10,7 @@
 ## 빠른 링크(라이브/리플레이 공용 최소 동선)
 - 최근 자동 업데이트 요약(없으면 이번 루프 변경 없음): `ZZ_LAST_AUTOLOG.md`
 - 한 화면 요약(상시): `05_ONE_SCREEN_CHEATSHEET.md`
+- 카톡방 전체 멘션(라이브 당일 KST 13:55, 미전송일 때만): `10_KAKAO_ALL_MENTION.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - 플랜B 자산 체크(초단축 1페이지): `85_PLAN_B_ASSETS_CHECKLIST.md`
 - Q&A 시간 관리: `60_QA_PROTOCOL.md`
