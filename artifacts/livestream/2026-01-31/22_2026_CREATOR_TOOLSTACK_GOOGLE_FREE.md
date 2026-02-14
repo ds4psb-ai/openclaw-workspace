@@ -8,7 +8,7 @@
 - Sora (내러티브)
 - **Google Veo 3.1** (레퍼런스 기반 일관성 + 숏폼 친화)
 
-## 2) Google ‘무료/저비용’로 와 닿는 축
+## 2) Google ‘무료/저비용’에서 와 닿는 축
 - **NotebookLM(무료 입구)**
   - 소스 기반 답변(출처/인용)
   - Audio Overview(Deep Dive/Brief/Critique/Debate)
