@@ -1,3 +1,9 @@
+## 2026-02-15 08:37 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 자동 로그 안내 문구를 `파일이 없거나 비어 있으면` 순서로 통일해 빠른 스캔 일관성 개선
+- 60_QA_PROTOCOL.md: `라이브 전체 총 3회 이내`를 `라이브 전체 3회 이내`로 다듬어 문장 군더더기 제거
+- 05_ONE_SCREEN_CHEATSHEET.md: 종료 직후 정리 문구를 `한 번에 정리` → `종료 직후 1회 정리`로 바꿔 실행 시점을 더 명확화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 08:17 KST — writer/reviewer loop (minor polish)
 - 60_QA_PROTOCOL.md: 시간 박스 문구를 `한 번 더` → `1회 더`로 맞춰 횟수 표기 일관성 강화
 - 20_YT_TITLE_DESC_PIN.md: 설명 작성 가이드 출처 라벨을 `출처(공식)`으로 정리해 신뢰 출처 인지성 개선
