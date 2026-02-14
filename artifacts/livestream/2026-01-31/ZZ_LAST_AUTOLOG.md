@@ -1,3 +1,8 @@
+## 2026-02-15 06:16 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 시간 범위 표기를 `10~15분` → `10–15분`으로 통일해 운영 문구 가독성/일관성 개선
+- 80_CHECKLISTS.md: 범위 표기(`3~5`, `2~5분`, `1~2장`, `20~30분`, `10~15분`)를 en dash(`–`)로 통일해 체크리스트 스캔 속도 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 06:11 KST — writer/reviewer loop (minor polish)
 - 80_CHECKLISTS.md: `리먹스(Remux)(업로드/편집용)` 표기를 `리먹스(Remux) (업로드/편집용)`으로 정리해 괄호 결합 가독성 개선
 - 20_YT_TITLE_DESC_PIN.md: 출처 블록을 단일 링크 표기로 정리해 복붙/읽기 동선을 간결화

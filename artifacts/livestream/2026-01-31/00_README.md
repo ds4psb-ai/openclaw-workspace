@@ -185,7 +185,7 @@
 - `16_OPENCLAW_MOLTBOT_USECASES.md` : OpenClaw (구 Moltbot) ‘메신저=리모컨’ 운영 패턴 + 라이브 멘트 + 안전 가이드
 - `17_STORYBOARD_SCHEMA_TEMPLATE.md` : 스토리보드(timecode/shot_goal/continuity_checks) 데이터 스키마 템플릿
 - `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md` : NotebookLM 오디오 팟캐스트/쿼리로 라이브를 ‘와’ 수준으로 업그레이드(바이럴 확산 루프)
-- `19_WOW_DEMO_SEQUENCE_10MIN.md` : 오프닝 10~15분 ‘와…’ 데모 시퀀스(그대로 따라하기)
+- `19_WOW_DEMO_SEQUENCE_10MIN.md` : 오프닝 10–15분 ‘와…’ 데모 시퀀스(그대로 따라하기)
 - `20_YT_TITLE_DESC_PIN.md` : 유튜브 제목/설명/고정댓글(광고 티 최소)
 - `30_RUN_OF_SHOW_14-18.md` : 14:00–18:00 (KST) 4시간 런 오브 쇼(분 단위 진행표)
 - `35_TIMESTAMP_TEMPLATE.md` : 고정댓글/타임스탬프/리캡 템플릿(복붙)
@@ -200,7 +200,7 @@
 
 빠른 찾기:
 - **카톡 전체 멘션(13:55, 복붙)**: `10_KAKAO_ALL_MENTION.md`
-- **와… 데모 시퀀스(오프닝 10~15분)**: `19_WOW_DEMO_SEQUENCE_10MIN.md` *(WOW 데모 시작 시각 `__:__` 메모 → `35_TIMESTAMP_TEMPLATE.md`에 반영)*
+- **와… 데모 시퀀스(오프닝 10–15분)**: `19_WOW_DEMO_SEQUENCE_10MIN.md` *(WOW 데모 시작 시각 `__:__` 메모 → `35_TIMESTAMP_TEMPLATE.md`에 반영)*
 - **플랜B 전환 시나리오**: `50_DEMO_PLAN_A_B.md`
 - **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
@@ -220,7 +220,7 @@
 
 ## 운영 원칙(무한 루프 방지)
 - 문서 v1 → (필요 시) 테드 한 줄 피드백 → v2에 1회 반영 후 종료(과다 수정 금지, 문서 수정 루프는 최대 1회).
-- 방송 중에는 문서/링크를 정리하려고 멈추지 말고, **메모만**(타임스탬프/플랜B 전환 시각). 종료 직후 `35_TIMESTAMP_TEMPLATE.md`로 10~15분 안에 한 번에 업데이트.
+- 방송 중에는 문서/링크를 정리하려고 멈추지 말고, **메모만**(타임스탬프/플랜B 전환 시각). 종료 직후 `35_TIMESTAMP_TEMPLATE.md`로 10–15분 안에 한 번에 업데이트.
 - 데모가 막히면 **2분 내** 원인 확인만 하고, 안 풀리면 즉시 `50_DEMO_PLAN_A_B.md`의 플랜B로 전환.
 - CTA는 **엔딩 1회만**. “판매”가 아니라 **필요한 분만 확인할 수 있게**(링크/가격은 설명란/고정댓글, 말은 최소).
 - 고정댓글은 **방송 중 1회(링크 1개)**만 먼저 붙이고, **정리/타임스탬프 업데이트는 종료 직후 1회**로 마무리(운영 중 과다 수정 금지).
