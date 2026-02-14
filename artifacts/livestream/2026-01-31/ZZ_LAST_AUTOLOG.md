@@ -1,12 +1,12 @@
 # LAST AUTOLOG
 
 - Run: Writer/Reviewer collaboration loop (5m cron)
-- Timestamp: 2026-02-14 20:36 KST
+- Timestamp: 2026-02-14 20:46 KST
 - Scope: `artifacts/livestream/2026-01-31`
 - Changes (minor copy/ops polish, 3 tweaks):
-  1. `60_QA_PROTOCOL.md` — 리마인드 총량 문장을 “총 3회 이내”와 구성(고정댓글 1회 + 채팅 최대 2회)으로 분리해 즉시 읽히도록 정리.
-  2. `60_QA_PROTOCOL.md` — 권장 타이밍 문구를 간결화해 공지 타이밍(시작 1회 + 필요 시 1회 추가)이 빠르게 보이도록 다듬음.
-  3. `90_POST_LIVE_FOLLOWUP.md` — 챕터 동기화 순서 라벨에 “권장 순서”를 명시해 체크리스트 톤을 일관화.
+  1. `05_ONE_SCREEN_CHEATSHEET.md` — 종료 직후 반영 규칙을 “고정댓글 1회 + 설명란 1회(총 2회)”로 명시해 실행 동선을 더 분명하게 정리.
+  2. `30_RUN_OF_SHOW_14-18.md` — 표기 일관성을 위해 “Polar 카드결제”를 “Polar 카드 결제”로 수정.
+  3. `ZZ_LAST_AUTOLOG.md` — 본 루프 결과로 최신 상태 갱신.
 - Guardrails respected:
   - `35_TIMESTAMP_TEMPLATE.md` 미수정
   - `rg` 미사용
