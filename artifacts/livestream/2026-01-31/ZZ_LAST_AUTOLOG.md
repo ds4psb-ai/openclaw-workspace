@@ -1,3 +1,8 @@
+## 2026-02-15 04:56 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 종료 직후 타임스탬프 템플릿 링크에 “열어두기만” 안내 추가
+- 80_CHECKLISTS.md: `90_POST_LIVE_FOLLOWUP.md` 실행 방식을 “체크리스트 그대로 실행”으로 명확화
+- 30_RUN_OF_SHOW_14-18.md: 엔딩 안내 문장(종료 직후 10–15분 내 업데이트) 가독성 개선
+
 ## Auto-update log (Writer/Reviewer loop)
 
 - Run time: 2026-02-15 04:27 KST
