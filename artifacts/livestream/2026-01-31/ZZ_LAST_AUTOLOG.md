@@ -1,3 +1,9 @@
+## 2026-02-15 07:31 KST — writer/reviewer loop (minor polish)
+- 18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md: 수량 범위 표기를 `3~5개` → `3–5개`로 통일해 표기 일관성 개선
+- 22_2026_CREATOR_TOOLSTACK_GOOGLE_FREE.md: 후보 수량 표기를 `2~3안` → `2–3안`으로 정리해 문서 스캔 가독성 개선
+- 85_PLAN_B_ASSETS_CHECKLIST.md: 사전 녹화 범위를 `2~5분` → `2–5분`으로 통일해 운영 문구 일관성 강화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 07:27 KST — writer/reviewer loop (minor polish)
 - 18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md: 시간 범위 표기를 `10~15분` → `10–15분`으로 통일해 표기 일관성 개선
 - 50_DEMO_PLAN_A_B.md: 사전녹화/재생 범위 표기를 `2~5분` → `2–5분`으로 통일해 운영 문구 스캔 속도 개선
