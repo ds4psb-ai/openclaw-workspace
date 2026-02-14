@@ -10,7 +10,7 @@
 - OpenClaw 텔레그램 문서(Privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
 
 ## 명칭 혼선 방지(짧게)
-- 자료/블로그에 남아 있는 **Moltbot** 표기는 이전 명칭이며, 현재는 **OpenClaw**로 보면 됨.
+- 자료/블로그에 남아 있는 **Moltbot** 표기는 이전 명칭이며, 현재는 **OpenClaw**로 보면 됩니다.
 - 라이브에선 첫 1회만 `OpenClaw (구 Moltbot)`로 소개하고 이후엔 `OpenClaw`로 통일.
 
 ## 안전 가이드(짧게)
