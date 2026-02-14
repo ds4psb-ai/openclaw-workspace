@@ -1,3 +1,8 @@
+## 2026-02-15 05:23 KST — writer/reviewer loop (minor polish)
+- 05_ONE_SCREEN_CHEATSHEET.md: Q&A 운영 문구를 `Q:` 포맷/답변 규칙으로 분리해 한 번에 읽히도록 정리
+- 60_QA_PROTOCOL.md: `q:` 입력 처리 문구에 “소문자”를 명시해 수집 기준 해석 혼선을 줄임
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 우선)
+
 ## 2026-02-15 05:06 KST — writer/reviewer loop (minor polish)
 - 80_CHECKLISTS.md: Run of Show 링크 설명에 ‘리플레이 편집 시 실시간 표기 제거 안내 포함’ 문구를 추가해 라이브 당일/리플레이 모드 구분을 빠르게 읽히게 정리
 - 60_QA_PROTOCOL.md: Q&A 공지 횟수 제한 문구에 ‘라이브 전체 합산’ 기준을 명시해 세션 단위 해석 혼선을 줄임
