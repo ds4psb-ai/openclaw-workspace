@@ -9,7 +9,7 @@
 
 ## 안전 가이드(짧게)
 - 프라이버시/권한:
-  - 그룹에서 멘션 없이 동작하게 하려면 Telegram **/setprivacy disable** 또는 봇 admin 필요(그룹마다 재초대가 필요할 수 있음)
+  - 그룹에서 멘션 없이 동작하게 하려면 Telegram **/setprivacy disable** 또는 봇 관리자(admin) 권한 필요(그룹마다 재초대가 필요할 수 있음)
 - 운영/보안(기본값은 “거절”, 필요한 것만 허용):
   - 토큰/키는 절대 노출 금지(레포/스크린 공유/OBS 소스/로그 캡처 시 특히)
   - 메신저 명령은 **allowlist + 승인(approval) + requireMention/prefix + dry-run 우선** 가드레일로 작게 시작(권장)
