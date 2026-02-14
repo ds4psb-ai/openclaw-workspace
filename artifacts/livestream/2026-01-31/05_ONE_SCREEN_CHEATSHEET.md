@@ -10,7 +10,7 @@
   - 복붙 직전 챕터 블록의 **맨 위/맨 아래 불필요한 공백 줄** 제거(인식 안정)
   - (앱 자동정리 주의) 메모앱/문서앱이 공백을 자동 정리해도, 최종 입력창에서 `00:00` 라인 연속 상태를 1회만 다시 확인
   - (모바일 복붙 주의) 붙여넣기 후 `00:00` 앞에 보이지 않는 공백이 들어갈 수 있으니, 첫 줄 커서를 맨 앞으로 이동해 1회 확인
-- **막히면 2분 컷(원인 확인만) → 플랜B(Plan B) 즉시 전환**: `50_DEMO_PLAN_A_B.md` *(2분 넘기면 흐름이 무너짐 → 원인 집착 금지, 바로 전환. 휴대폰 2분 타이머를 실제로 켜두면 안전함)*
+- **막히면 2분 컷(원인 확인만) → 플랜B 즉시 전환**: `50_DEMO_PLAN_A_B.md` *(2분 넘기면 흐름이 무너짐 → 원인 집착 금지, 바로 전환. 휴대폰 2분 타이머를 실제로 켜두면 안전함)*
 - **라이브 중엔 `35_TIMESTAMP_TEMPLATE.md` 수정 금지**(메모앱에 `__:__`만 기록 → 종료 직후 1회 반영)
 - (종료 순서) **YouTube Studio에서 스트림 종료(Ended) 확인 → OBS 로컬 녹화 OFF** 순서 고정(역순 금지, 종료 누락/파일 손상 방지)
 - (종료 직후 챕터 반영) **고정댓글 1회 → 설명란 1회** 순서로 같은 챕터 블록을 동기화(불일치/중복 수정 방지)
@@ -30,7 +30,7 @@
   - (추가 팁) 고정댓글이 안 보이면 **댓글 정렬이 ‘인기순/Top comments’인지** 1초만 확인(고정댓글은 보통 목록 최상단)
 
 ## 빠른 검색 키워드(⌘F)
-- `KST` / `00:00` / `플랜B` / `Plan B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
+- `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
   - (YouTube 표기 변형) `Pinned by owner` / `Pinned by creator`
 - `스트림 헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
 - `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `Subscribers-only mode` / `멤버 전용` / `Members only` / `Live chat` / `Chat settings` / `Moderation`
