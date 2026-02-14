@@ -1,11 +1,10 @@
 # LAST AUTOLOG
 
 - Run: Writer/Reviewer collaboration loop (5m cron)
-- Timestamp: 2026-02-14 23:36 KST
+- Timestamp: 2026-02-14 23:42 KST
 - Scope: `artifacts/livestream/2026-01-31`
-- Changes (minor copy/ops polish, 2 tweaks):
-  1. `80_CHECKLISTS.md` — `업데이트: KST ...` 운영 로그 위치 안내를 “위 고정”에서 “위/아래 무관 + 빈 줄 분리”로 완화해 문서 간 형식 규칙을 일치시킴.
-  2. `90_POST_LIVE_FOLLOWUP.md` — 동일 항목을 같은 규칙(위/아래 무관 + 빈 줄 분리)으로 정리해 종료 직후 복붙 실수를 줄임.
+- Changes (minor copy/ops polish, 1 tweak):
+  1. `00_README.md` — "리플레이 정리 모드(라이브 당일 아님)" 문구의 강조 범위를 다듬어 문장 가독성을 개선.
 - Guardrails respected:
   - `35_TIMESTAMP_TEMPLATE.md` 미수정
   - `rg` 미사용
