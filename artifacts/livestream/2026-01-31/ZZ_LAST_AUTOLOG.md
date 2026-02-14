@@ -1,3 +1,7 @@
+## 2026-02-15 06:11 KST — writer/reviewer loop (minor polish)
+- 80_CHECKLISTS.md: `리먹스(Remux)(업로드/편집용)` 표기를 `리먹스(Remux) (업로드/편집용)`으로 정리해 괄호 결합 가독성 개선
+- 20_YT_TITLE_DESC_PIN.md: 출처 블록을 단일 링크 표기로 정리해 복붙/읽기 동선을 간결화
+
 ## 2026-02-15 06:06 KST — writer/reviewer loop (minor polish)
 - 80_CHECKLISTS.md: 화면 공유 안전 체크 문구의 `한 번`을 `1회`로 통일해 체크리스트 표기 일관성 강화
 - 90_POST_LIVE_FOLLOWUP.md: 설명란 반영 전 재복사 안내를 `다시 1회`로 정리해 실행 단위를 명확화
