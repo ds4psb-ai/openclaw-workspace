@@ -44,7 +44,7 @@
 - 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
 - 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
 - 카톡방 전체 멘션(KST 13:55): `10_KAKAO_ALL_MENTION.md` *(라이브 당일 + 미전송일 때만 1회, 리플레이 정리 모드/당일 아님/이미 전송 완료면 스킵)*
-- 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
+- 유튜브 제목/설명/고정댓글(복사/붙여넣기): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리 템플릿(복붙용·종료 후 1회 반영, 라이브 중 수정 금지·열어두기만): `35_TIMESTAMP_TEMPLATE.md`
 - 전/중/후 체크리스트: `80_CHECKLISTS.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
