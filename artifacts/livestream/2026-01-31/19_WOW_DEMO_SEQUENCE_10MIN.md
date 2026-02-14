@@ -2,7 +2,7 @@
 
 목표: 중년 남성(사장님·1인 사업·부업 관심층)이 **“이건 장난이 아니네…”**라고 느끼게 만드는 장면만 보여준다. *(핵심은 기능 설명보다 체감 장면)*
 
-근거(리서치)
+근거 자료(리서치)
 - OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
 - OpenClaw (구 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
