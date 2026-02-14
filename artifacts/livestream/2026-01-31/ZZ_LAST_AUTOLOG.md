@@ -1,11 +1,11 @@
 # LAST AUTOLOG
 
 - Run: Writer/Reviewer collaboration loop (5m cron)
-- Timestamp: 2026-02-14 20:16 KST
+- Timestamp: 2026-02-14 20:21 KST
 - Scope: `artifacts/livestream/2026-01-31`
 - Changes (minor copy/ops polish, 2 tweaks):
-  1. `60_QA_PROTOCOL.md` — Q&A 공지 타이밍을 명시(`Q&A 시작 시 1회 + 흐름 흔들릴 때만 추가 1회`)해 반복 공지로 인한 채팅 피로를 더 줄이도록 정리.
-  2. `90_POST_LIVE_FOLLOWUP.md` — 설명란 반영 전 고정댓글 최종 챕터 블록을 재복사해 동일 본문으로 맞추는 체크를 추가해 불일치 사고를 예방.
+  1. `60_QA_PROTOCOL.md` — Q&A 리마인드 횟수 규칙의 괄호 문구를 다듬어 “고정댓글(상시 1회) + 채팅 공지(필요 시 최대 2회)” 구분을 더 명확하게 정리.
+  2. `90_POST_LIVE_FOLLOWUP.md` — 종료 후 챕터 동기화 순서에 “고정(핀) 상태 확인” 단계를 끼워 넣어, 저장 후 핀 해제 사고를 한 번 더 방지하도록 보강.
 - Guardrails respected:
   - `35_TIMESTAMP_TEMPLATE.md` 미수정
   - `rg` 미사용
