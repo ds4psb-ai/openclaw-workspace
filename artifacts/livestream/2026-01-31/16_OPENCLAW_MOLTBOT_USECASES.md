@@ -9,6 +9,10 @@
 - MiniMax 튜토리얼(텔레그램에 OpenClaw 붙이기, 구 Moltbot 문서지만 개념 동일): https://platform.minimax.io/docs/solutions/moltbot
 - OpenClaw 텔레그램 문서(Privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
 
+## 명칭 혼선 방지(짧게)
+- 자료/블로그에 남아 있는 **Moltbot** 표기는 이전 명칭이며, 현재는 **OpenClaw**로 보면 됨.
+- 라이브에선 첫 1회만 `OpenClaw (구 Moltbot)`로 소개하고 이후엔 `OpenClaw`로 통일.
+
 ## 안전 가이드(짧게)
 - 프라이버시/권한:
   - 그룹에서 멘션 없이 동작하게 하려면 Telegram **/setprivacy disable** 또는 봇 관리자(admin) 권한 필요(그룹마다 재초대가 필요할 수 있음)
