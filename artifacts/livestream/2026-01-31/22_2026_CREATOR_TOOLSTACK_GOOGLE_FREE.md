@@ -9,10 +9,10 @@
 - **Google Veo 3.1** (레퍼런스 기반 일관성 + 숏폼 친화)
 
 ## 2) Google 무료/저비용으로 바로 쓰는 축
-- **NotebookLM(무료 입구)**
+- **NotebookLM (무료 입구)**
   - 소스 기반 답변(출처/인용)
   - Audio Overview(Deep Dive/Brief/Critique/Debate)
-- **Google Antigravity(무료 입구)**
+- **Google Antigravity (무료 입구)**
   - ‘말로 만드는’ 에이전트 개발 플랫폼(코드 설명 최소, 자연어로 시연)
 - **Veo 3.1(유료/크레딧 핵심 엔진)**
   - 포지션: ‘완전 무료’가 아니라 **플러그인형 상위 엔진**
