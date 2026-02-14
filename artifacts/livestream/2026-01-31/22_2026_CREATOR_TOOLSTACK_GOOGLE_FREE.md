@@ -24,7 +24,7 @@
 4) Render는 플러그인: **Scene=Veo 3.1 / Shot=Kling 2.6**
 5) 라이브 후: NotebookLM **Brief(2분)** 오디오를 바이럴 채널에 공유(확산 자동화)
 
-## 4) 인용/근거(라이브에서 말할 때: “3줄”)
+## 4) 인용/근거(라이브에서 말할 때: “세 줄”)
 - **Veo 3.1 ‘Ingredients to Video’는 레퍼런스 이미지 기반 생성에서 캐릭터/배경/오브젝트 일관성을 강화**(같은 주인공으로 여러 씬 구성에 유리)
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (Takeaway: identity/background/object consistency를 공식적으로 강조)
 - **Ingredients to Video는 네이티브 세로(9:16) 출력을 지원** → Shorts/릴스용 데모가 “바로” 됨(크롭 얘기 안 해도 됨)
