@@ -6,7 +6,7 @@
 - 진행 (Run of Show, KST 14:00–18:00): `30_RUN_OF_SHOW_14-18.md`
 - 오프닝/전환/엔딩 멘트(그대로 읽기): `40_HOST_SCRIPT_KEY_LINES.md`
 - 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
-- KST 13:55 카톡방 전체 멘션(라이브 당일만, 복붙 1회, 이미 전송했으면 재전송 금지): `10_KAKAO_ALL_MENTION.md`
+- KST 13:55 카톡방 전체 멘션(라이브 당일만, 복붙 1회, 이미 전송했으면 재전송 금지, 지났다면 즉시 1회만): `10_KAKAO_ALL_MENTION.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리 템플릿(복붙용·종료 후 1회 반영, 라이브 중 수정 금지): `35_TIMESTAMP_TEMPLATE.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
