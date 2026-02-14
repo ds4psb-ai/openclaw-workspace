@@ -3,8 +3,8 @@
 목표: 중년 남성(사장님·자영업·부업 관심층)이 **“이건 장난이 아니네…”**라고 느끼게 만드는 장면만 보여준다. *(핵심은 기능 설명보다 체감 장면)*
 
 근거 자료(리서치)
-- OpenClaw(구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
-- OpenClaw(구 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
+- OpenClaw (구 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
@@ -31,7 +31,7 @@
   - Chat에 질문 1개:
     - “오늘 라이브 요약을 ‘중년 남성 사장님’ 타깃으로 6문장으로 써줘. 마지막은 상업성 티 안 나게.”
 
-### 04:00–07:00 (장면 2) OpenClaw(구 Moltbot): 텔레그램 한 줄 → ‘게시/배포 초안’ 생성(승인 후 반영)
+### 04:00–07:00 (장면 2) OpenClaw (구 Moltbot): 텔레그램 한 줄 → ‘게시/배포 초안’ 생성(승인 후 반영)
 - 스토리: “배포해줘” 한 줄이 업무 지시서로 변환되어 Git/노션/블로그/홈페이지 업데이트 작업 큐가 자동으로 쌓이는 장면.
 - 임팩트 한 줄: “글 쓰는 것보다 **‘올려줘’라고 말하는 시간이 더 짧다**.”
 - 시연 포인트(화면)
