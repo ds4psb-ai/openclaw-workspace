@@ -1,12 +1,12 @@
 # LAST AUTOLOG
 
 - Run: Writer/Reviewer collaboration loop (5m cron)
-- Timestamp: 2026-02-14 15:46 KST
+- Timestamp: 2026-02-14 15:56 KST
 - Scope: `artifacts/livestream/2026-01-31`
 - Changes (minor copy/ops polish, 3 docs):
-  1. `60_QA_PROTOCOL.md` — 리마인드 횟수 설명 문구에서 “채팅 공지” 기준을 명시해 해석 혼선을 줄임.
-  2. `05_ONE_SCREEN_CHEATSHEET.md` — 챕터 반영 확인 문구를 간결화(“챕터 1개만 클릭 테스트”).
-  3. `80_CHECKLISTS.md` — 종료 직후 링크 검증 문장을 간결하게 다듬어 실행성이 높아지도록 정리.
+  1. `60_QA_PROTOCOL.md` — 질문 포맷 리마인드 횟수 안내 문구에 “중간 1회만”을 명시해 반복 공지 해석 여지를 줄임.
+  2. `05_ONE_SCREEN_CHEATSHEET.md` — 챕터 반영 검증 문구에서 설명란이 최종 기준임을 더 명확히 표기.
+  3. `80_CHECKLISTS.md` — 리플레이 전 링크 검증 항목에 “시크릿/로그아웃 창 기준”을 붙여 점검 기준을 통일.
 - Guardrails respected:
   - `35_TIMESTAMP_TEMPLATE.md` 미수정
   - `rg` 미사용
