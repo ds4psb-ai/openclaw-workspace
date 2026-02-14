@@ -1,5 +1,16 @@
 ## Auto-update log (Writer/Reviewer loop)
 
+- Run time: 2026-02-15 04:27 KST
+- Scope: copy/ops polish only (`artifacts/livestream/2026-01-31`)
+- Changes:
+  1. `00_README.md` — 플레이스홀더 최종 점검 문구의 횟수 표기를 `한 번만` → `1회만`으로 통일해 실행 가독성 개선.
+  2. `05_ONE_SCREEN_CHEATSHEET.md` — 종료 순서 안내를 `순서 고정` → `순서로 고정`으로 다듬어 문장 자연스러움 개선.
+  3. `30_RUN_OF_SHOW_14-18.md` — 시작 직전 점검 문구를 `한 번만` → `1회만`으로 통일해 운영 표기 일관성 개선.
+
+---
+
+## Auto-update log (Writer/Reviewer loop)
+
 - Run time: 2026-02-15 04:11 KST
 - Scope: copy/ops polish only (`artifacts/livestream/2026-01-31`)
 - Changes:
