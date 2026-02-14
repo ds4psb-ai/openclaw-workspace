@@ -70,9 +70,6 @@ https://support.google.com/youtube/answer/12948449?hl=en
 
 -----8<----- COPY (SINGLE LINK, EMERGENCY) -----8<-----
 https://LINK_HERE
-
-질문 포맷(채팅): Q: 직무 / 상황 / 원하는 결과 (1줄)
-답변 룰: 60–90초 컷(결론→이유→다음 액션)
 -----8<----- COPY (SINGLE LINK, EMERGENCY) -----8<-----
 
 #### 정식 템플릿(방송 중/종료 직후 업데이트용)
