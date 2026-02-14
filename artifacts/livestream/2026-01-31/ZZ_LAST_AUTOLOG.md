@@ -1,3 +1,8 @@
+## 2026-02-15 06:01 KST — writer/reviewer loop (minor polish)
+- 20_YT_TITLE_DESC_PIN.md: 챕터 체크 항목에 `줄 맨 앞 공백/탭 없음` 조건을 추가해 붙여넣기 직후 검증 포인트를 명확화
+- 60_QA_PROTOCOL.md: 소문자 `q:` 처리 문구에 “채팅 원문은 유지”를 명시해 운영자 기록 규칙 오해를 방지
+- 80_CHECKLISTS.md: Starting Soon 체크에 “라이브 발화 시작 전 음소거 해제 재확인”을 덧붙여 무음 시작 사고를 예방
+
 ## 2026-02-15 05:51 KST — writer/reviewer loop (minor polish)
 - 60_QA_PROTOCOL.md: 소문자 `q:` 처리 문구를 “수집 시 표기” → “기록할 때만”으로 다듬어 운영자 해석을 더 직관화
 - 20_YT_TITLE_DESC_PIN.md: YouTube 챕터 가이드 문장에 `첫 줄 00:00` 조건을 괄호로 보강해 실수 방지 포인트를 전진 배치
