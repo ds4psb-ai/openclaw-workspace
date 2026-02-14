@@ -39,7 +39,7 @@
 - 전/중/후 체크리스트: `80_CHECKLISTS.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - 플랜B 자산 체크리스트(초단축 1페이지): `85_PLAN_B_ASSETS_CHECKLIST.md`
-- Q&A 시간관리(질문 포맷/60–90초 컷): `60_QA_PROTOCOL.md`
+- Q&A 시간 관리(질문 포맷/60–90초 컷): `60_QA_PROTOCOL.md`
 - 방송 후 30분 루틴(고정댓글/리플레이/후속, 체크리스트 그대로 실행): `90_POST_LIVE_FOLLOWUP.md`
 - 라이브 포맷(톤/리듬/운영 팁): `LIVE_FORMAT_GUIDE.md`
 - (리플레이 공개 전 1분 정리) 스케줄 표기/플레이스홀더 제거: `20_YT_TITLE_DESC_PIN.md`의 “리플레이용 최소 수정 포인트(1분)” 섹션
