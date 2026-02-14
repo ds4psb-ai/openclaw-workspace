@@ -9,6 +9,7 @@
 ## 빠른 링크(라이브 중 최소 동선)
 - 한 화면 요약(상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
+- 플랜B 자산 체크(초단축 1페이지): `85_PLAN_B_ASSETS_CHECKLIST.md`
 - Q&A 시간 관리: `60_QA_PROTOCOL.md`
 - 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리(복붙용·종료 후 1회 반영, 라이브 중 수정 금지): `35_TIMESTAMP_TEMPLATE.md` *(라이브 중에는 메모앱에만 기록)*
