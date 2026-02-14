@@ -1,4 +1,4 @@
-# 10분 ‘와…’ 데모 시퀀스 (OpenClaw(구 Moltbot)·NotebookLM·Antigravity)
+# 10분 ‘와…’ 데모 시퀀스 (OpenClaw (구 Moltbot)·NotebookLM·Antigravity)
 
 목표: 중년 남성(사장님·자영업·부업 관심층)이 **“이건 장난이 아니네…”**라고 느끼게 만드는 장면만 보여준다. *(핵심은 기능 설명보다 체감 장면)*
 
