@@ -1,3 +1,9 @@
+## 2026-02-15 11:56 KST — writer/reviewer loop (minor polish)
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 운영 가드레일 라벨을 `원샷` → `1회 실행`으로 바꿔 실행 규칙 의미를 더 직관적으로 정리
+- 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 레퍼런스 문장의 `오늘도 똑같이`를 `오늘도 같은 방식으로`로 다듬어 말하기 톤을 자연스럽게 정리
+- 90_POST_LIVE_FOLLOWUP.md: 반영 지연 안내를 `몇 분` → `1–3분`으로 구체화해 종료 직후 확인 타이밍을 명확화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:47 KST — writer/reviewer loop (minor polish)
 - 05_ONE_SCREEN_CHEATSHEET.md: 반영 확인 원칙 문구를 `시크릿/로그아웃 창 1회 확인` → `시크릿/로그아웃 창에서 1회 확인`으로 다듬어 조사 흐름을 자연스럽게 정리
 - 30_RUN_OF_SHOW_14-18.md: 운영자 메모의 추적 안내를 `나중에 "언제 업데이트했는지" 추적용` → `업데이트 시각 추적용`으로 압축해 문장 스캔성을 개선
