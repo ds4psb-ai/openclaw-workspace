@@ -1,3 +1,9 @@
+## 2026-02-15 09:26 KST — writer/reviewer loop (minor polish)
+- 10_KAKAO_ALL_MENTION.md: 버전 B의 마무리 문구를 “한 번에” → “순서대로”로 다듬어 단계형 흐름을 더 명확하게 정리
+- 20_YT_TITLE_DESC_PIN.md: 설명란 상단 핵심 문구를 “한 번에” → “끝까지”로 바꿔 전달 의도를 더 자연스럽게 정리
+- 15_OVERSEAS_REFERENCES.md: 레퍼런스 인용 문장의 “한 번에 돌아가야”를 “끊김 없이 돌아가야”로 다듬어 운영 의미를 선명화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 09:21 KST — writer/reviewer loop (minor polish)
 - 00_README.md: 종료 직후 정리 문구를 “한 번에 업데이트” → “1회 업데이트”로 다듬어 실행 횟수 기준을 명확화
 - 30_RUN_OF_SHOW_14-18.md: 오프닝 레퍼런스 문구의 “한 번에”를 제거해 문장을 더 간결하게 정리
