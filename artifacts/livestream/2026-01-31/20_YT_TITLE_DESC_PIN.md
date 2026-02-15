@@ -31,6 +31,7 @@
   - (권장) 저장 후 1–3분 뒤 **챕터 1개 클릭 테스트**(반영 지연/인식/클릭 동작 10초)
 - [ ] (중요) 고정댓글/설명란의 링크/타임스탬프가 **코드블록(백틱)**으로 감싸져 있지 않은지 10초 확인(모바일 클릭/챕터 인식 사고 방지)
 - [ ] (중요) 플레이스홀더가 남아있지 않은지 확인 *(예: `YYYY-MM-DD`, `https://LINK_HERE`, `https://LINK_HERE_2`, `KST HH:MM`, `__:__`)*
+- [ ] 링크가 1개인 날은 `https://LINK_HERE_2` 줄을 삭제하고 게시
 
 출처(공식): [YouTube Help – Tips for video descriptions](https://support.google.com/youtube/answer/12948449?hl=en)
 
