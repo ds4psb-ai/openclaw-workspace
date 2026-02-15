@@ -93,7 +93,7 @@ https://LINK_HERE
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드/자동로그 제외): `cd /Users/ted/.openclaw/workspace && find artifacts/livestream/2026-01-31 -name "*.md" ! -name "35_TIMESTAMP_TEMPLATE.md" ! -name "20_YT_TITLE_DESC_PIN.md" ! -name "05_ONE_SCREEN_CHEATSHEET.md" ! -name "80_CHECKLISTS.md" ! -name "90_POST_LIVE_FOLLOWUP.md" ! -name "00_README.md" ! -name "ZZ_LAST_AUTOLOG.md" -print0 | xargs -0 grep -nE "https://LINK_HERE|https://LINK_HERE_2|https://example.com|YYYY-MM-DD|KST HH:MM|__:__|— \.\.\. —" || true` *(출력이 없으면 정상(플레이스홀더 없음). 결과가 나오면 해당 줄만 빠르게 확인 후 필요한 항목만 수정)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
-- [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화” *(일정 미정이면 이 항목은 생략하고 확정 후 1회 게시, 날짜 판단은 KST 기준으로 통일)*
+- [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화” *(일정 미정이면 이 항목은 통째로 삭제하고, 확정 후 1회만 게시. 날짜 판단은 KST 기준으로 통일)*
   - (형식 팁) 공지 시각을 함께 적을 때는 `KST 09:05`처럼 24시간제 + 앞 0을 유지하면 검색/정렬이 깔끔합니다.
   - (게시 직전) `YYYY-MM-DD` 플레이스홀더가 남아있지 않은지 1회 확인 + 요일/시간대 문구(KST)까지 최종 점검
 - [ ] (중복 방지) 이미 같은 채널에 다음 라이브 예고를 올렸다면 **재게시하지 말고 기존 글만 수정**
