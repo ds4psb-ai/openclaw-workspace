@@ -1,3 +1,9 @@
+## 2026-02-15 09:57 KST — writer/reviewer loop (minor polish)
+- 30_RUN_OF_SHOW_14-18.md: 자동 로그 안내 문구를 “파일이 없거나 비어 있으면 … 변경 없음으로 간주”로 보강해 상태 해석 기준을 명확화
+- 30_RUN_OF_SHOW_14-18.md: WOW 데모 목적 문구에 “오프닝 구간(10–15분)”을 명시해 실행 타이밍을 더 빠르게 파악 가능하게 정리
+- 05_ONE_SCREEN_CHEATSHEET.md: 자동 로그 안내 문구를 “… 변경 없음으로 간주”로 통일해 문서 간 상태 표기 일관성 강화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 09:26 KST — writer/reviewer loop (minor polish)
 - 10_KAKAO_ALL_MENTION.md: 버전 B의 마무리 문구를 “한 번에” → “순서대로”로 다듬어 단계형 흐름을 더 명확하게 정리
 - 20_YT_TITLE_DESC_PIN.md: 설명란 상단 핵심 문구를 “한 번에” → “끝까지”로 바꿔 전달 의도를 더 자연스럽게 정리
