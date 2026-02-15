@@ -1,3 +1,9 @@
+## 2026-02-15 11:42 KST — writer/reviewer loop (minor polish)
+- 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 레퍼런스 문장의 완주 표현을 `처음부터 끝까지 끊김 없이` → `끊김 없이`로 정리해 전달 리듬을 간결화
+- 90_POST_LIVE_FOLLOWUP.md: 섹션 제목의 괄호 앞 공백을 보정해 헤더 표기 일관성 개선
+- 90_POST_LIVE_FOLLOWUP.md: 운영 로그 안내 문구의 `나중에 추적용`을 `추적용`으로 다듬어 문장 군더더기 최소화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:36 KST — writer/reviewer loop (minor polish)
 - 05_ONE_SCREEN_CHEATSHEET.md: 저장/고정 확인 문구의 "정말" 표현을 "실제로"로 다듬어 운영 톤 일관성 강화
 - 30_RUN_OF_SHOW_14-18.md: 오프닝 레퍼런스 문장의 완주 표현을 "처음부터 끝까지" → "끊김 없이"로 정리해 전달 리듬을 간결화
