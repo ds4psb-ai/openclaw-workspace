@@ -1,3 +1,9 @@
+## 2026-02-15 11:47 KST — writer/reviewer loop (minor polish)
+- 05_ONE_SCREEN_CHEATSHEET.md: 반영 확인 원칙 문구를 `시크릿/로그아웃 창 1회 확인` → `시크릿/로그아웃 창에서 1회 확인`으로 다듬어 조사 흐름을 자연스럽게 정리
+- 30_RUN_OF_SHOW_14-18.md: 운영자 메모의 추적 안내를 `나중에 "언제 업데이트했는지" 추적용` → `업데이트 시각 추적용`으로 압축해 문장 스캔성을 개선
+- 90_POST_LIVE_FOLLOWUP.md: 고정댓글/설명란 대조 항목에 `순서/표현` 기준을 추가해 종료 직후 동기화 확인 포인트를 더 명확화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:42 KST — writer/reviewer loop (minor polish)
 - 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 레퍼런스 문장의 완주 표현을 `처음부터 끝까지 끊김 없이` → `끊김 없이`로 정리해 전달 리듬을 간결화
 - 90_POST_LIVE_FOLLOWUP.md: 섹션 제목의 괄호 앞 공백을 보정해 헤더 표기 일관성 개선
