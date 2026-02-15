@@ -1,3 +1,9 @@
+## 2026-02-15 11:17 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 패닉 모드 라벨을 “리플레이 정리 모드(비당일)” → “리플레이 정리 모드(라이브 비당일)”로 다듬어 조건 해석을 더 명확화
+- 30_RUN_OF_SHOW_14-18.md: 오프닝 룰의 질문 포맷 안내에 “1줄 권장”을 추가해 Q&A 입력 길이 기준을 즉시 확인 가능하게 정리
+- 90_POST_LIVE_FOLLOWUP.md: 종료/저장 확인 문구의 구분 기호(`/`)를 쉼표로 정리해 체크리스트 문장 가독성 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:11 KST — writer/reviewer loop (minor polish)
 - 00_README.md: Run of Show 링크 설명의 문구를 “제거 안내 포함” → “제거 가이드 포함”으로 다듬어 용어 일관성을 정리
 - 05_ONE_SCREEN_CHEATSHEET.md: 종료 직후 동선 문구를 “총 1회 흐름으로 끝내기” → “1회 흐름으로 마무리”로 다듬어 문장 톤을 간결화
