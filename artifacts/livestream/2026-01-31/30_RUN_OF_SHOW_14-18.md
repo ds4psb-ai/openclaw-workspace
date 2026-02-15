@@ -16,6 +16,7 @@
 - Q&A 시간 관리: `60_QA_PROTOCOL.md`
 - 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 종료 직후 타임스탬프 정리(복붙용·종료 후 1회 반영, 라이브 중 수정 금지): `35_TIMESTAMP_TEMPLATE.md` *(라이브 중에는 메모앱에만 기록하고, 종료 후 10–15분 이내 1회 반영 권장)*
+- 전/중/후 운영 체크리스트(시작 직전 30초 점검 포함): `80_CHECKLISTS.md`
 - 체크리스트(시작 전 30초, 시간 없으면 최소 체크 8개): `80_CHECKLISTS.md`
 - 라이브 포맷/톤/리듬 가이드: `LIVE_FORMAT_GUIDE.md`
 - 종료 후 30분 루틴: `90_POST_LIVE_FOLLOWUP.md`

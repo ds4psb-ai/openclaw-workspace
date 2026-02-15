@@ -12,6 +12,7 @@
 - 종료 직후 타임스탬프 정리 템플릿(복붙용·종료 후 1회 반영, 라이브 중 수정 금지·열어두기만): `35_TIMESTAMP_TEMPLATE.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - Q&A 시간 관리: `60_QA_PROTOCOL.md`
+- 오프닝 WOW 데모 시퀀스(10분): `19_WOW_DEMO_SEQUENCE_10MIN.md`
 - 플랜B 자산 체크리스트(초단축 1페이지): `85_PLAN_B_ASSETS_CHECKLIST.md`
 - 방송 후 30분 루틴(후속 체크리스트 그대로 실행): `90_POST_LIVE_FOLLOWUP.md`
 - 라이브 포맷 가이드(톤/리듬/운영): `LIVE_FORMAT_GUIDE.md`
