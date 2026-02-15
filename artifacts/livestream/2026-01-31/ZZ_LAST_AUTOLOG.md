@@ -1,3 +1,9 @@
+## 2026-02-15 10:37 KST — writer/reviewer loop (minor polish)
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: NotebookLM 시연 프롬프트의 타깃 표현을 ‘중년 남성 사장님’ → ‘중년 사장님’으로 다듬어 문서 내 타깃 톤을 일관화
+- 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 문구를 ‘코드 한 단어도 안 씁니다’ → ‘코드 한 줄도 안 씁니다’로 다듬어 전달 의미를 더 명확화
+- 90_POST_LIVE_FOLLOWUP.md: 다음 라이브 예고 예시의 시간 표기를 `KST 14:00–18:00` → `KST HH:MM–HH:MM`으로 바꿔 회차별 재사용성과 플레이스홀더 안정성을 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 10:31 KST — writer/reviewer loop (minor polish)
 - 80_CHECKLISTS.md: Run of Show 링크 설명의 리플레이 문구를 “리플레이 편집 시” → “리플레이 공개 전”으로 다듬어 운영 맥락을 더 명확히 정리
 - 19_WOW_DEMO_SEQUENCE_10MIN.md: 타깃 표현을 “중년 남성(사장님·자영업·부업 관심층)” → “중년 사장님·자영업자·부업 관심층”으로 다듬어 문장을 더 자연스럽게 정리
