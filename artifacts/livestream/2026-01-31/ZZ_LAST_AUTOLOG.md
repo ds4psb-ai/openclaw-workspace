@@ -1,3 +1,9 @@
+## 2026-02-15 12:36 KST — writer/reviewer loop (minor polish)
+- 10_KAKAO_ALL_MENTION.md: 버전 A 안내 문구의 `단독 줄`을 `단독 라인`으로 통일해 표현 일관성을 정리
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 표기 `dry-run`을 `dry run`으로 맞춰 괄호 내 영문 표현 톤을 완화
+- 50_DEMO_PLAN_A_B.md: 전환 규칙 문구를 `최대 2분만`으로 붙여 써 의미 단위를 더 명확화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 
 ## 2026-02-15 12:06 KST — writer/reviewer loop (minor polish)
 - 80_CHECKLISTS.md: 시작 직전 체크 문구를 `REC 표시/카운터` → `REC 표시와 카운터`로 다듬어 문장 흐름을 자연스럽게 정리
