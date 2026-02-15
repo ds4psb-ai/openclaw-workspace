@@ -1,3 +1,8 @@
+## 2026-02-15 10:31 KST — writer/reviewer loop (minor polish)
+- 80_CHECKLISTS.md: Run of Show 링크 설명의 리플레이 문구를 “리플레이 편집 시” → “리플레이 공개 전”으로 다듬어 운영 맥락을 더 명확히 정리
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 타깃 표현을 “중년 남성(사장님·자영업·부업 관심층)” → “중년 사장님·자영업자·부업 관심층”으로 다듬어 문장을 더 자연스럽게 정리
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 10:26 KST — writer/reviewer loop (minor polish)
 - 19_WOW_DEMO_SEQUENCE_10MIN.md: 무드보드 장면 문구를 “한 번에 정리되면” → “빠르게 정리되면”으로 다듬어 전달 속도감을 더 자연스럽게 정리
 - 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 문구를 “한 번에 완주” → “끊김 없이 완주”로 다듬어 라이브 운영 톤 일관성 강화
