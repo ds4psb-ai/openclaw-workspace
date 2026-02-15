@@ -1,3 +1,9 @@
+## 2026-02-15 10:26 KST — writer/reviewer loop (minor polish)
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 무드보드 장면 문구를 “한 번에 정리되면” → “빠르게 정리되면”으로 다듬어 전달 속도감을 더 자연스럽게 정리
+- 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 문구를 “한 번에 완주” → “끊김 없이 완주”로 다듬어 라이브 운영 톤 일관성 강화
+- 40_HOST_SCRIPT_KEY_LINES.md: 섹션 헤더 표기를 `Part2 → Part3` → `Part 2 → Part 3`으로 정리해 스캔 가독성 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 10:11 KST — writer/reviewer loop (minor polish)
 - 18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md: 확산 루프 문구를 “한 번에 연결” → “끊김 없이 연결”로 다듬어 운영 흐름 표현을 더 자연스럽게 정리
 - 19_WOW_DEMO_SEQUENCE_10MIN.md: 업그레이드 포인트 문구를 “한 번에 이어져서” → “끊김 없이 이어져”로 다듬어 실행 이미지를 더 선명하게 정리
