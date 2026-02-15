@@ -1,4 +1,4 @@
-# One-Screen Ops Cheat Sheet (라이브 중 이 한 장만 켜두기)
+# One-Screen Ops Cheat Sheet (라이브 운영 중 이 한 장만 켜두기)
 
 ## TL;DR (진짜 급할 때)
 - **챕터/타임스탬프는 `__:__`만** (영상 재생 시간, 00:00 기준)
