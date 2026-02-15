@@ -1,3 +1,9 @@
+## 2026-02-15 10:42 KST — writer/reviewer loop (minor polish)
+- 40_HOST_SCRIPT_KEY_LINES.md: 상단 안내 라벨을 `Tip` → `팁`으로 통일해 한글 문서 톤 일관성을 정리
+- 90_POST_LIVE_FOLLOWUP.md: 제목의 시간 기준을 `30분 내` → `종료 후 30분 내`로 보강해 실행 시점을 더 명확화
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 가드레일 문구를 `같은 명령 재실행 금지` → `같은 명령의 재실행 금지`로 다듬어 문장 해석을 더 자연스럽게 정리
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 10:37 KST — writer/reviewer loop (minor polish)
 - 19_WOW_DEMO_SEQUENCE_10MIN.md: NotebookLM 시연 프롬프트의 타깃 표현을 ‘중년 남성 사장님’ → ‘중년 사장님’으로 다듬어 문서 내 타깃 톤을 일관화
 - 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 문구를 ‘코드 한 단어도 안 씁니다’ → ‘코드 한 줄도 안 씁니다’로 다듬어 전달 의미를 더 명확화
