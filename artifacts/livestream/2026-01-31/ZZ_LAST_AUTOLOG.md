@@ -1,3 +1,9 @@
+## 2026-02-15 11:11 KST — writer/reviewer loop (minor polish)
+- 00_README.md: Run of Show 링크 설명의 문구를 “제거 안내 포함” → “제거 가이드 포함”으로 다듬어 용어 일관성을 정리
+- 05_ONE_SCREEN_CHEATSHEET.md: 종료 직후 동선 문구를 “총 1회 흐름으로 끝내기” → “1회 흐름으로 마무리”로 다듬어 문장 톤을 간결화
+- 90_POST_LIVE_FOLLOWUP.md: 고정댓글 템플릿 안내를 “바쁘면 생략해도 OK” → “바쁘면 생략 가능”으로 정리해 운영 문체 일관성 강화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:01 KST — writer/reviewer loop (minor polish)
 - 00_README.md: `__:__` 플레이스홀더 안내에 “실제 시계값 입력 금지”를 덧붙여 KST/재생시간 혼용 실수를 더 명확히 차단
 - 80_CHECKLISTS.md: Run of Show 링크 설명의 문구를 “제거 안내” → “제거 가이드”로 다듬어 문장 톤을 간결하게 정리
