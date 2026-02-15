@@ -1,3 +1,9 @@
+## 2026-02-15 09:11 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 3-step 운영 동선의 종료 후 정리 문구를 “한 번에 정리” → “1회 정리”로 다듬어 실행 횟수 기준을 명확화
+- 00_README.md: 종료 직후 복붙 루프 문구를 “한 번에 정리” → “종료 직후 1회 정리”로 맞춰 라이브 중/종료 후 동작 분리를 강화
+- 90_POST_LIVE_FOLLOWUP.md: 다음 라이브 예고 체크에서 `KST HH:MM` 플레이스홀더 언급을 제거해 실제 점검 대상(`YYYY-MM-DD`)을 더 정확히 표기
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 09:02 KST — writer/reviewer loop (minor polish)
 - 00_README.md: 자동 로그 안내 문구를 “변경 사항 없음으로 간주”로 정리해 상태 해석을 더 직관적으로 통일
 - 80_CHECKLISTS.md: 자동 로그 링크 설명에도 동일 문구(“변경 사항 없음으로 간주”)를 맞춰 문서 간 스캔 톤 일관성 강화
