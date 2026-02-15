@@ -1,3 +1,8 @@
+## 2026-02-15 10:11 KST — writer/reviewer loop (minor polish)
+- 18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md: 확산 루프 문구를 “한 번에 연결” → “끊김 없이 연결”로 다듬어 운영 흐름 표현을 더 자연스럽게 정리
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 업그레이드 포인트 문구를 “한 번에 이어져서” → “끊김 없이 이어져”로 다듬어 실행 이미지를 더 선명하게 정리
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 10:07 KST — writer/reviewer loop (minor polish)
 - 05_ONE_SCREEN_CHEATSHEET.md: 자동 로그 안내 문구를 "이번 루프 변경 없음" → "이번 루프는 변경 사항 없음"으로 맞춰 상태 해석 문구 일관성을 강화
 - 30_RUN_OF_SHOW_14-18.md: 자동 로그 안내 문구를 "이번 루프 변경 없음" → "이번 루프는 변경 사항 없음"으로 맞춰 문서 간 표현을 통일
