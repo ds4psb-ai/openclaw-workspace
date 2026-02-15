@@ -1,3 +1,9 @@
+## 2026-02-15 09:02 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 자동 로그 안내 문구를 “변경 사항 없음으로 간주”로 정리해 상태 해석을 더 직관적으로 통일
+- 80_CHECKLISTS.md: 자동 로그 링크 설명에도 동일 문구(“변경 사항 없음으로 간주”)를 맞춰 문서 간 스캔 톤 일관성 강화
+- 90_POST_LIVE_FOLLOWUP.md: 챕터 미인식 재확인 절차를 “1회만”으로 명시해 종료 후 재수정 루프를 예방
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 08:46 KST — writer/reviewer loop (minor polish)
 - 60_QA_PROTOCOL.md: 질문 수 제한 문구에 접속어를 보강해(“다시 요청하고”) 실행 흐름을 더 자연스럽게 정리
 - 80_CHECKLISTS.md: 컨트롤룸 재확인 항목의 위험 문구를 “잘못된 채널/스트림 선택”으로 압축해 빠른 스캔성을 개선
