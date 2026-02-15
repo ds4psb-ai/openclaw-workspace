@@ -1,3 +1,9 @@
+## 2026-02-15 12:41 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 패닉 모드의 “우선 이 3개만 열기” 문장을 다듬어 `85_PLAN_B_ASSETS_CHECKLIST.md` 추가 조건과 후속 확인 범위를 한 문장으로 더 명확히 정리
+- 19_WOW_DEMO_SEQUENCE_10MIN.md: 표기 `dry-run`을 `dry run`으로 맞춰 드라이런 영문 표기 일관성 정리
+- 90_POST_LIVE_FOLLOWUP.md: OBS 리먹스 안내 문구를 문장 2개로 분리해 메뉴 경로 가독성 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 12:36 KST — writer/reviewer loop (minor polish)
 - 10_KAKAO_ALL_MENTION.md: 버전 A 안내 문구의 `단독 줄`을 `단독 라인`으로 통일해 표현 일관성을 정리
 - 19_WOW_DEMO_SEQUENCE_10MIN.md: 표기 `dry-run`을 `dry run`으로 맞춰 괄호 내 영문 표현 톤을 완화
