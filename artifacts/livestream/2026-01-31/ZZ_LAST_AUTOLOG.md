@@ -1,3 +1,8 @@
+## 2026-02-15 12:02 KST — writer/reviewer loop (minor polish)
+- 00_README.md: 패닉 모드 라벨을 `리플레이 정리 모드(라이브 비당일)` → `리플레이 정리 모드(라이브 당일 아님)`으로 다듬어 조건 해석을 더 직관적으로 정리
+- 20_YT_TITLE_DESC_PIN.md: 링크 운영 메모의 `클릭성 저하 가능`을 `클릭성이 떨어질 수 있음`으로 다듬어 문장 자연스러움/가독성 개선
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:56 KST — writer/reviewer loop (minor polish)
 - 19_WOW_DEMO_SEQUENCE_10MIN.md: 운영 가드레일 라벨을 `원샷` → `1회 실행`으로 바꿔 실행 규칙 의미를 더 직관적으로 정리
 - 40_HOST_SCRIPT_KEY_LINES.md: 오프닝 레퍼런스 문장의 `오늘도 똑같이`를 `오늘도 같은 방식으로`로 다듬어 말하기 톤을 자연스럽게 정리
