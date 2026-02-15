@@ -149,7 +149,7 @@ Q: 직무 / 상황 / 원하는 결과 (1줄)
 - [ ] (권장) 고정댓글/채팅 공지로 **질문 포맷 1줄** 안내: `Q: 직무 / 상황 / 원하는 결과`
 - [ ] (권장) 고정댓글은 **평문**으로(타임스탬프/링크/질문 포맷을 **코드블록(백틱)**으로 감싸지 않기)
 
-출처(공식): YouTube Help – Moderate live chat
+출처(공식): YouTube Help – Moderate Live Chat
 https://support.google.com/youtube/answer/9826490?hl=en
 
 ## 시간 관리 멘트
