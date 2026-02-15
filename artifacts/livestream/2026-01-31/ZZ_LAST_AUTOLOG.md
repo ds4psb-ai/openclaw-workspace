@@ -1,3 +1,9 @@
+## 2026-02-15 11:36 KST — writer/reviewer loop (minor polish)
+- 05_ONE_SCREEN_CHEATSHEET.md: 저장/고정 확인 문구의 "정말" 표현을 "실제로"로 다듬어 운영 톤 일관성 강화
+- 30_RUN_OF_SHOW_14-18.md: 오프닝 레퍼런스 문장의 완주 표현을 "처음부터 끝까지" → "끊김 없이"로 정리해 전달 리듬을 간결화
+- 90_POST_LIVE_FOLLOWUP.md: 고정댓글 업데이트 안내의 "업데이트 시간"을 "업데이트 시각"으로 맞춰 시간 표기 용어를 통일
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:27 KST — writer/reviewer loop (minor polish)
 - 30_RUN_OF_SHOW_14-18.md: 유튜브 챕터 입력 가이드에 "줄 맨 앞 공백/탭 없이" 조건을 명시해 붙여넣기 형식 점검을 더 즉시 확인 가능하게 정리
 - 90_POST_LIVE_FOLLOWUP.md: 고정댓글 핀 상태 확인 기준에 `고정됨`/`Pinned by ...` 배지 문구를 보강해 종료 후 검증 포인트를 더 명확화
