@@ -1,3 +1,9 @@
+## 2026-02-15 11:27 KST — writer/reviewer loop (minor polish)
+- 30_RUN_OF_SHOW_14-18.md: 유튜브 챕터 입력 가이드에 "줄 맨 앞 공백/탭 없이" 조건을 명시해 붙여넣기 형식 점검을 더 즉시 확인 가능하게 정리
+- 90_POST_LIVE_FOLLOWUP.md: 고정댓글 핀 상태 확인 기준에 `고정됨`/`Pinned by ...` 배지 문구를 보강해 종료 후 검증 포인트를 더 명확화
+- 60_QA_PROTOCOL.md: TL;DR 재요청 멘트의 대시 표기를 "감사합니다 —"로 통일해 라이브 멘트 톤 일관성 정리
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 11:17 KST — writer/reviewer loop (minor polish)
 - 00_README.md: 패닉 모드 라벨을 “리플레이 정리 모드(비당일)” → “리플레이 정리 모드(라이브 비당일)”로 다듬어 조건 해석을 더 명확화
 - 30_RUN_OF_SHOW_14-18.md: 오프닝 룰의 질문 포맷 안내에 “1줄 권장”을 추가해 Q&A 입력 길이 기준을 즉시 확인 가능하게 정리
