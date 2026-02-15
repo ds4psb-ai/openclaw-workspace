@@ -1,3 +1,9 @@
+## 2026-02-15 11:01 KST — writer/reviewer loop (minor polish)
+- 00_README.md: `__:__` 플레이스홀더 안내에 “실제 시계값 입력 금지”를 덧붙여 KST/재생시간 혼용 실수를 더 명확히 차단
+- 80_CHECKLISTS.md: Run of Show 링크 설명의 문구를 “제거 안내” → “제거 가이드”로 다듬어 문장 톤을 간결하게 정리
+- 90_POST_LIVE_FOLLOWUP.md: 고정댓글 템플릿 안내를 “운영적으로 OK” → “운영상 충분”으로 다듬어 문서 톤 일관성 강화
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 10:42 KST — writer/reviewer loop (minor polish)
 - 40_HOST_SCRIPT_KEY_LINES.md: 상단 안내 라벨을 `Tip` → `팁`으로 통일해 한글 문서 톤 일관성을 정리
 - 90_POST_LIVE_FOLLOWUP.md: 제목의 시간 기준을 `30분 내` → `종료 후 30분 내`로 보강해 실행 시점을 더 명확화
