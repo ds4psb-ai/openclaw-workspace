@@ -5,6 +5,7 @@
 - 타임스탬프/리캡 템플릿(종료 직후 1회 반영): `35_TIMESTAMP_TEMPLATE.md`
 - 플랜B 자산 체크리스트(1페이지/즉시 전환용): `85_PLAN_B_ASSETS_CHECKLIST.md`
 - 방송 전/중/후 체크리스트(운영 버전): `80_CHECKLISTS.md`
+- 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
 - 데모 플랜A/B 요약: `50_DEMO_PLAN_A_B.md`
 
 ## 시간 표기 규칙(헷갈림 방지)
