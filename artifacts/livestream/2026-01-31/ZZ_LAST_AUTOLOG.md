@@ -1,3 +1,8 @@
+## 2026-02-15 10:07 KST — writer/reviewer loop (minor polish)
+- 05_ONE_SCREEN_CHEATSHEET.md: 자동 로그 안내 문구를 "이번 루프 변경 없음" → "이번 루프는 변경 사항 없음"으로 맞춰 상태 해석 문구 일관성을 강화
+- 30_RUN_OF_SHOW_14-18.md: 자동 로그 안내 문구를 "이번 루프 변경 없음" → "이번 루프는 변경 사항 없음"으로 맞춰 문서 간 표현을 통일
+- 35_TIMESTAMP_TEMPLATE.md: 이번 루프에서는 편집하지 않음(안정성 가드 준수)
+
 ## 2026-02-15 09:57 KST — writer/reviewer loop (minor polish)
 - 30_RUN_OF_SHOW_14-18.md: 자동 로그 안내 문구를 “파일이 없거나 비어 있으면 … 변경 없음으로 간주”로 보강해 상태 해석 기준을 명확화
 - 30_RUN_OF_SHOW_14-18.md: WOW 데모 목적 문구에 “오프닝 구간(10–15분)”을 명시해 실행 타이밍을 더 빠르게 파악 가능하게 정리
