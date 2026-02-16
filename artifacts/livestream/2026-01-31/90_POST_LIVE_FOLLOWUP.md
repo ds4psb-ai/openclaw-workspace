@@ -94,7 +94,7 @@ https://LINK_HERE
 - [ ] 문제가 있으면: 바로 비공개/편집(YouTube Studio) 플로우로 전환
 - [ ] (추가 안전) 자료 링크(Notion/Google Docs/Google Drive)가 **로그아웃/시크릿 창에서도 열리는지** 10초만 테스트(시청자 이탈 방지)
 - [ ] (추가 안전) 유튜브 입력란(제목/설명/고정댓글)에서 플레이스홀더를 **빠르게 1회 스캔**(잔존 0개가 목표): `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__` / `— ... —`
-- [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드/자동로그 제외): `cd /Users/ted/.openclaw/workspace && find artifacts/livestream/2026-01-31 -name "*.md" ! -name "35_TIMESTAMP_TEMPLATE.md" ! -name "20_YT_TITLE_DESC_PIN.md" ! -name "05_ONE_SCREEN_CHEATSHEET.md" ! -name "80_CHECKLISTS.md" ! -name "90_POST_LIVE_FOLLOWUP.md" ! -name "00_README.md" ! -name "ZZ_LAST_AUTOLOG.md" -exec grep -nE "https://LINK_HERE|https://LINK_HERE_2|https://example.com|YYYY-MM-DD|KST HH:MM|__:__|— \.\.\. —" {} + || true` *(출력이 없으면 정상(플레이스홀더 없음). 결과가 나오면 해당 줄만 빠르게 확인 후 필요한 항목만 수정하고, 템플릿 파일은 수정하지 않기)*
+- [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(템플릿/가이드/자동로그 제외): `cd /Users/ted/.openclaw/workspace && find artifacts/livestream/2026-01-31 -name "*.md" ! -name "35_TIMESTAMP_TEMPLATE.md" ! -name "20_YT_TITLE_DESC_PIN.md" ! -name "05_ONE_SCREEN_CHEATSHEET.md" ! -name "80_CHECKLISTS.md" ! -name "90_POST_LIVE_FOLLOWUP.md" ! -name "00_README.md" ! -name "LIVE_FORMAT_GUIDE.md" ! -name "ZZ_LAST_AUTOLOG.md" -exec grep -nE "https://LINK_HERE|https://LINK_HERE_2|https://example.com|YYYY-MM-DD|KST HH:MM|__:__|— \.\.\. —" {} + || true` *(출력이 없으면 정상(플레이스홀더 없음). 결과가 나오면 해당 줄만 빠르게 확인 후 필요한 항목만 수정하고, 템플릿 파일은 수정하지 않기)*
 
 ## 5) 다음 라이브 예고 문구(짧게)
 - [ ] (복붙 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화” *(일정 미정이면 이 항목은 통째로 삭제하고, 확정 후 1회만 게시. 날짜 판단은 KST 기준으로 통일)*
