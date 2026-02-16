@@ -1,17 +1,17 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-15 19:17
+- Run time (KST): 2026-02-16 13:34
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31` only
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `05_ONE_SCREEN_CHEATSHEET.md`
-   - TL;DR의 13:55 멘션 조건에 `라이브 시작 후 스킵`을 추가해 재전송/지연 전송 혼선을 줄임.
-2. `05_ONE_SCREEN_CHEATSHEET.md`
-   - 추천 탭 6번 설명에도 동일 조건(`이미 전송했거나 라이브 시작 후 스킵`)을 반영해 문서 내 기준을 통일.
-3. `80_CHECKLISTS.md`
-   - 최소 체크 8개의 당일 판정 항목에 `이미 라이브 시작 상태면 멘션 스킵`을 명시해 운영 판단 속도를 높임.
+1. `80_CHECKLISTS.md`
+   - `60분 전` 항목의 표현을 `배터리/절전모드 변수 제거` → `배터리/절전모드 변수 최소화`로 정리해 의도를 더 자연스럽게 명확화.
+2. `80_CHECKLISTS.md`
+   - 저장 누락 방지 문구의 오탈자성 표현 `활성화면`을 `활성화 상태면`으로 교정.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 결과로 최신 실행 시각/변경 내역을 갱신.
 
 ## Notes
 - `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음(요청 가드 준수).
-- 변경은 멘션 조건 문구의 일관성/오해 방지 중심의 소규모 수정으로 제한.
+- 변경 범위는 문구 명확화/오탈자 교정 중심의 소규모 수정으로 제한.
