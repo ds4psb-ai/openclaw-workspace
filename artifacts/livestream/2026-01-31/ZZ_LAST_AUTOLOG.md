@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 02:52
+- Run time (KST): 2026-02-17 03:01
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31` only
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `05_ONE_SCREEN_CHEATSHEET.md`
-   - 멘션 재전송 금지 안내가 중복되던 1줄을 제거해 TL;DR 가독성을 개선.
-2. `80_CHECKLISTS.md`
-   - “최소 체크 8개” 운영 팁에 “체크 순서 임의 변경 금지”를 추가해 급한 상황에서도 실행 순서를 고정.
-3. `90_POST_LIVE_FOLLOWUP.md`
-   - 백업 체크리스트 문장을 괄호형 안내로 정리해 문장 톤/형식을 다른 항목과 통일.
+1. `30_RUN_OF_SHOW_14-18.md`
+   - 카톡 멘션 조건 문장에 `재전송 금지`를 명시해 운영 판단을 더 빠르게 고정.
+2. `90_POST_LIVE_FOLLOWUP.md`
+   - 선택 백업 항목에 “백업 경로 1줄 메모”를 추가해 복구 동선을 명확화.
+3. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 종료 로그 항목에 “완료 로그가 있으면 재수정/재게시 기본 금지”를 추가해 중복 반영 사고를 예방.
 
 ## Notes
 - `35_TIMESTAMP_TEMPLATE.md`는 가드 지침에 따라 이번 루프에서도 수정하지 않음.
