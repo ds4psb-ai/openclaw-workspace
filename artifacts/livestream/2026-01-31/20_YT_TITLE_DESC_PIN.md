@@ -78,7 +78,7 @@ https://LINK_HERE
 -----8<----- COPY (SINGLE LINK, EMERGENCY) -----8<-----
 
 #### 정식 템플릿(방송 중/종료 직후 업데이트용)
-*(링크가 1개면 `https://LINK_HERE_2` 줄은 삭제 후 게시)*
+*(링크가 1개면 `https://LINK_HERE_2` 줄은 삭제하고, 남는 빈 줄도 함께 정리한 뒤 게시)*
 
 -----8<----- COPY FROM HERE -----8<-----
 https://LINK_HERE
