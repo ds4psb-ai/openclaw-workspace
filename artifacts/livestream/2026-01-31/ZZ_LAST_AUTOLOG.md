@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 01:56
+- Run time (KST): 2026-02-17 02:01
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31` only
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `19_WOW_DEMO_SEQUENCE_10MIN.md`
-   - 운영 원칙 문장을 2문장으로 분리해, 라이브 중 금지/전환 규칙(재실행 금지, 실패 시 플랜B)이 더 빠르게 읽히도록 다듬음.
-2. `80_CHECKLISTS.md`
-   - 10분 전 멘션 조건 문구를 `라이브 시작 이전` → `라이브 시작 전`으로 간결화해 읽기 흐름을 개선.
-3. `90_POST_LIVE_FOLLOWUP.md`
-   - 공개 범위 표기를 `일부 공개` → `일부공개`로 통일해 YouTube UI 용어와 일치시킴.
+1. `00_README.md`
+   - 패닉 모드 안내 문구를 `라이브 시작 전일 때만 허용` → `라이브 시작 전일 때만 1회 허용`으로 바꿔, 멘션 1회 원칙이 문장 자체에서 바로 드러나게 정리.
+2. `19_WOW_DEMO_SEQUENCE_10MIN.md`
+   - 제목 레이블 `운영 원칙(1줄)`을 `운영 원칙`으로 정리해 실제 본문 길이(복문)와 표기 일치.
+3. `80_CHECKLISTS.md`
+   - 공개 범위 표기를 `일부 공개` → `일부공개`로 통일해 YouTube UI 용어 일관성 유지.
 
 ## Notes
 - `35_TIMESTAMP_TEMPLATE.md`는 가드 지침에 따라 이번 루프에서도 수정하지 않음.
