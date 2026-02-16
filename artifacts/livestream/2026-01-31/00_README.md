@@ -151,7 +151,7 @@
 ## 운영 탭 추천(순서대로 5개)
 1) `05_ONE_SCREEN_CHEATSHEET.md` (한 화면 요약)
 2) `30_RUN_OF_SHOW_14-18.md` (진행)
-3) `35_TIMESTAMP_TEMPLATE.md` (열어두기만: 메모 정리는 종료 직후 1회)
+3) `35_TIMESTAMP_TEMPLATE.md` (열어두기만: 메모 정리는 종료 직후 1회, 라이브 중에는 읽기 전용 유지)
 4) `50_DEMO_PLAN_A_B.md` (장애 대응)
 5) `20_YT_TITLE_DESC_PIN.md` (제목/설명/고정댓글)
 
