@@ -1,14 +1,14 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 07:07
+- Run time (KST): 2026-02-17 07:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `70_CTA_SOFTSELL.md`
-   - `[개강일]` 치환 안내에 플레이스홀더 대괄호(`[ ]`) 잔존 여부 1회 확인 문구를 추가해 게시 전 실수 가능성을 줄임.
+1. `20_YT_TITLE_DESC_PIN.md`
+   - 업로드 전 체크리스트에 **리플레이 전 실시간 문구(오늘/지금/14:00–18:00) 치환** 항목을 추가해 VOD 전환 시 혼동 리스크를 낮춤.
 2. `21_POSTER_OCR_SUMMARY.md`
-   - OCR 검증 메모에 커리큘럼 링크 최신성 최종 점검 안내를 추가해 운영 체크 완결성을 보강.
+   - CLASS INFO에 `4주 과정` 표기를 보강해 `매주 화/목 8회` 구조를 한 번에 이해하도록 정리.
 3. `ZZ_LAST_AUTOLOG.md`
    - 이번 루프 시각/변경 내역으로 자동 로그 최신화.
 
