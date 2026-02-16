@@ -115,28 +115,6 @@ GROUP BY outlier_tier, category;
 
 ---
 
-## 🤖 OpenClaw Ops Core (2026-02-16 배포)
-
-### 신규 배포됨
-- **5개 DB 테이블**: openclaw_sessions/tasks/handoffs/policy_events/standups
-- **Admin API**: `/api/v1/admin/openclaw/*` (7 GET + 1 POST)
-- **프론트엔드**: `/ops/openclaw` 대시보드 (4섹션)
-- **PolicyService**: Director 하드가드 + untrusted 입력 차단
-- **MemoryService**: 에이전트별 네임스페이스 격리
-- **StandupService**: 일일 텍스트 요약 MVP
-- **스킬**: `~/.openclaw/workspace/skills/komission/SKILL.md`
-
-### 핵심 운영 명령
-- 품질 메트릭: `GET /api/v1/admin/openclaw/overview?days=7`
-- 스탠드업 생성: `POST /api/v1/admin/openclaw/standups/run`
-- 정책 위반: `GET /api/v1/admin/openclaw/policy-events`
-
-### 노스스타
-- **재작업률(rework rate) 감소** 최우선
-- 공개 채널 = 읽기 전용 (untrusted=true)
-
----
-
 ## 📊 다음 연구 주제
 
 1. ✅ **경쟁사 비교** - `COMPETITOR_ANALYSIS_VIRLO.md` 완료
