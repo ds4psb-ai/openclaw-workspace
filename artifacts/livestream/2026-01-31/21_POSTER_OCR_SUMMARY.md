@@ -36,6 +36,6 @@
   - 각 회차는 반드시 **산출물 1개(템플릿/표)** + **체크리스트 1개(QA)** + **데모 1개**로 끝낸다
   - “거장 DNA”는 1회차에서 **NotebookLM로 레퍼런스 분석→DNA 추출 표**로 고정(이게 이후 모든 일관성의 기준)
 
-참고: `projects/academy-curriculum/00_overview/10X_VALUE_PLAN.md`에 8회 분해/경험 장치가 상세 정리되어 있습니다. *(워크스페이스 기준 상대경로, 라이브 화면 공유 시 제외)*
+참고: `projects/academy-curriculum/00_overview/10X_VALUE_PLAN.md`에 8회 분해/경험 장치가 상세 정리되어 있습니다. *(워크스페이스 기준 상대경로이므로, 라이브 화면 공유/외부 배포 문구에서는 경로 표기 제외 권장)*
 
 관련 문서: `30_RUN_OF_SHOW_14-18.md`(타임라인), `17_STORYBOARD_SCHEMA_TEMPLATE.md`(스토리보드 포맷)
