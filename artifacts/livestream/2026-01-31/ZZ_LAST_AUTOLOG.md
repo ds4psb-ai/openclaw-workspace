@@ -1,14 +1,14 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 07:02
+- Run time (KST): 2026-02-17 07:07
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `20_YT_TITLE_DESC_PIN.md`
-   - COPY 블록 안내에 “구분선(`-----8<-----`)은 붙이지 말고 본문 줄만 복붙” 규칙을 추가해 실수 가능성을 줄임.
-2. `70_CTA_SOFTSELL.md`
-   - `[개강일]` 교체 예시에 ISO 형식(`YYYY-MM-DD`)을 함께 명시해 날짜 표기 일관성을 강화.
+1. `70_CTA_SOFTSELL.md`
+   - `[개강일]` 치환 안내에 플레이스홀더 대괄호(`[ ]`) 잔존 여부 1회 확인 문구를 추가해 게시 전 실수 가능성을 줄임.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - OCR 검증 메모에 커리큘럼 링크 최신성 최종 점검 안내를 추가해 운영 체크 완결성을 보강.
 3. `ZZ_LAST_AUTOLOG.md`
    - 이번 루프 시각/변경 내역으로 자동 로그 최신화.
 
