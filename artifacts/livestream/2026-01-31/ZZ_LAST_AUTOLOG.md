@@ -1,14 +1,14 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 03:46
+- Run time (KST): 2026-02-17 04:17
 - Branch: `livestream/2026-01-31`
-- Scope: `artifacts/livestream/2026-01-31` only
+- Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `60_QA_PROTOCOL.md`
-   - 질문 포맷 리마인드 횟수 문구를 “채팅 공지 기준 최대 2회(고정댓글 1회와 별개)”로 명확화해 운영 해석 충돌을 제거함.
-2. `20_YT_TITLE_DESC_PIN.md`
-   - 고정댓글 운영 메모에 “기존 고정댓글이 없을 때는 새 댓글 1개 작성 후 즉시 Pin” fallback을 추가해 실전 분기 동선을 명확히 함.
+1. `20_YT_TITLE_DESC_PIN.md`
+   - 종료 후 챕터 반영 체크리스트 문구에 “기존 고정댓글이 없으면 새 댓글 1개 작성 후 즉시 Pin” 예외를 명시해, 고정댓글 부재 상황에서도 동선이 멈추지 않게 정리함.
+2. `80_CHECKLISTS.md`
+   - 종료 직후 체크 항목에도 동일 예외(고정댓글 부재 시 새 댓글 1개 작성 후 Pin)를 반영해 운영 문서 간 규칙을 일치시킴.
 3. `ZZ_LAST_AUTOLOG.md`
    - 이번 루프 결과로 자동 로그를 최신 시각/변경 요약으로 갱신.
 
