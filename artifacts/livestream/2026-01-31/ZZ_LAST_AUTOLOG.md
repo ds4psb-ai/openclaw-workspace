@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-16 14:01
+- Run time (KST): 2026-02-16 14:09
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31` only
 
 ## Writer/Reviewer loop — minor polish (3)
 1. `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md`
-   - 기능 근거 2번째 항목의 출처 설명을 다듬어, 동일 공식 문서 내 커스터마이즈 옵션을 더 명확히 표기.
-2. `00_README.md`
-   - 운영 이벤트 시간 표기 규칙 문장을 소폭 정리(`KST` 접두어 표현 가독성 개선).
-3. `ZZ_LAST_AUTOLOG.md`
-   - 이번 루프 실행 시각/변경 내역으로 최신 상태 갱신.
+   - 제목의 강조 표현을 `‘와!’`로 통일해 인상 포인트 가독성 개선.
+2. `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md`
+   - 섹션 제목(`왜 이게 … 포인트인가`)도 동일하게 `‘와!’` 표기로 맞춤.
+3. `00_README.md`
+   - 운영 시각 규칙 문구를 자연스럽게 다듬음(`접두어 KST를 붙이기`).
 
 ## Notes
 - `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음(요청 가드 준수).
