@@ -9,7 +9,7 @@
 - 엔딩 CTA/소프트셀(표/멘트): `70_CTA_SOFTSELL.md`
 - KST 13:55 카톡방 전체 멘션(라이브 당일 + 미전송 + 완료 로그 없음 + 라이브 시작 전인 경우에만 1회 복붙, 그 외(전송 로그 있음/당일 아님/이미 라이브 시작 후)에는 스킵, 재전송 금지): `10_KAKAO_ALL_MENTION.md`
 - 유튜브 제목/설명/고정댓글(복붙): `20_YT_TITLE_DESC_PIN.md`
-- 종료 직후 타임스탬프 정리 템플릿(복붙용·종료 후 1회 반영, 라이브 중 수정 금지·열어두기만): `35_TIMESTAMP_TEMPLATE.md`
+- 종료 직후 타임스탬프 정리 템플릿(복붙용·종료 후 1회 반영, 라이브 중 수정 금지, 열어두기만): `35_TIMESTAMP_TEMPLATE.md`
 - 장애/지연 플랜B: `50_DEMO_PLAN_A_B.md`
 - Q&A 시간 관리: `60_QA_PROTOCOL.md`
 - 오프닝 WOW 데모 시퀀스(10분): `19_WOW_DEMO_SEQUENCE_10MIN.md`
