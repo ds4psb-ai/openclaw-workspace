@@ -1,15 +1,13 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 17:52
+- Run time (KST): 2026-02-17 18:02
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
-## Writer/Reviewer loop — minor polish (3)
-1. `05_ONE_SCREEN_CHEATSHEET.md`
-   - 멘션 가드 문구를 `라이브 시작 전 상태일 때만`으로 통일해 조건 해석을 더 명확하게 정리.
-2. `10_KAKAO_ALL_MENTION.md`
-   - 동일 가드 문구를 `라이브 시작 전 상태일 때만`으로 맞춰 체크 기준 일관성 강화.
-3. `ZZ_LAST_AUTOLOG.md`
+## Writer/Reviewer loop — minor polish (2)
+1. `10_KAKAO_ALL_MENTION.md`
+   - 완료 로그 예시를 `2026-01-31 13:55 KST 멘션 완료`에서 `KST 13:55 멘션 완료`로 정리해 전체 문서의 `KST HH:MM` 규칙과 형식을 일치시킴.
+2. `ZZ_LAST_AUTOLOG.md`
    - 이번 루프 결과/시각으로 최신화.
 
 ## Notes
