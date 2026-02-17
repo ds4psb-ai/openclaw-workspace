@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 02:16
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `30_RUN_OF_SHOW_14-18.md`
+   - 운영 로그/메모 문구의 `1줄` 표기를 `한 줄`로 정리해 실행 체크 항목의 한국어 톤을 통일.
+2. `19_WOW_DEMO_SEQUENCE_10MIN.md`
+   - 승인 직전 안내·실행 로그 문구의 `1줄` 표기를 `한 줄`로 맞추고, `사전녹화`를 `사전 녹화`로 정리해 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 02:11
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
