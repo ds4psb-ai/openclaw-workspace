@@ -30,13 +30,13 @@
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (핵심: identity/background/object consistency를 공식적으로 강조)
 - **Ingredients to Video는 네이티브 세로(9:16) 출력을 지원** → Shorts/릴스용 데모가 “바로” 됨(크롭 얘기 안 해도 됨)
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (핵심: 9:16 portrait mode 지원을 명시)
-- **1080p/4K는 ‘네이티브 생성’이 아니라 업스케일 옵션(경로/제품에 따라 지원 범위가 다를 수 있음)** → 라이브에서는 “어디에서 업스케일 되는지”를 같이 말하면 신뢰가 올라감
+- **1080p/4K는 ‘네이티브 생성’이 아니라 업스케일 옵션(경로/제품별 지원 범위가 다를 수 있음)** → 라이브에서는 “어디에서 업스케일 되는지”를 같이 말하면 신뢰가 올라감
   - https://arstechnica.com/google/2026/01/googles-updated-veo-model-can-make-vertical-videos-from-reference-images-with-4k-upscaling/ (핵심: 4K/1080p 업스케일과 제공 경로(Flow/API/Vertex AI 등) 언급, 라이브에서는 Google 공식 공지와 함께 교차 확인 권장)
 
 ### 라이브 데모 체크리스트(측정 가능)
 - [ ] 레퍼런스 이미지 2장으로 **같은 인물/같은 의상** 9:16 클립 2개 생성 → “일관성 차이”를 화면 비교
 - [ ] 같은 프롬프트로 **배경만 바꾼 버전 2개** 생성 → “주인공 유지” 확인
-- [ ] 최종 1개를 **업스케일 옵션(가능한 경로에서)**로 저장 → “편집용 결과물” 느낌 확인
+- [ ] 최종 1개를 **업스케일 옵션(Flow/API/Vertex AI 등 가능한 경로에서)**으로 저장 → “편집용 결과물” 느낌 확인
 
 ## 참고 링크(원문)
 - Veo 3.1 업데이트(레퍼런스 기반 일관성, 9:16, 1080p/4K 업스케일):
