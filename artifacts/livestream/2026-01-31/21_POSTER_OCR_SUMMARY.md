@@ -49,4 +49,4 @@
 
 참고: `projects/academy-curriculum/00_overview/10X_VALUE_PLAN.md`에 8회 분해/경험 장치가 상세히 정리되어 있습니다. *(워크스페이스 기준 상대경로이므로, 라이브 화면 공유/외부 배포 문구에서는 경로 표기 제외 권장)*
 
-관련 문서: `30_RUN_OF_SHOW_14-18.md`(타임라인), `17_STORYBOARD_SCHEMA_TEMPLATE.md`(스토리보드 포맷)
+관련 문서: `30_RUN_OF_SHOW_14-18.md`(타임라인), `17_STORYBOARD_SCHEMA_TEMPLATE.md`(스토리보드 포맷), `80_CHECKLISTS.md`(운영 체크리스트)
