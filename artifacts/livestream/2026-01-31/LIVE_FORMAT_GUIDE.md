@@ -15,6 +15,7 @@
 - **운영 이벤트/업데이트 로그 = `KST HH:MM` (시계, 접두어 `KST` 필수, 예: `KST 09:05`)**
 - **리플레이 정리 모드(라이브 당일 아님/라이브 종료 후)**에서는 `KST 13:55` 멘션 단계를 생략하고 종료 후 정리 동선만 실행
 - 멘션 전송 결정식: **라이브 당일(KST) AND 미전송 AND 멘션 완료 로그 없음 AND 라이브 시작 전**일 때만 1회
+- 라이브 시작 후에는 멘션 누락을 발견해도 **추가 전송하지 않음(재전송 금지)**
 - 리플레이 공개 전에는 제목/설명/고정댓글의 **실시간 운영 표기(예: `14:00–18:00 (KST)`)를 제거/수정**해 시청자 혼선을 막기
 
 > 라이브 레이턴시 때문에 실제 시계(KST)와 영상 재생 시간은 다를 수 있음 → **챕터에는 KST를 절대 섞지 않기**.
@@ -116,7 +117,7 @@
   - 인덱스: https://www.marcobehler.com/guides/live-coding
   - Ep1: https://www.youtube.com/watch?v=BIDNKRluql4
   - Ep2: https://www.youtube.com/watch?v=gUqMdwgEAIQ
-  - 포인트: **문제→원인→복구**를 숨기지 않고 보여주면 신뢰가 올라감(=PlanB가 곧 콘텐츠)
+  - 포인트: **문제→원인→복구**를 숨기지 않고 보여주면 신뢰가 올라감(=플랜B가 곧 콘텐츠)
 
 - Mocha (getmocha) — Stripe 결제 + 웹훅 운영 가이드
   - 블로그: https://getmocha.com/blog/how-to-accept-payments-stripe
@@ -132,4 +133,4 @@
 
 ---
 
-**최종 업데이트:** 2026-02-17 (Writer/Reviewer 루프 · 시간 표기/KST 문구 미세 정리)
+**최종 업데이트:** 2026-02-18 (Writer/Reviewer 루프 · 멘션 재전송 금지/용어 일관성 미세 정리)
