@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 02:27
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `90_POST_LIVE_FOLLOWUP.md`
+   - 종료 후 운영 체크 문구의 `1줄` 표기를 `한 줄`로 정리해 한국어 표현 톤을 문서 전반과 맞춤.
+2. `80_CHECKLISTS.md`
+   - 멘션/업데이트 완료 로그 안내의 `1줄` 표기를 `한 줄`로 통일해 체크리스트 카피 일관성을 강화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 02:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
