@@ -39,7 +39,7 @@
 - [ ] 링크가 1개인 날은 `https://LINK_HERE_2` 줄을 삭제하고, 남는 빈 줄도 함께 정리한 뒤 게시(연속 공백/빈 줄 최소화)
 - [ ] (권장) 게시 직후 시크릿/로그아웃 창에서 링크 1개만 10초 확인(권한/리다이렉트/로그인 강제 이슈 조기 발견)
 
-출처(공식): [YouTube Help – Tips for video descriptions](https://support.google.com/youtube/answer/12948449?hl=en)
+출처(공식 가이드): [YouTube Help – Tips for video descriptions](https://support.google.com/youtube/answer/12948449?hl=en)
 
 ## 고정댓글(복사/붙여넣기용)
 
