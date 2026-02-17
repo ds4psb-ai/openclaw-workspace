@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 10:11
+- Run time (KST): 2026-02-17 10:26
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md`
-   - 기능 근거 섹션에 라이브 멘트 팁(“소스 기반 요약 + 최종 사실 확인”)을 추가해 설명의 신뢰/안전 톤을 통일.
-2. `21_POSTER_OCR_SUMMARY.md`
-   - OCR 검증 메모 아래에 ‘혜택가/일정 문구 라이브 당일 재확인’ 운영 팁을 추가해 공지 직전 점검 포인트를 명확화.
-3. `22_2026_CREATOR_TOOLSTACK_GOOGLE_FREE.md`
-   - Antigravity 접근 불가 상황을 대비해 스크린샷/짧은 캡처 사전 준비(플랜B 자산) 문구를 보강.
+1. `00_README.md`
+   - 목표 문구를 보강해 라이브 운영 완주뿐 아니라 **리플레이 반영 마무리**까지 기대 결과를 명확화.
+2. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 기준 리셋(새로고침/모드 전환) 상황에서 **즉시 로그 1줄**을 남기도록 문구를 다듬어 운영 판단 지연을 줄임.
+3. `60_QA_PROTOCOL.md`
+   - Q&A 공지 횟수 규칙에 “채팅이 잠잠하면 추가 공지 생략”을 추가해 과공지(불필요 반복) 방지 가이드를 명확화.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
