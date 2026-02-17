@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 04:57
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `90_POST_LIVE_FOLLOWUP.md`
+   - 종료 확인 체크 문구를 `Ended(종료됨) 상태` 어순으로 보강해 읽기 일관성을 정리.
+2. `60_QA_PROTOCOL.md`
+   - 포맷 미준수 재요청 멘트의 `바로 잡아서 답할게요`를 `바로 답할게요`로 다듬어 구어 톤을 간결화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 04:26
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
