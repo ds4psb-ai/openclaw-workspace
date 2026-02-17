@@ -1,4 +1,4 @@
-# 10분 ‘와…’ 데모 시퀀스 (OpenClaw·NotebookLM·Antigravity)
+# 10분 ‘와…’ 데모 시퀀스 (OpenClaw × NotebookLM × Antigravity)
 
 > 표기 메모: OpenClaw는 과거 Moltbot으로 알려졌던 프로젝트입니다.
 
