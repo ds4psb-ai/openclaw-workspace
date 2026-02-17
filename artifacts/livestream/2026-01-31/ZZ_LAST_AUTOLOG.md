@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 07:07
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `20_YT_TITLE_DESC_PIN.md`
+   - 고정댓글 링크 안내 문구의 `클릭성` 표현을 `클릭 편의성`으로 다듬어 문장 자연스러움을 개선.
+2. `20_YT_TITLE_DESC_PIN.md`
+   - 업로드 전 체크리스트의 `클릭 동작 10초`를 `클릭 동작 확인(10초)`으로 정리해 행동 지시를 더 명확화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 06:11
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
