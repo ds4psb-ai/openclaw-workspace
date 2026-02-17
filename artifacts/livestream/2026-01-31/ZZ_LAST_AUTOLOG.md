@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 14:27
+- Run time (KST): 2026-02-17 14:31
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `20_YT_TITLE_DESC_PIN.md`
-   - 10초 비상용 안내 문구에서 `운영상 충분`을 `충분`으로 간결화했습니다.
-2. `20_YT_TITLE_DESC_PIN.md`
-   - 플레이스홀더 경고 문구를 `그대로 게시 금지` → `게시 금지`로 다듬어 중복 표현을 줄였습니다.
-3. `20_YT_TITLE_DESC_PIN.md`
-   - 질문 포맷 표기를 `(한 줄)` → `(1줄)`로 통일해 다른 운영 문서와 맞췄습니다.
+1. `70_CTA_SOFTSELL.md`
+   - 원칙 문구에서 구분자를 `가격/일정/링크` → `가격·일정·링크`로 통일하고 괄호 설명을 간결화했습니다.
+2. `70_CTA_SOFTSELL.md`
+   - 엔딩 스크립트 표현을 `자료랑` → `자료와`로 정리해 문체를 맞췄습니다.
+3. `85_PLAN_B_ASSETS_CHECKLIST.md`
+   - 사전 준비 문장(폴더 고정 안내)에서 불필요한 쉼표를 제거해 읽기 흐름을 개선했습니다.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
