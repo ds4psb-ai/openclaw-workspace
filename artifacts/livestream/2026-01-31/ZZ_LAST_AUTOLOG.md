@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 04:12
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 리플레이 정리 모드 조건 문구의 `진행 중/Ended 상태(종료됨)`를 `진행 중 또는 Ended(종료됨)`으로 다듬어 상태 표현을 더 자연스럽게 정리.
+2. `80_CHECKLISTS.md`
+   - 종료 직후 체크 항목의 `Ended 상태(종료됨)`를 `Ended(종료됨) 상태`로 정리해 읽는 흐름과 표기 일관성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 03:52
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
