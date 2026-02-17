@@ -131,6 +131,7 @@ __:__ 엔딩
   - `https://LINK_HERE_2`
   - `YYYY-MM-DD`
   - `KST HH:MM`
+  - `KST 9:5`
   - `__:__`
   - `https://example.com`
   - `— ... —`
