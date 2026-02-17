@@ -132,6 +132,7 @@ __:__ 엔딩
   - `YYYY-MM-DD`
   - `KST HH:MM`
   - `KST 9:5`
+  - `KST 24:00`
   - `__:__`
   - `https://example.com`
   - `— ... —`
