@@ -1,5 +1,23 @@
 # ZZ_LAST_AUTOLOG
 
+- Run time (KST): 2026-02-18 01:31
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `30_RUN_OF_SHOW_14-18.md`
+   - 카톡 멘션 안내 문구의 `로그 1줄 기록` 표현을 `로그 한 줄 기록`으로 맞춰 문서 톤 일관성을 강화.
+2. `90_POST_LIVE_FOLLOWUP.md`
+   - 운영 로그 항목의 `1줄만 남기기` 표기를 `한 줄만 남기기`로 통일해 한국어 카피 일관성을 정리.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 01:11
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
