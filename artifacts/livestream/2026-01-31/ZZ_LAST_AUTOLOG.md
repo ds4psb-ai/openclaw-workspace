@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 11:01
+- Run time (KST): 2026-02-17 11:41
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
 1. `19_WOW_DEMO_SEQUENCE_10MIN.md`
-   - Audio Overview 지연 시 텍스트 6문장 대체를 **기존 고정댓글 1회 편집**으로만 반영하도록 문구를 명확화.
-2. `70_CTA_SOFTSELL.md`
-   - `[개강일]` 점검 절차를 **검색 0건일 때만 게시**로 명시해 게시 전 판단 기준을 단순화.
-3. `90_POST_LIVE_FOLLOWUP.md`
-   - 저장 재시도 실패 시 **반대쪽 반영도 중단**하도록 예외 처리 규칙을 명확화.
+   - 라이브 불안정 시 **실반영 생략 후 종료 후 1회 반영** 원칙에, 라이브 중 재요청/재실행 금지를 명시.
+2. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 챕터 붙여넣기 전 5초 체크리스트에 **`KST` 검색 1회 확인**을 추가해 혼입 사고 방지.
+3. `80_CHECKLISTS.md`
+   - 종료 직후 섹션에 **챕터 반영 직전 `KST` 검색 1회** 항목을 추가해 챕터 블록 순도 점검 절차를 통일.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
