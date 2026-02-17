@@ -1,5 +1,23 @@
 # ZZ_LAST_AUTOLOG
 
+- Run time (KST): 2026-02-17 21:17
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `60_QA_PROTOCOL.md`
+   - 질문 템플릿 표기의 `(1줄)`을 `(한 줄)`로 통일해 문서 전반 한국어 톤 일관성을 강화.
+2. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 질문 재요청 멘트의 `1줄` 표기를 `한 줄`로 정리해 현장 복붙 문구의 표현을 통일.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-17 20:57
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
