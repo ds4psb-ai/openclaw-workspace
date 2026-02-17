@@ -1,5 +1,22 @@
 # ZZ_LAST_AUTOLOG
 
+- Run time (KST): 2026-02-17 20:41
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `15_OVERSEAS_REFERENCES.md`
+   - MiniMax 레퍼런스의 과거 명칭 표기를 `(Moltbot)`으로 정리해 고유명사 대소문자 일관성을 맞춤.
+2. `30_RUN_OF_SHOW_14-18.md`
+   - 플랜B 관련 문구의 `사전녹화` 표기를 `사전 녹화`로 통일해 띄어쓰기 가독성을 개선.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
+
 - Run time (KST): 2026-02-17 19:56
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`

@@ -85,7 +85,7 @@
 
 ## E) OpenClaw 사용 사례(맥락)
 
-### MiniMax Docs — *Build Your AI Assistant on Telegram with OpenClaw (moltbot)*
+### MiniMax Docs — *Build Your AI Assistant on Telegram with OpenClaw (Moltbot)*
 - 링크: https://platform.minimax.io/docs/solutions/moltbot
 
 ### OpenClaw 공식 문서(텔레그램)
