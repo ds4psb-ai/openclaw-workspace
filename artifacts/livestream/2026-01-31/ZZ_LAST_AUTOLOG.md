@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 04:26
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 리플레이 정리 모드 진입 기준 문구 끝에 `일 때`를 보강해 문장 흐름을 더 자연스럽게 정리.
+2. `90_POST_LIVE_FOLLOWUP.md`
+   - 종료 확인 체크 문구를 `Ended 반영 + 저장 정상` 구조로 다듬어 읽기 명확성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 04:21
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
