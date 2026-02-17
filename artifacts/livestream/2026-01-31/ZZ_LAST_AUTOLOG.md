@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 13:06
+- Run time (KST): 2026-02-17 13:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `70_CTA_SOFTSELL.md`
-   - 제목 범위를 `스크립트/고정댓글용`에서 `스크립트/설명란·고정댓글용`으로 보강해, 실제 사용 위치를 한눈에 이해하도록 정리했습니다.
-2. `05_ONE_SCREEN_CHEATSHEET.md`
-   - 사전 동선 문구의 `라이브 시작 전일 때만`을 `라이브가 시작되기 전일 때만`으로 다듬어 의미 혼선을 줄였습니다.
+1. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 사전 동선 멘션 조건 문구를 `라이브가 시작되기 전` → `라이브 시작 전`으로 압축하고, 문장 구분(세미콜론)으로 가독성을 개선했습니다.
+2. `80_CHECKLISTS.md`
+   - 종료 직후 로그 작성 문구를 `KST HH:MM으로 1줄 로그` → `KST HH:MM 1줄 로그`로 다듬어 표현을 간결화했습니다.
 3. `ZZ_LAST_AUTOLOG.md`
-   - 이번 루프의 변경 내역과 시각을 최신 상태로 갱신했습니다.
+   - 이번 루프 시각/변경 내역을 최신 상태로 갱신했습니다.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
