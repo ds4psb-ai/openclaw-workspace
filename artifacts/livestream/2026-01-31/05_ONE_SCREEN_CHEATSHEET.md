@@ -48,7 +48,7 @@
 - `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `Subscribers-only mode` / `멤버 전용` / `Members only` / `Live chat` / `Chat settings` / `Moderation`
 - `챕터` / `Q:`
 
-## (권장) 라이브 중 열어둘 탭 5~6개(순서대로)
+## (권장) 라이브 중 열어둘 탭 5–6개(순서대로)
 - (참고) 마지막 자동 루프 요약(파일이 없거나 비어 있으면 이번 루프는 **변경 없음**으로 간주): `ZZ_LAST_AUTOLOG.md`
 1) `05_ONE_SCREEN_CHEATSHEET.md` (이 문서)
 2) `30_RUN_OF_SHOW_14-18.md` (진행)
