@@ -19,10 +19,9 @@
 
 ## 4) 근거 링크
 - 검증 메모: 요금/플랜/제공 범위는 수시로 바뀔 수 있으니, 발표 직전에 각 서비스의 **공식 문서/가격 페이지**를 최종 기준으로 재확인
-- Veo 3.1 Jan 2026 업데이트(4K/9:16/Ingredients/오디오/가격):
-  - https://superprompt.com/blog/google-veo-3-1-update-4k-vertical-video-ingredients
-- Kling 2.6 Pro(네이티브 오디오-비주얼):
-  - https://www.dreamega.ai/models/kling-2-6-pro
+- 참고 링크(보조 자료):
+  - Veo 3.1 Jan 2026 업데이트(4K/9:16/Ingredients/오디오/가격): https://superprompt.com/blog/google-veo-3-1-update-4k-vertical-video-ingredients
+  - Kling 2.6 Pro(네이티브 오디오-비주얼): https://www.dreamega.ai/models/kling-2-6-pro
 
 ## 5) shorti.ai/커리큘럼에 ‘뾰족한 수’로 적용
 - “무료 입구”에서 만든 **스토리보드 표(timecode/shot_goal/continuity_checks)**를 공통 포맷으로 고정
