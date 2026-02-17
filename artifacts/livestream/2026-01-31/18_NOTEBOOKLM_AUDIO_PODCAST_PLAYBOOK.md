@@ -5,7 +5,7 @@
 - 핵심: 라이브 중에 만든 산출물/문서/공지/레퍼런스를 즉시 소스로 넣고, **에피소드로 변환**한 뒤 방송 후 확산(바이럴방/클립/요약)까지 끊김 없이 연결됩니다.
 
 ## 기능 근거(공식 3줄)
-- **Audio Overviews는 “업로드한 소스”를 요약하는 AI 호스트 대화(Deep Dive)이며, 소스 내용의 ‘객관적 반영’을 지향**(의견 창작이 아니라 정리/요약)
+- **Audio Overviews는 “업로드한 소스”를 요약하는 AI 호스트 대화(Deep Dive)이며, 소스 내용의 ‘객관적 반영’을 지향**(의견 창작보다 정리/요약에 강점, 단 생성형 특성상 최종 사실 확인은 필요)
   - https://support.google.com/notebooklm/answer/16212820?hl=en (Takeaway: 소스 기반 요약 + 객관적 반영 원칙 명시)
 - **Audio Overview는 Deep Dive/Brief/Critique/Debate 포맷 + 언어 선택 + 길이/커스텀 프롬프트로 조정 가능** → 라이브 후 “2분 요약(Brief)” 같은 공유용 출력을 빠르게 만들 수 있음
   - https://support.google.com/notebooklm/answer/16212820?hl=en (Takeaway: 포맷/언어/길이/프롬프트 커스터마이즈 옵션)

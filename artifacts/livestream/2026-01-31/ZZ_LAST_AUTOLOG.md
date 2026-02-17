@@ -1,15 +1,17 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 09:52
+- Run time (KST): 2026-02-17 10:01
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
-## Writer/Reviewer loop — minor polish (2)
-1. `30_RUN_OF_SHOW_14-18.md`
-   - 카톡 전체 멘션 안내 문장에서 중첩 괄호 표현을 제거하고, 애매할 때는 “재전송 방지를 위해 스킵”으로 문구를 정리해 읽기 흐름을 개선.
-2. `90_POST_LIVE_FOLLOWUP.md`
-   - 섹션 제목의 괄호 중첩 표현을 `총 2회만 반영, 동일 본문 유지`로 단순화해 운영 규칙을 더 빠르게 파악할 수 있도록 정리.
+## Writer/Reviewer loop — minor polish (3)
+1. `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md`
+   - Audio Overview 근거 문장에 “생성형 특성상 최종 사실 확인 필요”를 보완해 라이브 멘트의 신뢰/안전 가이드를 강화.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 도입 라벨을 `이미지` → `원본 이미지`로 명확화해 검증 대상이 원문 포스터임을 더 분명히 표기.
+3. `22_2026_CREATOR_TOOLSTACK_GOOGLE_FREE.md`
+   - Antigravity 항목에 계정/지역/실험 상태에 따른 접근 편차 가능성을 추가해 라이브 전 사전 점검 포인트를 명시.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
-- 변경 범위는 소규모 카피/표현 정리에 한정.
+- 변경 범위는 소규모 카피/운영 안정성 보완에 한정.
