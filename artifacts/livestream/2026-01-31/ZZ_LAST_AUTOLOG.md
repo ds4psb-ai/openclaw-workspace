@@ -1,5 +1,23 @@
 # ZZ_LAST_AUTOLOG
 
+- Run time (KST): 2026-02-18 00:12
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 운영 메모 안내의 `1줄` 표기를 `한 줄`로 정리해 문서 내 한국어 표현 톤을 통일.
+2. `00_README.md`
+   - 기준 리셋 복붙 라벨을 `(복붙 한 줄)`로 맞춰 현장 스캔 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-17 23:56
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
