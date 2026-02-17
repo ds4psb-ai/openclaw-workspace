@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 03:26
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `80_CHECKLISTS.md`
+   - 플랜B 전환 탭 순서 안내의 `사전녹화` 표기를 `사전 녹화`로 정리해 띄어쓰기 일관성을 맞춤.
+2. `50_DEMO_PLAN_A_B.md`
+   - 플랜B 전환/권장 순서 문구의 `사전녹화` 표기를 `사전 녹화`로 통일해 현장 스캔 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 03:02
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
