@@ -1,16 +1,14 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 14:46
+- Run time (KST): 2026-02-17 16:06
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
-## Writer/Reviewer loop — minor polish (3)
+## Writer/Reviewer loop — minor polish (2)
 1. `20_YT_TITLE_DESC_PIN.md`
-   - 설명란 상단 요약 문구에 “같은 챕터 블록” 표현을 추가해 종료 직후 반영 동선(고정댓글 1회 → 설명란 1회)을 더 명확히 했습니다.
-2. `70_CTA_SOFTSELL.md`
-   - 엔딩 멘트의 “워크플로우를 같이 세팅” 표현을 “워크플로우를 같이 정리”로 다듬어 전달 톤을 더 자연스럽게 정리했습니다.
-3. `85_PLAN_B_ASSETS_CHECKLIST.md`
-   - 섹션 제목을 “전환 리스크” → “전환 지연 리스크”로 바꿔 실제 운영 리스크(시간 지연)를 더 직접적으로 표현했습니다.
+   - 운영 팁 문구를 “1회 업데이트”에서 “기존 고정댓글 1회 편집 업데이트”로 명시해, 방송 중 중복 댓글 생성 리스크를 더 줄였습니다.
+2. `85_PLAN_B_ASSETS_CHECKLIST.md`
+   - “고정댓글 업데이트 10분 컷”을 “10–15분 컷”으로 조정해 다른 문서의 운영 기준(종료 후 10–15분 반영)과 맞췄습니다.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
