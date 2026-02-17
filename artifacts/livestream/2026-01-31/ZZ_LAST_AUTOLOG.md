@@ -1,5 +1,22 @@
 # ZZ_LAST_AUTOLOG
 
+- Run time (KST): 2026-02-17 19:56
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `19_WOW_DEMO_SEQUENCE_10MIN.md`
+   - 타임스탬프 예시 문구의 도구 표기를 `OpenClaw×NotebookLM×Antigravity`로 통일해 명칭 일관성을 강화.
+2. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 텔레그램 문서 설명의 `Privacy` 표기를 `privacy`로 정리해 가이드 표기 톤을 일관화.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
+
 - Run time (KST): 2026-02-17 19:46
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
