@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 05:37
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `90_POST_LIVE_FOLLOWUP.md`
+   - 종료 확인 체크 문구 2곳의 `Ended (종료됨)` 표기를 `Ended(종료됨)`으로 통일해 운영 문서 상태 표기 일관성을 강화.
+2. `20_YT_TITLE_DESC_PIN.md`
+   - 링크 운영 팁 문구의 `복붙/가독성` 표현을 `복붙/클릭 편의`로 정리해 현장 사용 맥락을 더 직관적으로 다듬음.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 05:21
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
