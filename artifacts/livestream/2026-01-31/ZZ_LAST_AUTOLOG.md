@@ -1,16 +1,16 @@
 # ZZ_LAST_AUTOLOG
 
-- Run time (KST): 2026-02-17 13:16
+- Run time (KST): 2026-02-17 13:31
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
-1. `05_ONE_SCREEN_CHEATSHEET.md`
-   - 사전 동선 멘션 조건 문구를 `라이브가 시작되기 전` → `라이브 시작 전`으로 압축하고, 문장 구분(세미콜론)으로 가독성을 개선했습니다.
-2. `80_CHECKLISTS.md`
-   - 종료 직후 로그 작성 문구를 `KST HH:MM으로 1줄 로그` → `KST HH:MM 1줄 로그`로 다듬어 표현을 간결화했습니다.
-3. `ZZ_LAST_AUTOLOG.md`
-   - 이번 루프 시각/변경 내역을 최신 상태로 갱신했습니다.
+1. `20_YT_TITLE_DESC_PIN.md`
+   - 제목 섹션 표기를 `택1` → `택 1`로 정리해 가독성을 높였습니다.
+2. `20_YT_TITLE_DESC_PIN.md`
+   - 설명란 Part 3 문구의 구분자를 `/` → `·`로 통일해 표현 일관성을 맞췄습니다.
+3. `20_YT_TITLE_DESC_PIN.md`
+   - 챕터 반영 절차 표기를 `+` → `→`로 바꿔 순서를 더 명확하게 표시했습니다.
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 이번 루프에서도 수정하지 않음.
