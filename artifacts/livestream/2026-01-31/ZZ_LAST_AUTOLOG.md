@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 00:36
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `90_POST_LIVE_FOLLOWUP.md`
+   - 섹션 제목의 `총 2회·동일 본문 유지` 표기를 `총 2회(동일 본문 유지)`로 정리해 괄호 구조를 더 명확하게 다듬음.
+2. `90_POST_LIVE_FOLLOWUP.md` + `20_YT_TITLE_DESC_PIN.md`
+   - 동기화 안내 문구의 구두점/수식 표현(`총 2회, 동일 본문 유지`, `종료 후 1회 반영`)을 간결화해 현장 스캔 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 23:32
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
