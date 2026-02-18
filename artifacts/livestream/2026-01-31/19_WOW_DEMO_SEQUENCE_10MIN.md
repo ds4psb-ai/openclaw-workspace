@@ -7,8 +7,8 @@
 운영 원칙: 라이브 중 실반영은 **드라이런(dry-run) 확인 후, 승인된 항목만 1회** 실행. 성공/실패와 무관하게 **같은 작업의 재실행(연타 포함)은 원칙적으로 금지**하며(중복 반영 방지), 실패 시 **2분 내** 플랜B로 전환. *(승인 전 반영 금지, 실행 직전 반영 대상(문서/페이지/브랜치) 10초 재확인, 부득이한 재시도는 Q&A 구간에서만 최대 1회 허용. 동일 요청을 표현만 바꿔 재요청하는 것도 재실행으로 간주)*
 
 근거 자료(리서치 링크):
-- OpenClaw (구 Moltbot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
-- OpenClaw (구 Moltbot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw (구 MoltBot) 개념(메신저=리모컨): https://news.hada.io/topic?id=26122
+- OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
