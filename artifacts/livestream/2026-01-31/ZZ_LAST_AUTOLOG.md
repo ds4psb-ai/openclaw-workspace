@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 11:36
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `30_RUN_OF_SHOW_14-18.md`
+   - 멘션 스킵 조건 문구의 상태 표기를 `Ended(종료됨)`으로 맞춰 인접 운영 문서와 표기 일관성을 강화.
+2. `80_CHECKLISTS.md`
+   - 종료/멘션 판정 관련 3개 항목의 상태 표기를 `Ended(종료됨)`으로 통일해 체크 시 스캔 혼선을 줄임.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 11:12
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
