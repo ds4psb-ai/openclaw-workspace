@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 15:06
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 상태 표기의 `Ended (종료됨)`을 `Ended(종료됨)`으로 통일해 멘션/리플레이 판단 문구 스캔 일관성을 강화.
+2. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 종료/리플레이 기준 안내의 `Ended (종료됨)` 표기를 `Ended(종료됨)`으로 맞춰 현장 운영 문서 표기 톤을 정리.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 14:26
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
