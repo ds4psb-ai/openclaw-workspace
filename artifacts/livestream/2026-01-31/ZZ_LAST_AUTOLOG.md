@@ -1,3 +1,19 @@
+- Run time (KST): 2026-02-19 02:26
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `20_YT_TITLE_DESC_PIN.md`
+   - 업로드 전 체크리스트의 `즉시 핀(고정)` 표기를 `즉시 Pin(고정)`으로 통일해 같은 파일 내 용어 톤 일관성을 정리.
+2. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 02:06
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
