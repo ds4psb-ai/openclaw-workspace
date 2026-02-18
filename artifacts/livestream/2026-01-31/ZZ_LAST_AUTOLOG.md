@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 22:42
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 상태 표기의 `Ended (종료됨)`/`Scheduled (예정됨)`를 `Ended(종료됨)`/`Scheduled(예정됨)`으로 통일해 멘션·리플레이 판단 문구 스캔 일관성을 강화.
+2. `05_ONE_SCREEN_CHEATSHEET.md` + `80_CHECKLISTS.md`
+   - 동일 상태 표기를 `Ended(종료됨)`/`Scheduled(예정됨)` 형태로 맞춰 라이브 운영 체크 문서 간 표기 톤을 일관화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 22:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
