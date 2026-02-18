@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 22:16
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 멘션 스킵 조건 문구의 괄호 중첩을 정리해 한 번에 읽히도록 다듬음.
+2. `80_CHECKLISTS.md`
+   - 멘션 예외 조건 줄의 괄호 중첩을 정리해 체크 시 문장 해석 부담을 줄임.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/문장 구조 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 18:42
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
