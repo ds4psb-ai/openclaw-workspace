@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 02:32
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 종료 직후 동선 안내 문장의 괄호/강조 표기(`*(...)`)를 일반 괄호로 정리해 스캔 시 시각적 잡음을 줄임.
+2. `20_YT_TITLE_DESC_PIN.md`
+   - 고정댓글 생성 안내 문구를 `바로 Pin(고정)` → `즉시 Pin(고정)`으로 통일해 운영 지시 톤 일관성을 강화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 02:26
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
