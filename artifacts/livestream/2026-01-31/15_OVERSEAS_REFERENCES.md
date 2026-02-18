@@ -83,13 +83,15 @@
 
 ---
 
-## E) OpenClaw 사용 사례(맥락)
+## E) OpenClaw 레퍼런스(명칭 혼선 방지)
 
-### MiniMax Docs — *Build Your AI Assistant on Telegram with OpenClaw (MoltBot)*
+### MiniMax Docs (구 표기 자료) — *Build Your AI Assistant on Telegram with OpenClaw (MoltBot)*
 - 링크: https://platform.minimax.io/docs/solutions/moltbot
+- 메모: 과거 문서라 `MoltBot` 표기가 남아 있음(개념 참고용)
 
-### OpenClaw 공식 문서(텔레그램)
+### OpenClaw 공식 문서(최신 기준)
 - 링크: https://docs.openclaw.ai/channels/telegram
+- 메모: 라이브 멘트/문서 표기는 `OpenClaw`로 통일
 
 ---
 
