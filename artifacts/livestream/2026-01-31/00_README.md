@@ -198,7 +198,7 @@
 - `ZZ_LAST_AUTOLOG.md` : 마지막 자동 루프 결과/상태 요약(최근 변경 확인)
 - `10_KAKAO_ALL_MENTION.md` : 13:55 전체 멘션용 최종 문구(붙여넣기)
 - `15_OVERSEAS_REFERENCES.md` : 해외 레퍼런스 링크 + 인용 문장(오프닝/전환에 1–2개만 사용)
-- `16_OPENCLAW_MOLTBOT_USECASES.md` : OpenClaw (구 Moltbot) ‘메신저=리모컨’ 운영 패턴 + 라이브 멘트 + 안전 가이드
+- `16_OPENCLAW_MOLTBOT_USECASES.md` : OpenClaw (구 MoltBot) ‘메신저=리모컨’ 운영 패턴 + 라이브 멘트 + 안전 가이드
 - `17_STORYBOARD_SCHEMA_TEMPLATE.md` : 스토리보드(timecode/shot_goal/continuity_checks) 데이터 스키마 템플릿
 - `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md` : NotebookLM 오디오 팟캐스트/쿼리로 라이브를 ‘와’ 수준으로 업그레이드(바이럴 확산 루프)
 - `19_WOW_DEMO_SEQUENCE_10MIN.md` : 오프닝 10분 ‘와…’ 데모 시퀀스(그대로 따라하기)
@@ -222,7 +222,7 @@
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
 - **타임스탬프 템플릿(복붙)**: `35_TIMESTAMP_TEMPLATE.md` *(플랜B 전환 시각도 여기 한 줄로 남기기)*
 - **Q&A 시간 관리**: `60_QA_PROTOCOL.md`
-- **방송 후 30분 후속 루틴**: `90_POST_LIVE_FOLLOWUP.md`
+- **방송 후 30분 루틴**: `90_POST_LIVE_FOLLOWUP.md`
 
 ## 운영 전 2분 셋업(탭 4개 + Finder 1개)
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
