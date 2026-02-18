@@ -1,3 +1,20 @@
+- Run time (KST): 2026-02-18 11:12
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 타임스탬프 붙여넣기 주의 문구의 `클릭성`을 `클릭 편의성`으로 정리해 용어 일관성을 강화.
+2. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 챕터 제목 운영 팁의 `클릭성` 표현을 `클릭 편의성`으로 다듬어 현장 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/용어 정리에 한정.
+
+---
 - Run time (KST): 2026-02-18 07:12
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
