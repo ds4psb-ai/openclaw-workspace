@@ -1,3 +1,19 @@
+- Run time (KST): 2026-02-19 02:06
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `20_YT_TITLE_DESC_PIN.md`
+   - 업로드 전 체크리스트 문장의 닫는 괄호 중복을 정리해 `총 2회` 안내를 `반영(총 2회)` 형태로 간결하게 통일.
+2. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/문장부호 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 01:22
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
