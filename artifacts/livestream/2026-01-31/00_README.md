@@ -217,7 +217,7 @@
 - `90_POST_LIVE_FOLLOWUP.md` : 방송 후 공유/리플레이/댓글 고정/다음 라이브 예고
 - `LIVE_FORMAT_GUIDE.md` : 라이브 진행 포맷(톤/리듬/운영 팁)
 
-빠른 찾기:
+## 빠른 찾기
 - **카톡 전체 멘션(13:55, 복붙)**: `10_KAKAO_ALL_MENTION.md`
 - **와… 데모 시퀀스(오프닝 10분)**: `19_WOW_DEMO_SEQUENCE_10MIN.md` *(WOW 데모 시작 시각 `__:__` 메모 → `35_TIMESTAMP_TEMPLATE.md`에 반영)*
 - **플랜B 전환 시나리오**: `50_DEMO_PLAN_A_B.md`
