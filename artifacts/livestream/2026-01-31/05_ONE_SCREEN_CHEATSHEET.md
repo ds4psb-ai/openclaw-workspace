@@ -44,7 +44,7 @@
 - (복구) 배지가 사라졌다면 **즉시 다시 고정(Pin)** 후 저장 상태를 1회 재확인
 
 ## 빠른 검색 키워드(⌘F)
-- `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `Pinned` / `Pin comment` / `Pinned by`
+- `KST` / `00:00` / `플랜B` / `고정댓글` / `고정됨` / `핀` / `댓글 고정` / `Pinned` / `Pin` / `Pinned by`
 - (YouTube 표기 변형) `Pinned by owner` / `Pinned by creator`
 - `스트림 헬스` / `Stream health` / `Control room` / `Dropped Frames` / `Latency`
 - `슬로우` / `Slow mode` / `기본 검토` / `Basic moderation` / `보류` / `Held for review` / `구독자 전용` / `Subscribers only` / `Subscribers-only mode` / `멤버 전용` / `Members only` / `Live chat` / `Chat settings` / `Moderation`
