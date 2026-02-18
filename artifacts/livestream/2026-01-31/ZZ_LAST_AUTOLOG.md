@@ -1,3 +1,19 @@
+- Run time (KST): 2026-02-18 23:32
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `80_CHECKLISTS.md`
+   - `오늘이 라이브 당일인지 먼저 확인` 체크 항목의 문장 끝 중복 괄호를 제거해 문장 마감 가독성을 정리.
+2. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/문장부호 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 22:56
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
