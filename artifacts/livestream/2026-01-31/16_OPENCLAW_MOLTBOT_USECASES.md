@@ -1,18 +1,18 @@
-# OpenClaw (구 Moltbot) 2026 사용 사례 (라이브에 넣을 한 문단 + 안전 가이드)
+# OpenClaw (구 MoltBot) 2026 사용 사례 (라이브에 넣을 한 문단 + 안전 가이드)
 
 ## 라이브에서 30초로 말할 요약 (복사/붙여넣기)
-> 표기 팁(권장): 라이브에서는 첫 1회만 **"OpenClaw (구 Moltbot)"**로 소개하고, 이후에는 **OpenClaw**로 통일하면 시청자 혼선을 줄일 수 있습니다.
+> 표기 팁(권장): 라이브에서는 첫 1회만 **"OpenClaw (구 MoltBot)"**로 소개하고, 이후에는 **OpenClaw**로 통일하면 시청자 혼선을 줄일 수 있습니다.
 
-- "OpenClaw (구 Moltbot)는 텔레그램 같은 메신저를 **AI 에이전트의 리모컨**으로 바꿔주는 게이트웨이입니다. 공개 튜토리얼과 커뮤니티에서도 ‘폰에서 명령 → 서버에서 실행’ 패턴으로 개인 비서를 운영하는 사례가 꾸준히 확인되고 있습니다. 오늘 시연도 같은 철학입니다. **자동화는 데모를 넘어 운영(로그/스케줄/버전/권한)까지 포함돼야** 실전에서 힘을 발휘합니다."
+- "OpenClaw (구 MoltBot)는 텔레그램 같은 메신저를 **AI 에이전트의 리모컨**으로 바꿔주는 게이트웨이입니다. 공개 튜토리얼과 커뮤니티에서도 ‘폰에서 명령 → 서버에서 실행’ 패턴으로 개인 비서를 운영하는 사례가 꾸준히 확인되고 있습니다. 오늘 시연도 같은 철학입니다. **자동화는 데모를 넘어 운영(로그/스케줄/버전/권한)까지 포함돼야** 실전에서 힘을 발휘합니다."
 
 ## 근거 링크(검증용)
-- MiniMax 튜토리얼(텔레그램에 OpenClaw 연결, 구 Moltbot 문서지만 개념은 동일): https://platform.minimax.io/docs/solutions/moltbot
+- MiniMax 튜토리얼(텔레그램에 OpenClaw 연결, 구 MoltBot 문서지만 개념은 동일): https://platform.minimax.io/docs/solutions/moltbot
 - OpenClaw 텔레그램 문서(privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
-- 명칭/운영 기준은 OpenClaw 공식 문서를 우선하고, 구 Moltbot 표기는 과거 자료 확인용으로만 참고하세요.
+- 명칭/운영 기준은 OpenClaw 공식 문서를 우선하고, 구 MoltBot 표기는 과거 자료 확인용으로만 참고하세요.
 
 ## 명칭 혼선 방지(짧게)
-- 자료/블로그에 남아 있는 **Moltbot** 표기는 이전 명칭이며, 현재 명칭은 **OpenClaw**입니다. *(검색 시에는 `OpenClaw`, `Moltbot`를 함께 쓰면 과거 자료까지 더 잘 찾을 수 있습니다.)*
-- 라이브에선 첫 1회만 **OpenClaw (구 Moltbot)**로 소개하고, 이후엔 **OpenClaw**로 통일(슬라이드/자막/채팅 고정문구도 동일 규칙 적용).
+- 자료/블로그에 남아 있는 **MoltBot** 표기는 이전 명칭이며, 현재 명칭은 **OpenClaw**입니다. *(검색 시에는 `OpenClaw`, `MoltBot`를 함께 쓰면 과거 자료까지 더 잘 찾을 수 있습니다.)*
+- 라이브에선 첫 1회만 **OpenClaw (구 MoltBot)**로 소개하고, 이후엔 **OpenClaw**로 통일(슬라이드/자막/채팅 고정문구도 동일 규칙 적용).
 
 ## 안전 가이드(짧게)
 - 프라이버시/권한:
