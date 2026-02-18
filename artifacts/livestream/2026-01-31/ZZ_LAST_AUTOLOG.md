@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-18 18:42
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `10_KAKAO_ALL_MENTION.md`
+   - 안내 문구의 "표기"를 "표시"로 다듬어 복붙 안내 문장 흐름을 더 자연스럽게 정리.
+2. `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md`
+   - "바이럴방" 표기를 "바이럴 방"으로 통일해 문서 내 띄어쓰기 일관성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-18 15:06
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
