@@ -105,7 +105,7 @@
 
 ## 14:10–14:25 WOW 데모(15분): OpenClaw (구 MoltBot) × NotebookLM × Antigravity 연동
 - 목적: “메신저 한 줄 → 브랜드 브레인 → 홈페이지 업데이트”를 **오프닝 구간(10–15분)**에 1회 보여주고 신뢰 확보
-- 운영자 메모: WOW 데모 **시작 시각 `__:__`** 한 줄만 먼저 찍기 → 종료 후 `35_TIMESTAMP_TEMPLATE.md`에 반영
+- 운영자 메모: WOW 데모 **시작 시각 `__:__`** 한 줄만 먼저 기록 → 종료 후 `35_TIMESTAMP_TEMPLATE.md`에 반영
 - 시퀀스: `19_WOW_DEMO_SEQUENCE_10MIN.md` 참고
 
 ## 14:25–14:35 이전 강의 복기(10분)
