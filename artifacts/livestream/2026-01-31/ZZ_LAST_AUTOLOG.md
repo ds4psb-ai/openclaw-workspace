@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 02:17
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 안전 가이드의 테스트 실행 문장을 `진행` → `진행합니다.`로 다듬어 체크리스트 톤을 문장형으로 통일.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 검증 메모 문장의 `요일-날짜 일치 여부를 함께 확인`을 `요일-날짜 일치 여부도 함께 확인`으로 다듬어 체크 지시를 더 분명하게 정리.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 체크 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 01:31
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
