@@ -10,6 +10,7 @@
 - 라이브 시작 전에 이 폴더를 **미리 열어두고**, Finder 즐겨찾기/최근 항목에 고정(전환 시 두 번 클릭 이내로 열리는 상태를 목표로 함)
 - 폴더(추천): `plan-b-assets/` *(예시; 위치는 자유지만 라이브 중 두 번 클릭 이내로 열 수 있어야 함 — 예: `/Users/ted/Desktop/livestream/plan-b-assets/`)*
 - 파일명(예시): *(이름순 정렬했을 때 바로 위에서부터 뜨게, **A1/A2/A3/B1/B2로 시작**)*
+- [ ] (권장) A1/A2/A3 이미지는 Quick Look(스페이스바)로 1회 열어 **파일명-내용 매칭** 확인(급한 전환 중 오픈 실수 방지)
   - `A1_performance_before-after.png`
   - `A2_storyboard_example.png`
   - `A3_polar_checkout_success.png`
