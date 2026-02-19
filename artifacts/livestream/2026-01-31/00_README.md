@@ -208,7 +208,7 @@
 - `19_WOW_DEMO_SEQUENCE_10MIN.md` : 오프닝 10분 ‘와…’ 데모 시퀀스(그대로 따라하기)
 - `20_YT_TITLE_DESC_PIN.md` : 유튜브 제목/설명/고정댓글(광고 티 최소)
 - `30_RUN_OF_SHOW_14-18.md` : 14:00–18:00 (KST) 4시간 런 오브 쇼(분 단위 진행표)
-- `35_TIMESTAMP_TEMPLATE.md` : 고정댓글/타임스탬프/리캡 템플릿(복붙)
+- `35_TIMESTAMP_TEMPLATE.md` : 고정댓글/타임스탬프/리캡 템플릿(복사/붙여넣기)
 - `40_HOST_SCRIPT_KEY_LINES.md` : 오프닝 3분/전환 멘트/엔딩 2분(그대로 읽기)
 - `50_DEMO_PLAN_A_B.md` : 데모 플랜A/플랜B(장애/지연 대응)
 - `60_QA_PROTOCOL.md` : Q&A 수집/선별/시간 관리 멘트 + 질문 포맷
