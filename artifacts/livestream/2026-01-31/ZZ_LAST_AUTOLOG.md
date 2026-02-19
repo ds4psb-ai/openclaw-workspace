@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 06:51
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 명칭/운영 기준 문구를 `최우선으로 삼습니다` → `최우선 기준으로 유지합니다`로 다듬어 지시 톤을 명확하게 정리.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 검증 메모 문구에 `1회`를 추가해 게시 직전 링크 점검 빈도를 구체화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 06:31
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
