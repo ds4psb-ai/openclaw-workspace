@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 23:21
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 라이브 30초 요약 문장의 `커뮤니티 사례 전반에서`를 `커뮤니티 사례 전반에 걸쳐`로 다듬어 문장 흐름을 자연스럽게 정리.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 게시 직전 체크리스트의 문의/커리큘럼 링크 항목에 `최종 게시본 기준 URL`을 명시해 검증 기준을 더 명확하게 고정.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 체크 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 21:57
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
