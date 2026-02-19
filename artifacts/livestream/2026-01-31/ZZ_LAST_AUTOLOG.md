@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 05:07
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 안전 가이드 문구의 `본 방송` 표기를 `본방송`으로 정리해 운영 카피 표기 일관성을 맞춤.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 게시 직전 체크리스트의 가격 검증 항목 구분자를 `+`에서 `·`로 정리해 스캔 가독성을 개선.
+3. `21_POSTER_OCR_SUMMARY.md`
+   - CLASS INFO 문구의 `4주 과정`을 `4주`로 간결화해 라인 톤을 주변 항목과 통일.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 04:11
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
