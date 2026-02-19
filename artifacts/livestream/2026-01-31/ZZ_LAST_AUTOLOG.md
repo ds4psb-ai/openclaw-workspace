@@ -1,6 +1,24 @@
+- Run time (KST): 2026-02-19 13:26
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 챕터 반영 안내 2곳의 `복붙/공유용` 표현을 `복사/붙여넣기·공유용`으로 정리해 운영 문구를 더 명확하게 통일.
+2. `00_README.md`
+   - 위 변경으로 설명란/고정댓글 역할 구분 문장을 용어 측면에서 일관화해 현장 스캔 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 12:36
-- Branch: \'livestream/2026-01-31\'
-- Scope: \'artifacts/livestream/2026-01-31\'
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
 
 ## Writer/Reviewer loop — minor polish (3)
 1. `00_README.md`
