@@ -5,6 +5,7 @@
 ## 1) Storyboard Table (권장 컬럼)
 - `timecode` : 예) 00:00–00:05
   - 형식 규칙: 한 문서 안에서는 `MM:SS` 또는 `HH:MM:SS` 중 하나로 통일
+- `scene_id` : 고정 식별자(예: S01, S02) — 수정/리뷰 시 참조 기준
 - `shot_goal` : 이 컷이 달성해야 할 목표(한 문장)
 - `characters` : 등장 인물/캐릭터 ID
 - `setting` : 장소/시간/분위기
