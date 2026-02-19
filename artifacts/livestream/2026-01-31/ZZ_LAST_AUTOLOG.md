@@ -1,3 +1,39 @@
+- Run time (KST): 2026-02-20 07:52
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `21_POSTER_OCR_SUMMARY.md`
+   - 문의 링크 체크 항목의 `클릭 동작 1회 확인(데스크톱 1회, 가능하면 모바일 1회)` 문구를 `클릭 동작 확인(데스크톱 1회, 가능하면 모바일 1회)`로 다듬어 횟수 표현의 중복 뉘앙스를 제거.
+2. `30_RUN_OF_SHOW_14-18.md`
+   - 카톡 멘션 라벨을 `라이브 당일 KST 13:55` → `라이브 당일 13:55 (KST)`로 정리해 시간 표기 스캔성을 통일.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
+- Run time (KST): 2026-02-20 07:52
+- Branch: \
+- Scope: \
+
+## Writer/Reviewer loop — minor polish (3)
+1. \
+   - 문의 링크 체크 항목의  문구를 로 다듬어 횟수 표현의 중복 뉘앙스를 제거.
+2. \
+   - 카톡 멘션 라벨을  → 로 정리해 시간 표기 스캔성을 통일.
+3. \
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 \는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 07:02
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
