@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 21:27
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `19_WOW_DEMO_SEQUENCE_10MIN.md`
+   - 실행 가드 문구의 `반영 대상 1줄 확인`을 `반영 대상 한 줄 확인`으로 정리해 한국어 표기 톤을 문서 전반과 통일.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 게시 직전 체크리스트의 링크 검증 2개 항목에 `1회`를 보강해 현장 점검 강도를 더 명확하게 맞춤.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 체크 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 20:51
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
