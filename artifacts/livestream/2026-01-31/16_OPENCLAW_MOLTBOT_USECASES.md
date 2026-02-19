@@ -5,11 +5,12 @@
 
 - "OpenClaw (구 MoltBot)는 텔레그램 같은 메신저를 **AI 에이전트의 리모컨**으로 바꿔주는 게이트웨이입니다. 공개 튜토리얼·공식 문서·커뮤니티 사례 전반에 걸쳐 ‘폰에서 명령 → 서버에서 실행’ 패턴으로 개인 비서를 운영하는 사례가 꾸준히 확인됩니다. 오늘 시연도 같은 철학을 따릅니다. **자동화는 데모를 넘어 운영(로그/스케줄/버전/권한)까지 포함돼야** 실전에서 힘을 발휘합니다."
 
-## 근거 링크(검증용)
+## 근거 링크(검증/업데이트용)
 - MiniMax 튜토리얼(텔레그램에 OpenClaw 연결; 문서는 구 MoltBot 기준이지만 개념은 동일합니다): https://platform.minimax.io/docs/solutions/moltbot
 - OpenClaw 텔레그램 문서(privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
 - OpenClaw GitHub(릴리즈/변경 이력 확인): https://github.com/openclaw/openclaw
-- 명칭/운영 기준은 OpenClaw 공식 문서를 우선하고, 구 MoltBot 표기는 과거 자료 확인용으로만 참고하세요(혼선 방지용).
+- 명칭/운영 기준은 OpenClaw 공식 문서를 우선합니다.
+- 구 MoltBot 표기는 과거 자료 확인용으로만 참고하세요(혼선 방지).
 
 ## 명칭 혼선 방지(짧게)
 - 자료/블로그에 남아 있는 **MoltBot** 표기는 이전 명칭이며, 현재 명칭은 **OpenClaw**입니다. *(검색 시에는 `OpenClaw`, `MoltBot`를 함께 쓰면 과거 자료까지 더 잘 찾을 수 있습니다.)*
@@ -17,7 +18,7 @@
 
 ## 안전 가이드(짧게)
 - 프라이버시/권한:
-  - 그룹에서 멘션 없이 동작하려면 Telegram BotFather의 `/setprivacy`를 `Disable`로 설정하거나, 봇에 관리자(admin) 권한을 부여해야 함(설정 변경 후 그룹 재초대가 필요할 수 있음).
+  - 그룹에서 멘션 없이 동작하려면 Telegram BotFather의 `/setprivacy`를 `Disable`로 설정하거나, 봇에 관리자(admin) 권한을 부여해야 합니다(설정 변경 후 그룹 재초대가 필요할 수 있습니다).
 - 운영/보안(기본값은 “거절”, 필요한 것만 허용):
   - 토큰/키는 절대 노출 금지(레포/스크린 공유/OBS 소스/로그 캡처 시 특히)
   - 메신저 명령은 **allowlist + 승인(approval) + `requireMention`/`prefix` + `dry-run` 가드레일**을 먼저 적용한 뒤, 작은 범위에서 시작합니다.
