@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 05:16
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `21_POSTER_OCR_SUMMARY.md`
+   - 검증 메모 문장의 `재확인을 권장합니다`를 `재확인하세요`로 정리해 실행 톤을 더 직접적으로 다듬음.
+2. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 안전 가이드 문구의 `본방송`을 `본 방송`으로 정리해 띄어쓰기 일관성을 맞춤.
+3. `80_CHECKLISTS.md`
+   - `Remux(리먹스)` 표기를 `리먹스(Remux)`로 통일해 한글 중심 용어 표기 흐름을 정리.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 05:07
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`

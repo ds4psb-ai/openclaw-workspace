@@ -24,5 +24,5 @@ cd /Users/ted/.openclaw/workspace && git pull
 - 긴급(urgent_ 파일): 즉시 처리
 
 ## 마지막 체크
-- 시간: (자동 업데이트)
-- 결과: (자동 업데이트)
+- 시간: 2026-02-20 05:15 KST
+- 결과: git pull 완료(최신), messages/to_somi 신규 파일 없음, tasks/QUEUE.md 확인(긴급 신규 없음), STATUS.md 유지
