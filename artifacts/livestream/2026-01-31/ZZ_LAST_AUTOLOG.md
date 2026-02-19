@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 07:02
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 라이브 시작 전 1분 보안 점검 문구에 `1회`를 명시해 실행 강도를 더 명확하게 고정.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 게시 직전 링크 점검 문구를 `데스크톱 1회 + 가능하면 모바일 1회`와 `시크릿/로그아웃 창 기준`으로 보강해 검증 동선을 구체화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 점검 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 06:51
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
