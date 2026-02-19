@@ -9,7 +9,7 @@
 - MiniMax 튜토리얼(텔레그램에 OpenClaw 연결; 문서는 구 MoltBot 기준이지만 개념은 동일합니다): https://platform.minimax.io/docs/solutions/moltbot
 - OpenClaw 텔레그램 문서(privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
 - OpenClaw GitHub(릴리즈/변경 이력 확인): https://github.com/openclaw/openclaw
-- 명칭/운영 기준은 OpenClaw 공식 문서를 우선합니다.
+- 명칭·운영 기준은 OpenClaw 공식 문서를 최우선으로 삼습니다.
 - 구 MoltBot 표기는 과거 자료 확인용으로만 참고하세요(혼선 방지).
 
 ## 명칭 혼선 방지(짧게)
