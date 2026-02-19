@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 06:31
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 안전 가이드 문장의 대시(`—`) 연결을 마침표 구문으로 정리해 운영 지시 문장 경계를 더 또렷하게 다듬음.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 운영 팁 문구의 `맞춰 주세요`를 `맞춰주세요`로 정리해 지시 표현을 간결하게 통일.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/문장부호 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 06:27
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
