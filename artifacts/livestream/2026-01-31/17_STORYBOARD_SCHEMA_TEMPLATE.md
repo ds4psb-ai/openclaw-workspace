@@ -3,7 +3,7 @@
 > 목적: "샷 목표를 구체화하면 일관성이 올라간다(Sora 가이드)"를 **데이터로 강제**하기 위한 최소 스키마.
 
 ## 1) Storyboard Table (권장 컬럼)
-- `timecode` : 예) 00-05s
+- `timecode` : 예) 00:00-00:05
 - `shot_goal` : 이 컷이 달성해야 할 목표(한 문장)
 - `characters` : 등장 인물/캐릭터 ID
 - `setting` : 장소/시간/분위기
@@ -19,8 +19,8 @@
 
 | timecode | shot_goal | characters | setting | camera | action | style_locks | negatives | continuity_checks |
 |---|---|---|---|---|---|---|---|---|
-| 00-05s | 주인공 소개 + 브랜드 톤 확립 | A | 성수동 카페 | 35mm, slow push-in | 노트북을 열고 미소 | warm, pastel | 왜곡된 얼굴 | — |
-| 05-12s | 문제 제시(반복 작업의 피로) | A | 같은 장소 | over-shoulder | 알림 폭주 | — | — | 의상/조명 유지 |
+| 00:00-00:05 | 주인공 소개 + 브랜드 톤 확립 | A | 성수동 카페 | 35mm, slow push-in | 노트북을 열고 미소 | warm, pastel | 왜곡된 얼굴 | — |
+| 00:05-00:12 | 문제 제시(반복 작업의 피로) | A | 같은 장소 | over-shoulder | 알림 폭주 | — | — | 의상/조명 유지 |
 
 ## 3) 라이브에서 말할 한 문장
 - "우리는 프롬프트를 '문장'으로 관리하지 않고, **스토리보드 데이터(샷 목표/제약/체크)**로 관리합니다."
