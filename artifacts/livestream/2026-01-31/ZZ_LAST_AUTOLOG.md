@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 06:27
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 안전 가이드 문구를 `본 방송 채팅에서 실행합니다` → `본 방송 채팅에서만 실행합니다`로 다듬어 실행 범위를 더 명확하게 고정.
+2. `21_POSTER_OCR_SUMMARY.md`
+   - 검증 메모의 `확인해 주세요/점검해 주세요` 표현을 `확인하세요/점검하세요`로 통일해 지시 톤을 간결하게 정리.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 05:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
