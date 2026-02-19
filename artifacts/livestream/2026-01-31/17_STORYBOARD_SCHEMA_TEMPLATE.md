@@ -17,6 +17,8 @@
 
 ## 2) 예시 2줄
 
+> 참고: 아래 표는 설명용 축약 예시입니다. 실제 운영에서는 `dialogue`, `output_prompt` 컬럼까지 포함해 사용하세요.
+
 | timecode | shot_goal | characters | setting | camera | action | style_locks | negatives | continuity_checks |
 |---|---|---|---|---|---|---|---|---|
 | 00:00-00:05 | 주인공 소개 + 브랜드 톤 확립 | A | 성수동 카페 | 35mm, slow push-in | 노트북을 열고 미소 | warm, pastel | 왜곡된 얼굴 | — |
