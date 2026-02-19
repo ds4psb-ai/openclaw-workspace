@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 18:51
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `60_QA_PROTOCOL.md`
+   - 남아 있던 `복붙` 표기를 `복사/붙여넣기`로 통일해 Q&A 운영 문구 톤과 가독성을 정리.
+2. `90_POST_LIVE_FOLLOWUP.md`
+   - 후속 체크리스트의 `복붙` 표현을 `복사/붙여넣기`로 맞춰 실행 지시 문구 일관성을 강화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 18:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
