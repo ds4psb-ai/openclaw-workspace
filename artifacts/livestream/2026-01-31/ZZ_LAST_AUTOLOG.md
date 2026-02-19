@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 08:51
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `80_CHECKLISTS.md`
+   - 최소 체크 핵심 항목 첫 체크박스의 문장 끝 중복 닫는 괄호를 제거해 가독성을 정리.
+2. `60_QA_PROTOCOL.md`
+   - Q&A 리마인드 상한 문구를 `과다 공지 금지` 중심으로 간결화해 중복 강조를 줄임.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/문장부호 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 08:01
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
