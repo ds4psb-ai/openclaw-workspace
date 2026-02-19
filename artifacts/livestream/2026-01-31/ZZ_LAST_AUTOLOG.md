@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 08:01
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `21_POSTER_OCR_SUMMARY.md`
+   - 게시 직전 체크리스트의 커리큘럼 링크 항목에서 `클릭 동작 1회 확인`을 `클릭 동작 확인`으로 정리해 문의 링크 항목과 실행 톤을 통일.
+2. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 명칭 혼선 방지 문구를 `참고하세요`에서 `참고용으로만 사용하세요`로 다듬어 용도 제한 의도를 더 명확하게 고정.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 07:52
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`

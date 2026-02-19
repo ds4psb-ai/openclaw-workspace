@@ -10,7 +10,7 @@
 - OpenClaw 텔레그램 문서(privacy/admin/requireMention 등): https://docs.openclaw.ai/channels/telegram
 - OpenClaw GitHub(릴리즈/변경 이력 확인): https://github.com/openclaw/openclaw
 - 명칭과 운영 기준은 OpenClaw **공식 문서**를 최우선 기준으로 유지합니다.
-- 구 MoltBot 표기는 과거 자료 검색/검증용으로만 참고하세요(혼선 방지).
+- 구 MoltBot 표기는 과거 자료 검색/검증 참고용으로만 사용하세요(혼선 방지).
 
 ## 명칭 혼선 방지(짧게)
 - 자료/블로그에 남아 있는 **MoltBot** 표기는 이전 명칭이고, 현재 명칭은 **OpenClaw**입니다. *(검색 시에는 `OpenClaw`, `MoltBot`를 함께 쓰면 과거 자료까지 더 잘 찾을 수 있습니다.)*
