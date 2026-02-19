@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 17:21
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `18_NOTEBOOKLM_AUDIO_PODCAST_PLAYBOOK.md`
+   - 프롬프트 안내 2곳의 `복붙` 표현을 `복사/붙여넣기`로 정리해 문서 간 용어 톤을 일관화.
+2. `85_PLAN_B_ASSETS_CHECKLIST.md`
+   - 섹션 라벨의 `복붙` 표현을 `복사/붙여넣기`로 맞춰 현장 스캔 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 16:26
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
