@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-19 17:31
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `90_POST_LIVE_FOLLOWUP.md`
+   - 운영 체크 문구 2곳의 `복붙` 표현을 `복사/붙여넣기`로 정리해 현장 지시 문장을 더 명확하게 통일.
+2. `80_CHECKLISTS.md`
+   - 사전 준비 체크 항목의 `복붙` 표현을 `복사/붙여넣기`로 맞춰 문서 간 용어 톤 일관성을 강화.
+3. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 즉시 실행 라벨의 `복붙 한 줄` 표현을 `복사/붙여넣기 한 줄`로 정리해 빠른 스캔 가독성을 개선.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-19 17:21
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
