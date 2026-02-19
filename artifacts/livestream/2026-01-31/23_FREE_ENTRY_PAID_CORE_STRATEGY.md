@@ -21,6 +21,7 @@
 - 검증 메모: 요금/플랜/제공 범위는 수시로 바뀔 수 있으니, 발표 직전에 각 서비스의 **공식 문서·가격 페이지**를 최종 기준으로 재확인(아래 링크는 보조 레퍼런스).
 - 운영 메모: 라이브 중 가격/플랜은 단정적으로 길게 읽지 말고, “변동 가능, 최신 정보는 공식 페이지 기준” 한 문장으로만 안내.
 - 참고 링크(보조 자료):
+  - Google 공식 Veo 3.1 업데이트(레퍼런스 기반 일관성/9:16/업스케일): https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/
   - Veo 3.1 Jan 2026 업데이트(4K/9:16/Ingredients/오디오/가격): https://superprompt.com/blog/google-veo-3-1-update-4k-vertical-video-ingredients
   - Kling 2.6 Pro(네이티브 오디오-비주얼): https://www.dreamega.ai/models/kling-2-6-pro
 
