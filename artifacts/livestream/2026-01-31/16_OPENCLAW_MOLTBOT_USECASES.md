@@ -17,7 +17,7 @@
 
 ## 안전 가이드(짧게)
 - 프라이버시/권한:
-  - 그룹에서 멘션 없이 동작하려면 Telegram **/setprivacy disable** 또는 봇 관리자(admin) 권한 중 하나가 필요(설정 변경 후 그룹 재초대가 필요할 수 있음)
+  - 그룹에서 멘션 없이 동작하려면 Telegram BotFather의 `/setprivacy`를 `Disable`로 설정하거나, 봇에 관리자(admin) 권한을 부여해야 함(설정 변경 후 그룹 재초대가 필요할 수 있음).
 - 운영/보안(기본값은 “거절”, 필요한 것만 허용):
   - 토큰/키는 절대 노출 금지(레포/스크린 공유/OBS 소스/로그 캡처 시 특히)
   - 메신저 명령은 **allowlist + 승인(approval) + `requireMention`/prefix + `dryRun` 가드레일**을 먼저 적용하고, 작은 범위에서 시작합니다.
