@@ -30,7 +30,7 @@
 
 ## 4) Render 단계: 플러그인 구조
 - 이 스토리보드 표는 **무료 도구(NotebookLM/Antigravity)**로 설계
-- 실제 영상 합성(Render)만 Veo 3.1 / Kling 2.6 같은 상위 엔진을 **플러그인처럼** 교체
+- 실제 영상 합성(Render) 단계에서만 Veo 3.1 / Kling 2.6 같은 상위 엔진을 **플러그인처럼** 교체
 - 상세 전략: `23_FREE_ENTRY_PAID_CORE_STRATEGY.md`
 
 ---
