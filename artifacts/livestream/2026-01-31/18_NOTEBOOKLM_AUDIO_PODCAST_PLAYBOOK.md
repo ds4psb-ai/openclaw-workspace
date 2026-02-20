@@ -1,4 +1,4 @@
-# NotebookLM ‘Audio Overview’로 라이브를 ‘와!’ 수준으로 업그레이드하는 플레이북
+# NotebookLM ‘Audio Overviews’로 라이브를 ‘와!’ 수준으로 업그레이드하는 플레이북
 
 ## 왜 이게 ‘와!’ 포인트인가
 - NotebookLM의 **Audio Overviews**는 업로드한 소스를 기반으로 AI 호스트들이 ‘대화형 팟캐스트’처럼 **딥다이브형 요약**을 만들어줌.
