@@ -10,8 +10,8 @@
 
 근거 자료(리서치 링크):
 - OpenClaw 공식 문서(기능/설정 최신 기준): https://docs.openclaw.ai
-- OpenClaw (구 MoltBot) 개념(메신저=리모컨, 커뮤니티 소개 링크): https://news.hada.io/topic?id=26122
-- OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 사례 소개 링크): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw (구 MoltBot) 개념(메신저=리모컨, 커뮤니티 소개 글·비공식 레퍼런스): https://news.hada.io/topic?id=26122
+- OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 사례 소개 글·비공식 레퍼런스): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
