@@ -232,7 +232,7 @@
 - **Q&A 시간 관리**: `60_QA_PROTOCOL.md`
 - **방송 후 30분 루틴**: `90_POST_LIVE_FOLLOWUP.md`
 
-## 운영 전 2분 셋업(탭 4개 + Finder 1개)
+## 운영 전 2분 셋업(탭 5개 + Finder 1개)
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
 - 한 화면 요약(상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 장애 대비: `50_DEMO_PLAN_A_B.md`
