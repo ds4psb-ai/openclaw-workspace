@@ -4,7 +4,7 @@
 
 ## 1) Storyboard Table (권장 컬럼)
 - **필수 최소 컬럼**: `timecode`, `scene_id`, `shot_goal`, `continuity_checks` *(나머지는 품질 향상을 위한 권장값)*
-- `timecode` : 예) 00:00–00:05
+- `timecode` : 예) 00:00-00:05
   - 형식 규칙: 한 문서 안에서는 `MM:SS` 또는 `HH:MM:SS` 중 하나로 통일
   - 권장 표기: 구간 구분은 `00:00-00:05`처럼 하이픈(`-`)으로 통일(문서/툴 렌더링 호환성)
 - `scene_id` : 고정 식별자(예: S01, S02) — 수정/리뷰 시 참조 기준
@@ -25,8 +25,8 @@
 
 | timecode | scene_id | shot_goal | characters | setting | camera | action | dialogue | style_locks | negatives | continuity_checks | output_prompt |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| 00:00–00:05 | S01 | 주인공 소개 + 브랜드 톤 확립 | A | 성수동 카페 | 35mm, slow push-in | 노트북을 열고 미소 | "오늘도 10x 속도로 시작해요." | warm, pastel | 왜곡된 얼굴 | — | "Warm pastel cafe, 35mm slow push-in on protagonist opening laptop and smiling" |
-| 00:05–00:12 | S02 | 문제 제시(반복 작업의 피로) | A | 같은 장소 | over-shoulder | 알림 폭주 | "반복 작업이 시간을 다 가져가요." | warm, pastel | — | 의상/조명 유지, 구도만 변경 | "Over-shoulder shot, notification overload, maintain wardrobe and lighting continuity" |
+| 00:00-00:05 | S01 | 주인공 소개 + 브랜드 톤 확립 | A | 성수동 카페 | 35mm, slow push-in | 노트북을 열고 미소 | "오늘도 10x 속도로 시작해요." | warm, pastel | 왜곡된 얼굴 | — | "Warm pastel cafe, 35mm slow push-in on protagonist opening laptop and smiling" |
+| 00:05-00:12 | S02 | 문제 제시(반복 작업의 피로) | A | 같은 장소 | over-shoulder | 알림 폭주 | "반복 작업이 시간을 다 가져가요." | warm, pastel | — | 의상/조명 유지, 구도만 변경 | "Over-shoulder shot, notification overload, maintain wardrobe and lighting continuity" |
 
 ## 3) 라이브에서 말할 한 문장
 - "우리는 프롬프트를 '문장'으로 관리하지 않고, **스토리보드 데이터(샷 목표/제약/체크)**로 관리합니다."
