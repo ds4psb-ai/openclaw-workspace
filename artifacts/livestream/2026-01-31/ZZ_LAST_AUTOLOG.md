@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 11:26
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `90_POST_LIVE_FOLLOWUP.md`
+   - 동기화 원칙 문구의 `...유지)까지만` 표현을 `...유지)만`으로 정리해 문장 흐름을 더 자연스럽게 다듬음.
+2. `80_CHECKLISTS.md`
+   - 빠른 링크 안내 문구의 `예외 허용` 표현을 `예외로 허용`으로 정리해 지시 문장 해석을 명확화.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 11:06
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
