@@ -228,12 +228,13 @@
 - **플랜B 전환 시나리오**: `50_DEMO_PLAN_A_B.md`
 - **플랜B 자산 체크리스트(1페이지)**: `85_PLAN_B_ASSETS_CHECKLIST.md`
 - **방송 전/중/후 운영 체크리스트**: `80_CHECKLISTS.md`
-- **타임스탬프 템플릿(복사/붙여넣기)**: `35_TIMESTAMP_TEMPLATE.md` *(플랜B 전환 시각도 여기 한 줄로 남기기)*
+- **타임스탬프 템플릿(복사/붙여넣기)**: `35_TIMESTAMP_TEMPLATE.md` *(플랜B 전환 시각도 종료 후 정리 시 여기 한 줄로 반영)*
 - **Q&A 시간 관리**: `60_QA_PROTOCOL.md`
 - **방송 후 30분 루틴**: `90_POST_LIVE_FOLLOWUP.md`
 
 ## 운영 전 2분 셋업(탭 4개 + Finder 1개)
 - 진행용: `30_RUN_OF_SHOW_14-18.md`
+- 한 화면 요약(상시): `05_ONE_SCREEN_CHEATSHEET.md`
 - 장애 대비: `50_DEMO_PLAN_A_B.md`
 - 종료 직후 작업: `35_TIMESTAMP_TEMPLATE.md` *(라이브 중엔 메모앱에 `__:__`만 기록하고, 종료 직후 1회 반영)*
 - 링크/고정댓글/CTA 템플릿: `20_YT_TITLE_DESC_PIN.md`
