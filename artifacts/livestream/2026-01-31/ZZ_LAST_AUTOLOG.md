@@ -1,3 +1,19 @@
+- Run time (KST): 2026-02-20 18:02
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 종료 직후 동기화 항목의 예외 조건(고정댓글이 없을 때)을 하위 불릿으로 분리해 현장 스캔성을 개선.
+2. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/가독성 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 17:57
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
