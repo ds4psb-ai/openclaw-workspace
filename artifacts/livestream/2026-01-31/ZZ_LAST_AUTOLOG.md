@@ -1,3 +1,19 @@
+- Run time (KST): 2026-02-20 11:06
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (2)
+1. `30_RUN_OF_SHOW_14-18.md`
+   - 카톡 멘션 라벨을 `13:55 KST`에서 `13:55 (KST)`로 정리하고, 스킵 조건 문장의 괄호 중첩을 대시 구조로 다듬어 빠른 스캔 가독성을 개선.
+2. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 09:16
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
