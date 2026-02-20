@@ -17,7 +17,7 @@
 - `style_locks` : 반드시 유지할 요소(색/조명/룩)
 - `negatives` : 금칙(하지 말 것)
 - `continuity_checks` : 전 컷 대비 유지/변경 포인트
-- `output_prompt` : 모델에 입력할 최종 프롬프트(자동 생성 대상)
+- `output_prompt` : 모델에 입력할 최종 프롬프트(자동 생성 결과 저장용)
 
 ## 2) 예시 2행
 
