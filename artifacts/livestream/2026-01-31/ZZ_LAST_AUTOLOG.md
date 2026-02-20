@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 16:26
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 종료 직후 고정댓글/설명란 동기화 문장을 두 문장으로 분리해 조건(고정댓글 없음 시 처리)을 더 빠르게 스캔할 수 있도록 정리.
+2. `30_RUN_OF_SHOW_14-18.md`
+   - 오프닝 질문 포맷 줄의 괄호 구조를 쉼표 기반으로 다듬어 라이브 중 읽기 부담을 줄임.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 가독성 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 16:11
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
