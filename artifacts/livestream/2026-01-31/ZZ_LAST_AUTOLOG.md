@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 16:11
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `05_ONE_SCREEN_CHEATSHEET.md`
+   - 탭 운영 조건 문구의 `...일 때만)일 때만` 중복 표현을 제거해 멘션 허용 조건이 한 번에 읽히도록 정리.
+2. `30_RUN_OF_SHOW_14-18.md`
+   - 오프닝 Q&A 포맷 줄의 `원하는 결과(한 줄 권장)`을 `원하는 결과 (한 줄 권장)`으로 다듬어 빠른 스캔 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/가독성 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 15:41
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
