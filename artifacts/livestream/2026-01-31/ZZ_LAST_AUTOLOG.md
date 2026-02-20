@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 11:31
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 자동 로그 안내 문장 끝 괄호 중복을 정리해 문장 마감을 자연스럽게 다듬음.
+2. `80_CHECKLISTS.md`
+   - 종료 체크 항목의 `Pin))` 오탈자를 `Pin)`으로 보정해 표기 정확도를 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 07:52 시각의 손상된 빈 로그 블록(파일/브랜치 정보 누락)을 제거하고, 이번 루프 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/로그 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 11:26
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
@@ -98,24 +116,6 @@
 
 ## Notes
 - 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
-- 변경 범위는 소규모 카피/표기 정리에 한정.
-
----
-
-- Run time (KST): 2026-02-20 07:52
-- Branch: \
-- Scope: \
-
-## Writer/Reviewer loop — minor polish (3)
-1. \
-   - 문의 링크 체크 항목의  문구를 로 다듬어 횟수 표현의 중복 뉘앙스를 제거.
-2. \
-   - 카톡 멘션 라벨을  → 로 정리해 시간 표기 스캔성을 통일.
-3. \
-   - 이번 루프 변경 내역을 최신 항목으로 기록.
-
-## Notes
-- 가드 지침에 따라 \는 수정하지 않음.
 - 변경 범위는 소규모 카피/표기 정리에 한정.
 
 ---
