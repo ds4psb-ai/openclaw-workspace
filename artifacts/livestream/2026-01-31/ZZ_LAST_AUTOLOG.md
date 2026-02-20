@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-20 18:16
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `00_README.md`
+   - 시간 표기 규칙 문구를 `시계 시간` → `실제 시계 시간`으로 보강해 KST(시계)와 영상 재생 시간(`__:__`)의 구분 의도를 더 분명하게 정리.
+2. `30_RUN_OF_SHOW_14-18.md`
+   - 운영자 메모의 혼용 금지 문구를 `KST 시각` → `KST 시계 시각`으로 다듬어 현장 스캔 시 해석 모호성을 줄임.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/운영 혼선 방지 문구 정리에 한정.
+
+---
+
 - Run time (KST): 2026-02-20 18:02
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
