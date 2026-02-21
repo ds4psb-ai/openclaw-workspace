@@ -26,7 +26,7 @@
 - 오늘 가져올 포인트
   - Part 3는 ‘판매’가 아니라 **운영 가능성(결제→제공→로그)**으로 프레이밍
 
-### 4) How to Build A $25,000/Mo Web App in 20 Minutes (Using AI)
+### 4) How to Build a $25,000/Mo Web App in 20 Minutes (Using AI)
 - 링크: https://www.youtube.com/watch?v=BSR1rq1CaKc
 - 한 줄: “결과 먼저 → 디테일”로 전개해 시청자 이탈을 줄임.
 - 오늘 가져올 포인트
@@ -67,7 +67,7 @@
   - 인덱스: https://www.marcobehler.com/guides/live-coding
   - Ep1: https://www.youtube.com/watch?v=BIDNKRluql4
   - Ep2: https://www.youtube.com/watch?v=gUqMdwgEAIQ
-- 한 줄: **문제→원인→복구**를 라이브에서 숨기지 않고 보여주면 신뢰가 올라간다(=PlanB가 곧 콘텐츠)
+- 한 줄: **문제→원인→복구**를 라이브에서 숨기지 않고 보여주면 신뢰가 올라간다(=Plan B가 곧 콘텐츠)
 
 ---
 

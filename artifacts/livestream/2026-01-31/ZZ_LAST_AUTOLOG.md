@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-21 16:32
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `15_OVERSEAS_REFERENCES.md`
+   - YouTube 사례 제목의 관사 표기를 `How to Build A ...` → `How to Build a ...`로 보정해 영문 타이틀 표기를 자연스럽게 정리.
+2. `15_OVERSEAS_REFERENCES.md`
+   - 결제 운영 패턴 요약의 `PlanB`를 `Plan B`로 통일해 용어 가독성을 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/용어 보정 2건 + 로그 최신화 1건으로 제한.
+
+---
+
 - Run time (KST): 2026-02-21 16:21
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
