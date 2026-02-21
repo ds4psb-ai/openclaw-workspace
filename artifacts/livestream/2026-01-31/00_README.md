@@ -196,6 +196,8 @@
   - `https://LINK_HERE`
   - `https://LINK_HERE_2`
   - `KST HH:MM`
+  - `KST 9:5`
+  - `KST 24:00`
   - `YYYY-MM-DD`
   - `__:__` *(타임스탬프 자리 플레이스홀더가 남았는지)*
   - `https://example.com` *(샘플 링크가 남았는지)*
