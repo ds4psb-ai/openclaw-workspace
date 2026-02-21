@@ -112,6 +112,7 @@ https://LINK_HERE
 - [ ] (추가 안전) 유튜브 입력란(제목/설명/고정댓글)에서 플레이스홀더를 **저장 전 빠르게 1회 스캔**(잔존 0건이 목표): `https://LINK_HERE` / `https://LINK_HERE_2` / `https://example.com` / `YYYY-MM-DD` / `KST HH:MM` / `__:__` / `— ... —`
 - [ ] (빠른 확인) 유튜브 입력란에서 **Mac: `⌘F` / Windows: `Ctrl+F`**로 위 키워드를 각각 1회만 검색하고 종료(과다 재수정 루프 방지)
 - [ ] (초단축) 문서 원본에서 플레이스홀더 스캔(운영 핵심 템플릿/가이드/자동로그/멘션 원문 제외): `cd /Users/ted/.openclaw/workspace && find artifacts/livestream/2026-01-31 -type f -name "*.md" ! -name "35_TIMESTAMP_TEMPLATE.md" ! -name "20_YT_TITLE_DESC_PIN.md" ! -name "10_KAKAO_ALL_MENTION.md" ! -name "05_ONE_SCREEN_CHEATSHEET.md" ! -name "80_CHECKLISTS.md" ! -name "90_POST_LIVE_FOLLOWUP.md" ! -name "00_README.md" ! -name "LIVE_FORMAT_GUIDE.md" ! -name "30_RUN_OF_SHOW_14-18.md" ! -name "ZZ_LAST_AUTOLOG.md" -exec grep -nE "https://LINK_HERE|https://LINK_HERE_2|https://example.com|YYYY-MM-DD|KST HH:MM|__:__|— \.\.\. —" {} + || true` *(출력이 없으면 정상(플레이스홀더 없음). 결과가 나오면 해당 줄만 빠르게 확인 후 필요한 항목만 수정하고, 템플릿 파일은 수정하지 않기)*
+- [ ] (자동 루프 가드) 자동 협업 루프 회차에서는 템플릿(`35_TIMESTAMP_TEMPLATE.md`) 직접 수정을 기본적으로 건너뛰고, 필요한 변경은 별도 회차에서 한 번에 처리
 
 ## 5) 다음 라이브 예고 문구(짧게)
 - [ ] (복사/붙여넣기 예시, 게시 직전 값 교체 필수) “다음 라이브: YYYY-MM-DD (KST HH:MM–HH:MM) — 성능/디자인 → 데이터 기반 추론 → 수익화” *(예: `2026-02-03 (KST 19:00–21:00)`. 일정 미정이면 이 항목은 통째로 삭제하고, 확정 후 1회만 게시. 날짜 판단은 KST 기준으로 통일. 플레이스홀더(YYYY-MM-DD/KST HH:MM)가 남은 채로는 게시하지 않기)*
