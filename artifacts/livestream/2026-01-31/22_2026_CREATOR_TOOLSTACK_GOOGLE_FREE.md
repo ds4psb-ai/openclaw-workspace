@@ -11,7 +11,7 @@
 ## 2) Google 무료·저비용으로 바로 시작하는 축
 - **NotebookLM (무료 입구)**
   - 소스 기반 답변(출처/인용)
-  - Audio Overview(Deep Dive/Brief/Critique/Debate)
+  - Audio Overviews(Deep Dive/Brief/Critique/Debate)
 - **Google Labs Antigravity (무료 입구)**
   - ‘말로 만드는’ 에이전트 개발 플랫폼(코드 설명을 최소화하고 자연어 중심으로 시연 가능)
   - 접근 가능 여부는 계정/지역/실험 상태에 따라 달라질 수 있으니, 라이브 시작 전 접속 확인을 최소 1회 권장
