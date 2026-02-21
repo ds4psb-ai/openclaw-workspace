@@ -11,7 +11,7 @@
 근거 자료(리서치 링크):
 - OpenClaw 공식 문서(기능/설정 최신 기준): https://docs.openclaw.ai
 - OpenClaw(구 MoltBot) 개념(메신저=리모컨, 커뮤니티 소개 글·비공식 레퍼런스): https://news.hada.io/topic?id=26122
-- OpenClaw(구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 사례 소개 글·비공식 레퍼런스): https://blog.secondbrush.co.kr/dailyprompt-675/
+- OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 비공식 사례 레퍼런스): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overview(공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
@@ -55,7 +55,7 @@
   - 승인 대기 지연 대응: 승인/확인 응답이 10초 이상 지연되면 실반영은 생략하고 **드라이런 결과 화면만 먼저 설명**한 뒤, 재시도는 Q&A 구간에서만 최대 1회 진행
   - (중복 방지) 같은 작업을 표현만 바꿔 다시 요청하지 않기(예: ‘다시 반영’/‘한 번만 더’/‘재적용’ 모두 재실행으로 간주)
   - (권장) 드라이런 결과 핵심 화면 1장을 즉시 캡처해 두기(종료 후 정리/후속 공지에 재사용)
-  - 실행 로그(권장): 반영 직후 `KST HH:MM 반영 완료` 또는 `KST HH:MM Plan B 전환` 한 줄 기록
+  - 실행 로그(권장): 반영 직후 `KST HH:MM 반영 완료` 또는 `KST HH:MM 플랜B 전환` 한 줄 기록
 
 ### 07:00–08:00 (장면 3) 무드보드: 60초 스타일 합의 (‘거장 DNA’ 시각화)
 - 스토리: 키워드만으로 **이미지/색/구도**가 빠르게 정리되면 ‘미학’이 갑자기 쉬워짐.
