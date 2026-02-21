@@ -14,7 +14,7 @@
   - ‘툴 소개’가 아니라 **입력→검수→산출** 프로세스를 반복 리마인드
   - 텐션 유지를 위해 **Plan B(캡처/녹화/대체 멘트)** 필수
 
-### 2) Building a Full-Stack Website with AI - No Coding Experience
+### 2) Building a Full-Stack Website with AI — No Coding Experience
 - 링크: https://www.youtube.com/watch?v=MvvrxdePk5Y
 - 한 줄: “코딩 경험 없음”을 전면에 두고 **완주**로 설득.
 - 오늘 가져올 포인트
