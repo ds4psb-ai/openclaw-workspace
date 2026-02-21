@@ -23,7 +23,7 @@
 - 출처 우선순위: 2차 요약 글보다 **공식 제품 페이지/공식 블로그**를 먼저 확인하고, 발표 전 시크릿 창에서 핵심 링크 열림 테스트를 1회 진행.
 - 참고 링크(보조 자료, 발표 직전 1회 재검증):
   - Google 공식 Veo 3.1 업데이트(레퍼런스 기반 일관성/9:16/업스케일): https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/
-  - Veo 3.1 Jan 2026 업데이트(4K/9:16/Ingredients/오디오/가격): https://superprompt.com/blog/google-veo-3-1-update-4k-vertical-video-ingredients
+  - Veo 3.1 2026년 1월 업데이트(4K/9:16/Ingredients/오디오/가격): https://superprompt.com/blog/google-veo-3-1-update-4k-vertical-video-ingredients
   - Kling 2.6 Pro(네이티브 오디오-비주얼): https://www.dreamega.ai/models/kling-2-6-pro
 
 ## 5) shorti.ai/커리큘럼에 ‘뾰족한 수’로 적용

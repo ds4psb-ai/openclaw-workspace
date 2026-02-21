@@ -1,3 +1,37 @@
+- Run time (KST): 2026-02-21 19:52
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `23_FREE_ENTRY_PAID_CORE_STRATEGY.md`
+   - 영문 월 표기를 한글 문맥(2026년 1월)으로 통일.
+2. `16_OPENCLAW_MOLTBOT_USECASES.md`
+   - 권한 문구를 “관리자 권한(admin)” 순서로 정리해 가독성 개선.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 보정 2건 + 로그 최신화 1건으로 제한.
+
+---
+
+- Run time (KST): 2026-02-21 19:51
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (1)
+1. `ZZ_LAST_AUTOLOG.md`
+   - 핵심 운영 문서를 재검토했고, 이번 회차는 즉시 효용이 큰 소규모 수정 포인트가 없어 자동 로그만 최신화.
+1. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 카피/표기 보정 0건 + 로그 최신화 1건으로 제한.
+
+---
+
 - Run time (KST): 2026-02-21 18:11
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
