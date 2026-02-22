@@ -13,7 +13,7 @@
   - 소스 기반 답변(출처/인용)
   - Audio Overviews (Deep Dive/Brief/Critique/Debate)
 - **Google Labs Antigravity (무료 입구)**
-  - ‘말로 만드는’ 자연어 중심 에이전트 빌더(코드 설명 비중이 낮아도 시연 가능)
+  - ‘말로 만드는’ 자연어 중심 에이전트 빌더입니다(코드 설명 비중이 낮아도 시연 가능).
   - 접근 가능 여부는 계정/지역/실험 상태에 따라 달라질 수 있으니, 라이브 시작 전 접속 확인을 최소 1회 권장합니다.
   - 접속 불가 대비: 동일 시연 흐름의 스크린샷/짧은 캡처 1개를 플랜 B 자산으로 미리 준비합니다.
 - **Veo 3.1 (유료/크레딧 핵심 엔진)**
@@ -45,7 +45,7 @@
 ## 참고 링크(원문)
 - Veo 3.1 업데이트(레퍼런스 기반 일관성, 9:16, 1080p/4K 업스케일 관련):
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/
-- NotebookLM Chat/Audio Overviews 공식 도움말:
+- NotebookLM Chat/Audio Overviews 공식 도움말(영문):
   - https://support.google.com/notebooklm/answer/16179559?hl=en
   - https://support.google.com/notebooklm/answer/16212820?hl=en
 - Antigravity:
