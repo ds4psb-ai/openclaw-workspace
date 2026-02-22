@@ -1,4 +1,4 @@
-# 2026 AI 영상 제작 크리에이터 툴스택 + Google 무료·저비용 축(라이브용)
+# 2026 AI 영상 제작 크리에이터 툴스택 + Google 무료·저비용 워크플로 축(라이브용)
 
 ## 1) 2026 크리에이터들이 쓰는 ‘영상 생성’ 축(대표 툴군)
 - Runway (영화/크리에이티브 워크플로)
@@ -13,7 +13,7 @@
   - 소스 기반 답변(출처/인용)
   - Audio Overviews (Deep Dive/Brief/Critique/Debate)
 - **Google Labs Antigravity (무료 입구)**
-  - ‘말로 만드는’ 자연어 중심 에이전트 빌더(코드 설명을 최소화하고 시연 가능)
+  - ‘말로 만드는’ 자연어 중심 에이전트 빌더(코드 설명 비중을 낮춰도 시연 가능)
   - 접근 가능 여부는 계정/지역/실험 상태에 따라 달라질 수 있으니, 라이브 시작 전 접속 확인을 최소 1회 권장
   - 접속 불가 대비: 동일 시연 흐름의 스크린샷/짧은 캡처 1개를 플랜 B 자산으로 미리 준비
 - **Veo 3.1 (유료/크레딧 핵심 엔진)**
@@ -31,7 +31,7 @@
 - **Veo 3.1 ‘Ingredients to Video’는 레퍼런스 이미지 기반 생성에서 캐릭터/배경/오브젝트 일관성을 강화**(같은 주인공으로 여러 씬 구성에 유리)
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (핵심: identity/background/object consistency를 공식적으로 강조)
 - **Ingredients to Video는 네이티브 세로(9:16) 출력을 지원** → Shorts/릴스용 데모를 추가 크롭 설명 없이 바로 시연 가능
-  - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (핵심: 9:16 portrait mode 지원을 명시)
+  - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (핵심: 동일 공지에서 9:16 portrait mode 지원을 명시)
 - **1080p/4K는 ‘네이티브 생성’이 아니라 업스케일 옵션(경로/제품별 지원 범위가 다를 수 있음)** → 라이브에서는 “어디에서 업스케일 되는지”를 같이 말하면 신뢰가 올라감
   - https://arstechnica.com/google/2026/01/googles-updated-veo-model-can-make-vertical-videos-from-reference-images-with-4k-upscaling/ (핵심: 4K/1080p 업스케일과 제공 경로(Flow/API/Vertex AI 등) 언급, 라이브에서는 Google 공식 공지와 함께 교차 확인 권장)
   - 보조 근거(비공식 매체)로만 사용하고, 제품 동작·요금·지원 범위는 발표 시점 기준 Google 공식 문서를 우선 확인
