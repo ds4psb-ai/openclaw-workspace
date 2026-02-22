@@ -43,7 +43,7 @@
 - [ ] 최종 1개를 **업스케일 옵션(Flow/API/Vertex AI 등 가능한 경로에서)**으로 저장 → “편집용 결과물” 느낌 확인
 
 ## 참고 링크(원문)
-- Veo 3.1 업데이트(레퍼런스 기반 일관성, 9:16, 1080p/4K 업스케일):
+- Veo 3.1 업데이트(레퍼런스 기반 일관성, 9:16, 1080p/4K 업스케일 관련):
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/
 - NotebookLM Chat/Audio Overviews 공식:
   - https://support.google.com/notebooklm/answer/16179559?hl=en
