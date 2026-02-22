@@ -22,8 +22,8 @@
 
 ## 3) ‘뾰족한 수’(라이브에서 ‘와…’가 나오는 설계)
 1) **NotebookLM (거장 DNA 질문 5개) → shot_goal/timecode 스토리보드 표 자동 생성**
-2) **Mixboard(무드보드/컨셉 보드)**로 색감/구도 후보 2–3안을 뽑아 ‘시각 언어’를 고정
-3) Antigravity로 무드보드+스토리보드를 받아 **샷 리스트를 구조화**(Scene/Shot 분리)
+2) **Mixboard (무드보드/컨셉 보드)**로 색감/구도 후보 2–3안을 뽑아 ‘시각 언어’를 고정
+3) Antigravity로 무드보드+스토리보드를 받아 **샷 리스트를 구조화**(Scene / Shot 분리)
 4) Render는 플러그인: **Scene = Veo 3.1 / Shot = Kling 2.6**
 5) 라이브 후: NotebookLM **Brief(2분)** 오디오를 바이럴 채널에 공유(확산 자동화)
 
