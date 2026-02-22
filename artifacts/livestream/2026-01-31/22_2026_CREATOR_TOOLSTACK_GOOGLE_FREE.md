@@ -34,11 +34,11 @@
   - https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/ (핵심: 9:16 portrait mode 지원을 명시)
 - **1080p/4K는 ‘네이티브 생성’이 아니라 업스케일 옵션(경로/제품별 지원 범위가 다를 수 있음)** → 라이브에서는 “어디에서 업스케일 되는지”를 같이 말하면 신뢰가 올라감
   - https://arstechnica.com/google/2026/01/googles-updated-veo-model-can-make-vertical-videos-from-reference-images-with-4k-upscaling/ (핵심: 4K/1080p 업스케일과 제공 경로(Flow/API/Vertex AI 등) 언급, 라이브에서는 Google 공식 공지와 함께 교차 확인 권장)
-  - 보조 근거(비공식 매체)로 사용하고, 제품 동작/요금/지원 범위는 발표 시점 기준 Google 공식 문서 우선
+  - 보조 근거(비공식 매체)로만 사용하고, 제품 동작·요금·지원 범위는 발표 시점 기준 Google 공식 문서를 우선 확인
 
 ### 라이브 데모 체크리스트(측정 가능)
 - [ ] 라이브 시작 전, 사용할 계정이 Veo/NotebookLM/Antigravity 접근 권한을 모두 갖췄는지 1회 확인(권한 이슈로 인한 데모 중단 예방)
-- [ ] 레퍼런스 이미지 2장으로 **같은 인물/같은 의상** 9:16 클립 2개 생성 → “일관성 차이”를 화면 비교
+- [ ] 레퍼런스 이미지 2장으로 **같은 인물/같은 의상** 9:16 클립 2개 생성 → “일관성 유지”를 화면 비교
 - [ ] 같은 프롬프트로 **배경만 바꾼 버전 2개** 생성 → “주인공 유지” 확인
 - [ ] 최종 1개를 **업스케일 옵션(Flow/API/Vertex AI 등 가능한 경로에서)**으로 저장 → “편집용 결과물” 느낌 확인
 
