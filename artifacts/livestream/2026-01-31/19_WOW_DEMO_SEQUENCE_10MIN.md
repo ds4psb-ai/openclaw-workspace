@@ -14,7 +14,7 @@
 - OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 비공식 사례 레퍼런스): https://blog.secondbrush.co.kr/dailyprompt-675/
 - NotebookLM Chat/Audio Overviews (공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
-  - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
+  - Audio Overviews: https://support.google.com/notebooklm/answer/16212820?hl=en
 
 ---
 
