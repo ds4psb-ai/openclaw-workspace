@@ -8,7 +8,7 @@
 
 실반영 직전 4단계(10초): **반영 대상 한 줄 확인 → 승인 여부 확인 → 항목당 1회 실행 → 다음 장면으로 이동** *(승인 전 실행 금지, 같은 항목 재실행 금지, 확인 루프 금지, 실패 시 즉시 플랜B 전환).*
 
-근거 자료(리서치 링크):
+근거 자료(공식/참고 링크):
 - OpenClaw 공식 문서(기능/설정 최신 기준): https://docs.openclaw.ai
 - OpenClaw(구 MoltBot) 개념(메신저=리모컨, 커뮤니티 소개 글·비공식 레퍼런스): https://news.hada.io/topic?id=26122
 - OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 비공식 사례 레퍼런스): https://blog.secondbrush.co.kr/dailyprompt-675/
