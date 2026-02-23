@@ -1,3 +1,21 @@
+- Run time (KST): 2026-02-23 11:41
+- Branch: `livestream/2026-01-31`
+- Scope: `artifacts/livestream/2026-01-31`
+
+## Writer/Reviewer loop — minor polish (3)
+1. `80_CHECKLISTS.md`
+   - 라이브 당일 여부/멘션 스킵 규칙 항목 끝의 닫는 괄호 중복(`...기본값 = 스킵)).`)을 `...기본값 = 스킵).`로 보정해 문장 마감을 정리.
+2. `80_CHECKLISTS.md`
+   - 종료 후 고정댓글/설명란 동선 안내 항목 끝의 닫는 괄호 중복(`...동선 ... 고정))`)을 `...동선 ... 고정)`으로 보정.
+3. `ZZ_LAST_AUTOLOG.md`
+   - 이번 루프 변경 내역을 최신 항목으로 기록.
+
+## Notes
+- 가드 지침에 따라 `35_TIMESTAMP_TEMPLATE.md`는 수정하지 않음.
+- 변경 범위는 소규모 문장부호 보정 2건 + 로그 최신화 1건으로 제한.
+
+---
+
 - Run time (KST): 2026-02-23 10:31
 - Branch: `livestream/2026-01-31`
 - Scope: `artifacts/livestream/2026-01-31`
