@@ -21,7 +21,7 @@
 
 ## 2) 예시 2행
 
-> 참고: 아래 표는 설명용 간단 예시입니다. 실제 운영에서는 각 컬럼 값을 더 구체화하고, `dialogue`, `output_prompt`를 포함해 사용하세요.
+> 참고: 아래 표는 설명용 간단 예시입니다. 실제 운영에서는 각 컬럼 값을 더 구체화하고, `dialogue`와 `output_prompt`까지 채워 사용하세요.
 
 | timecode | scene_id | shot_goal | characters | setting | camera | action | dialogue | style_locks | negatives | continuity_checks | output_prompt |
 |---|---|---|---|---|---|---|---|---|---|---|---|
