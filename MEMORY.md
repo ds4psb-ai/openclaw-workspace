@@ -1,23 +1,87 @@
-# MEMORY.md - 소미 🐱 장기 기억
+# MEMORY.md - Somi Domain Knowledge
 
-*일간 노트(memory/YYYY-MM-DD.md)에서 중요한 것만 여기에 정리*
-
----
-
-## 📌 중요 결정들
-
-### 2026-01-31
-- **협업 시스템 구축**: Git 기반 멀티 에이전트 협업 (소미, 보미, AG-Vivid, AG-Komission)
-- **태스크 관리**: tasks/QUEUE.md 중앙 집중식 관리
-- **메시지 시스템**: messages/to_{agent}/ 폴더 구조
-
-### 2026-02-04
-- **Beauty B2B Intelligence**: Shorti + OpenClaw 하이브리드 아키텍처 결정
-- **클라이언트 관리**: clients.json 설정 파일 + memory/clients/*.md 컨텍스트 파일
+*Operational knowledge for Komission DevOps. Updated incrementally.*
 
 ---
 
-## 🔑 API 키 & 설정
+## Fleet Topology
+
+| Host | IP | Tailscale | Role | Processes |
+|------|----|-----------|------|-----------|
+| VPS1 (brain-cell1) | 178.128.103.162 | brain-cell1 | Head | producer_loop, primary_observer |
+| VPS2 (discovery-cell2) | 165.232.165.189 | discovery-cell2 | Worker+Shadow | worker_loop, shadow_analyzer |
+| VPS3 (quality-cell3) | 158.247.230.78 | quality-cell3 | Worker | worker_loop |
+| VPS4 (ops-cell4) | 158.247.241.31 | ops-cell4 | Worker | worker_loop |
+
+- System Python 3.12 (no venv), pip requires `--break-system-packages`
+- Code paths: VPS1 `/opt/a0-head/`, VPS2-4 `/opt/a0-worker/`
+- Shared module: `/opt/a0-{head,worker}/shared/`
+- Not a git repo — deploy via rsync
+
+---
+
+## VDG Pipeline (State Machine)
+
+```
+pending → analyzing → vdg_saved → completed
+                   ↘ comments_pending_review → comments_ready → analyzing
+                   ↘ comments_failed → analyzing
+                   ↘ failed_retryable → analyzing
+                   ↘ failed_permanent (terminal)
+vdg_saved → post_processing_failed → completed | analyzing
+```
+
+- 9 states, all transitions in `app/services/analysis_state_machine.py`
+- Use `await transition(item, AnalysisStatus.XXX, reason="...")` for ALL changes
+- `force=True` for admin/recovery from any state
+- 2-stage pipeline: Stage1 (Flash+librosa parallel) → Stage2 (Pro Deep)
+- Flash Pre-scan replaces 5 passes: Audio, Motion, FER, VP, Lighting
+
+---
+
+## VDG Schema SSoT
+
+- 23 canonical fields in `vdg_schema_normalizer.py`
+- `flash_prescan` JSONB: audio/emotion/motion/composition/vp/lighting/key_moments/meta
+- Always use `normalize_vdg_schema()` — never access raw JSON
+- `vdg_data_access.py`: dual-read (vdg_analyses → gemini_analysis fallback)
+
+---
+
+## Cascade Delete Order (26 steps)
+
+FK dependency chain for OutlierItem re-analysis cleanup.
+Full order in `backend/app/routers/outliers/delete.py` → `_cascade_cleanup_promoted_item()`.
+Key rule: all DELETEs first, pending reset LAST (avoids race condition).
+
+---
+
+## Deployment Paths
+
+| Target | Method | Command |
+|--------|--------|---------|
+| Backend (Railway) | git push | `git push origin main` (auto-deploy) |
+| Frontend (Vercel) | git push | Auto-deploy on main push |
+| VPS Fleet | rsync | See `docs/fleet-runbook.md` |
+
+- Vercel: `frontend` project, Root Directory = `frontend`
+- CLI upload (`vercel --prod`) fails — use git-based deploy or `vercel redeploy`
+
+---
+
+## DB Constraints (Neon)
+
+- Production DB: Neon MCP, projectId = `divine-firefly-43994087`
+- Tables owned by `neondb_owner`, app connects as `app_rls_XXX`
+- `app_rls_XXX` CANNOT `SET ROLE neondb_owner` → Alembic DDL always fails on Railway
+- Solution: Run DDL via Neon MCP, then stamp `alembic_version`
+- MV refresh: SECURITY DEFINER functions (neondb_owner privileges)
+  - `refresh_pattern_cluster_stats_fn()`, `refresh_hook_type_stats_fn()`
+  - New MVs: create function + GRANT + add to `_REFRESH_FUNCTIONS` dict
+
+---
+
+## API Keys
 
 ### Shorti.ai
 - Key: `9101273f44ba1aceff8d593b2d183ab08ca272721b48bd58921def75f999b39e`
@@ -25,113 +89,19 @@
 
 ---
 
-## 👥 테드 프로젝트들
+## Ted's Projects
 
-### 진행 중
-1. **Vivid (Crebit Studio)** - AI 콘텐츠 생성 플랫폼
-2. **Komission** - 숏폼 큐레이팅/자동화
-3. **성수동 아카데미** - 휴머나이저 AI 영상 제작 아카데미 1기
-
-### 완료
-- T001 유튜브 라이브 자료 (2026-01-31 14:00)
-- T002 Vivid UX 티켓 쪼개기
-- T003 Komission 스크립트 기본 구현
+| Project | Status | Description |
+|---------|--------|-------------|
+| Komission | Active | Short-form viral intelligence platform (VDG) |
+| Vivid (Crebit Studio) | Active | AI content generation platform |
 
 ---
 
-## 💡 인사이트 & 교훈
+## Recent Incidents
 
-### 스크립트 경로 문제
-- 하드코딩된 `/root/...` 경로 → 환경변수 `OPENCLAW_WORKSPACE` 사용으로 수정
-- macOS에서는 `/Users/ted/.openclaw/workspace`
+*(Auto-updated on recovery. Format: date, issue, action, result)*
 
 ---
 
-## 🔧 Komission 크롤러 시스템 (2026-02-06 완성)
-
-### 아키텍처
-
-```
-SocialKit API → tiktok_tasks.py → CrawledVideoData DTO
-                                        ↓
-                              outlier_factory.py (calculate_score)
-                                        ↓
-                              OutlierItem (DB)
-                                        ↓
-                         enrich_outlier_scores (creator_multiplier)
-                                        ↓
-                         beauty_scout_tasks.py → Telegram 알림
-```
-
-### 핵심 파일
-
-| 파일 | 역할 |
-|------|------|
-| `tiktok_tasks.py` | TikTok 크롤러 (SocialKit) |
-| `youtube_tasks.py` | YouTube 크롤러 |
-| `outlier_factory.py` | DTO→OutlierItem, calculate_score |
-| `beauty_scout_tasks.py` | SS/S tier Telegram 알림 |
-| `config.py` | K-Beauty 키워드 18개 |
-
-### 바이럴 점수 공식
-
-```python
-score = base_score + share_bonus + engagement_bonus
-# share_rate 3%+ → +2.0 보너스 (핵심!)
-```
-
-### Tier 기준
-
-| Tier | Score | 조회수 |
-|------|-------|--------|
-| SS | 50+ | 5M+ |
-| S | 20+ | 2M+ |
-| A | 10+ | 1M+ |
-| B | 5+ | 500K+ |
-
-### Celery Beat 스케줄
-
-- 크롤: 0,6,12,18시 **:15**
-- Enrichment: 0,6,12,18시 **:45**
-- Scout: 1,7,13,19시
-
-### 활용 쿼리
-
-```sql
--- SS/S tier 참여율 분석
-SELECT outlier_tier, category, 
-  AVG((like_count + COALESCE(comment_count,0) + COALESCE(share_count,0))::float 
-      / NULLIF(view_count,0) * 100) as avg_engagement
-FROM outlier_items 
-WHERE crawled_at > NOW() - INTERVAL '1 day'
-GROUP BY outlier_tier, category;
-```
-
-### 리서치 문서
-
-- `artifacts/reports/TIKTOK_VIRAL_BENCHMARKS_2025.md`
-- `artifacts/reports/KBEAUTY_TIKTOK_RESEARCH.md`
-- `artifacts/reports/CRAWLER_ENHANCEMENT_SPEC.md`
-
----
-
-## 📊 다음 연구 주제
-
-1. ✅ **경쟁사 비교** - `COMPETITOR_ANALYSIS_VIRLO.md` 완료
-2. ✅ **트렌딩 사운드 연동** - `TRENDING_SOUND_VDG_RESEARCH.md` 완료
-   - SocialKit `/tiktok/stats` API에서 Music 지원 확인됨
-3. ⏳ **자동 승격** - Claude Code 구현 중 (force_promote 로직)
-4. 🔜 **해시태그 조합 분석** - raw_payload hashtags 활용
-5. 🔜 **Meme 카테고리 분리** - 1M+ threshold
-
----
-
-## 📅 정기 업무
-
-- Heartbeat 시 git sync 필수
-- 5분마다 cron job들이 돌고 있음
-- 중요한 발견 시 테드에게 즉시 보고
-
----
-
-*마지막 업데이트: 2026-02-06 01:11 KST by 소미 🐱*
+*Last updated: 2026-02-23 by Somi*

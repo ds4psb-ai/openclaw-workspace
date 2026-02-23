@@ -1,28 +1,60 @@
-# HEARTBEAT.md - 소미 🐱 자동 체크
+# HEARTBEAT.md - Periodic Check Protocol
 
-## 주기적 체크 (Heartbeat 시 실행)
+## On Every Heartbeat (30min)
 
-### 1. Git 동기화
+### 1. Git Sync
 ```bash
 cd /Users/ted/.openclaw/workspace && git pull
 ```
 
-### 2. 메시지 확인
-- `messages/to_somi/` 폴더에 새 파일 있으면 처리
+### 2. Message Check
+- Check `messages/to_somi/` for new files → process them
 
-### 3. 태스크 큐 체크
-- `tasks/QUEUE.md` 확인
-- 소미 담당 태스크 중 우선순위 높은 것 처리
+### 3. Task Queue
+- Check `tasks/QUEUE.md` for assigned tasks
+- Prioritize by urgency
 
-### 4. 상태 업데이트
-- 작업 중이면 `STATUS.md` 업데이트
+### 4. Fleet Health (cron-assisted)
+- Fleet health cron runs every 30min independently
+- On heartbeat: check cron output for any alerts
+- If cron reports issues: execute recovery per `docs/fleet-runbook.md`
+- Do NOT duplicate the health check if cron already ran recently
+
+### 5. Status Update
+- Update `STATUS.md` if working on something
 
 ---
 
-## 체크 주기
-- 일반: 30분마다
-- 긴급(urgent_ 파일): 즉시 처리
+## Coding Request Handling
 
-## 마지막 체크
-- 시간: 2026-02-20 13:07 KST
-- 결과: git pull 실패(unstaged changes로 rebase 불가), messages/to_somi 신규 파일 없음, tasks/QUEUE.md 확인(긴급 신규 없음), STATUS.md 유지
+When Ted asks for code changes:
+1. Use coding-agent skill with workdir `/Users/ted/komission`
+2. Read relevant files before making changes
+3. Run `pytest --testmon` after implementation
+4. Run `bun run build` for frontend changes
+5. Report results with pass/fail counts
+6. Never push — wait for Ted's approval
+
+---
+
+## Auto-Recovery Protocol
+
+When fleet issues are detected (by cron or observation):
+1. Execute recovery immediately (no approval needed for restarts)
+2. Log incident in `memory/YYYY-MM-DD.md`:
+   ```
+   [HH:MM] [ALERT] description → action taken → result
+   ```
+3. Report to Ted via Telegram with concise summary
+4. If recovery fails after 2 attempts: escalate to Ted
+
+---
+
+## Check Cadence
+- Normal: every 30 minutes
+- Urgent files (`urgent_*`): process immediately
+- Fleet alerts: act immediately
+
+## Last Check
+- Time: 2026-02-23
+- Result: Files restructured for DevOps specialization
