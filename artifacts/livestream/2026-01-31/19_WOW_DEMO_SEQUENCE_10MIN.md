@@ -12,7 +12,7 @@
 - OpenClaw 공식 문서(기능/설정 최신 기준): https://docs.openclaw.ai
 - OpenClaw(구 MoltBot) 개념(메신저=리모컨, 커뮤니티 소개 글·비공식 레퍼런스): https://news.hada.io/topic?id=26122
 - OpenClaw (구 MoltBot) 실제 사례(딜러/폼 자동 작성, 모닝 브리핑 등, 비공식 사례 레퍼런스): https://blog.secondbrush.co.kr/dailyprompt-675/
-- NotebookLM Chat/Audio Overview(공식):
+- NotebookLM Chat/Audio Overviews (공식):
   - Chat: https://support.google.com/notebooklm/answer/16179559?hl=en
   - Audio Overview: https://support.google.com/notebooklm/answer/16212820?hl=en
 
@@ -74,7 +74,7 @@
 - 스토리: 라이브가 끝나면 NotebookLM Audio Overview로 “오늘 방송 2분 요약(Brief)”을 뽑아 바이럴 방에 공유한다(가능하면 **종료 후 15분 이내**).
 - 임팩트 한 줄: “라이브가 끝나도 **AI가 후반 작업을 이어줘서** 바이럴이 계속 돈다.”
 - 시연 포인트
-  - Audio Overview 포맷(Brief/Deep Dive 등) 선택 화면을 짧게 보여주기
+  - Audio Overviews 포맷(Brief/Deep Dive 등) 선택 화면을 짧게 보여주기
   - 마무리 멘트 고정: “방송 끝나고 2분 요약 오디오를 방에 바로 공유하겠습니다.”
   - 실패 대비 멘트(대체): Audio Overview 생성이 지연되면 “오디오 요약은 종료 후 15분 내 커뮤니티에 업로드하고, 링크를 고정댓글에 추가하겠습니다.”로 마무리
   - (권장) Audio Overview가 15분 내 준비되지 않으면, 같은 핵심을 담은 **텍스트 6문장 요약**을 기존 고정댓글에 1회 편집해 먼저 반영하고 오디오는 준비 즉시 링크만 추가
