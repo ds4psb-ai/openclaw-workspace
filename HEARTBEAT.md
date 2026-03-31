@@ -56,5 +56,5 @@ When fleet issues are detected (by cron or observation):
 - Fleet alerts: act immediately
 
 ## Last Check
-- Time: 2026-03-31 03:39 KST
-- Result: Git synced. VPS3/VPS4 still unreachable (Vultr - already escalated #918). VPS1/VPS2 OK per memory log. SSH from Mac failing (key issue, not fleet).
+- Time: 2026-03-31 21:51 KST
+- Result: Git synced. VPS1/VPS2 healthy. VPS3/VPS4 still unreachable ~1h45m post-maintenance window. Ticket #918 pending.
